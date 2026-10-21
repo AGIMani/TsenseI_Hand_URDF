@@ -1,0 +1,222 @@
+{
+  "model_id": "683b80cc0f91bb4a-review-raised-shellzero-r05-5c3ee9ae",
+  "interface_id": "hand1009_20outputs_anatomical_names_v1",
+  "control_count": 20,
+  "coordinate_space": "output_joint_angles",
+  "controls": [
+    {
+      "name": "index_mcp_flexion",
+      "lower_rad": 0.0,
+      "upper_rad": 1.57,
+      "zero_rad": 0.0,
+      "unit": "rad",
+      "physical_role": "passive_output_of_linear_actuator",
+      "source_control": "003_base"
+    },
+    {
+      "name": "index_mcp_abduction",
+      "lower_rad": -0.35,
+      "upper_rad": 0.35,
+      "zero_rad": 0.0,
+      "unit": "rad",
+      "physical_role": "rotary_actuator",
+      "source_control": "003_swing"
+    },
+    {
+      "name": "index_pip_flexion",
+      "lower_rad": 0.0,
+      "upper_rad": 1.57,
+      "zero_rad": 0.0,
+      "unit": "rad",
+      "physical_role": "passive_output_of_linear_actuator",
+      "source_control": "003_middle"
+    },
+    {
+      "name": "index_dip_flexion",
+      "lower_rad": 0.0,
+      "upper_rad": 1.57,
+      "zero_rad": 0.0,
+      "unit": "rad",
+      "physical_role": "passive_output_of_linear_actuator",
+      "source_control": "003_distal"
+    },
+    {
+      "name": "middle_mcp_flexion",
+      "lower_rad": 0.0,
+      "upper_rad": 1.57,
+      "zero_rad": 0.0,
+      "unit": "rad",
+      "physical_role": "passive_output_of_linear_actuator",
+      "source_control": "004_base"
+    },
+    {
+      "name": "middle_mcp_abduction",
+      "lower_rad": -0.35,
+      "upper_rad": 0.35,
+      "zero_rad": 0.0,
+      "unit": "rad",
+      "physical_role": "rotary_actuator",
+      "source_control": "004_swing"
+    },
+    {
+      "name": "middle_pip_flexion",
+      "lower_rad": 0.0,
+      "upper_rad": 1.57,
+      "zero_rad": 0.0,
+      "unit": "rad",
+      "physical_role": "passive_output_of_linear_actuator",
+      "source_control": "004_middle"
+    },
+    {
+      "name": "middle_dip_flexion",
+      "lower_rad": 0.0,
+      "upper_rad": 1.57,
+      "zero_rad": 0.0,
+      "unit": "rad",
+      "physical_role": "passive_output_of_linear_actuator",
+      "source_control": "004_distal"
+    },
+    {
+      "name": "ring_mcp_flexion",
+      "lower_rad": 0.0,
+      "upper_rad": 1.57,
+      "zero_rad": 0.0,
+      "unit": "rad",
+      "physical_role": "passive_output_of_linear_actuator",
+      "source_control": "005_base"
+    },
+    {
+      "name": "ring_mcp_abduction",
+      "lower_rad": -0.35,
+      "upper_rad": 0.35,
+      "zero_rad": 0.0,
+      "unit": "rad",
+      "physical_role": "rotary_actuator",
+      "source_control": "005_swing"
+    },
+    {
+      "name": "ring_pip_flexion",
+      "lower_rad": 0.0,
+      "upper_rad": 1.57,
+      "zero_rad": 0.0,
+      "unit": "rad",
+      "physical_role": "passive_output_of_linear_actuator",
+      "source_control": "005_middle"
+    },
+    {
+      "name": "ring_dip_flexion",
+      "lower_rad": 0.0,
+      "upper_rad": 1.57,
+      "zero_rad": 0.0,
+      "unit": "rad",
+      "physical_role": "passive_output_of_linear_actuator",
+      "source_control": "005_distal"
+    },
+    {
+      "name": "little_mcp_flexion",
+      "lower_rad": 0.0,
+      "upper_rad": 1.57,
+      "zero_rad": 0.0,
+      "unit": "rad",
+      "physical_role": "passive_output_of_linear_actuator",
+      "source_control": "006_base"
+    },
+    {
+      "name": "little_mcp_abduction",
+      "lower_rad": -0.35,
+      "upper_rad": 0.35,
+      "zero_rad": 0.0,
+      "unit": "rad",
+      "physical_role": "rotary_actuator",
+      "source_control": "006_swing"
+    },
+    {
+      "name": "little_pip_flexion",
+      "lower_rad": 0.0,
+      "upper_rad": 1.57,
+      "zero_rad": 0.0,
+      "unit": "rad",
+      "physical_role": "passive_output_of_linear_actuator",
+      "source_control": "006_middle"
+    },
+    {
+      "name": "little_dip_flexion",
+      "lower_rad": 0.0,
+      "upper_rad": 1.57,
+      "zero_rad": 0.0,
+      "unit": "rad",
+      "physical_role": "passive_output_of_linear_actuator",
+      "source_control": "006_distal"
+    },
+    {
+      "name": "thumb_base_rotation_1",
+      "lower_rad": 0.0,
+      "upper_rad": 2.0943951023931953,
+      "zero_rad": 0.0,
+      "unit": "rad",
+      "physical_role": "rotary_actuator",
+      "source_control": "002_rot1"
+    },
+    {
+      "name": "thumb_base_rotation_2",
+      "lower_rad": 0.0,
+      "upper_rad": 1.7453292519943295,
+      "zero_rad": 0.0,
+      "unit": "rad",
+      "physical_role": "rotary_actuator",
+      "source_control": "002_rot2"
+    },
+    {
+      "name": "thumb_mcp_flexion",
+      "lower_rad": -0.041656989622628135,
+      "upper_rad": 1.5707963267948966,
+      "zero_rad": 0.0,
+      "unit": "rad",
+      "physical_role": "passive_output_of_linear_actuator",
+      "source_control": "002_f2"
+    },
+    {
+      "name": "thumb_ip_flexion",
+      "lower_rad": -0.022293648706536127,
+      "upper_rad": 1.5707963267948966,
+      "zero_rad": 0.0,
+      "unit": "rad",
+      "physical_role": "passive_output_of_linear_actuator",
+      "source_control": "002_f1"
+    }
+  ],
+  "partial_angle_updates_supported": true,
+  "partial_update_rule": "Keep unspecified outputs at the session current pose, then solve all 48 states atomically",
+  "state_only_names": [
+    "index_mcp_slider_joint",
+    "index_mcp_rod_joint",
+    "index_pip_slider_joint",
+    "index_pip_rod_joint",
+    "index_dip_slider_joint",
+    "index_dip_rod_joint",
+    "middle_mcp_slider_joint",
+    "middle_mcp_rod_joint",
+    "middle_pip_slider_joint",
+    "middle_pip_rod_joint",
+    "middle_dip_slider_joint",
+    "middle_dip_rod_joint",
+    "ring_mcp_slider_joint",
+    "ring_mcp_rod_joint",
+    "ring_pip_slider_joint",
+    "ring_pip_rod_joint",
+    "ring_dip_slider_joint",
+    "ring_dip_rod_joint",
+    "little_mcp_slider_joint",
+    "little_mcp_rod_joint",
+    "little_pip_slider_joint",
+    "little_pip_rod_joint",
+    "little_dip_slider_joint",
+    "little_dip_rod_joint",
+    "thumb_mcp_slider_joint",
+    "thumb_mcp_rod_joint",
+    "thumb_ip_slider_joint",
+    "thumb_ip_rod_joint"
+  ],
+  "hardware_commands_enabled": false,
+  "range_revision_id": "raised_thumb_flexion_90_unified_names_r08_20261016"
+}

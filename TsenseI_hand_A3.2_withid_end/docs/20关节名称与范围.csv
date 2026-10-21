@@ -1,0 +1,21 @@
+﻿公开关节名称,中文描述,源模型关节名称,下限_rad,上限_rad,下限_deg,上限_deg,正方向约定
+index_mcp_flexion,食指 MCP 弯曲,index_mcp_flexion,0.0,1.57,0.0,89.95437383553924,朝手掌弯曲为正
+index_mcp_abduction,食指 MCP 外展/内收（侧摆）,index_mcp_abduction,-0.35,0.35,-20.05352282957881,20.05352282957881,沿已确认URDF轴的右手定则；不因名称变化翻转符号
+index_pip_flexion,食指 PIP 弯曲,index_pip_flexion,0.0,1.57,0.0,89.95437383553924,朝手掌弯曲为正
+index_dip_flexion,食指 DIP 弯曲,index_dip_flexion,0.0,1.57,0.0,89.95437383553924,朝手掌弯曲为正
+middle_mcp_flexion,中指 MCP 弯曲,middle_mcp_flexion,0.0,1.57,0.0,89.95437383553924,朝手掌弯曲为正
+middle_mcp_abduction,中指 MCP 外展/内收（侧摆）,middle_mcp_abduction,-0.35,0.35,-20.05352282957881,20.05352282957881,沿已确认URDF轴的右手定则；不因名称变化翻转符号
+middle_pip_flexion,中指 PIP 弯曲,middle_pip_flexion,0.0,1.57,0.0,89.95437383553924,朝手掌弯曲为正
+middle_dip_flexion,中指 DIP 弯曲,middle_dip_flexion,0.0,1.57,0.0,89.95437383553924,朝手掌弯曲为正
+ring_mcp_flexion,无名指 MCP 弯曲,ring_mcp_flexion,0.0,1.57,0.0,89.95437383553924,朝手掌弯曲为正
+ring_mcp_abduction,无名指 MCP 外展/内收（侧摆）,ring_mcp_abduction,-0.35,0.35,-20.05352282957881,20.05352282957881,沿已确认URDF轴的右手定则；不因名称变化翻转符号
+ring_pip_flexion,无名指 PIP 弯曲,ring_pip_flexion,0.0,1.57,0.0,89.95437383553924,朝手掌弯曲为正
+ring_dip_flexion,无名指 DIP 弯曲,ring_dip_flexion,0.0,1.57,0.0,89.95437383553924,朝手掌弯曲为正
+little_mcp_flexion,小拇指 MCP 弯曲,little_mcp_flexion,0.0,1.57,0.0,89.95437383553924,朝手掌弯曲为正
+little_mcp_abduction,小拇指 MCP 外展/内收（侧摆）,little_mcp_abduction,-0.35,0.35,-20.05352282957881,20.05352282957881,沿已确认URDF轴的右手定则；不因名称变化翻转符号
+little_pip_flexion,小拇指 PIP 弯曲,little_pip_flexion,0.0,1.57,0.0,89.95437383553924,朝手掌弯曲为正
+little_dip_flexion,小拇指 DIP 弯曲,little_dip_flexion,0.0,1.57,0.0,89.95437383553924,朝手掌弯曲为正
+thumb_base_rotation_1,拇指根部旋转轴 1,thumb_base_rotation_1,0.0,2.0943951023931953,0.0,119.99999999999999,沿已确认URDF轴的右手定则；不因名称变化翻转符号
+thumb_base_rotation_2,拇指根部旋转轴 2,thumb_base_rotation_2,0.0,1.7453292519943295,0.0,100.0,沿已确认URDF轴的右手定则；不因名称变化翻转符号
+thumb_mcp_flexion,拇指 MCP 弯曲,thumb_mcp_flexion,-0.041656989622628135,1.5707963267948966,-2.38676969259686,90.0,朝手掌弯曲为正
+thumb_ip_flexion,拇指 IP 弯曲,thumb_ip_flexion,-0.022293648706536127,1.5707963267948966,-1.2773319808318069,90.0,朝手掌弯曲为正

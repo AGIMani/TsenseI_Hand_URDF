@@ -1,0 +1,126 @@
+{
+  "angular_units": "rad",
+  "limits": {
+    "left_hand_thumb_rota_block_joint": {
+      "effort": 1.0,
+      "lower": 0.0,
+      "upper": 2.09,
+      "velocity": 1.0
+    },
+    "left_hand_thumb_rotaback_joint2": {
+      "effort": 1.0,
+      "lower": 0.0,
+      "upper": 1.7400000000000002,
+      "velocity": 1.0
+    },
+    "left_hand_thumb_MCP_joint": {
+      "effort": 1.0,
+      "lower": 0.0,
+      "upper": 1.5707963267948966,
+      "velocity": 1.0
+    },
+    "left_hand_thumb_PIP_joint": {
+      "effort": 1.0,
+      "lower": 0.0,
+      "upper": 1.5707963267948966,
+      "velocity": 1.0
+    },
+    "left_hand_index_MCP_joint": {
+      "effort": 1.0,
+      "lower": 0.0,
+      "upper": 1.5707963267948966,
+      "velocity": 1.0
+    },
+    "left_hand_index_swing_joint": {
+      "effort": 1.0,
+      "lower": -0.35,
+      "upper": 0.35,
+      "velocity": 1.0
+    },
+    "left_hand_index_PIP_joint": {
+      "effort": 1.0,
+      "lower": 0.0,
+      "upper": 1.5707963267948966,
+      "velocity": 1.0
+    },
+    "left_hand_index_DIP_joint": {
+      "effort": 1.0,
+      "lower": 0.0,
+      "upper": 1.5707963267948966,
+      "velocity": 1.0
+    },
+    "left_hand_mid_MCP_joint": {
+      "effort": 1.0,
+      "lower": 0.0,
+      "upper": 1.5707963267948966,
+      "velocity": 1.0
+    },
+    "left_hand_mid_swing_joint": {
+      "effort": 1.0,
+      "lower": -0.35,
+      "upper": 0.35,
+      "velocity": 1.0
+    },
+    "left_hand_mid_PIP_joint": {
+      "effort": 1.0,
+      "lower": 0.0,
+      "upper": 1.5707963267948966,
+      "velocity": 1.0
+    },
+    "left_hand_mid_DIP_joint": {
+      "effort": 1.0,
+      "lower": 0.0,
+      "upper": 1.5707963267948966,
+      "velocity": 1.0
+    },
+    "left_hand_ring_MCP_joint": {
+      "effort": 1.0,
+      "lower": 0.0,
+      "upper": 1.5707963267948966,
+      "velocity": 1.0
+    },
+    "left_hand_ring_swing_joint": {
+      "effort": 1.0,
+      "lower": -0.35,
+      "upper": 0.35,
+      "velocity": 1.0
+    },
+    "left_hand_ring_PIP_joint": {
+      "effort": 1.0,
+      "lower": 0.0,
+      "upper": 1.5707963267948966,
+      "velocity": 1.0
+    },
+    "left_hand_ring_DIP_joint": {
+      "effort": 1.0,
+      "lower": 0.0,
+      "upper": 1.5707963267948966,
+      "velocity": 1.0
+    },
+    "left_hand_pinky_MCP_joint": {
+      "effort": 1.0,
+      "lower": 0.0,
+      "upper": 1.5707963267948966,
+      "velocity": 1.0
+    },
+    "left_hand_pinky_swing_joint": {
+      "effort": 1.0,
+      "lower": -0.35,
+      "upper": 0.35,
+      "velocity": 1.0
+    },
+    "left_hand_pinky_PIP_joint": {
+      "effort": 1.0,
+      "lower": 0.0,
+      "upper": 1.5707963267948966,
+      "velocity": 1.0
+    },
+    "left_hand_pinky_DIP_joint": {
+      "effort": 1.0,
+      "lower": 0.0,
+      "upper": 1.5707963267948966,
+      "velocity": 1.0
+    }
+  },
+  "effort_velocity_source": "Inherited visualization placeholders from current source; not measured hardware ratings."
+}

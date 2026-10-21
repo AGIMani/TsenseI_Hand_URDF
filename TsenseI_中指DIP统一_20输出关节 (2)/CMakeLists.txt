@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.8)
+project(tsensei_hand_20_outputs_description)
+find_package(ament_cmake REQUIRED)
+install(DIRECTORY urdf meshes config examples DESTINATION share/${PROJECT_NAME})
+ament_package()

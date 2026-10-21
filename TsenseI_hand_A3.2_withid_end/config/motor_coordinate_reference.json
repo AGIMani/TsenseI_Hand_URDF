@@ -1,0 +1,774 @@
+{
+  "interface_id": "hand1009_20outputs_anatomical_names_v1",
+  "source_model_id": "683b80cc0f91bb4a-review-raised-shellzero-r05-5c3ee9ae",
+  "not_encoder_or_hardware_calibration": true,
+  "numeric_transmissions_unchanged": true,
+  "output_to_source_channels": [
+    {
+      "joint_name": "index_mcp_flexion",
+      "source_joint_name": "index_mcp_flexion",
+      "source_control": "003_base",
+      "physical_role": "passive_output_of_linear_actuator"
+    },
+    {
+      "joint_name": "index_mcp_abduction",
+      "source_joint_name": "index_mcp_abduction",
+      "source_control": "003_swing",
+      "physical_role": "rotary_actuator"
+    },
+    {
+      "joint_name": "index_pip_flexion",
+      "source_joint_name": "index_pip_flexion",
+      "source_control": "003_middle",
+      "physical_role": "passive_output_of_linear_actuator"
+    },
+    {
+      "joint_name": "index_dip_flexion",
+      "source_joint_name": "index_dip_flexion",
+      "source_control": "003_distal",
+      "physical_role": "passive_output_of_linear_actuator"
+    },
+    {
+      "joint_name": "middle_mcp_flexion",
+      "source_joint_name": "middle_mcp_flexion",
+      "source_control": "004_base",
+      "physical_role": "passive_output_of_linear_actuator"
+    },
+    {
+      "joint_name": "middle_mcp_abduction",
+      "source_joint_name": "middle_mcp_abduction",
+      "source_control": "004_swing",
+      "physical_role": "rotary_actuator"
+    },
+    {
+      "joint_name": "middle_pip_flexion",
+      "source_joint_name": "middle_pip_flexion",
+      "source_control": "004_middle",
+      "physical_role": "passive_output_of_linear_actuator"
+    },
+    {
+      "joint_name": "middle_dip_flexion",
+      "source_joint_name": "middle_dip_flexion",
+      "source_control": "004_distal",
+      "physical_role": "passive_output_of_linear_actuator"
+    },
+    {
+      "joint_name": "ring_mcp_flexion",
+      "source_joint_name": "ring_mcp_flexion",
+      "source_control": "005_base",
+      "physical_role": "passive_output_of_linear_actuator"
+    },
+    {
+      "joint_name": "ring_mcp_abduction",
+      "source_joint_name": "ring_mcp_abduction",
+      "source_control": "005_swing",
+      "physical_role": "rotary_actuator"
+    },
+    {
+      "joint_name": "ring_pip_flexion",
+      "source_joint_name": "ring_pip_flexion",
+      "source_control": "005_middle",
+      "physical_role": "passive_output_of_linear_actuator"
+    },
+    {
+      "joint_name": "ring_dip_flexion",
+      "source_joint_name": "ring_dip_flexion",
+      "source_control": "005_distal",
+      "physical_role": "passive_output_of_linear_actuator"
+    },
+    {
+      "joint_name": "little_mcp_flexion",
+      "source_joint_name": "little_mcp_flexion",
+      "source_control": "006_base",
+      "physical_role": "passive_output_of_linear_actuator"
+    },
+    {
+      "joint_name": "little_mcp_abduction",
+      "source_joint_name": "little_mcp_abduction",
+      "source_control": "006_swing",
+      "physical_role": "rotary_actuator"
+    },
+    {
+      "joint_name": "little_pip_flexion",
+      "source_joint_name": "little_pip_flexion",
+      "source_control": "006_middle",
+      "physical_role": "passive_output_of_linear_actuator"
+    },
+    {
+      "joint_name": "little_dip_flexion",
+      "source_joint_name": "little_dip_flexion",
+      "source_control": "006_distal",
+      "physical_role": "passive_output_of_linear_actuator"
+    },
+    {
+      "joint_name": "thumb_base_rotation_1",
+      "source_joint_name": "thumb_base_rotation_1",
+      "source_control": "002_rot1",
+      "physical_role": "rotary_actuator"
+    },
+    {
+      "joint_name": "thumb_base_rotation_2",
+      "source_joint_name": "thumb_base_rotation_2",
+      "source_control": "002_rot2",
+      "physical_role": "rotary_actuator"
+    },
+    {
+      "joint_name": "thumb_mcp_flexion",
+      "source_joint_name": "thumb_mcp_flexion",
+      "source_control": "002_f2",
+      "physical_role": "passive_output_of_linear_actuator"
+    },
+    {
+      "joint_name": "thumb_ip_flexion",
+      "source_joint_name": "thumb_ip_flexion",
+      "source_control": "002_f1",
+      "physical_role": "passive_output_of_linear_actuator"
+    }
+  ],
+  "linear_actuator_loops": {
+    "model_id": "683b80cc0f91bb4a-review-raised-shellzero-r05-5c3ee9ae",
+    "kinematics_sha256": "5c3ee9aec3a730abb97144f0e4ccfd57c1c64d2922abf4b784532ed987766fbb",
+    "formula": "B(q)=H+R(axis,q)(B0-H); s=-dot(A0-B(q),u)+root*sqrt(dot^2-|A0-B(q)|^2+L^2); rod_phi=atan2(axis.dot((B0-A0).cross(B(q)-A0-u*s)),(B0-A0).dot(B(q)-A0-u*s))",
+    "units": {
+      "output_angles": "rad",
+      "slider_positions": "m",
+      "rod_angles": "rad"
+    },
+    "loops": [
+      {
+        "control": "003_base",
+        "output_joint": "index_mcp_flexion",
+        "slider_joint": "index_mcp_slider_joint",
+        "rod_joint": "index_mcp_rod_joint",
+        "parent_link": "index_mount",
+        "H_parent_m": [
+          0.0,
+          0.0,
+          3.469446951953614e-18
+        ],
+        "A0_parent_m": [
+          0.015598408199204394,
+          -0.007632133051536025,
+          3.469446951953614e-18
+        ],
+        "B0_parent_m": [
+          0.013200378782443688,
+          0.0,
+          0.0
+        ],
+        "axis_parent": [
+          7.695860969417408e-19,
+          8.392272249548696e-18,
+          1.0
+        ],
+        "slide_axis_parent": [
+          0.4166547104932268,
+          -0.9090648228942781,
+          -2.820779269426853e-17
+        ],
+        "rod_length_m": 0.007999999999999894,
+        "assembly_root_sign": 1,
+        "connected_bounds_rad": [
+          -0.9110618695410401,
+          1.7697638615222502
+        ],
+        "review_output_bounds_rad": [
+          0.0,
+          1.57
+        ],
+        "displacement_zero": "current reviewed mover positions; F2 and F1 references rebased through original nonlinear loops",
+        "geometry_source": "native pin axes after user-authorized 180-degree mover reassembly and fixed-length rod closure at unchanged output zero",
+        "physical_effective_stroke_m": null
+      },
+      {
+        "control": "003_middle",
+        "output_joint": "index_pip_flexion",
+        "slider_joint": "index_pip_slider_joint",
+        "rod_joint": "index_pip_rod_joint",
+        "parent_link": "index_proximal",
+        "H_parent_m": [
+          0.041999999999999885,
+          -6.938893903907228e-18,
+          -0.026999999999998064
+        ],
+        "A0_parent_m": [
+          0.027832203132827808,
+          -2.42861286636753e-17,
+          -0.015999999999999848
+        ],
+        "B0_parent_m": [
+          0.037999999999999506,
+          -1.0408340855860843e-17,
+          -0.016809880773902136
+        ],
+        "axis_parent": [
+          -1.5648416811225243e-15,
+          0.9999999999999999,
+          1.6421820135688312e-17
+        ],
+        "slide_axis_parent": [
+          -1.0,
+          -1.7029454812508344e-15,
+          -2.6230421564272454e-14
+        ],
+        "rod_length_m": 0.010200000000000155,
+        "assembly_root_sign": 1,
+        "connected_bounds_rad": [
+          -1.1222467090323538,
+          1.8709929581379212
+        ],
+        "review_output_bounds_rad": [
+          0.0,
+          1.57
+        ],
+        "displacement_zero": "current reviewed mover positions; F2 and F1 references rebased through original nonlinear loops",
+        "geometry_source": "matching analytic cylinder axes on both core components",
+        "physical_effective_stroke_m": null
+      },
+      {
+        "control": "003_distal",
+        "output_joint": "index_dip_flexion",
+        "slider_joint": "index_dip_slider_joint",
+        "rod_joint": "index_dip_rod_joint",
+        "parent_link": "index_middle",
+        "H_parent_m": [
+          -0.005311413721872743,
+          0.025846448194579787,
+          -1.0824674490095276e-15
+        ],
+        "A0_parent_m": [
+          0.006008588438242783,
+          0.01890256247880712,
+          -1.0894063429134349e-15
+        ],
+        "B0_parent_m": [
+          0.002864936750358933,
+          0.026907401894139933,
+          -1.0894063429134349e-15
+        ],
+        "axis_parent": [
+          -9.089921278803672e-17,
+          -3.887169019736903e-18,
+          1.0
+        ],
+        "slide_axis_parent": [
+          0.36539428889666753,
+          -0.9308528420978789,
+          3.1405557571909223e-19
+        ],
+        "rod_length_m": 0.008600000000000035,
+        "assembly_root_sign": 1,
+        "connected_bounds_rad": [
+          -1.3980087308474578,
+          1.8884462506578645
+        ],
+        "review_output_bounds_rad": [
+          0.0,
+          1.57
+        ],
+        "displacement_zero": "current reviewed mover positions; F2 and F1 references rebased through original nonlinear loops",
+        "geometry_source": "matching analytic cylinder axes on both core components",
+        "physical_effective_stroke_m": null
+      },
+      {
+        "control": "004_base",
+        "output_joint": "middle_mcp_flexion",
+        "slider_joint": "middle_mcp_slider_joint",
+        "rod_joint": "middle_mcp_rod_joint",
+        "parent_link": "middle_mount",
+        "H_parent_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "A0_parent_m": [
+          0.01559840819920432,
+          -0.007632133051536322,
+          -2.981555974335137e-19
+        ],
+        "B0_parent_m": [
+          0.013200378782444048,
+          -8.673617379884035e-19,
+          0.0
+        ],
+        "axis_parent": [
+          3.8299823559236527e-19,
+          1.981208988822115e-19,
+          1.0
+        ],
+        "slide_axis_parent": [
+          0.4166547104932064,
+          -0.9090648228942875,
+          -2.5775922452680275e-17
+        ],
+        "rod_length_m": 0.008000000000000049,
+        "assembly_root_sign": 1,
+        "connected_bounds_rad": [
+          -0.9110618695410401,
+          1.7697638615222502
+        ],
+        "review_output_bounds_rad": [
+          0.0,
+          1.57
+        ],
+        "displacement_zero": "current reviewed mover positions; F2 and F1 references rebased through original nonlinear loops",
+        "geometry_source": "matching analytic cylinder axes on both core components",
+        "physical_effective_stroke_m": null
+      },
+      {
+        "control": "004_middle",
+        "output_joint": "middle_pip_flexion",
+        "slider_joint": "middle_pip_slider_joint",
+        "rod_joint": "middle_pip_rod_joint",
+        "parent_link": "middle_proximal",
+        "H_parent_m": [
+          0.04200000000000054,
+          0.0,
+          -0.025299999999998556
+        ],
+        "A0_parent_m": [
+          0.027832203132827135,
+          -1.7604732775733378e-17,
+          -0.014299999999998193
+        ],
+        "B0_parent_m": [
+          0.03799999999999908,
+          -3.3610267347050637e-18,
+          -0.015109880773895861
+        ],
+        "axis_parent": [
+          -1.498809663519986e-15,
+          1.0,
+          -2.680750867041248e-16
+        ],
+        "slide_axis_parent": [
+          -1.0,
+          -1.621807724794206e-15,
+          -2.525147624137549e-14
+        ],
+        "rod_length_m": 0.010200000000000042,
+        "assembly_root_sign": 1,
+        "connected_bounds_rad": [
+          -1.1222467090323538,
+          1.8709929581379212
+        ],
+        "review_output_bounds_rad": [
+          0.0,
+          1.57
+        ],
+        "displacement_zero": "current reviewed mover positions; F2 and F1 references rebased through original nonlinear loops",
+        "geometry_source": "matching analytic cylinder axes on both core components",
+        "physical_effective_stroke_m": null
+      },
+      {
+        "control": "004_distal",
+        "output_joint": "middle_dip_flexion",
+        "slider_joint": "middle_dip_slider_joint",
+        "rod_joint": "middle_dip_rod_joint",
+        "parent_link": "middle_middle",
+        "H_parent_m": [
+          -0.007869173744139264,
+          0.032362418089266896,
+          -7.24057315840132e-16
+        ],
+        "A0_parent_m": [
+          0.006008588455737299,
+          0.018902562434253936,
+          -7.263612454566637e-16
+        ],
+        "B0_parent_m": [
+          0.00030717672809040496,
+          0.033423371788826484,
+          -7.248027048337158e-16
+        ],
+        "axis_parent": [
+          1.5532225436923502e-16,
+          8.717706591798052e-17,
+          1.0
+        ],
+        "slide_axis_parent": [
+          0.36539428889656655,
+          -0.9308528420979186,
+          2.53138361314799e-17
+        ],
+        "rod_length_m": 0.015599999999999708,
+        "assembly_root_sign": 1,
+        "connected_bounds_rad": [
+          -2.4975661596038856,
+          2.988003679414292
+        ],
+        "review_output_bounds_rad": [
+          0.0,
+          1.57
+        ],
+        "displacement_zero": "current reviewed mover positions; F2 and F1 references rebased through original nonlinear loops",
+        "geometry_source": "matching analytic cylinder axes on both core components",
+        "physical_effective_stroke_m": null
+      },
+      {
+        "control": "005_base",
+        "output_joint": "ring_mcp_flexion",
+        "slider_joint": "ring_mcp_slider_joint",
+        "rod_joint": "ring_mcp_rod_joint",
+        "parent_link": "ring_mount",
+        "H_parent_m": [
+          0.0,
+          0.0,
+          -3.469446951953614e-18
+        ],
+        "A0_parent_m": [
+          0.015598408199204623,
+          -0.0076321330515378445,
+          -3.469446951953614e-18
+        ],
+        "B0_parent_m": [
+          0.01320037878243907,
+          0.0,
+          3.469446951953614e-18
+        ],
+        "axis_parent": [
+          2.6077324453727866e-18,
+          -8.493430636743626e-18,
+          1.0
+        ],
+        "slide_axis_parent": [
+          0.41665471049319003,
+          -0.9090648228942949,
+          -2.243004815656395e-18
+        ],
+        "rod_length_m": 0.008000000000003083,
+        "assembly_root_sign": 1,
+        "connected_bounds_rad": [
+          -0.9110618695410401,
+          1.7697638615222502
+        ],
+        "review_output_bounds_rad": [
+          0.0,
+          1.57
+        ],
+        "displacement_zero": "current reviewed mover positions; F2 and F1 references rebased through original nonlinear loops",
+        "geometry_source": "native pin axes after user-authorized 180-degree mover reassembly and fixed-length rod closure at unchanged output zero",
+        "physical_effective_stroke_m": null
+      },
+      {
+        "control": "005_middle",
+        "output_joint": "ring_pip_flexion",
+        "slider_joint": "ring_pip_slider_joint",
+        "rod_joint": "ring_pip_rod_joint",
+        "parent_link": "ring_proximal",
+        "H_parent_m": [
+          0.04199999999999999,
+          0.0,
+          -0.026999999999997915
+        ],
+        "A0_parent_m": [
+          0.027832203132827756,
+          -1.6653345369377348e-16,
+          -0.0159999999999988
+        ],
+        "B0_parent_m": [
+          0.037999999999999354,
+          -4.85722573273506e-17,
+          -0.01680988077390165
+        ],
+        "axis_parent": [
+          -1.1718206065154199e-14,
+          1.0,
+          1.815652148637476e-17
+        ],
+        "slide_axis_parent": [
+          -1.0,
+          -1.1839751869288975e-14,
+          -2.6220272075037168e-14
+        ],
+        "rod_length_m": 0.010200000000000094,
+        "assembly_root_sign": 1,
+        "connected_bounds_rad": [
+          -1.1222467090323538,
+          1.8709929581379212
+        ],
+        "review_output_bounds_rad": [
+          0.0,
+          1.57
+        ],
+        "displacement_zero": "current reviewed mover positions; F2 and F1 references rebased through original nonlinear loops",
+        "geometry_source": "matching analytic cylinder axes on both core components",
+        "physical_effective_stroke_m": null
+      },
+      {
+        "control": "005_distal",
+        "output_joint": "ring_dip_flexion",
+        "slider_joint": "ring_dip_slider_joint",
+        "rod_joint": "ring_dip_rod_joint",
+        "parent_link": "ring_middle",
+        "H_parent_m": [
+          -0.005311413721872649,
+          0.025846448194579708,
+          -4.718447854656915e-16
+        ],
+        "A0_parent_m": [
+          0.006008588438241157,
+          0.018902562478807183,
+          -4.718447854656915e-16
+        ],
+        "B0_parent_m": [
+          0.0028649367503574986,
+          0.026907401894140058,
+          -4.683753385137379e-16
+        ],
+        "axis_parent": [
+          -8.835810647167846e-17,
+          -1.8449128259370594e-17,
+          1.0
+        ],
+        "slide_axis_parent": [
+          0.3653942888966776,
+          -0.930852842097875,
+          3.9405008368644376e-17
+        ],
+        "rod_length_m": 0.008600000000000033,
+        "assembly_root_sign": 1,
+        "connected_bounds_rad": [
+          -1.3980087308474578,
+          1.8884462506578645
+        ],
+        "review_output_bounds_rad": [
+          0.0,
+          1.57
+        ],
+        "displacement_zero": "current reviewed mover positions; F2 and F1 references rebased through original nonlinear loops",
+        "geometry_source": "matching analytic cylinder axes on both core components",
+        "physical_effective_stroke_m": null
+      },
+      {
+        "control": "006_base",
+        "output_joint": "little_mcp_flexion",
+        "slider_joint": "little_mcp_slider_joint",
+        "rod_joint": "little_mcp_rod_joint",
+        "parent_link": "little_mount",
+        "H_parent_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "A0_parent_m": [
+          0.015598408199203826,
+          -0.007632133051536292,
+          6.938893903907228e-18
+        ],
+        "B0_parent_m": [
+          0.013200378782444037,
+          0.0,
+          6.938893903907228e-18
+        ],
+        "axis_parent": [
+          2.4051530815491605e-18,
+          -1.0408122449087615e-17,
+          1.0
+        ],
+        "slide_axis_parent": [
+          0.4166547104931921,
+          -0.9090648228942944,
+          7.811067552526122e-17
+        ],
+        "rod_length_m": 0.00799999999999987,
+        "assembly_root_sign": 1,
+        "connected_bounds_rad": [
+          -0.9110618695410401,
+          1.7697638615222502
+        ],
+        "review_output_bounds_rad": [
+          0.0,
+          1.57
+        ],
+        "displacement_zero": "current reviewed mover positions; F2 and F1 references rebased through original nonlinear loops",
+        "geometry_source": "matching analytic cylinder axes on both core components",
+        "physical_effective_stroke_m": null
+      },
+      {
+        "control": "006_middle",
+        "output_joint": "little_pip_flexion",
+        "slider_joint": "little_pip_slider_joint",
+        "rod_joint": "little_pip_rod_joint",
+        "parent_link": "little_proximal",
+        "H_parent_m": [
+          0.03950000000000077,
+          -6.938893903907228e-18,
+          -0.021809999999998827
+        ],
+        "A0_parent_m": [
+          0.026400000000640928,
+          2.7755575615628914e-17,
+          -0.013809999999996235
+        ],
+        "B0_parent_m": [
+          0.03750000000000029,
+          -6.938893903907228e-18,
+          -0.013809880773903422
+        ],
+        "axis_parent": [
+          1.9342647457580795e-15,
+          0.9999999999999999,
+          3.6771416541326836e-16
+        ],
+        "slide_axis_parent": [
+          -1.0,
+          1.9706130890759778e-15,
+          -2.606377642589023e-14
+        ],
+        "rod_length_m": 0.01109999999999967,
+        "assembly_root_sign": 1,
+        "connected_bounds_rad": [
+          -1.710422666954443,
+          2.2008601867648494
+        ],
+        "review_output_bounds_rad": [
+          0.0,
+          1.57
+        ],
+        "displacement_zero": "current reviewed mover positions; F2 and F1 references rebased through original nonlinear loops",
+        "geometry_source": "matching analytic cylinder axes on both core components",
+        "physical_effective_stroke_m": null
+      },
+      {
+        "control": "006_distal",
+        "output_joint": "little_dip_flexion",
+        "slider_joint": "little_dip_slider_joint",
+        "rod_joint": "little_dip_rod_joint",
+        "parent_link": "little_middle",
+        "H_parent_m": [
+          -0.006303245406455831,
+          0.025224375205077195,
+          0.00020675515823982693
+        ],
+        "A0_parent_m": [
+          0.004026150542808485,
+          0.016880465488012215,
+          -6.245004513516506e-16
+        ],
+        "B0_parent_m": [
+          0.0019390598272309122,
+          0.025223369799085883,
+          3.500629245506426e-08
+        ],
+        "axis_parent": [
+          0.025072767746538292,
+          0.006268098521521514,
+          0.9996659778438262
+        ],
+        "slide_axis_parent": [
+          0.2425322231325215,
+          -0.9701433506149474,
+          3.053581954259121e-16
+        ],
+        "rod_length_m": 0.008600000000000408,
+        "assembly_root_sign": 1,
+        "connected_bounds_rad": [
+          -1.3980087308474578,
+          1.8884462506578645
+        ],
+        "review_output_bounds_rad": [
+          0.0,
+          1.57
+        ],
+        "displacement_zero": "current reviewed mover positions; F2 and F1 references rebased through original nonlinear loops",
+        "geometry_source": "matching analytic cylinder axes on both core components",
+        "physical_effective_stroke_m": null
+      },
+      {
+        "control": "002_f2",
+        "output_joint": "thumb_mcp_flexion",
+        "slider_joint": "thumb_mcp_slider_joint",
+        "rod_joint": "thumb_mcp_rod_joint",
+        "parent_link": "thumb_metacarpal",
+        "H_parent_m": [
+          0.05166894259260281,
+          -6.938893903907228e-18,
+          -0.005292075017664844
+        ],
+        "A0_parent_m": [
+          0.03707521207953619,
+          -0.00468086155217811,
+          0.0040266712988067145
+        ],
+        "B0_parent_m": [
+          0.047244533436184954,
+          -0.005073510560361136,
+          0.003340573709844214
+        ],
+        "axis_parent": [
+          0.0684509212012852,
+          0.8443887903844988,
+          0.531339855515939
+        ],
+        "slide_axis_parent": [
+          -0.9967302874004078,
+          0.08080058278688455,
+          -2.369451298627654e-16
+        ],
+        "rod_length_m": 0.010199999999999997,
+        "assembly_root_sign": 1,
+        "connected_bounds_rad": [
+          -1.1220157966071183,
+          1.871223870563157
+        ],
+        "review_output_bounds_rad": [
+          -0.041656989622628135,
+          1.5707963267948966
+        ],
+        "displacement_zero": "current reviewed mover positions; F2 and F1 references rebased through original nonlinear loops",
+        "geometry_source": "native rod hole spacing and suppressed-instance pose, independently matched to mover/output pins; F1 front cap + shaft + IGUS + recovered hinge axes",
+        "physical_effective_stroke_m": null
+      },
+      {
+        "control": "002_f1",
+        "output_joint": "thumb_ip_flexion",
+        "slider_joint": "thumb_ip_slider_joint",
+        "rod_joint": "thumb_ip_rod_joint",
+        "parent_link": "thumb_proximal",
+        "H_parent_m": [
+          -0.005311413721872944,
+          0.02584644819457699,
+          -1.4502288259166107e-15
+        ],
+        "A0_parent_m": [
+          0.006008588438239815,
+          0.01890256247880455,
+          -1.4016565685892601e-15
+        ],
+        "B0_parent_m": [
+          0.0028649367503559356,
+          0.026907401894137296,
+          -1.4224732503009818e-15
+        ],
+        "axis_parent": [
+          -4.245868615868523e-15,
+          -8.832532586626592e-16,
+          1.0
+        ],
+        "slide_axis_parent": [
+          -0.36539428889672615,
+          0.9308528420978557,
+          1.4888280670772905e-16
+        ],
+        "rod_length_m": 0.0086,
+        "assembly_root_sign": -1,
+        "connected_bounds_rad": [
+          -1.3976130992780678,
+          1.8870965529752606
+        ],
+        "review_output_bounds_rad": [
+          -0.022293648706536127,
+          1.5707963267948966
+        ],
+        "displacement_zero": "current reviewed mover positions; F2 and F1 references rebased through original nonlinear loops",
+        "geometry_source": "native rod hole spacing and suppressed-instance pose, independently matched to mover/output pins; F1 front cap + shaft + IGUS + recovered hinge axes",
+        "physical_effective_stroke_m": null
+      }
+    ],
+    "interface_id": "hand1009_20outputs_anatomical_names_v1",
+    "interface_registry_sha256": "eebb02324837b0e43918ea877382c5c766d9582bf4c3b4a7da167e41f3fc096b",
+    "range_revision_id": "raised_thumb_reference_module_shell_clear_zero_r05_20261015"
+  },
+  "rotary_reference_units": "output joint radians; motor encoder scale/offset not provided"
+}

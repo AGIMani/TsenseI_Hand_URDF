@@ -1,0 +1,1 @@
+Audit reference only. Verification scripts refer to the source r07 package and workspace dependencies. The delivered URDF needs no audit scripts or nonlinear state adapter. tools/build_reduced.py is the self-contained standard-library generator; supply the full mechanism package as --source-package.

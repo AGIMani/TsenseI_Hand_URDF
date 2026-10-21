@@ -1,0 +1,418 @@
+<?xml version='1.0' encoding='utf-8'?>
+<robot name="right_hand_full_linkage_AUDIT_ONLY">
+  <link name="base_link" />
+  <link name="rh_source_index_mount" />
+  <link name="rh_source_index_mcp_carrier" />
+  <link name="rh_source_index_proximal" />
+  <link name="rh_source_index_middle" />
+  <link name="rh_source_index_distal" />
+  <link name="rh_source_index_mcp_slider" />
+  <link name="rh_source_index_mcp_rod" />
+  <link name="rh_source_index_pip_slider" />
+  <link name="rh_source_index_pip_rod" />
+  <link name="rh_source_index_dip_slider" />
+  <link name="rh_source_index_dip_rod" />
+  <link name="rh_source_middle_mount" />
+  <link name="rh_source_middle_mcp_carrier" />
+  <link name="rh_source_middle_proximal" />
+  <link name="rh_source_middle_middle" />
+  <link name="rh_source_middle_distal" />
+  <link name="rh_source_middle_mcp_slider" />
+  <link name="rh_source_middle_mcp_rod" />
+  <link name="rh_source_middle_pip_slider" />
+  <link name="rh_source_middle_pip_rod" />
+  <link name="rh_source_middle_dip_slider" />
+  <link name="rh_source_middle_dip_rod" />
+  <link name="rh_source_ring_mount" />
+  <link name="rh_source_ring_mcp_carrier" />
+  <link name="rh_source_ring_proximal" />
+  <link name="rh_source_ring_middle" />
+  <link name="rh_source_ring_distal" />
+  <link name="rh_source_ring_mcp_slider" />
+  <link name="rh_source_ring_mcp_rod" />
+  <link name="rh_source_ring_pip_slider" />
+  <link name="rh_source_ring_pip_rod" />
+  <link name="rh_source_ring_dip_slider" />
+  <link name="rh_source_ring_dip_rod" />
+  <link name="rh_source_little_mount" />
+  <link name="rh_source_little_mcp_carrier" />
+  <link name="rh_source_little_proximal" />
+  <link name="rh_source_little_middle" />
+  <link name="rh_source_little_distal" />
+  <link name="rh_source_little_mcp_slider" />
+  <link name="rh_source_little_mcp_rod" />
+  <link name="rh_source_little_pip_slider" />
+  <link name="rh_source_little_pip_rod" />
+  <link name="rh_source_little_dip_slider" />
+  <link name="rh_source_little_dip_rod" />
+  <link name="rh_source_thumb_mount" />
+  <link name="rh_source_thumb_rot1_carrier" />
+  <link name="rh_source_thumb_rot2_carrier" />
+  <link name="rh_source_thumb_f2_output" />
+  <link name="rh_source_thumb_f1_output" />
+  <link name="rh_source_thumb_f2_slider" />
+  <link name="rh_source_thumb_f1_slider" />
+  <link name="rh_source_thumb_f2_rod" />
+  <link name="rh_source_thumb_f1_rod" />
+  <joint name="rh_source_index_mount_fixed" type="fixed">
+    <parent link="base_link" />
+    <child link="rh_source_index_mount" />
+    <origin rpy="-1.4508509931644691 0.42625833852372441 -3.0846157746992535" xyz="0.027099703634998501 0.035567214335181868 0.087707234999650913" />
+  </joint>
+  <joint name="rh_source_index_mcp_flexion" type="revolute">
+    <parent link="rh_source_index_mount" />
+    <child link="rh_source_index_mcp_carrier" />
+    <origin rpy="5.9084568897243128e-18 0 6.7297641114572961e-18" xyz="0 0 0" />
+    <axis xyz="0 0 -1" />
+    <limit effort="1.0" lower="0.0" upper="1.57" velocity="1.0" />
+  </joint>
+  <joint name="rh_source_index_mcp_slider_joint" type="prismatic">
+    <parent link="rh_source_index_mount" />
+    <child link="rh_source_index_mcp_slider" />
+    <origin rpy="-2.0005586058915599 -1.5707963267948957 0" xyz="0.01559840819920289 0.0076321330515360239 0" />
+    <axis xyz="0 0 1" />
+    <limit effort="1.0" lower="-0.019614364968333728" upper="6.800116025829084e-16" velocity="1.0" />
+  </joint>
+  <joint name="rh_source_index_mcp_rod_joint" type="revolute">
+    <parent link="rh_source_index_mcp_slider" />
+    <child link="rh_source_index_mcp_rod" />
+    <origin rpy="1.5707963267948992 1.445468495627817 1.5707963267948992" xyz="0 0 0" />
+    <axis xyz="0 0 -1" />
+    <limit effort="1.0" lower="-0.15331111821451895" upper="0.8817252890541138" velocity="1.0" />
+  </joint>
+  <joint name="rh_source_index_mcp_swing" type="revolute">
+    <parent link="rh_source_index_mcp_carrier" />
+    <child link="rh_source_index_proximal" />
+    <origin rpy="-1.570796326794897 -6.8833827526759706e-15 -2.0005586058915856" xyz="0.01819644753826433 -0.0193403541070764 -3.213948664256699e-06" />
+    <axis xyz="0 0 -1" />
+    <limit effort="1.0" lower="-0.35" upper="0.35" velocity="1.0" />
+  </joint>
+  <joint name="rh_source_index_pip_flexion" type="revolute">
+    <parent link="rh_source_index_proximal" />
+    <child link="rh_source_index_middle" />
+    <origin rpy="-1.5707963267948972 -1.1967399807954857 -3.141592653589786" xyz="0.041999999999999843 3.4694469519536142e-18 -0.026999999999998189" />
+    <axis xyz="0 0 -1" />
+    <limit effort="1.0" lower="0.0" upper="1.57" velocity="1.0" />
+  </joint>
+  <joint name="rh_source_index_pip_slider_joint" type="prismatic">
+    <parent link="rh_source_index_proximal" />
+    <child link="rh_source_index_pip_slider" />
+    <origin rpy="1.5707963267949232 2.2204460492503131e-16 -1.570796326794889" xyz="0.02783220313282846 -9.7144514654701197e-17 -0.01599999999999659" />
+    <axis xyz="0 0 1" />
+    <limit effort="1.0" lower="-0.016928185849208677" upper="2.2551405187698492e-17" velocity="1.0" />
+  </joint>
+  <joint name="rh_source_index_pip_rod_joint" type="revolute">
+    <parent link="rh_source_index_pip_slider" />
+    <child link="rh_source_index_pip_rod" />
+    <origin rpy="-1.5707963267948966 1.4913125854109159 -1.5707963267948966" xyz="0 0 -6.9388939039072284e-18" />
+    <axis xyz="0 0 -1" />
+    <limit effort="1.0" lower="-0.07429534551100901" upper="0.6757777458126368" velocity="1.0" />
+  </joint>
+  <joint name="rh_source_index_dip_flexion" type="revolute">
+    <parent link="rh_source_index_middle" />
+    <child link="rh_source_index_distal" />
+    <origin rpy="2.7755575615628914e-17 0 -0.12903783821920919" xyz="-0.0053114137218692598 -0.025846448194579829 -1.1934897514720431e-15" />
+    <axis xyz="0 0 -1" />
+    <limit effort="1.0" lower="0.0" upper="1.57" velocity="1.0" />
+  </joint>
+  <joint name="rh_source_index_dip_slider_joint" type="prismatic">
+    <parent link="rh_source_index_middle" />
+    <child link="rh_source_index_dip_slider" />
+    <origin rpy="-1.9448526727942808 -1.5707963267948961 0" xyz="0.0060085884382427863 -0.01890256247880703 -1.1934897514720431e-15" />
+    <axis xyz="0 0 1" />
+    <limit effort="1.0" lower="-0.012429685590204454" upper="2.7755575615628914e-17" velocity="1.0" />
+  </joint>
+  <joint name="rh_source_index_dip_rod_joint" type="revolute">
+    <parent link="rh_source_index_dip_slider" />
+    <child link="rh_source_index_dip_rod" />
+    <origin rpy="-1.5707963267958935 1.570638826522774 -1.5707963267958935" xyz="3.4694469519536142e-18 1.7347234759768071e-18 -1.387778780781446e-17" />
+    <axis xyz="0 0 -1" />
+    <limit effort="1.0" lower="-0.028637768709305768" upper="0.7709555094042363" velocity="1.0" />
+  </joint>
+  <joint name="rh_source_middle_mount_fixed" type="fixed">
+    <parent link="base_link" />
+    <child link="rh_source_middle_mount" />
+    <origin rpy="-1.5707963267948961 0.42976227909668507 -3.1344499886106498" xyz="0.027099703634997883 0.0095860674645024194 0.088138007230611604" />
+  </joint>
+  <joint name="rh_source_middle_mcp_flexion" type="revolute">
+    <parent link="rh_source_middle_mount" />
+    <child link="rh_source_middle_mcp_carrier" />
+    <origin rpy="-2.5195348373289798e-19 0 -5.0461947610018793e-17" xyz="-4.3368086899420177e-19 -1.084202172485504e-19 -1.3552527156068811e-20" />
+    <axis xyz="0 0 -1" />
+    <limit effort="1.0" lower="0.0" upper="1.57" velocity="1.0" />
+  </joint>
+  <joint name="rh_source_middle_mcp_slider_joint" type="prismatic">
+    <parent link="rh_source_middle_mount" />
+    <child link="rh_source_middle_mcp_slider" />
+    <origin rpy="-2.0005586058915847 -1.5707963267948961 0" xyz="0.015598408199204279 0.0076321330515363691 -1.3552527156068811e-20" />
+    <axis xyz="0 0 1" />
+    <limit effort="1.0" lower="-0.019614364968335185" upper="0.0" velocity="1.0" />
+  </joint>
+  <joint name="rh_source_middle_mcp_rod_joint" type="revolute">
+    <parent link="rh_source_middle_mcp_slider" />
+    <child link="rh_source_middle_mcp_rod" />
+    <origin rpy="1.5707963267948979 1.4454684956279422 1.5707963267948979" xyz="0 1.7347234759768071e-18 0" />
+    <axis xyz="0 0 -1" />
+    <limit effort="1.0" lower="-0.1533111182145451" upper="0.8817252890540661" velocity="1.0" />
+  </joint>
+  <joint name="rh_source_middle_mcp_swing" type="revolute">
+    <parent link="rh_source_middle_mcp_carrier" />
+    <child link="rh_source_middle_proximal" />
+    <origin rpy="-1.570796326794897 1.021405182655144e-14 -2.0005586058915852" xyz="0.016651037339347231 -0.018632041099237519 -3.2139486486974898e-06" />
+    <axis xyz="0 0 -1" />
+    <limit effort="1.0" lower="-0.35" upper="0.35" velocity="1.0" />
+  </joint>
+  <joint name="rh_source_middle_pip_flexion" type="revolute">
+    <parent link="rh_source_middle_proximal" />
+    <child link="rh_source_middle_middle" />
+    <origin rpy="-1.5707963267948972 -1.196739980795503 3.1415926535897833" xyz="0.041999999999999538 -2.7105054312137611e-20 -0.02530000000000035" />
+    <axis xyz="0 0 -1" />
+    <limit effort="1.0" lower="0.0" upper="1.57" velocity="1.0" />
+  </joint>
+  <joint name="rh_source_middle_pip_slider_joint" type="prismatic">
+    <parent link="rh_source_middle_proximal" />
+    <child link="rh_source_middle_pip_slider" />
+    <origin rpy="1.5707963267949232 0 -1.5707963267949068" xyz="0.027832203132827131 1.4956568969437531e-16 -0.014299999999998189" />
+    <axis xyz="0 0 1" />
+    <limit effort="1.0" lower="-0.016928185849210582" upper="0.0" velocity="1.0" />
+  </joint>
+  <joint name="rh_source_middle_pip_rod_joint" type="revolute">
+    <parent link="rh_source_middle_pip_slider" />
+    <child link="rh_source_middle_pip_rod" />
+    <origin rpy="-1.5707963267949006 1.4913125854108902 -1.5707963267949006" xyz="0 0 0" />
+    <axis xyz="0 0 -1" />
+    <limit effort="1.0" lower="-0.0742953455109936" upper="0.6757777458127061" velocity="1.0" />
+  </joint>
+  <joint name="rh_source_middle_dip_flexion" type="revolute">
+    <parent link="rh_source_middle_middle" />
+    <child link="rh_source_middle_distal" />
+    <origin rpy="5.5511151231257827e-17 0 -0.12903783821921647" xyz="-0.0053114137218693014 -0.025846448194579871 -5.992385407327383e-16" />
+    <axis xyz="0 0 -1" />
+    <limit effort="1.0" lower="0.0" upper="1.57" velocity="1.0" />
+  </joint>
+  <joint name="rh_source_middle_dip_slider_joint" type="prismatic">
+    <parent link="rh_source_middle_middle" />
+    <child link="rh_source_middle_dip_slider" />
+    <origin rpy="-1.9448526727942896 -1.5707963267948957 0" xyz="0.0060085884382428036 -0.018902562478807169 -6.0983661696878411e-16" />
+    <axis xyz="0 0 1" />
+    <limit effort="1.0" lower="-0.012429685590204471" upper="3.8163916471489756e-17" velocity="1.0" />
+  </joint>
+  <joint name="rh_source_middle_dip_rod_joint" type="revolute">
+    <parent link="rh_source_middle_dip_slider" />
+    <child link="rh_source_middle_dip_rod" />
+    <origin rpy="-1.5707963267968903 1.5706388265227749 -1.5707963267968903" xyz="1.3552527156068811e-20 1.7347234759768071e-18 0" />
+    <axis xyz="0 0 -1" />
+    <limit effort="1.0" lower="-0.028637768709306188" upper="0.7709555094042381" velocity="1.0" />
+  </joint>
+  <joint name="rh_source_ring_mount_fixed" type="fixed">
+    <parent link="base_link" />
+    <child link="rh_source_ring_mount" />
+    <origin rpy="-1.6667660125609913 0.42864098926109384 3.1087726476133133" xyz="0.027099703634997717 -0.014488449981419658 0.080993503376345019" />
+  </joint>
+  <joint name="rh_source_ring_mcp_flexion" type="revolute">
+    <parent link="rh_source_ring_mount" />
+    <child link="rh_source_ring_mcp_carrier" />
+    <origin rpy="-2.7115716322617482e-18 0 -5.0492036212390648e-18" xyz="0 8.6736173798840355e-19 3.4694469519536142e-18" />
+    <axis xyz="0 0 -1" />
+    <limit effort="1.0" lower="0.0" upper="1.57" velocity="1.0" />
+  </joint>
+  <joint name="rh_source_ring_mcp_slider_joint" type="prismatic">
+    <parent link="rh_source_ring_mount" />
+    <child link="rh_source_ring_mcp_slider" />
+    <origin rpy="-2.0005586058915847 -1.5707963267948948 0" xyz="0.015598408199196501 0.0076321330515388489 0" />
+    <axis xyz="0 0 1" />
+    <limit effort="1.0" lower="-0.019614364968326563" upper="0.0" velocity="1.0" />
+  </joint>
+  <joint name="rh_source_ring_mcp_rod_joint" type="revolute">
+    <parent link="rh_source_ring_mcp_slider" />
+    <child link="rh_source_ring_mcp_rod" />
+    <origin rpy="1.5707963267949066 1.445468495626923 1.5707963267949066" xyz="-6.9388939039072284e-18 0 0" />
+    <axis xyz="0 0 -1" />
+    <limit effort="1.0" lower="-0.15331111821457843" upper="0.8817252890536956" velocity="1.0" />
+  </joint>
+  <joint name="rh_source_ring_mcp_swing" type="revolute">
+    <parent link="rh_source_ring_mcp_carrier" />
+    <child link="rh_source_ring_proximal" />
+    <origin rpy="-1.5707963267948979 2.4424906541753444e-15 -2.0005586058916132" xyz="0.018196447538263119 -0.01934035410707623 -3.213948656113907e-06" />
+    <axis xyz="0 0 -1" />
+    <limit effort="1.0" lower="-0.35" upper="0.35" velocity="1.0" />
+  </joint>
+  <joint name="rh_source_ring_pip_flexion" type="revolute">
+    <parent link="rh_source_ring_proximal" />
+    <child link="rh_source_ring_middle" />
+    <origin rpy="-1.570796326794897 -1.1967399807954719 3.14159265358979" xyz="0.041999999999998087 3.4694469519536142e-18 -0.026999999999994931" />
+    <axis xyz="0 0 -1" />
+    <limit effort="1.0" lower="0.0" upper="1.57" velocity="1.0" />
+  </joint>
+  <joint name="rh_source_ring_pip_slider_joint" type="prismatic">
+    <parent link="rh_source_ring_proximal" />
+    <child link="rh_source_ring_pip_slider" />
+    <origin rpy="1.5707963267949223 0 -1.5707963267949012" xyz="0.027832203132827821 5.2041704279304213e-17 -0.015999999999998672" />
+    <axis xyz="0 0 1" />
+    <limit effort="1.0" lower="-0.016928185849202426" upper="1.708702623837155e-15" velocity="1.0" />
+  </joint>
+  <joint name="rh_source_ring_pip_rod_joint" type="revolute">
+    <parent link="rh_source_ring_pip_slider" />
+    <child link="rh_source_ring_pip_rod" />
+    <origin rpy="-1.5707963267949006 1.4913125854114275 -1.5707963267949006" xyz="-3.4694469519536142e-18 1.7347234759768071e-18 0" />
+    <axis xyz="0 0 -1" />
+    <limit effort="1.0" lower="-0.0742953455110263" upper="0.6757777458124098" velocity="1.0" />
+  </joint>
+  <joint name="rh_source_ring_dip_flexion" type="revolute">
+    <parent link="rh_source_ring_middle" />
+    <child link="rh_source_ring_distal" />
+    <origin rpy="2.7755575615628914e-17 0 -0.12903783821922271" xyz="-0.0053114137218728298 -0.025846448194579971 -1.8496038034498952e-12" />
+    <axis xyz="0 0 -1" />
+    <limit effort="1.0" lower="0.0" upper="1.57" velocity="1.0" />
+  </joint>
+  <joint name="rh_source_ring_dip_slider_joint" type="prismatic">
+    <parent link="rh_source_ring_middle" />
+    <child link="rh_source_ring_dip_slider" />
+    <origin rpy="-1.944852672794295 -1.5707963267948961 0" xyz="0.0060085884382381719 -0.018902562478807859 -1.8496072728968471e-12" />
+    <axis xyz="0 0 1" />
+    <limit effort="1.0" lower="-0.012429685590202697" upper="9.766493169749424e-16" velocity="1.0" />
+  </joint>
+  <joint name="rh_source_ring_dip_rod_joint" type="revolute">
+    <parent link="rh_source_ring_dip_slider" />
+    <child link="rh_source_ring_dip_rod" />
+    <origin rpy="-1.5707963267968903 1.5706388265228752 -1.5707963267968903" xyz="-3.4694469519536142e-18 0 0" />
+    <axis xyz="0 0 -1" />
+    <limit effort="1.0" lower="-0.02863776870930618" upper="0.7709555094041974" velocity="1.0" />
+  </joint>
+  <joint name="rh_source_little_mount_fixed" type="fixed">
+    <parent link="base_link" />
+    <child link="rh_source_little_mount" />
+    <origin rpy="-1.7043559433280713 0.42725082875541354 3.0931711956586163" xyz="0.027099703634997519 -0.035715192884881314 0.07037092455483579" />
+  </joint>
+  <joint name="rh_source_little_mcp_flexion" type="revolute">
+    <parent link="rh_source_little_mount" />
+    <child link="rh_source_little_mcp_carrier" />
+    <origin rpy="-1.503417218046314e-17 0 -2.3128392654591844e-17" xyz="1.7347234759768071e-18 0 0" />
+    <axis xyz="0 0 -1" />
+    <limit effort="1.0" lower="0.0" upper="1.57" velocity="1.0" />
+  </joint>
+  <joint name="rh_source_little_mcp_slider_joint" type="prismatic">
+    <parent link="rh_source_little_mount" />
+    <child link="rh_source_little_mcp_slider" />
+    <origin rpy="-2.0005586058915839 -1.5707963267948921 0" xyz="0.015598408199203811 0.0076321330515363196 0" />
+    <axis xyz="0 0 1" />
+    <limit effort="1.0" lower="-0.019614364968334606" upper="1.196959198423997e-16" velocity="1.0" />
+  </joint>
+  <joint name="rh_source_little_mcp_rod_joint" type="revolute">
+    <parent link="rh_source_little_mcp_slider" />
+    <child link="rh_source_little_mcp_rod" />
+    <origin rpy="1.5707963267948566 1.4454684956278911 1.5707963267948566" xyz="0 -1.7347234759768071e-18 0" />
+    <axis xyz="0 0 -1" />
+    <limit effort="1.0" lower="-0.15331111821454294" upper="0.8817252890540571" velocity="1.0" />
+  </joint>
+  <joint name="rh_source_little_mcp_swing" type="revolute">
+    <parent link="rh_source_little_mcp_carrier" />
+    <child link="rh_source_little_proximal" />
+    <origin rpy="-1.570796326794897 -4.2188474935755949e-14 -2.0005586058915821" xyz="0.01819644753826723 -0.01934035410707572 -3.213948664801403e-06" />
+    <axis xyz="0 0 -1" />
+    <limit effort="1.0" lower="-0.35" upper="0.35" velocity="1.0" />
+  </joint>
+  <joint name="rh_source_little_pip_flexion" type="revolute">
+    <parent link="rh_source_little_proximal" />
+    <child link="rh_source_little_middle" />
+    <origin rpy="-1.5707963267948972 -1.3258211702686959 -3.141592653589746" xyz="0.039500000000000458 0 -0.02180999999999873" />
+    <axis xyz="0 0 -1" />
+    <limit effort="1.0" lower="0.0" upper="1.57" velocity="1.0" />
+  </joint>
+  <joint name="rh_source_little_pip_slider_joint" type="prismatic">
+    <parent link="rh_source_little_proximal" />
+    <child link="rh_source_little_pip_slider" />
+    <origin rpy="1.5707963267949221 2.2204460492503131e-16 -1.5707963267948497" xyz="0.026400000000640859 -6.106226635438361e-16 -0.013809999999995879" />
+    <axis xyz="0 0 1" />
+    <limit effort="1.0" lower="-0.011755804928251548" upper="3.191891195797325e-16" velocity="1.0" />
+  </joint>
+  <joint name="rh_source_little_pip_rod_joint" type="revolute">
+    <parent link="rh_source_little_pip_slider" />
+    <child link="rh_source_little_pip_rod" />
+    <origin rpy="1.5707963267948966 1.5707855857054711 1.5707963267948966" xyz="6.9388939039072284e-18 0 0" />
+    <axis xyz="0 0 -1" />
+    <limit effort="1.0" lower="-0.02218269505358704" upper="0.5704082390814615" velocity="1.0" />
+  </joint>
+  <joint name="rh_source_little_dip_flexion" type="revolute">
+    <parent link="rh_source_little_middle" />
+    <child link="rh_source_little_distal" />
+    <origin rpy="0.0062711979857275396 0.025075123623853113 0.00012198116402325002" xyz="-0.0063032454065008094 -0.02522437520506628 0.0002067551563899456" />
+    <axis xyz="0 0 -1" />
+    <limit effort="1.0" lower="0.0" upper="1.57" velocity="1.0" />
+  </joint>
+  <joint name="rh_source_little_dip_slider_joint" type="prismatic">
+    <parent link="rh_source_little_middle" />
+    <child link="rh_source_little_dip_slider" />
+    <origin rpy="-1.5707963267948832 -1.5449490540968318 -0.24497515652618862" xyz="0.0040261505427627376 -0.016880465488000911 -1.8504989207634992e-12" />
+    <axis xyz="0 0 1" />
+    <limit effort="1.0" lower="-0.012429685590204617" upper="0.0" velocity="1.0" />
+  </joint>
+  <joint name="rh_source_little_dip_rod_joint" type="revolute">
+    <parent link="rh_source_little_dip_slider" />
+    <child link="rh_source_little_dip_rod" />
+    <origin rpy="-1.5707963267958935 1.570638826522794 -1.5707963267958935" xyz="0 0 0" />
+    <axis xyz="0 0 -1" />
+    <limit effort="1.0" lower="-0.028637768709305175" upper="0.7709555094042301" velocity="1.0" />
+  </joint>
+  <joint name="rh_source_thumb_mount_fixed" type="fixed">
+    <parent link="base_link" />
+    <child link="rh_source_thumb_mount" />
+    <origin rpy="-0.35982319468221313 0.20381117386131797 1.5108048438524189" xyz="0.024488440509375028 0.02669491074294765 0.036060974991322353" />
+  </joint>
+  <joint name="rh_source_thumb_rot1" type="revolute">
+    <parent link="rh_source_thumb_mount" />
+    <child link="rh_source_thumb_rot1_carrier" />
+    <origin rpy="-7.1696441623110425e-18 0 -1.302190385399928e-17" xyz="0 3.4694469519536142e-18 0" />
+    <axis xyz="0 0 -1" />
+    <limit effort="1.0" lower="0.0" upper="2.09" velocity="1.0" />
+  </joint>
+  <joint name="rh_source_thumb_rot2" type="revolute">
+    <parent link="rh_source_thumb_rot1_carrier" />
+    <child link="rh_source_thumb_rot2_carrier" />
+    <origin rpy="-1.5707963267948921 -1.524742316122899 0.16657232709293868" xyz="0.022315626236229048 6.9388939039072284e-18 -0.0123000641755272" />
+    <axis xyz="0 0 -1" />
+    <limit effort="1.0" lower="-1.74" upper="-0.0" velocity="1.0" />
+  </joint>
+  <joint name="rh_source_thumb_f2_flexion" type="revolute">
+    <parent link="rh_source_thumb_rot2_carrier" />
+    <child link="rh_source_thumb_f2_output" />
+    <origin rpy="-0.52751078396112161 -0.90849658912994835 2.2879591616094781" xyz="0.051668942592601137 0 -0.0052920750176667503" />
+    <axis xyz="0 0 -1" />
+    <limit effort="1.0" lower="0.0" upper="1.57" velocity="1.0" />
+  </joint>
+  <joint name="rh_source_thumb_f2_slider_joint" type="prismatic">
+    <parent link="rh_source_thumb_rot2_carrier" />
+    <child link="rh_source_thumb_f2_slider" />
+    <origin rpy="1.5707963267948946 -0.56018136961414267 -1.4899075637730459" xyz="0.037075212079539302 0.004680861552178596 0.0040266712988059773" />
+    <axis xyz="0 0 1" />
+    <limit effort="1.0" lower="-0.016928185849207352" upper="0.0" velocity="1.0" />
+  </joint>
+  <joint name="rh_source_thumb_f2_rod_joint" type="revolute">
+    <parent link="rh_source_thumb_f2_slider" />
+    <child link="rh_source_thumb_f2_rod" />
+    <origin rpy="-1.5707963267948966 1.4913125854111948 -1.5707963267948966" xyz="-6.9388939039072284e-18 0 5.2041704279304213e-18" />
+    <axis xyz="0 0 -1" />
+    <limit effort="1.0" lower="-0.07429534551085705" upper="0.6757777458131773" velocity="1.0" />
+  </joint>
+  <joint name="rh_source_thumb_f1_flexion" type="revolute">
+    <parent link="rh_source_thumb_f2_output" />
+    <child link="rh_source_thumb_f1_output" />
+    <origin rpy="-3.6082248300317588e-16 -4.2188474935755949e-15 -0.1290378382195399" xyz="-0.0053114137218506531 -0.0258464481945897 -2.046973701652632e-15" />
+    <axis xyz="0 0 -1" />
+    <limit effort="1.0" lower="0.0" upper="1.57" velocity="1.0" />
+  </joint>
+  <joint name="rh_source_thumb_f1_slider_joint" type="prismatic">
+    <parent link="rh_source_thumb_f2_output" />
+    <child link="rh_source_thumb_f1_slider" />
+    <origin rpy="1.1967399807958843 -1.570796326794893 0" xyz="0.0060085884382448038 -0.01890256247881664 -1.9984014443252822e-15" />
+    <axis xyz="0 0 1" />
+    <limit effort="1.0" lower="0.0" upper="0.012429685590181486" velocity="1.0" />
+  </joint>
+  <joint name="rh_source_thumb_f1_rod_joint" type="revolute">
+    <parent link="rh_source_thumb_f1_slider" />
+    <child link="rh_source_thumb_f1_rod" />
+    <origin rpy="1.5707963267899114 -1.5706388265227871 1.5707963267998803" xyz="0 6.9388939039072284e-18 3.4694469519536142e-18" />
+    <axis xyz="0 0 -1" />
+    <limit effort="1.0" lower="-0.02863776870909647" upper="0.7709555094038015" velocity="1.0" />
+  </joint>
+</robot>

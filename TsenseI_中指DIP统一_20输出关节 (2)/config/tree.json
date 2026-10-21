@@ -1,0 +1,302 @@
+{
+  "root_link": "base_link",
+  "links": [
+    "base_link",
+    "Left_hand_palm_link",
+    "left_hand_thumb_rota_block_link",
+    "left_hand_thumb_rotaback_link2",
+    "left_hand_thumb_MCP_link",
+    "left_hand_thumb_PIP_link",
+    "left_hand_index_MCP_link",
+    "left_hand_index_swing_link",
+    "left_hand_index_PIP_link",
+    "left_hand_index_DIP_link",
+    "left_hand_mid_MCP_link",
+    "left_hand_mid_swing_link",
+    "left_hand_mid_PIP_link",
+    "left_hand_mid_DIP_link",
+    "left_hand_ring_MCP_link",
+    "left_hand_ring_swing_link",
+    "left_hand_ring_PIP_link",
+    "left_hand_ring_DIP_link",
+    "left_hand_pinky_MCP_link",
+    "left_hand_pinky_swing_link",
+    "left_hand_pinky_PIP_link",
+    "left_hand_pinky_DIP_link"
+  ],
+  "joints": [
+    {
+      "name": "Left_hand_palm_joint",
+      "type": "fixed",
+      "parent": "base_link",
+      "child": "Left_hand_palm_link",
+      "origin": {
+        "xyz": "0.023699999999999999 0.0064999999999999997 0.044138006984399999",
+        "rpy": "0 0 0"
+      },
+      "axis": {
+        "xyz": "0 0 0"
+      }
+    },
+    {
+      "name": "left_hand_thumb_rota_block_joint",
+      "type": "revolute",
+      "parent": "base_link",
+      "child": "left_hand_thumb_rota_block_link",
+      "origin": {
+        "xyz": "0.020095209458105473 -0.018319894388608274 0.034425784821471982",
+        "rpy": "0.409849353962845 0.035990946425296544 -1.099842689237515"
+      },
+      "axis": {
+        "xyz": "0 0 1"
+      }
+    },
+    {
+      "name": "left_hand_thumb_rotaback_joint2",
+      "type": "revolute",
+      "parent": "left_hand_thumb_rota_block_link",
+      "child": "left_hand_thumb_rotaback_link2",
+      "origin": {
+        "xyz": "0.025906534761571742 -3.4694469519536142e-18 -0.010516065096279111",
+        "rpy": "1.5707963267949003 -1.1774916255348222 -0.55582153100282139"
+      },
+      "axis": {
+        "xyz": "0 0 -1"
+      }
+    },
+    {
+      "name": "left_hand_thumb_MCP_joint",
+      "type": "revolute",
+      "parent": "left_hand_thumb_rotaback_link2",
+      "child": "left_hand_thumb_MCP_link",
+      "origin": {
+        "xyz": "0.051777369955726356 -1.3877787807814457e-17 0.0054157007354755024",
+        "rpy": "0.5275107839615536 -0.9084965891297635 -2.3106248516321068"
+      },
+      "axis": {
+        "xyz": "0 0 1"
+      }
+    },
+    {
+      "name": "left_hand_thumb_PIP_joint",
+      "type": "revolute",
+      "parent": "left_hand_thumb_MCP_link",
+      "child": "left_hand_thumb_PIP_link",
+      "origin": {
+        "xyz": "-0.0053114137218719798 0.025846448194579846 -0.0045110466755894085",
+        "rpy": "1.6792123247455493e-15 2.4424906541753444e-15 0.12903783821924114"
+      },
+      "axis": {
+        "xyz": "0 0 1"
+      }
+    },
+    {
+      "name": "left_hand_index_MCP_joint",
+      "type": "revolute",
+      "parent": "base_link",
+      "child": "left_hand_index_MCP_link",
+      "origin": {
+        "xyz": "0.027106823283284235 -0.026576387592038783 0.087815835680192231",
+        "rpy": "1.4508509931644693 0.42625833852372441 3.084615774699254"
+      },
+      "axis": {
+        "xyz": "0 0 1"
+      }
+    },
+    {
+      "name": "left_hand_index_swing_joint",
+      "type": "revolute",
+      "parent": "left_hand_index_MCP_link",
+      "child": "left_hand_index_swing_link",
+      "origin": {
+        "xyz": "0.01819644753826806 0.019340354107076171 -0.00099999999999282954",
+        "rpy": "1.5707963267948957 -0.033882791931409972 2.0005586058915599"
+      },
+      "axis": {
+        "xyz": "0 0 1"
+      }
+    },
+    {
+      "name": "left_hand_index_PIP_joint",
+      "type": "revolute",
+      "parent": "left_hand_index_swing_link",
+      "child": "left_hand_index_PIP_link",
+      "origin": {
+        "xyz": "0.041023546156784746 3.4694469519536142e-18 -0.026999999999999597",
+        "rpy": "1.5707963267948963 -1.1967399807955119 3.1077098616583827"
+      },
+      "axis": {
+        "xyz": "0 0 1"
+      }
+    },
+    {
+      "name": "left_hand_index_DIP_joint",
+      "type": "revolute",
+      "parent": "left_hand_index_PIP_link",
+      "child": "left_hand_index_DIP_link",
+      "origin": {
+        "xyz": "-0.0053114137261469213 0.025846448194837987 -0.0045110466755889644",
+        "rpy": "-2.7755575615628914e-17 0 0.12903783821920917"
+      },
+      "axis": {
+        "xyz": "0 0 1"
+      }
+    },
+    {
+      "name": "left_hand_mid_MCP_joint",
+      "type": "revolute",
+      "parent": "base_link",
+      "child": "left_hand_mid_MCP_link",
+      "origin": {
+        "xyz": "0.02719999953837687 -0.00049999877805580509 0.088138007230611604",
+        "rpy": "1.5707963267948968 0.4297622790966602 -3.1415926535897896"
+      },
+      "axis": {
+        "xyz": "0 0 1"
+      }
+    },
+    {
+      "name": "left_hand_mid_swing_joint",
+      "type": "revolute",
+      "parent": "left_hand_mid_MCP_link",
+      "child": "left_hand_mid_swing_link",
+      "origin": {
+        "xyz": "0.017305157670401285 0.018931832119254491 -0.00099998783788761165",
+        "rpy": "1.570796326794897 0.033883077619299762 2.0005586058915852"
+      },
+      "axis": {
+        "xyz": "0 0 1"
+      }
+    },
+    {
+      "name": "left_hand_mid_PIP_joint",
+      "type": "revolute",
+      "parent": "left_hand_mid_swing_link",
+      "child": "left_hand_mid_PIP_link",
+      "origin": {
+        "xyz": "0.041023559408067872 2.1684043449710089e-19 -0.026019547123553179",
+        "rpy": "1.5707963267948974 -1.1967399807954628 -3.1077095759704942"
+      },
+      "axis": {
+        "xyz": "0 0 1"
+      }
+    },
+    {
+      "name": "left_hand_mid_DIP_joint",
+      "type": "revolute",
+      "parent": "left_hand_mid_PIP_link",
+      "child": "left_hand_mid_DIP_link",
+      "origin": {
+        "xyz": "-0.0053114137261472405 0.025846448194837821 -0.0017315940115265904",
+        "rpy": "-5.5511151231257827e-17 0 0.12903783821923204"
+      },
+      "axis": {
+        "xyz": "0 0 1"
+      }
+    },
+    {
+      "name": "left_hand_ring_MCP_joint",
+      "type": "revolute",
+      "parent": "base_link",
+      "child": "left_hand_ring_MCP_link",
+      "origin": {
+        "xyz": "0.027106823283282962 0.023481417630913871 0.080906629963767754",
+        "rpy": "1.6667660125609922 0.42864098926106586 -3.1087726476133142"
+      },
+      "axis": {
+        "xyz": "0 0 1"
+      }
+    },
+    {
+      "name": "left_hand_ring_swing_joint",
+      "type": "revolute",
+      "parent": "left_hand_ring_MCP_link",
+      "child": "left_hand_ring_swing_link",
+      "origin": {
+        "xyz": "0.018196447538267047 0.019340354107075949 -0.00099999999999785677",
+        "rpy": "1.5707963267948961 -0.03388279193139021 2.0005586058915599"
+      },
+      "axis": {
+        "xyz": "0 0 1"
+      }
+    },
+    {
+      "name": "left_hand_ring_PIP_joint",
+      "type": "revolute",
+      "parent": "left_hand_ring_swing_link",
+      "child": "left_hand_ring_PIP_link",
+      "origin": {
+        "xyz": "0.04102354615678494 -1.7347234759768071e-18 -0.026999999999998935",
+        "rpy": "1.570796326794895 -1.1967399807954981 3.107709861658404"
+      },
+      "axis": {
+        "xyz": "0 0 1"
+      }
+    },
+    {
+      "name": "left_hand_ring_DIP_joint",
+      "type": "revolute",
+      "parent": "left_hand_ring_PIP_link",
+      "child": "left_hand_ring_DIP_link",
+      "origin": {
+        "xyz": "-0.0053114137258253313 0.025846448194971533 -0.0045110466755893131",
+        "rpy": "-2.7755575615628914e-17 0 0.12903783821922418"
+      },
+      "axis": {
+        "xyz": "0 0 1"
+      }
+    },
+    {
+      "name": "left_hand_pinky_MCP_joint",
+      "type": "revolute",
+      "parent": "base_link",
+      "child": "left_hand_pinky_MCP_link",
+      "origin": {
+        "xyz": "0.0271068232832797 0.044704606014039389 0.070250121398440751",
+        "rpy": "1.7043559433280713 0.42725082875541354 -3.0931711956586163"
+      },
+      "axis": {
+        "xyz": "0 0 1"
+      }
+    },
+    {
+      "name": "left_hand_pinky_swing_joint",
+      "type": "revolute",
+      "parent": "left_hand_pinky_MCP_link",
+      "child": "left_hand_pinky_swing_link",
+      "origin": {
+        "xyz": "0.018196447538267484 0.019340354107076102 -0.0010000000000004935",
+        "rpy": "1.5707963267948957 -0.080896324855458834 2.0005586058915581"
+      },
+      "axis": {
+        "xyz": "0 0 1"
+      }
+    },
+    {
+      "name": "left_hand_pinky_PIP_joint",
+      "type": "revolute",
+      "parent": "left_hand_pinky_swing_link",
+      "child": "left_hand_pinky_PIP_link",
+      "origin": {
+        "xyz": "0.038626320568843936 0 -0.02181000000000018",
+        "rpy": "1.5707963267948963 -1.3258211702687228 3.0606963287343296"
+      },
+      "axis": {
+        "xyz": "0 0 1"
+      }
+    },
+    {
+      "name": "left_hand_pinky_DIP_joint",
+      "type": "revolute",
+      "parent": "left_hand_pinky_PIP_link",
+      "child": "left_hand_pinky_DIP_link",
+      "origin": {
+        "xyz": "-0.0063815055464910009 0.025204810461647131 -0.006034842938728309",
+        "rpy": "-0.0062711979857275647 0.025075123623853113 -0.00012198116402359176"
+      },
+      "axis": {
+        "xyz": "0 0 1"
+      }
+    }
+  ]
+}

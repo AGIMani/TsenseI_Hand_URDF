@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "policy_id": "hand1009_public_anatomical_names_v1",
+  "public_interface_id": "hand1009_20outputs_anatomical_names_v1",
+  "legacy_interface_ids": [
+    "hand1009_output_coordinates_raised_shellzero_r05"
+  ],
+  "rule": "Use flexion for flexion/extension axes, abduction for four-finger MCP lateral axes, and retain the two mechanical thumb base rotation names.",
+  "renames": {
+    "index_mcp_swing": "index_mcp_abduction",
+    "middle_mcp_swing": "middle_mcp_abduction",
+    "ring_mcp_swing": "ring_mcp_abduction",
+    "little_mcp_swing": "little_mcp_abduction"
+  },
+  "coordinate_conversion": "q_public = q_source; no axis, sign, zero, unit or range change",
+  "abduction_name_does_not_redefine_positive_rotation": true,
+  "thumb_base_axes_are_not_assumed_to_be_pure_anatomical_CMC_axes": true
+}

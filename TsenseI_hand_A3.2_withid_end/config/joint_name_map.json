@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "policy_id": "hand1009_public_anatomical_names_v1",
+  "public_interface_id": "hand1009_20outputs_anatomical_names_v1",
+  "source_interface_id": "hand1009_20outputs_anatomical_names_v1",
+  "source_model_id": "683b80cc0f91bb4a-review-raised-shellzero-r05-5c3ee9ae",
+  "source_to_public": {
+    "index_mcp_flexion": "index_mcp_flexion",
+    "index_mcp_abduction": "index_mcp_abduction",
+    "index_pip_flexion": "index_pip_flexion",
+    "index_dip_flexion": "index_dip_flexion",
+    "middle_mcp_flexion": "middle_mcp_flexion",
+    "middle_mcp_abduction": "middle_mcp_abduction",
+    "middle_pip_flexion": "middle_pip_flexion",
+    "middle_dip_flexion": "middle_dip_flexion",
+    "ring_mcp_flexion": "ring_mcp_flexion",
+    "ring_mcp_abduction": "ring_mcp_abduction",
+    "ring_pip_flexion": "ring_pip_flexion",
+    "ring_dip_flexion": "ring_dip_flexion",
+    "little_mcp_flexion": "little_mcp_flexion",
+    "little_mcp_abduction": "little_mcp_abduction",
+    "little_pip_flexion": "little_pip_flexion",
+    "little_dip_flexion": "little_dip_flexion",
+    "thumb_base_rotation_1": "thumb_base_rotation_1",
+    "thumb_base_rotation_2": "thumb_base_rotation_2",
+    "thumb_mcp_flexion": "thumb_mcp_flexion",
+    "thumb_ip_flexion": "thumb_ip_flexion"
+  },
+  "public_to_source": {
+    "index_mcp_flexion": "index_mcp_flexion",
+    "index_mcp_abduction": "index_mcp_abduction",
+    "index_pip_flexion": "index_pip_flexion",
+    "index_dip_flexion": "index_dip_flexion",
+    "middle_mcp_flexion": "middle_mcp_flexion",
+    "middle_mcp_abduction": "middle_mcp_abduction",
+    "middle_pip_flexion": "middle_pip_flexion",
+    "middle_dip_flexion": "middle_dip_flexion",
+    "ring_mcp_flexion": "ring_mcp_flexion",
+    "ring_mcp_abduction": "ring_mcp_abduction",
+    "ring_pip_flexion": "ring_pip_flexion",
+    "ring_dip_flexion": "ring_dip_flexion",
+    "little_mcp_flexion": "little_mcp_flexion",
+    "little_mcp_abduction": "little_mcp_abduction",
+    "little_pip_flexion": "little_pip_flexion",
+    "little_dip_flexion": "little_dip_flexion",
+    "thumb_base_rotation_1": "thumb_base_rotation_1",
+    "thumb_base_rotation_2": "thumb_base_rotation_2",
+    "thumb_mcp_flexion": "thumb_mcp_flexion",
+    "thumb_ip_flexion": "thumb_ip_flexion"
+  },
+  "legacy_to_public": {
+    "index_mcp_swing": "index_mcp_abduction",
+    "middle_mcp_swing": "middle_mcp_abduction",
+    "ring_mcp_swing": "ring_mcp_abduction",
+    "little_mcp_swing": "little_mcp_abduction"
+  },
+  "legacy_interface_ids": [
+    "hand1009_output_coordinates_raised_shellzero_r05"
+  ],
+  "renamed_count": 0,
+  "q_public_equals_q_source": true,
+  "angle_units_unchanged": true
+}

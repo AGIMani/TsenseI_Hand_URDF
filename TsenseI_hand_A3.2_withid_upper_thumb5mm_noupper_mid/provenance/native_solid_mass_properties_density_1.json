@@ -1,0 +1,4103 @@
+{
+  "G0031": {
+    "volume_m3": 1.0912327301494011e-05,
+    "center_normalized_mesh_m": [
+      -0.0034855432066184847,
+      -0.004612702339196716,
+      3.0719206258786325e-05
+    ],
+    "inertia_at_COM_density_1": [
+      [
+        3.5722393095000195e-09,
+        -2.0477240011684218e-10,
+        -1.2608092816111586e-11
+      ],
+      [
+        -2.0477240011684218e-10,
+        5.31024925544577e-09,
+        -1.4022401134695461e-12
+      ],
+      [
+        -1.2608092816111586e-11,
+        -1.4022401134695461e-12,
+        8.866160518084036e-09
+      ]
+    ],
+    "moment_basis": "saved_native_CAD_solid_moments",
+    "fallback_reason": null,
+    "solid_body_names": [
+      "移动面24"
+    ],
+    "native_geometry": "G0145",
+    "native_file": "E:\\codex_work\\导出urdf\\work\\model_variant_compare_20261011\\sources\\raised_5mm\\A3.2 Board of palw.SLDPRT",
+    "normalization_center_source_m": [
+      0.009715303778648376,
+      -0.04131900332868099,
+      -0.001500000013038516
+    ],
+    "tessellation_volume_check": null,
+    "right_hand_derivation": "reflected normalized geometry frame; native_file and native labels refer to original left source evidence"
+  },
+  "G0032": {
+    "volume_m3": 1.3895662807782315e-08,
+    "center_normalized_mesh_m": [
+      -3.519758416727762e-20,
+      4.201001981255717e-21,
+      -0.0004660502468109718
+    ],
+    "inertia_at_COM_density_1": [
+      [
+        4.7180322687774167e-14,
+        8.088905766426391e-32,
+        2.4643121683082993e-31
+      ],
+      [
+        8.088905766426391e-32,
+        4.7180322687774167e-14,
+        5.273760169363189e-34
+      ],
+      [
+        2.4643121683082993e-31,
+        5.273760169363189e-34,
+        8.438727167768209e-15
+      ]
+    ],
+    "moment_basis": "saved_native_CAD_solid_moments",
+    "fallback_reason": null,
+    "solid_body_names": [
+      "M1.6 机械螺纹 螺柱1"
+    ],
+    "native_geometry": "G0000",
+    "native_file": "E:\\codex_work\\导出urdf\\work\\model_variant_compare_20261011\\sources\\raised_5mm\\A3.1M1.6X5梅花头扁头螺钉.SLDPRT",
+    "normalization_center_source_m": [
+      0.0,
+      0.0,
+      0.002149999956600368
+    ],
+    "tessellation_volume_check": null,
+    "right_hand_derivation": "reflected normalized geometry frame; native_file and native labels refer to original left source evidence"
+  },
+  "G0033": {
+    "volume_m3": 5.376862868369822e-08,
+    "center_normalized_mesh_m": [
+      -4.005618393421092e-06,
+      -0.0014868927077202755,
+      5.868558856961749e-21
+    ],
+    "inertia_at_COM_density_1": [
+      [
+        7.5859732824919e-13,
+        2.2869722704744256e-29,
+        5.013535447577952e-21
+      ],
+      [
+        2.2869722704744256e-29,
+        6.348302613081512e-14,
+        1.6152156838328126e-30
+      ],
+      [
+        5.013535447577952e-21,
+        1.6152156838328126e-30,
+        7.585973227995617e-13
+      ]
+    ],
+    "moment_basis": "saved_native_CAD_solid_moments",
+    "fallback_reason": null,
+    "solid_body_names": [
+      "Revolve2"
+    ],
+    "native_geometry": "G0144",
+    "native_file": "E:\\codex_work\\导出urdf\\work\\model_variant_compare_20261011\\sources\\raised_5mm\\A3.1GBT70.1-01.SLDPRT",
+    "normalization_center_source_m": [
+      4.005618393421173e-06,
+      -0.00399999984074384,
+      0.0
+    ],
+    "tessellation_volume_check": null,
+    "right_hand_derivation": "reflected normalized geometry frame; native_file and native labels refer to original left source evidence"
+  },
+  "G0034": {
+    "volume_m3": 3.263029740036108e-08,
+    "center_normalized_mesh_m": [
+      -1.9588769892790854e-19,
+      -6.382389851464932e-21,
+      -0.0009184202928866625
+    ],
+    "inertia_at_COM_density_1": [
+      [
+        1.7963436288170867e-13,
+        -2.249486175044291e-31,
+        -1.8796120216284074e-29
+      ],
+      [
+        -2.249486175044291e-31,
+        1.7963436288170862e-13,
+        5.568407530626834e-32
+      ],
+      [
+        -1.8796120216284074e-29,
+        5.568407530626834e-32,
+        3.894015281367898e-14
+      ]
+    ],
+    "moment_basis": "saved_native_CAD_solid_moments",
+    "fallback_reason": null,
+    "solid_body_names": [
+      "M2 机械螺纹 螺柱1"
+    ],
+    "native_geometry": "G0147",
+    "native_file": "E:\\codex_work\\导出urdf\\work\\model_variant_compare_20261011\\sources\\raised_5mm\\A3.1M2X6梅花头扁头螺钉YJT4028.SLDPRT",
+    "normalization_center_source_m": [
+      0.0,
+      0.0,
+      0.002365000022109598
+    ],
+    "tessellation_volume_check": null,
+    "right_hand_derivation": "reflected normalized geometry frame; native_file and native labels refer to original left source evidence"
+  },
+  "G0035": {
+    "volume_m3": 1.7280330391070657e-08,
+    "center_normalized_mesh_m": [
+      -4.6703206177159186e-20,
+      -1.1523882031471876e-50,
+      -1.3038515796551244e-11
+    ],
+    "inertia_at_COM_density_1": [
+      [
+        3.11532609193744e-14,
+        3.9619536617322643e-47,
+        -2.5849394142282127e-30
+      ],
+      [
+        3.9619536617322643e-47,
+        3.11532609193744e-14,
+        1.876345939652761e-46
+      ],
+      [
+        -2.5849394142282127e-30,
+        1.876345939652761e-46,
+        3.688802134225995e-14
+      ]
+    ],
+    "moment_basis": "saved_native_CAD_solid_moments",
+    "fallback_reason": null,
+    "solid_body_names": [
+      "倒角1"
+    ],
+    "native_geometry": "G0146",
+    "native_file": "E:\\codex_work\\导出urdf\\work\\model_variant_compare_20261011\\sources\\raised_5mm\\A3.1M2X5-3.5.SLDPRT",
+    "normalization_center_source_m": [
+      0.0,
+      0.0,
+      0.001500000013038516
+    ],
+    "tessellation_volume_check": null,
+    "right_hand_derivation": "reflected normalized geometry frame; native_file and native labels refer to original left source evidence"
+  },
+  "G0036": {
+    "volume_m3": 5.376862868369822e-08,
+    "center_normalized_mesh_m": [
+      -4.005618393421092e-06,
+      -0.0014868927077202755,
+      5.399074148404809e-21
+    ],
+    "inertia_at_COM_density_1": [
+      [
+        7.5859732824919e-13,
+        2.2721811285015317e-29,
+        5.013535447584115e-21
+      ],
+      [
+        2.2721811285015317e-29,
+        6.348302613081512e-14,
+        1.5037477994936603e-30
+      ],
+      [
+        5.013535447584115e-21,
+        1.5037477994936603e-30,
+        7.585973227995617e-13
+      ]
+    ],
+    "moment_basis": "saved_native_CAD_solid_moments",
+    "fallback_reason": null,
+    "solid_body_names": [
+      "Revolve2"
+    ],
+    "native_geometry": "G0148",
+    "native_file": "E:\\codex_work\\导出urdf\\work\\model_variant_compare_20261011\\sources\\raised_5mm\\A3.1GBT70.1-01.SLDPRT",
+    "normalization_center_source_m": [
+      4.005618393421173e-06,
+      -0.00399999984074384,
+      0.0
+    ],
+    "tessellation_volume_check": null,
+    "right_hand_derivation": "reflected normalized geometry frame; native_file and native labels refer to original left source evidence"
+  },
+  "G0037": {
+    "volume_m3": 3.263029740036108e-08,
+    "center_normalized_mesh_m": [
+      -1.9589585214553161e-19,
+      -4.835143826867373e-21,
+      -0.0009184202928866621
+    ],
+    "inertia_at_COM_density_1": [
+      [
+        1.7963436288170862e-13,
+        -2.3034122134871336e-31,
+        -1.8738091585817786e-29
+      ],
+      [
+        -2.3034122134871336e-31,
+        1.7963436288170862e-13,
+        1.2024926594754768e-31
+      ],
+      [
+        -1.8738091585817786e-29,
+        1.2024926594754768e-31,
+        3.894015281367898e-14
+      ]
+    ],
+    "moment_basis": "saved_native_CAD_solid_moments",
+    "fallback_reason": null,
+    "solid_body_names": [
+      "M2 机械螺纹 螺柱1"
+    ],
+    "native_geometry": "G0003",
+    "native_file": "E:\\codex_work\\导出urdf\\work\\model_variant_compare_20261011\\sources\\raised_5mm\\M2X6梅花头扁头螺钉YJT4028.SLDPRT",
+    "normalization_center_source_m": [
+      0.0,
+      0.0,
+      0.002365000022109598
+    ],
+    "tessellation_volume_check": null,
+    "right_hand_derivation": "reflected normalized geometry frame; native_file and native labels refer to original left source evidence"
+  },
+  "G0038": {
+    "volume_m3": 2.664644491709232e-07,
+    "center_normalized_mesh_m": [
+      0.0017763136308239038,
+      4.435414774715997e-05,
+      -6.233639679141672e-10
+    ],
+    "inertia_at_COM_density_1": [
+      [
+        3.975810180204993e-12,
+        4.475241675182403e-16,
+        -5.774995774884264e-19
+      ],
+      [
+        4.475241675182403e-16,
+        4.259552798565602e-12,
+        6.058344351940019e-21
+      ],
+      [
+        -5.774995774884264e-19,
+        6.058344351940019e-21,
+        4.7784616772087976e-12
+      ]
+    ],
+    "moment_basis": "saved_native_CAD_solid_moments",
+    "fallback_reason": null,
+    "solid_body_names": [
+      "分水器焊件(1).STEP-1/1to5分水器圆形2.STEP-1-solid1",
+      "分水器焊件(1).STEP-1/1to5分水器圆形1.STEP-1-solid1"
+    ],
+    "native_geometry": "G0002",
+    "native_file": "E:\\codex_work\\导出urdf\\work\\model_variant_compare_20261011\\sources\\raised_5mm\\分水器焊件.SLDPRT",
+    "normalization_center_source_m": [
+      -0.0022499999031424522,
+      0.0023499999660998583,
+      0.0
+    ],
+    "tessellation_volume_check": null,
+    "right_hand_derivation": "reflected normalized geometry frame; native_file and native labels refer to original left source evidence"
+  },
+  "G0039": {
+    "volume_m3": 2.3637965192720963e-07,
+    "center_normalized_mesh_m": [
+      1.0700597897823933e-19,
+      -1.360684272114516e-20,
+      0.0007316455467424824
+    ],
+    "inertia_at_COM_density_1": [
+      [
+        1.3721048989869237e-11,
+        -3.5903308925018254e-30,
+        -6.650996150881275e-30
+      ],
+      [
+        -3.5903308925018254e-30,
+        1.3712260458635294e-11,
+        1.5485292106714142e-29
+      ],
+      [
+        -6.650996150881275e-30,
+        1.5485292106714142e-29,
+        3.592676085097728e-13
+      ]
+    ],
+    "moment_basis": "saved_native_CAD_solid_moments",
+    "fallback_reason": null,
+    "solid_body_names": [
+      "切除-拉伸1"
+    ],
+    "native_geometry": "G0004",
+    "native_file": "E:\\codex_work\\导出urdf\\work\\model_variant_compare_20261011\\sources\\raised_5mm\\A3.1Support pillar.SLDPRT",
+    "normalization_center_source_m": [
+      0.0,
+      0.0,
+      0.010500000091269612
+    ],
+    "tessellation_volume_check": null,
+    "right_hand_derivation": "reflected normalized geometry frame; native_file and native labels refer to original left source evidence"
+  },
+  "G0040": {
+    "volume_m3": 5.458182040895716e-06,
+    "center_normalized_mesh_m": [
+      -0.0007960206627604335,
+      -0.004043441729727733,
+      -6.194497459954807e-05
+    ],
+    "inertia_at_COM_density_1": [
+      [
+        1.029090594764937e-09,
+        -4.494390220106004e-10,
+        1.1070402619022843e-12
+      ],
+      [
+        -4.494390220106004e-10,
+        2.0830432062422677e-09,
+        2.535383925859923e-13
+      ],
+      [
+        1.1070402619022843e-12,
+        2.535383925859923e-13,
+        3.108889177295247e-09
+      ]
+    ],
+    "moment_basis": "saved_native_CAD_solid_moments",
+    "fallback_reason": null,
+    "solid_body_names": [
+      "删除面2"
+    ],
+    "native_geometry": "G0001",
+    "native_file": "E:\\codex_work\\导出urdf\\work\\model_variant_compare_20261011\\sources\\raised_5mm\\A3.2 Sensor support board.SLDPRT",
+    "normalization_center_source_m": [
+      -0.0029127411544322968,
+      -0.002714076079428196,
+      0.0010000000474974513
+    ],
+    "tessellation_volume_check": null,
+    "right_hand_derivation": "reflected normalized geometry frame; native_file and native labels refer to original left source evidence"
+  },
+  "G0041": {
+    "volume_m3": 1.255654457346048e-06,
+    "center_normalized_mesh_m": [
+      0.00034899098923216047,
+      0.001563171785595924,
+      -0.007493731183056371
+    ],
+    "inertia_at_COM_density_1": [
+      [
+        7.913027108222215e-11,
+        -1.2182694065786553e-11,
+        -4.8226990354092456e-12
+      ],
+      [
+        -1.2182694065786553e-11,
+        9.56446996316452e-11,
+        -2.1017478198390145e-11
+      ],
+      [
+        -4.8226990354092456e-12,
+        -2.1017478198390145e-11,
+        6.658047268300905e-11
+      ]
+    ],
+    "moment_basis": "saved_native_CAD_solid_moments",
+    "fallback_reason": null,
+    "solid_body_names": [
+      "倒角10"
+    ],
+    "native_geometry": "G0005",
+    "native_file": "E:\\codex_work\\导出urdf\\work\\model_variant_compare_20261011\\sources\\raised_5mm\\A3.2 Heat transfer block.SLDPRT",
+    "normalization_center_source_m": [
+      0.0,
+      -0.0004999996162950993,
+      0.013000000268220901
+    ],
+    "tessellation_volume_check": null,
+    "right_hand_derivation": "reflected normalized geometry frame; native_file and native labels refer to original left source evidence"
+  },
+  "G0042": {
+    "volume_m3": 4.081115559108753e-06,
+    "center_normalized_mesh_m": [
+      -0.0017574934727030284,
+      0.005516204096534259,
+      0.007591600629896252
+    ],
+    "inertia_at_COM_density_1": [
+      [
+        1.0145117795921548e-09,
+        2.4628116625994736e-10,
+        -1.5242838436577364e-10
+      ],
+      [
+        2.4628116625994736e-10,
+        1.1257905999662096e-09,
+        1.8745002457379397e-10
+      ],
+      [
+        -1.5242838436577364e-10,
+        1.8745002457379397e-10,
+        7.805473113044058e-10
+      ]
+    ],
+    "moment_basis": "saved_native_CAD_solid_moments",
+    "fallback_reason": null,
+    "solid_body_names": [
+      "M3 螺纹孔1"
+    ],
+    "native_geometry": "G0009",
+    "native_file": "E:\\codex_work\\导出urdf\\work\\model_variant_compare_20261011\\sources\\raised_5mm\\A3.2 Holder with wide connector.SLDPRT",
+    "normalization_center_source_m": [
+      -0.03799999877810478,
+      -0.0015000002458691597,
+      -0.008500000461935997
+    ],
+    "tessellation_volume_check": null,
+    "right_hand_derivation": "reflected normalized geometry frame; native_file and native labels refer to original left source evidence"
+  },
+  "G0168": {
+    "volume_m3": 4.6163435564812643e-07,
+    "center_normalized_mesh_m": [
+      -0.01262248946339524,
+      0.0006802881578255593,
+      2.526212488436659e-12
+    ],
+    "inertia_at_COM_density_1": [
+      [
+        2.5743142329372506e-11,
+        4.3496836803470993e-11,
+        -9.206521335910064e-29
+      ],
+      [
+        4.3496836803470993e-11,
+        4.0269263719173103e-10,
+        -3.0903976873633263e-28
+      ],
+      [
+        -9.206521335910064e-29,
+        -3.0903976873633263e-28,
+        4.284327019587326e-10
+      ]
+    ],
+    "moment_basis": "saved_native_CAD_solid_moments",
+    "fallback_reason": null,
+    "solid_body_names": [
+      "Board~jISD[1]"
+    ],
+    "native_geometry": "G0143",
+    "native_file": "E:\\codex_work\\导出urdf\\work\\model_variant_compare_20261011\\sources\\raised_5mm\\Board~jISD.SLDPRT",
+    "normalization_center_source_m": [
+      0.08194784261286259,
+      0.040521117858588696,
+      9.999999747378752e-05
+    ],
+    "tessellation_volume_check": null,
+    "right_hand_derivation": "reflected normalized geometry frame; native_file and native labels refer to original left source evidence"
+  },
+  "G0172": {
+    "volume_m3": 2.247821698820029e-08,
+    "center_normalized_mesh_m": [
+      -6.418976580266056e-09,
+      8.841796493962981e-10,
+      -0.00046705192206341386
+    ],
+    "inertia_at_COM_density_1": [
+      [
+        8.839314774546801e-14,
+        -1.3941826147426746e-20,
+        1.2452183887120005e-19
+      ],
+      [
+        -1.3941826147426746e-20,
+        8.839364013676944e-14,
+        4.3048915392229565e-21
+      ],
+      [
+        1.2452183887120005e-19,
+        4.3048915392229565e-21,
+        2.1261618279601093e-14
+      ]
+    ],
+    "moment_basis": "saved_native_CAD_solid_moments",
+    "fallback_reason": null,
+    "solid_body_names": [
+      "倒角1"
+    ],
+    "native_geometry": "G0013",
+    "native_file": "E:\\codex_work\\导出urdf\\work\\model_variant_compare_20261011\\sources\\raised_5mm\\M2X6梅花沉头螺钉 GB2673.SLDPRT",
+    "normalization_center_source_m": [
+      0.0,
+      0.0,
+      0.0027999999656458385
+    ],
+    "tessellation_volume_check": null,
+    "right_hand_derivation": "reflected normalized geometry frame; native_file and native labels refer to original left source evidence"
+  },
+  "G0017": {
+    "volume_m3": 9.85152666070052e-09,
+    "center_normalized_mesh_m": [
+      5.605249345337938e-20,
+      -1.545447319500317e-19,
+      -0.00033690787830787197
+    ],
+    "inertia_at_COM_density_1": [
+      [
+        1.784085501009065e-14,
+        -8.239128302088595e-31,
+        1.271460501657125e-32
+      ],
+      [
+        -8.239128302088595e-31,
+        1.784085501009065e-14,
+        -2.0739664799848073e-30
+      ],
+      [
+        1.271460501657125e-32,
+        -2.0739664799848073e-30,
+        6.34110855336856e-15
+      ]
+    ],
+    "moment_basis": "saved_native_CAD_solid_moments",
+    "fallback_reason": null,
+    "solid_body_names": [
+      "倒角2"
+    ],
+    "native_geometry": "G0006",
+    "native_file": "E:\\codex_work\\导出urdf\\work\\model_variant_compare_20261011\\sources\\raised_5mm\\M1.6X4梅花沉头螺钉 GB2673.SLDPRT",
+    "normalization_center_source_m": [
+      0.0,
+      0.0,
+      0.0020000000949949026
+    ],
+    "tessellation_volume_check": null,
+    "right_hand_derivation": "reflected normalized geometry frame; native_file and native labels refer to original left source evidence"
+  },
+  "G0173": {
+    "volume_m3": 4.433916346865492e-06,
+    "center_normalized_mesh_m": [
+      0.00217286823174476,
+      -0.00624406298277877,
+      0.0012382173775855297
+    ],
+    "inertia_at_COM_density_1": [
+      [
+        9.723717362186325e-10,
+        -5.110814412792923e-10,
+        -5.3650007016460275e-12
+      ],
+      [
+        -5.110814412792923e-10,
+        1.858306402929626e-09,
+        -5.32038538653254e-12
+      ],
+      [
+        -5.3650007016460275e-12,
+        -5.32038538653254e-12,
+        2.8285905264086007e-09
+      ]
+    ],
+    "moment_basis": "saved_native_CAD_solid_moments",
+    "fallback_reason": null,
+    "solid_body_names": [
+      "组合1"
+    ],
+    "native_geometry": "G0008",
+    "native_file": "E:\\codex_work\\导出urdf\\work\\model_variant_compare_20261011\\sources\\raised_5mm\\A3.2 Front rubber.SLDPRT",
+    "normalization_center_source_m": [
+      0.008260644972324371,
+      -0.04269263055175543,
+      0.0002048318856395781
+    ],
+    "tessellation_volume_check": null,
+    "right_hand_derivation": "reflected normalized geometry frame; native_file and native labels refer to original left source evidence"
+  },
+  "G0174": {
+    "volume_m3": 7.567627472698042e-06,
+    "center_normalized_mesh_m": [
+      0.010788745239750427,
+      -0.0029026691336910175,
+      0.0026770946138890243
+    ],
+    "inertia_at_COM_density_1": [
+      [
+        3.533210382735575e-09,
+        -1.5426014087250687e-10,
+        -1.314569636060827e-09
+      ],
+      [
+        -1.5426014087250687e-10,
+        1.2282051907098658e-08,
+        -4.893582856289271e-11
+      ],
+      [
+        -1.314569636060827e-09,
+        -4.893582856289271e-11,
+        9.69678247564956e-09
+      ]
+    ],
+    "moment_basis": "saved_native_CAD_solid_moments",
+    "fallback_reason": null,
+    "solid_body_names": [
+      "分割1"
+    ],
+    "native_geometry": "G0007",
+    "native_file": "E:\\codex_work\\导出urdf\\work\\model_variant_compare_20261011\\sources\\raised_5mm\\A3.2 Front cover.SLDPRT",
+    "normalization_center_source_m": [
+      -0.03609394887462258,
+      -0.008288948563858867,
+      0.023797471541911364
+    ],
+    "tessellation_volume_check": null,
+    "right_hand_derivation": "reflected normalized geometry frame; native_file and native labels refer to original left source evidence"
+  },
+  "G0175": {
+    "volume_m3": 4.635276090232531e-08,
+    "center_normalized_mesh_m": [
+      3.69189740214923e-06,
+      5.520044920801631e-06,
+      -7.200353533838577e-05
+    ],
+    "inertia_at_COM_density_1": [
+      [
+        5.815186047132106e-13,
+        -2.662185971418645e-16,
+        -4.00994420972411e-17
+      ],
+      [
+        -2.662185971418645e-16,
+        3.962477829492945e-14,
+        1.361604961771692e-14
+      ],
+      [
+        -4.00994420972411e-17,
+        1.361604961771692e-14,
+        5.996300985345057e-13
+      ]
+    ],
+    "moment_basis": "saved_native_CAD_solid_moments",
+    "fallback_reason": null,
+    "solid_body_names": [
+      "加厚1"
+    ],
+    "native_geometry": "G0011",
+    "native_file": "E:\\codex_work\\导出urdf\\work\\model_variant_compare_20261011\\sources\\raised_5mm\\LED.SLDPRT",
+    "normalization_center_source_m": [
+      0.007995868334546685,
+      -0.010000002104789019,
+      -0.038692155852913857
+    ],
+    "tessellation_volume_check": null,
+    "right_hand_derivation": "reflected normalized geometry frame; native_file and native labels refer to original left source evidence"
+  },
+  "G0176": {
+    "volume_m3": 9.40340115636333e-06,
+    "center_normalized_mesh_m": [
+      0.002678593833191724,
+      0.004496474588723952,
+      -0.00032135733189066554
+    ],
+    "inertia_at_COM_density_1": [
+      [
+        5.897235500619553e-09,
+        3.948233516645698e-11,
+        -7.023329766698786e-10
+      ],
+      [
+        3.948233516645698e-11,
+        1.3661692235125872e-08,
+        2.3856614348831298e-11
+      ],
+      [
+        -7.023329766698786e-10,
+        2.3856614348831298e-11,
+        8.146280868294338e-09
+      ]
+    ],
+    "moment_basis": "saved_native_CAD_solid_moments",
+    "fallback_reason": null,
+    "solid_body_names": [
+      "移动面2[2]"
+    ],
+    "native_geometry": "G0010",
+    "native_file": "E:\\codex_work\\导出urdf\\work\\model_variant_compare_20261011\\sources\\raised_5mm\\A3.2 rear cover.SLDPRT",
+    "normalization_center_source_m": [
+      -0.036250867415219545,
+      -0.028309701941907406,
+      0.017494541592895985
+    ],
+    "tessellation_volume_check": null,
+    "right_hand_derivation": "reflected normalized geometry frame; native_file and native labels refer to original left source evidence"
+  },
+  "G0177": {
+    "volume_m3": 4.635486680969155e-06,
+    "center_normalized_mesh_m": [
+      -0.0021401754154571767,
+      0.0013762192822496938,
+      -1.1481747627314909e-11
+    ],
+    "inertia_at_COM_density_1": [
+      [
+        1.1245032732907165e-09,
+        -2.6520862162350797e-10,
+        -3.275262113776588e-18
+      ],
+      [
+        -2.6520862162350797e-10,
+        2.1494264365335193e-09,
+        -9.35331569963728e-19
+      ],
+      [
+        -3.275262113776588e-18,
+        -9.35331569963728e-19,
+        3.272814503150372e-09
+      ]
+    ],
+    "moment_basis": "saved_native_CAD_solid_moments",
+    "fallback_reason": null,
+    "solid_body_names": [
+      "uid__9223372037002027840[1]"
+    ],
+    "native_geometry": "G0014",
+    "native_file": "E:\\codex_work\\导出urdf\\work\\model_variant_compare_20261011\\sources\\raised_5mm\\A3.1PCB 26.7.31.SLDPRT",
+    "normalization_center_source_m": [
+      0.040146176412235945,
+      0.029967141439556144,
+      0.000600725004915148
+    ],
+    "tessellation_volume_check": null,
+    "right_hand_derivation": "reflected normalized geometry frame; native_file and native labels refer to original left source evidence"
+  },
+  "G0030": {
+    "volume_m3": 4.428470486864976e-06,
+    "center_normalized_mesh_m": [
+      0.0008103485720305295,
+      -1.6258427968814934e-05,
+      -0.001525802901302277
+    ],
+    "inertia_at_COM_density_1": [
+      [
+        9.044755636859044e-10,
+        5.00964002659713e-13,
+        -6.667560856116258e-12
+      ],
+      [
+        5.00964002659713e-13,
+        9.981901125813248e-10,
+        -3.201413593548112e-14
+      ],
+      [
+        -6.667560856116258e-12,
+        -3.201413593548112e-14,
+        4.302397251046757e-10
+      ]
+    ],
+    "moment_basis": "saved_native_CAD_solid_moments",
+    "fallback_reason": null,
+    "solid_body_names": [
+      "A32F3V1_定子外壳S1-4-solid1",
+      "A32F123V1_管接头-1-solid1",
+      "A32F3V1_定子内支撑管S1-1-solid1",
+      "A32F3V1_驱动板S1-1-solid1",
+      "A32F123V1_管接头-2-solid1",
+      "A32F3V1_定子后端盖S1-1-solid1",
+      "A32F3V1_走线槽S1-1-solid2",
+      "A32F3V1_定子固定件S1-1-solid1",
+      "A32F3V1_走线槽S1-1-solid1",
+      "A32F123V1_管接头-3-solid1",
+      "A32F3V1_定子前端盖S1-1-solid1",
+      "删除面1",
+      "A32F123V1_管接头-4-solid1"
+    ],
+    "native_geometry": "G0156",
+    "native_file": "E:\\codex_work\\导出urdf\\work\\model_variant_compare_20261011\\sources\\raised_5mm\\A32F3V1装配体_定子S1.SLDPRT",
+    "normalization_center_source_m": [
+      0.9751273095607758,
+      1.018420696258545,
+      1.009783536195755
+    ],
+    "tessellation_volume_check": null,
+    "right_hand_derivation": "reflected normalized geometry frame; native_file and native labels refer to original left source evidence"
+  },
+  "G0000": {
+    "volume_m3": 5.936562917733508e-09,
+    "center_normalized_mesh_m": [
+      1.6439142589710058e-20,
+      4.612309782954812e-51,
+      -6.006255372023053e-20
+    ],
+    "inertia_at_COM_density_1": [
+      [
+        4.902715826317727e-15,
+        3.017989107047198e-48,
+        5.38529044630877e-32
+      ],
+      [
+        3.017989107047198e-48,
+        4.902715826317725e-15,
+        2.326721327782469e-47
+      ],
+      [
+        5.38529044630877e-32,
+        2.326721327782469e-47,
+        6.227184847333013e-15
+      ]
+    ],
+    "moment_basis": "saved_native_CAD_solid_moments",
+    "fallback_reason": null,
+    "solid_body_names": [
+      "倒角5"
+    ],
+    "native_geometry": "G0164",
+    "native_file": "E:\\codex_work\\导出urdf\\work\\model_variant_compare_20261011\\sources\\raised_5mm\\A3.1IGUS 1.5X2.SLDPRT",
+    "normalization_center_source_m": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tessellation_volume_check": null,
+    "right_hand_derivation": "reflected normalized geometry frame; native_file and native labels refer to original left source evidence"
+  },
+  "G0020": {
+    "volume_m3": 2.605130047466725e-07,
+    "center_normalized_mesh_m": [
+      0.00021823304124629568,
+      -3.039874817756415e-05,
+      0.00015803354685438263
+    ],
+    "inertia_at_COM_density_1": [
+      [
+        4.188802823202528e-12,
+        -5.65222536307666e-15,
+        -1.081381090886702e-14
+      ],
+      [
+        -5.65222536307666e-15,
+        4.4985039323504575e-12,
+        1.0028189747576183e-13
+      ],
+      [
+        -1.081381090886702e-14,
+        1.0028189747576183e-13,
+        8.568005366868872e-12
+      ]
+    ],
+    "moment_basis": "saved_native_CAD_solid_moments",
+    "fallback_reason": null,
+    "solid_body_names": [
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-DRV8316CTQRGFRQ1_part_VQFN40_5X7-1/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_ImportedPartModels_DRV8316CTQRGFRQ1.STEP-1/DRV8316CTQRGFRQ1.STEP-1-solid41",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-RES_part_simplified_SR0402-2/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_Input_S_R0402.xtd-1/R0402-1-solid2",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-DRV8316CTQRGFRQ1_part_VQFN40_5X7-1/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_ImportedPartModels_DRV8316CTQRGFRQ1.STEP-1/DRV8316CTQRGFRQ1.STEP-1-solid37",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-CAP_part_simplified_SC0201-2/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_Input_S_C0201.xtd-1/C0201-1-solid1",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-TP_3039015195_part_TP1_0-1/Submodel-noModelForPart_TP_3039015195-1/placementOutline-0-1-solid1",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-DRV8316CTQRGFRQ1_part_VQFN40_5X7-1/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_ImportedPartModels_DRV8316CTQRGFRQ1.STEP-1/DRV8316CTQRGFRQ1.STEP-1-solid32",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-DRV8316CTQRGFRQ1_part_VQFN40_5X7-1/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_ImportedPartModels_DRV8316CTQRGFRQ1.STEP-1/DRV8316CTQRGFRQ1.STEP-1-solid18",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-C_part_simplified_SR0402-2/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_Input_S_R0402_0.xtd-1/R0402_0-1-solid1",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-DRV8316CTQRGFRQ1_part_VQFN40_5X7-1/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_ImportedPartModels_DRV8316CTQRGFRQ1.STEP-1/DRV8316CTQRGFRQ1.STEP-1-solid28",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-RES_part_SR0201-9/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_ImportedPartModels_R0201.STEP-1/R0201.STEP-1-solid2",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-CAP_part_simplified_SC0201-13/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_Input_S_C0201.xtd-1/C0201-1-solid2",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-DRV8316CTQRGFRQ1_part_VQFN40_5X7-1/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_ImportedPartModels_DRV8316CTQRGFRQ1.STEP-1/DRV8316CTQRGFRQ1.STEP-1-solid13",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-DRV8316CTQRGFRQ1_part_VQFN40_5X7-1/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_ImportedPartModels_DRV8316CTQRGFRQ1.STEP-1/DRV8316CTQRGFRQ1.STEP-1-solid23",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-RES_part_simplified_SR0402-1/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_Input_S_R0402.xtd-1/R0402-1-solid1",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-RES_part_SR0201-1/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_ImportedPartModels_R0201.STEP-1/R0201.STEP-1-solid2",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-TCAN3414DDFR_part_simplified_TSOT-23-8-1/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_Input_S_TSOT-23-8.xtd-1/TSOT-23-8-1-solid3",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-C_part_simplified_SR0402-1/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_Input_S_R0402_0.xtd-1/R0402_0-1-solid3",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-CAP_part_simplified_SC0201-11/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_Input_S_C0201.xtd-1/C0201-1-solid1",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-RES_part_SR0201-10/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_ImportedPartModels_R0201.STEP-1/R0201.STEP-1-solid1",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-CAP_part_simplified_SC0201-10/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_Input_S_C0201.xtd-1/C0201-1-solid2",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-TP_1850686518_part_P1D2H0D7-1/Submodel-noModelForPart_TP_1850686518-1/placementOutline-1-solid1",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-RES_part_simplified_SR0402-6/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_Input_S_R0402.xtd-1/R0402-1-solid1",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-DRV8316CTQRGFRQ1_part_VQFN40_5X7-1/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_ImportedPartModels_DRV8316CTQRGFRQ1.STEP-1/DRV8316CTQRGFRQ1.STEP-1-solid79",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-DRV8316CTQRGFRQ1_part_VQFN40_5X7-1/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_ImportedPartModels_DRV8316CTQRGFRQ1.STEP-1/DRV8316CTQRGFRQ1.STEP-1-solid74",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-RES_part_SR0201-12/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_ImportedPartModels_R0201.STEP-1/R0201.STEP-1-solid2",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-TCAN3414DDFR_part_simplified_TSOT-23-8-1/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_Input_S_TSOT-23-8.xtd-1/TSOT-23-8-1-solid9",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-DRV8316CTQRGFRQ1_part_VQFN40_5X7-1/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_ImportedPartModels_DRV8316CTQRGFRQ1.STEP-1/DRV8316CTQRGFRQ1.STEP-1-solid7",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-DRV8316CTQRGFRQ1_part_VQFN40_5X7-1/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_ImportedPartModels_DRV8316CTQRGFRQ1.STEP-1/DRV8316CTQRGFRQ1.STEP-1-solid65",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-CAP_part_simplified_SC0201-9/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_Input_S_C0201.xtd-1/C0201-1-solid1",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-RES_part_simplified_SR0402-5/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_Input_S_R0402.xtd-1/R0402-1-solid3",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-DRV8316CTQRGFRQ1_part_VQFN40_5X7-1/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_ImportedPartModels_DRV8316CTQRGFRQ1.STEP-1/DRV8316CTQRGFRQ1.STEP-1-solid60",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-DRV8316CTQRGFRQ1_part_VQFN40_5X7-1/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_ImportedPartModels_DRV8316CTQRGFRQ1.STEP-1/DRV8316CTQRGFRQ1.STEP-1-solid53",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-TP_2962010004_part_DIP_1_H0D7-3/Submodel-noModelForPart_TP_2962010004-1/placementOutline-1-1-solid1",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-RES_part_SR0201-2/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_ImportedPartModels_R0201.STEP-1/R0201.STEP-1-solid1",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-DRV8316CTQRGFRQ1_part_VQFN40_5X7-1/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_ImportedPartModels_DRV8316CTQRGFRQ1.STEP-1/DRV8316CTQRGFRQ1.STEP-1-solid49",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-CAP_part_simplified_SC0201-8/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_Input_S_C0201.xtd-1/C0201-1-solid2",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-DRV8316CTQRGFRQ1_part_VQFN40_5X7-1/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_ImportedPartModels_DRV8316CTQRGFRQ1.STEP-1/DRV8316CTQRGFRQ1.STEP-1-solid44",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-DRV8316CTQRGFRQ1_part_VQFN40_5X7-1/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_ImportedPartModels_DRV8316CTQRGFRQ1.STEP-1/DRV8316CTQRGFRQ1.STEP-1-solid4",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-DRV8316CTQRGFRQ1_part_VQFN40_5X7-1/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_ImportedPartModels_DRV8316CTQRGFRQ1.STEP-1/DRV8316CTQRGFRQ1.STEP-1-solid35",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-DRV8316CTQRGFRQ1_part_VQFN40_5X7-1/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_ImportedPartModels_DRV8316CTQRGFRQ1.STEP-1/DRV8316CTQRGFRQ1.STEP-1-solid30",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-RES_part_simplified_SR0402-4/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_Input_S_R0402.xtd-1/R0402-1-solid2",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-DRV8316CTQRGFRQ1_part_VQFN40_5X7-1/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_ImportedPartModels_DRV8316CTQRGFRQ1.STEP-1/DRV8316CTQRGFRQ1.STEP-1-solid16",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-RES_part_SR0201-4/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_ImportedPartModels_R0201.STEP-1/R0201.STEP-1-solid2",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-DRV8316CTQRGFRQ1_part_VQFN40_5X7-1/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_ImportedPartModels_DRV8316CTQRGFRQ1.STEP-1/DRV8316CTQRGFRQ1.STEP-1-solid26",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-DRV8316CTQRGFRQ1_part_VQFN40_5X7-1/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_ImportedPartModels_DRV8316CTQRGFRQ1.STEP-1/DRV8316CTQRGFRQ1.STEP-1-solid11",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-DRV8316CTQRGFRQ1_part_VQFN40_5X7-1/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_ImportedPartModels_DRV8316CTQRGFRQ1.STEP-1/DRV8316CTQRGFRQ1.STEP-1-solid21",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-CAP_part_simplified_SC0201-6/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_Input_S_C0201.xtd-1/C0201-1-solid1",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-C_part_simplified_SR0402-4/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_Input_S_R0402_0.xtd-1/R0402_0-1-solid1",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-TCAN3414DDFR_part_simplified_TSOT-23-8-1/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_Input_S_TSOT-23-8.xtd-1/TSOT-23-8-1-solid4",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-RES_part_SR0201-5/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_ImportedPartModels_R0201.STEP-1/R0201.STEP-1-solid1",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-CAP_part_simplified_SC0201-5/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_Input_S_C0201.xtd-1/C0201-1-solid2",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-RES_part_simplified_SR0402-3/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_Input_S_R0402.xtd-1/R0402-1-solid1",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-C_part_simplified_SR0402-3/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_Input_S_R0402_0.xtd-1/R0402_0-1-solid3",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-RES_part_SR0201-7/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_ImportedPartModels_R0201.STEP-1/R0201.STEP-1-solid2",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/uid__9223372036856639415-1-solid1",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-CAP_part_simplified_SC0201-3/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_Input_S_C0201.xtd-1/C0201-1-solid1",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-RES_part_simplified_SR0402-2/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_Input_S_R0402.xtd-1/R0402-1-solid3",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-DRV8316CTQRGFRQ1_part_VQFN40_5X7-1/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_ImportedPartModels_DRV8316CTQRGFRQ1.STEP-1/DRV8316CTQRGFRQ1.STEP-1-solid81",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-CAP_part_simplified_SC0201-2/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_Input_S_C0201.xtd-1/C0201-1-solid2",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-DRV8316CTQRGFRQ1_part_VQFN40_5X7-1/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_ImportedPartModels_DRV8316CTQRGFRQ1.STEP-1/DRV8316CTQRGFRQ1.STEP-1-solid77",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-DRV8316CTQRGFRQ1_part_VQFN40_5X7-1/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_ImportedPartModels_DRV8316CTQRGFRQ1.STEP-1/DRV8316CTQRGFRQ1.STEP-1-solid9",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-RES_part_SR0201-8/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_ImportedPartModels_R0201.STEP-1/R0201.STEP-1-solid1",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-TP_2962010004_part_DIP_1_H0D7-1/Submodel-noModelForPart_TP_2962010004-1/placementOutline-1-1-solid1",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-DRV8316CTQRGFRQ1_part_VQFN40_5X7-1/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_ImportedPartModels_DRV8316CTQRGFRQ1.STEP-1/DRV8316CTQRGFRQ1.STEP-1-solid72",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-C_part_simplified_SR0402-2/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_Input_S_R0402_0.xtd-1/R0402_0-1-solid2",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-DRV8316CTQRGFRQ1_part_VQFN40_5X7-1/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_ImportedPartModels_DRV8316CTQRGFRQ1.STEP-1/DRV8316CTQRGFRQ1.STEP-1-solid68",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-DRV8316CTQRGFRQ1_part_VQFN40_5X7-1/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_ImportedPartModels_DRV8316CTQRGFRQ1.STEP-1/DRV8316CTQRGFRQ1.STEP-1-solid63",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-DRV8316CTQRGFRQ1_part_VQFN40_5X7-1/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_ImportedPartModels_DRV8316CTQRGFRQ1.STEP-1/DRV8316CTQRGFRQ1.STEP-1-solid56",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-DRV8316CTQRGFRQ1_part_VQFN40_5X7-1/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_ImportedPartModels_DRV8316CTQRGFRQ1.STEP-1/DRV8316CTQRGFRQ1.STEP-1-solid59",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-DRV8316CTQRGFRQ1_part_VQFN40_5X7-1/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_ImportedPartModels_DRV8316CTQRGFRQ1.STEP-1/DRV8316CTQRGFRQ1.STEP-1-solid51",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-DRV8316CTQRGFRQ1_part_VQFN40_5X7-1/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_ImportedPartModels_DRV8316CTQRGFRQ1.STEP-1/DRV8316CTQRGFRQ1.STEP-1-solid47",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-RES_part_simplified_SR0402-1/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_Input_S_R0402.xtd-1/R0402-1-solid2",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-CAP_part_simplified_SC0201-12/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_Input_S_C0201.xtd-1/C0201-1-solid1",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-C_part_simplified_SR0402-1/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_Input_S_R0402_0.xtd-1/R0402_0-1-solid1",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-DRV8316CTQRGFRQ1_part_VQFN40_5X7-1/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_ImportedPartModels_DRV8316CTQRGFRQ1.STEP-1/DRV8316CTQRGFRQ1.STEP-1-solid42",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-DRV8316CTQRGFRQ1_part_VQFN40_5X7-1/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_ImportedPartModels_DRV8316CTQRGFRQ1.STEP-1/DRV8316CTQRGFRQ1.STEP-1-solid38",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-CAP_part_simplified_SC0201-11/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_Input_S_C0201.xtd-1/C0201-1-solid2",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-DRV8316CTQRGFRQ1_part_VQFN40_5X7-1/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_ImportedPartModels_DRV8316CTQRGFRQ1.STEP-1/DRV8316CTQRGFRQ1.STEP-1-solid33",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-DRV8316CTQRGFRQ1_part_VQFN40_5X7-1/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_ImportedPartModels_DRV8316CTQRGFRQ1.STEP-1/DRV8316CTQRGFRQ1.STEP-1-solid19",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-DRV8316CTQRGFRQ1_part_VQFN40_5X7-1/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_ImportedPartModels_DRV8316CTQRGFRQ1.STEP-1/DRV8316CTQRGFRQ1.STEP-1-solid29",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-RES_part_SR0201-10/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_ImportedPartModels_R0201.STEP-1/R0201.STEP-1-solid2",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-TP_3039015195_part_TP1_0-2/Submodel-noModelForPart_TP_3039015195-1/placementOutline-0-1-solid1",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-TCAN3414DDFR_part_simplified_TSOT-23-8-1/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_Input_S_TSOT-23-8.xtd-1/TSOT-23-8-1-solid5",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-DRV8316CTQRGFRQ1_part_VQFN40_5X7-1/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_ImportedPartModels_DRV8316CTQRGFRQ1.STEP-1/DRV8316CTQRGFRQ1.STEP-1-solid14",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-DRV8316CTQRGFRQ1_part_VQFN40_5X7-1/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_ImportedPartModels_DRV8316CTQRGFRQ1.STEP-1/DRV8316CTQRGFRQ1.STEP-1-solid24",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-DRV8316CTQRGFRQ1_part_VQFN40_5X7-1/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_ImportedPartModels_DRV8316CTQRGFRQ1.STEP-1/DRV8316CTQRGFRQ1.STEP-1-solid1",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-RES_part_simplified_SR0402-6/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_Input_S_R0402.xtd-1/R0402-1-solid2",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-RES_part_SR0201-11/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_ImportedPartModels_R0201.STEP-1/R0201.STEP-1-solid1",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-CAP_part_simplified_SC0201-1/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_Input_S_C0201.xtd-1/C0201-1-solid1",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-CAP_part_simplified_SC0201-9/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_Input_S_C0201.xtd-1/C0201-1-solid2",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-RES_part_SR0201-2/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_ImportedPartModels_R0201.STEP-1/R0201.STEP-1-solid2",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-RES_part_simplified_SR0402-5/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_Input_S_R0402.xtd-1/R0402-1-solid1",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-TP_1850686518_part_P1D2H0D7-2/Submodel-noModelForPart_TP_1850686518-1/placementOutline-1-solid1",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-DRV8316CTQRGFRQ1_part_VQFN40_5X7-1/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_ImportedPartModels_DRV8316CTQRGFRQ1.STEP-1/DRV8316CTQRGFRQ1.STEP-1-solid8",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-RES_part_SR0201-3/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_ImportedPartModels_R0201.STEP-1/R0201.STEP-1-solid1",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-DRV8316CTQRGFRQ1_part_VQFN40_5X7-1/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_ImportedPartModels_DRV8316CTQRGFRQ1.STEP-1/DRV8316CTQRGFRQ1.STEP-1-solid75",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-CAP_part_simplified_SC0201-7/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_Input_S_C0201.xtd-1/C0201-1-solid1",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-RES_part_simplified_SR0402-4/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_Input_S_R0402.xtd-1/R0402-1-solid3",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-DRV8316CTQRGFRQ1_part_VQFN40_5X7-1/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_ImportedPartModels_DRV8316CTQRGFRQ1.STEP-1/DRV8316CTQRGFRQ1.STEP-1-solid70",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-DRV8316CTQRGFRQ1_part_VQFN40_5X7-1/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_ImportedPartModels_DRV8316CTQRGFRQ1.STEP-1/DRV8316CTQRGFRQ1.STEP-1-solid66",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-CAP_part_simplified_SC0201-6/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_Input_S_C0201.xtd-1/C0201-1-solid2",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-DRV8316CTQRGFRQ1_part_VQFN40_5X7-1/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_ImportedPartModels_DRV8316CTQRGFRQ1.STEP-1/DRV8316CTQRGFRQ1.STEP-1-solid61",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-DRV8316CTQRGFRQ1_part_VQFN40_5X7-1/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_ImportedPartModels_DRV8316CTQRGFRQ1.STEP-1/DRV8316CTQRGFRQ1.STEP-1-solid54",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-DRV8316CTQRGFRQ1_part_VQFN40_5X7-1/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_ImportedPartModels_DRV8316CTQRGFRQ1.STEP-1/DRV8316CTQRGFRQ1.STEP-1-solid5",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-C_part_simplified_SR0402-4/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_Input_S_R0402_0.xtd-1/R0402_0-1-solid2",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-RES_part_SR0201-5/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_ImportedPartModels_R0201.STEP-1/R0201.STEP-1-solid2",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-DRV8316CTQRGFRQ1_part_VQFN40_5X7-1/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_ImportedPartModels_DRV8316CTQRGFRQ1.STEP-1/DRV8316CTQRGFRQ1.STEP-1-solid45",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-TP_2962010004_part_DIP_1_H0D7-4/Submodel-noModelForPart_TP_2962010004-1/placementOutline-1-1-solid1",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-DRV8316CTQRGFRQ1_part_VQFN40_5X7-1/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_ImportedPartModels_DRV8316CTQRGFRQ1.STEP-1/DRV8316CTQRGFRQ1.STEP-1-solid40",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-TCAN3414DDFR_part_simplified_TSOT-23-8-1/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_Input_S_TSOT-23-8.xtd-1/TSOT-23-8-1-solid6",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-DRV8316CTQRGFRQ1_part_VQFN40_5X7-1/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_ImportedPartModels_DRV8316CTQRGFRQ1.STEP-1/DRV8316CTQRGFRQ1.STEP-1-solid36",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-RES_part_simplified_SR0402-3/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_Input_S_R0402.xtd-1/R0402-1-solid2",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-DRV8316CTQRGFRQ1_part_VQFN40_5X7-1/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_ImportedPartModels_DRV8316CTQRGFRQ1.STEP-1/DRV8316CTQRGFRQ1.STEP-1-solid31",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-RES_part_SR0201-6/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_ImportedPartModels_R0201.STEP-1/R0201.STEP-1-solid1",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-DRV8316CTQRGFRQ1_part_VQFN40_5X7-1/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_ImportedPartModels_DRV8316CTQRGFRQ1.STEP-1/DRV8316CTQRGFRQ1.STEP-1-solid17",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-CAP_part_simplified_SC0201-4/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_Input_S_C0201.xtd-1/C0201-1-solid1",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-DRV8316CTQRGFRQ1_part_VQFN40_5X7-1/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_ImportedPartModels_DRV8316CTQRGFRQ1.STEP-1/DRV8316CTQRGFRQ1.STEP-1-solid27",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-DRV8316CTQRGFRQ1_part_VQFN40_5X7-1/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_ImportedPartModels_DRV8316CTQRGFRQ1.STEP-1/DRV8316CTQRGFRQ1.STEP-1-solid12",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-C_part_simplified_SR0402-3/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_Input_S_R0402_0.xtd-1/R0402_0-1-solid1",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-DRV8316CTQRGFRQ1_part_VQFN40_5X7-1/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_ImportedPartModels_DRV8316CTQRGFRQ1.STEP-1/DRV8316CTQRGFRQ1.STEP-1-solid22",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-CAP_part_simplified_SC0201-3/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_Input_S_C0201.xtd-1/C0201-1-solid2",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-RES_part_SR0201-8/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_ImportedPartModels_R0201.STEP-1/R0201.STEP-1-solid2",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-RES_part_simplified_SR0402-2/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_Input_S_R0402.xtd-1/R0402-1-solid1",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-C_part_simplified_SR0402-2/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_Input_S_R0402_0.xtd-1/R0402_0-1-solid3",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-TP_1750767557_part_DIP_1_H0D7-1/Submodel-noModelForPart_TP_1750767557-1/placementOutline-2-1-solid1",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-TCAN3414DDFR_part_simplified_TSOT-23-8-1/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_Input_S_TSOT-23-8.xtd-1/TSOT-23-8-1-solid1",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-RES_part_SR0201-9/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_ImportedPartModels_R0201.STEP-1/R0201.STEP-1-solid1",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-CAP_part_simplified_SC0201-13/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_Input_S_C0201.xtd-1/C0201-1-solid1",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-RES_part_simplified_SR0402-1/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_Input_S_R0402.xtd-1/R0402-1-solid3",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-CAP_part_simplified_SC0201-12/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_Input_S_C0201.xtd-1/C0201-1-solid2",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-DRV8316CTQRGFRQ1_part_VQFN40_5X7-1/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_ImportedPartModels_DRV8316CTQRGFRQ1.STEP-1/DRV8316CTQRGFRQ1.STEP-1-solid82",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-C_part_simplified_SR0402-1/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_Input_S_R0402_0.xtd-1/R0402_0-1-solid2",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-DRV8316CTQRGFRQ1_part_VQFN40_5X7-1/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_ImportedPartModels_DRV8316CTQRGFRQ1.STEP-1/DRV8316CTQRGFRQ1.STEP-1-solid78",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-RES_part_SR0201-1/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_ImportedPartModels_R0201.STEP-1/R0201.STEP-1-solid1",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-DRV8316CTQRGFRQ1_part_VQFN40_5X7-1/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_ImportedPartModels_DRV8316CTQRGFRQ1.STEP-1/DRV8316CTQRGFRQ1.STEP-1-solid73",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-TP_2962010004_part_DIP_1_H0D7-2/Submodel-noModelForPart_TP_2962010004-1/placementOutline-1-1-solid1",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-DRV8316CTQRGFRQ1_part_VQFN40_5X7-1/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_ImportedPartModels_DRV8316CTQRGFRQ1.STEP-1/DRV8316CTQRGFRQ1.STEP-1-solid69",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-DRV8316CTQRGFRQ1_part_VQFN40_5X7-1/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_ImportedPartModels_DRV8316CTQRGFRQ1.STEP-1/DRV8316CTQRGFRQ1.STEP-1-solid64",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-DRV8316CTQRGFRQ1_part_VQFN40_5X7-1/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_ImportedPartModels_DRV8316CTQRGFRQ1.STEP-1/DRV8316CTQRGFRQ1.STEP-1-solid57",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-DRV8316CTQRGFRQ1_part_VQFN40_5X7-1/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_ImportedPartModels_DRV8316CTQRGFRQ1.STEP-1/DRV8316CTQRGFRQ1.STEP-1-solid52",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-DRV8316CTQRGFRQ1_part_VQFN40_5X7-1/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_ImportedPartModels_DRV8316CTQRGFRQ1.STEP-1/DRV8316CTQRGFRQ1.STEP-1-solid6",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-CAP_part_simplified_SC0201-10/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_Input_S_C0201.xtd-1/C0201-1-solid1",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-BM28B06-6DS-2-035V_part_BM28B0D6_6DS-1/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_ImportedPartModels_BM28B06-6DS-2-035V.STEP-1/BM28B06-6DS-2-035V.STEP-1-solid1",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-XB431-TL_part_simplified_SOT-23-3-1/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_Input_S_SOT-23-3.xtd-1/SOT-23-3-1-solid1",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-DRV8316CTQRGFRQ1_part_VQFN40_5X7-1/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_ImportedPartModels_DRV8316CTQRGFRQ1.STEP-1/DRV8316CTQRGFRQ1.STEP-1-solid48",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-RES_part_SR0201-11/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_ImportedPartModels_R0201.STEP-1/R0201.STEP-1-solid2",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-TCAN3414DDFR_part_simplified_TSOT-23-8-1/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_Input_S_TSOT-23-8.xtd-1/TSOT-23-8-1-solid7",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-RES_part_simplified_SR0402-6/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_Input_S_R0402.xtd-1/R0402-1-solid3",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-DRV8316CTQRGFRQ1_part_VQFN40_5X7-1/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_ImportedPartModels_DRV8316CTQRGFRQ1.STEP-1/DRV8316CTQRGFRQ1.STEP-1-solid43",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-STM32G431CBY6TR_part_WLCSP-49-1/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_ImportedPartModels_STM32G431CBY6TR.STEP-1/STM32G431CBY6TR.STEP-1-solid1",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-CAP_part_simplified_SC0201-1/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_Input_S_C0201.xtd-1/C0201-1-solid2",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-TVS-D-1A2C_part_simplified_DFN1006-3/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_Input_S_DFN1006.xtd-1/DFN1006-1-solid1",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-DRV8316CTQRGFRQ1_part_VQFN40_5X7-1/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_ImportedPartModels_DRV8316CTQRGFRQ1.STEP-1/DRV8316CTQRGFRQ1.STEP-1-solid39",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-DRV8316CTQRGFRQ1_part_VQFN40_5X7-1/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_ImportedPartModels_DRV8316CTQRGFRQ1.STEP-1/DRV8316CTQRGFRQ1.STEP-1-solid34",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-DRV8316CTQRGFRQ1_part_VQFN40_5X7-1/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_ImportedPartModels_DRV8316CTQRGFRQ1.STEP-1/DRV8316CTQRGFRQ1.STEP-1-solid2",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-RES_part_SR0201-12/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_ImportedPartModels_R0201.STEP-1/R0201.STEP-1-solid1",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-TVS-D-1A2C_part_simplified_DFN1006-2/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_Input_S_DFN1006.xtd-1/DFN1006-1-solid1",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-DIODE_LED_S_part_simplified_LED0603H0_8-1/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_Input_S_LED0603.xtd-1/LED0603-1-solid2",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-DRV8316CTQRGFRQ1_part_VQFN40_5X7-1/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_ImportedPartModels_DRV8316CTQRGFRQ1.STEP-1/DRV8316CTQRGFRQ1.STEP-1-solid3",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-DRV8316CTQRGFRQ1_part_VQFN40_5X7-1/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_ImportedPartModels_DRV8316CTQRGFRQ1.STEP-1/DRV8316CTQRGFRQ1.STEP-1-solid15",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-DRV8316CTQRGFRQ1_part_VQFN40_5X7-1/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_ImportedPartModels_DRV8316CTQRGFRQ1.STEP-1/DRV8316CTQRGFRQ1.STEP-1-solid25",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-RES_part_simplified_SR0402-5/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_Input_S_R0402.xtd-1/R0402-1-solid2",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-DRV8316CTQRGFRQ1_part_VQFN40_5X7-1/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_ImportedPartModels_DRV8316CTQRGFRQ1.STEP-1/DRV8316CTQRGFRQ1.STEP-1-solid10",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-TVS-D-1A2C_part_simplified_DFN1006-1/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_Input_S_DFN1006.xtd-1/DFN1006-1-solid1",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-DRV8316CTQRGFRQ1_part_VQFN40_5X7-1/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_ImportedPartModels_DRV8316CTQRGFRQ1.STEP-1/DRV8316CTQRGFRQ1.STEP-1-solid20",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-CAP_part_simplified_SC0201-8/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_Input_S_C0201.xtd-1/C0201-1-solid1",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-RES_part_SR0201-3/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_ImportedPartModels_R0201.STEP-1/R0201.STEP-1-solid2",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-DIODE_LED_S_part_simplified_LED0603H0_8-1/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_Input_S_LED0603.xtd-1/LED0603-1-solid1",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-CAP_part_simplified_SC0201-7/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_Input_S_C0201.xtd-1/C0201-1-solid2",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-TCAN3414DDFR_part_simplified_TSOT-23-8-1/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_Input_S_TSOT-23-8.xtd-1/TSOT-23-8-1-solid2",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-RES_part_simplified_SR0402-4/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_Input_S_R0402.xtd-1/R0402-1-solid1",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-RES_part_SR0201-4/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_ImportedPartModels_R0201.STEP-1/R0201.STEP-1-solid1",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-C_part_simplified_SR0402-4/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_Input_S_R0402_0.xtd-1/R0402_0-1-solid3",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-DRV8316CTQRGFRQ1_part_VQFN40_5X7-1/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_ImportedPartModels_DRV8316CTQRGFRQ1.STEP-1/DRV8316CTQRGFRQ1.STEP-1-solid80",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-TP_1850686518_part_P1D2H0D7-3/Submodel-noModelForPart_TP_1850686518-1/placementOutline-1-solid1",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-CAP_part_simplified_SC0201-5/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_Input_S_C0201.xtd-1/C0201-1-solid1",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-RES_part_simplified_SR0402-3/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_Input_S_R0402.xtd-1/R0402-1-solid3",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-DRV8316CTQRGFRQ1_part_VQFN40_5X7-1/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_ImportedPartModels_DRV8316CTQRGFRQ1.STEP-1/DRV8316CTQRGFRQ1.STEP-1-solid83",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-DRV8316CTQRGFRQ1_part_VQFN40_5X7-1/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_ImportedPartModels_DRV8316CTQRGFRQ1.STEP-1/DRV8316CTQRGFRQ1.STEP-1-solid76",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-RES_part_SR0201-6/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_ImportedPartModels_R0201.STEP-1/R0201.STEP-1-solid2",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-DRV8316CTQRGFRQ1_part_VQFN40_5X7-1/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_ImportedPartModels_DRV8316CTQRGFRQ1.STEP-1/DRV8316CTQRGFRQ1.STEP-1-solid71",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-CAP_part_simplified_SC0201-4/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_Input_S_C0201.xtd-1/C0201-1-solid2",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-DRV8316CTQRGFRQ1_part_VQFN40_5X7-1/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_ImportedPartModels_DRV8316CTQRGFRQ1.STEP-1/DRV8316CTQRGFRQ1.STEP-1-solid67",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-C_part_simplified_SR0402-3/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_Input_S_R0402_0.xtd-1/R0402_0-1-solid2",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-TCAN3414DDFR_part_simplified_TSOT-23-8-1/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_Input_S_TSOT-23-8.xtd-1/TSOT-23-8-1-solid8",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-DRV8316CTQRGFRQ1_part_VQFN40_5X7-1/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_ImportedPartModels_DRV8316CTQRGFRQ1.STEP-1/DRV8316CTQRGFRQ1.STEP-1-solid62",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-DRV8316CTQRGFRQ1_part_VQFN40_5X7-1/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_ImportedPartModels_DRV8316CTQRGFRQ1.STEP-1/DRV8316CTQRGFRQ1.STEP-1-solid55",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-DRV8316CTQRGFRQ1_part_VQFN40_5X7-1/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_ImportedPartModels_DRV8316CTQRGFRQ1.STEP-1/DRV8316CTQRGFRQ1.STEP-1-solid58",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-DRV8316CTQRGFRQ1_part_VQFN40_5X7-1/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_ImportedPartModels_DRV8316CTQRGFRQ1.STEP-1/DRV8316CTQRGFRQ1.STEP-1-solid50",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-RES_part_SR0201-7/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_ImportedPartModels_R0201.STEP-1/R0201.STEP-1-solid1",
+      "GHA3D2-JOINT-V0_260821-1(2)-1/DesignRootModel-1/Submodel-DRV8316CTQRGFRQ1_part_VQFN40_5X7-1/Submodel-C__Users_jiang_Desktop_hand_A3_A3D2_SCH_GHA3D2-JOINT-V0_260821_PCB_3D_ImportedPartModels_DRV8316CTQRGFRQ1.STEP-1/DRV8316CTQRGFRQ1.STEP-1-solid46"
+    ],
+    "native_geometry": "G0176",
+    "native_file": "E:\\codex_work\\导出urdf\\work\\model_variant_compare_20261011\\sources\\raised_5mm\\GHA3D2-JOINT-V0_260821-1.SLDPRT",
+    "normalization_center_source_m": [
+      -0.006499987386632711,
+      0.006492749787867069,
+      0.0004753547837026417
+    ],
+    "tessellation_volume_check": null,
+    "right_hand_derivation": "reflected normalized geometry frame; native_file and native labels refer to original left source evidence"
+  },
+  "G0015": {
+    "volume_m3": 4.65314847972435e-07,
+    "center_normalized_mesh_m": [
+      0.0014443437322974543,
+      -0.0030042188980499668,
+      7.663160467105408e-06
+    ],
+    "inertia_at_COM_density_1": [
+      [
+        9.34731568535509e-12,
+        -2.944867597325239e-14,
+        -3.428140772667651e-14
+      ],
+      [
+        -2.944867597325239e-14,
+        2.9246599099304716e-11,
+        -8.603809294131899e-16
+      ],
+      [
+        -3.428140772667651e-14,
+        -8.603809294131899e-16,
+        2.3162615363653753e-11
+      ]
+    ],
+    "moment_basis": "saved_native_CAD_solid_moments",
+    "fallback_reason": null,
+    "solid_body_names": [
+      "倒角25"
+    ],
+    "native_geometry": "G0175",
+    "native_file": "E:\\codex_work\\导出urdf\\work\\model_variant_compare_20261011\\sources\\raised_5mm\\A3.2 bend motor basic support.SLDPRT",
+    "normalization_center_source_m": [
+      -0.011059584910981357,
+      -0.0027615262661129236,
+      0.0
+    ],
+    "tessellation_volume_check": null,
+    "right_hand_derivation": "reflected normalized geometry frame; native_file and native labels refer to original left source evidence"
+  },
+  "G0009": {
+    "volume_m3": 9.302871064871104e-09,
+    "center_normalized_mesh_m": [
+      1.1003285180793555e-06,
+      3.4584050480572866e-10,
+      9.53574203808636e-05
+    ],
+    "inertia_at_COM_density_1": [
+      [
+        2.554350547620959e-14,
+        -6.072246357225204e-29,
+        4.5007062067847315e-29
+      ],
+      [
+        -6.072246357225204e-29,
+        2.541980757475741e-14,
+        1.4430373599637383e-20
+      ],
+      [
+        4.5007062067847315e-29,
+        1.4430373599637383e-20,
+        2.5478155120220604e-15
+      ]
+    ],
+    "moment_basis": "saved_native_CAD_solid_moments",
+    "fallback_reason": null,
+    "solid_body_names": [
+      "倒角3"
+    ],
+    "native_geometry": "G0169",
+    "native_file": "E:\\codex_work\\导出urdf\\work\\model_variant_compare_20261011\\sources\\raised_5mm\\A3.1M1.4X2-1.5X6.SLDPRT",
+    "normalization_center_source_m": [
+      -1.1003285180777311e-06,
+      0.0,
+      0.0
+    ],
+    "tessellation_volume_check": null,
+    "right_hand_derivation": "reflected normalized geometry frame; native_file and native labels refer to original left source evidence"
+  },
+  "G0019": {
+    "volume_m3": 6.3705648026346396e-09,
+    "center_normalized_mesh_m": [
+      -3.0090456012538854e-20,
+      7.18208415114096e-21,
+      -0.00033635413016314705
+    ],
+    "inertia_at_COM_density_1": [
+      [
+        7.150681604550451e-15,
+        -3.331858803789918e-32,
+        -3.5537593687640136e-31
+      ],
+      [
+        -3.331858803789918e-32,
+        7.150681604550451e-15,
+        8.552920695420008e-32
+      ],
+      [
+        -3.5537593687640136e-31,
+        8.552920695420008e-32,
+        3.169753180725339e-15
+      ]
+    ],
+    "moment_basis": "saved_native_CAD_solid_moments",
+    "fallback_reason": null,
+    "solid_body_names": [
+      "M1.4 机械螺纹 螺柱1"
+    ],
+    "native_geometry": "G0174",
+    "native_file": "E:\\codex_work\\导出urdf\\work\\model_variant_compare_20261011\\sources\\raised_5mm\\M1.4X2.5梅花头扁头螺钉.SLDPRT",
+    "normalization_center_source_m": [
+      0.0,
+      0.0,
+      0.001550000044517219
+    ],
+    "tessellation_volume_check": null,
+    "right_hand_derivation": "reflected normalized geometry frame; native_file and native labels refer to original left source evidence"
+  },
+  "G0022": {
+    "volume_m3": 9.363351570649752e-07,
+    "center_normalized_mesh_m": [
+      -2.8598850425941825e-08,
+      0.001953039868062746,
+      0.0031205873495370106
+    ],
+    "inertia_at_COM_density_1": [
+      [
+        6.724918583905508e-11,
+        7.086140634392577e-17,
+        9.909144911261872e-17
+      ],
+      [
+        7.086140634392577e-17,
+        1.0977074082724717e-10,
+        7.511540665342086e-12
+      ],
+      [
+        9.909144911261872e-17,
+        7.511540665342086e-12,
+        8.361128803120887e-11
+      ]
+    ],
+    "moment_basis": "saved_native_CAD_solid_moments",
+    "fallback_reason": null,
+    "solid_body_names": [
+      "FINGER3-XIA[2]"
+    ],
+    "native_geometry": "G0177",
+    "native_file": "E:\\codex_work\\导出urdf\\work\\model_variant_compare_20261011\\sources\\raised_5mm\\Index, ring&middle finger swing motro cover.SLDPRT",
+    "normalization_center_source_m": [
+      0.0,
+      0.00884469598531723,
+      -0.00977500039152801
+    ],
+    "tessellation_volume_check": null,
+    "right_hand_derivation": "reflected normalized geometry frame; native_file and native labels refer to original left source evidence"
+  },
+  "G_X16_HOUSING": {
+    "volume_m3": 2.9518980824825696e-06,
+    "center_normalized_mesh_m": [
+      -0.00040961331463386,
+      -0.0012046944581125259,
+      -7.553359765460382e-05
+    ],
+    "inertia_at_COM_density_1": [
+      [
+        1.2674731675509924e-10,
+        1.2026087080080158e-12,
+        -4.1129189954482134e-13
+      ],
+      [
+        1.2026087080080158e-12,
+        1.1170169593771672e-10,
+        -5.392953383079935e-13
+      ],
+      [
+        -4.1129189954482134e-13,
+        -5.392953383079935e-13,
+        1.2555859398396338e-10
+      ]
+    ],
+    "moment_basis": "saved_native_CAD_solid_moments",
+    "fallback_reason": null,
+    "solid_body_names": [
+      "x16s_final.stp-1/X16S-0825_B_ASM_1_ASM.stp-1/X16S-UM304050-MH-1_ASM_3_ASM_1_ASM.stp-1/ASM0004_ASM_1_ASM_1_ASM_1_ASM.stp-1/X16L-UM50-MH-1_ASM_1_1_2_3_ASM__ASM.stp-1/16MML_ASM_1_ASM_1_1_2_3_ASM_1_A_ASM.stp-1/16MML_ASM_1_ASM_1_ASM_1_1_2_3_A_ASM.stp-1/ZUZHUANG_ASM_ASM_1_ASM_1_ASM__3_ASM.stp-1/YUANZHU_4_1_1_1_1_2_3_1_1_1_1.stp-1-solid1",
+      "x16s_final.stp-1/X16S-0825_B_ASM_1_ASM.stp-1/X16S-UM304050-MH-1_ASM_3_ASM_1_ASM.stp-1/ASM0004_ASM_1_ASM_1_ASM_1_ASM.stp-1/X16L-UM50-MH-1_ASM_1_1_2_3_ASM__ASM.stp-1/XIAO_1_1_1_1_2_3_1_1_1_1.stp-2-solid1",
+      "x16s_final.stp-1/16MM_STP_ASM.stp-1/16MM_STP_1_ASM.stp-1/BOARD_OUTLINE.stp-1-solid1",
+      "x16s_final.stp-1/X16S-0825_B_ASM_1_ASM.stp-1/X16S-UM304050-MH-1_ASM_3_ASM_1_ASM.stp-1/ASM0004_ASM_1_ASM_1_ASM_1_ASM.stp-1/X16L-UM50-MH-1_ASM_1_1_2_3_ASM__ASM.stp-1/XIAO_1_1_1_1_2_3_1_1_1_1.stp-4-solid1",
+      "x16s_final.stp-1/X16S-0825_B_ASM_1_ASM.stp-1/X16S-UM304050-MH-1_ASM_3_ASM_1_ASM.stp-1/ASM0004_ASM_1_ASM_1_ASM_1_ASM.stp-1/X16L-UM50-MH-1_ASM_1_1_2_3_ASM__ASM.stp-1/XIAO_1_1_1_1_2_3_1_1_1_1.stp-6-solid1",
+      "x16s_final.stp-1/X16S-0825_B_ASM_1_ASM.stp-1/X16S-UM304050-MH-1_ASM_3_ASM_1_ASM.stp-1/ASM0004_ASM_1_ASM_1_ASM_1_ASM.stp-1/X16L-UM50-MH-1_ASM_1_1_2_3_ASM__ASM.stp-1/XIAO_1_1_1_1_2_3_1_1_1_1.stp-8-solid1",
+      "x16s_final.stp-1/X16S-0825_B_ASM_1_ASM.stp-1/X16S-UM304050-MH-1_ASM_3_ASM_1_ASM.stp-1/ASM0004_ASM_1_ASM_1_ASM_1_ASM.stp-1/X16L-UM50-MH-1_ASM_1_1_2_3_ASM__ASM.stp-1/16MML_ASM_1_ASM_1_1_2_3_ASM_1_A_ASM.stp-1/16MML_ASM_1_ASM_1_ASM_1_1_2_3_A_ASM.stp-1/ZUZHUANG_ASM_ASM_1_ASM_1_ASM__3_ASM.stp-1/YUANZHU1_1_1_1_1_1_2_3_1_1_1_1.stp-1-solid1",
+      "x16s_final.stp-1/FCG.stp-1-solid1",
+      "x16s_final.stp-1/PLATEX.stp-1-solid1",
+      "x16s_final.stp-1/FPCX.stp-1-solid1",
+      "x16s_final.stp-1/X16S-0825_B_ASM_1_ASM.stp-1/X16S-UM304050-MH-1_ASM_3_ASM_1_ASM.stp-1/ASM0004_ASM_1_ASM_1_ASM_1_ASM.stp-1/X16L-UM50-MH-1_ASM_1_1_2_3_ASM__ASM.stp-1/XIAO_1_1_1_1_2_3_1_1_1_1.stp-1-solid1",
+      "x16s_final.stp-1/X16S-0825_B_ASM_1_ASM.stp-1/X16S-UM304050-MH-1_ASM_3_ASM_1_ASM.stp-1/ASM0004_ASM_1_ASM_1_ASM_1_ASM.stp-1/X16L-UM50-MH-1_ASM_1_1_2_3_ASM__ASM.stp-1/XIAO_1_1_1_1_2_3_1_1_1_1.stp-3-solid1",
+      "x16s_final.stp-1/X16S-0825_B_ASM_1_ASM.stp-1/X16S-UM304050-MH-1_ASM_3_ASM_1_ASM.stp-1/ASM0004_ASM_1_ASM_1_ASM_1_ASM.stp-1/X16L-UM50-MH-1_ASM_1_1_2_3_ASM__ASM.stp-1/XIAO_1_1_1_1_2_3_1_1_1_1.stp-5-solid1",
+      "x16s_final.stp-1/X16S-0825_B_ASM_1_ASM.stp-1/X16S-UM304050-MH-1_ASM_3_ASM_1_ASM.stp-1/ASM0004_ASM_1_ASM_1_ASM_1_ASM.stp-1/X16L-UM50-MH-1_ASM_1_1_2_3_ASM__ASM.stp-1/XIAO_1_1_1_1_2_3_1_1_1_1.stp-7-solid1",
+      "x16s_final.stp-1/JIKE.stp-1-solid1",
+      "x16s_final.stp-1/X16S-0825_B_ASM_1_ASM.stp-1/X16S-UM304050-MH-1_ASM_3_ASM_1_ASM.stp-1/ASM0004_ASM_1_ASM_1_ASM_1_ASM.stp-1/BEARING_1_1_1.stp-1-solid1"
+    ],
+    "native_geometry": "G0178",
+    "native_file": "E:\\codex_work\\导出urdf\\work\\model_variant_compare_20261011\\sources\\raised_5mm\\x16s_final.SLDPRT",
+    "normalization_center_source_m": [
+      -1.666555181145668e-05,
+      0.005300000077113509,
+      0.00011206930503249168
+    ],
+    "tessellation_volume_check": null,
+    "right_hand_derivation": "reflected normalized geometry frame; native_file and native labels refer to original left source evidence"
+  },
+  "G0023": {
+    "volume_m3": 8.846217011551799e-09,
+    "center_normalized_mesh_m": [
+      1.3973713700072134e-19,
+      -1.7192929172775416e-19,
+      -0.0003193716649073663
+    ],
+    "inertia_at_COM_density_1": [
+      [
+        1.297082161913032e-14,
+        -7.967572179929996e-31,
+        1.7098666109920973e-30
+      ],
+      [
+        -7.967572179929996e-31,
+        1.2970821619130316e-14,
+        -1.6635979258189374e-30
+      ],
+      [
+        1.7098666109920973e-30,
+        -1.6635979258189374e-30,
+        6.01940946564096e-15
+      ]
+    ],
+    "moment_basis": "saved_native_CAD_solid_moments",
+    "fallback_reason": null,
+    "solid_body_names": [
+      "倒角2"
+    ],
+    "native_geometry": "G0154",
+    "native_file": "E:\\codex_work\\导出urdf\\work\\model_variant_compare_20261011\\sources\\raised_5mm\\M1.6X3.5梅花沉头螺钉 GB2673.SLDPRT",
+    "normalization_center_source_m": [
+      0.0,
+      0.0,
+      0.0017500000540167093
+    ],
+    "tessellation_volume_check": null,
+    "right_hand_derivation": "reflected normalized geometry frame; native_file and native labels refer to original left source evidence"
+  },
+  "G0027": {
+    "volume_m3": 1.1862145958997988e-08,
+    "center_normalized_mesh_m": [
+      1.5189142957375886e-19,
+      -1.3736066015087517e-19,
+      -0.000363062992650545
+    ],
+    "inertia_at_COM_density_1": [
+      [
+        3.1387352396488593e-14,
+        -6.958384889071086e-31,
+        2.9573519678709224e-30
+      ],
+      [
+        -6.958384889071086e-31,
+        3.138735239648858e-14,
+        -2.8115461124459813e-30
+      ],
+      [
+        2.9573519678709224e-30,
+        -2.8115461124459813e-30,
+        6.984506728823737e-15
+      ]
+    ],
+    "moment_basis": "saved_native_CAD_solid_moments",
+    "fallback_reason": null,
+    "solid_body_names": [
+      "倒角2"
+    ],
+    "native_geometry": "G0149",
+    "native_file": "E:\\codex_work\\导出urdf\\work\\model_variant_compare_20261011\\sources\\raised_5mm\\M1.6X5梅花沉头螺钉 GB2673.SLDPRT",
+    "normalization_center_source_m": [
+      0.0,
+      0.0,
+      0.0024999999441206455
+    ],
+    "tessellation_volume_check": null,
+    "right_hand_derivation": "reflected normalized geometry frame; native_file and native labels refer to original left source evidence"
+  },
+  "G0024": {
+    "volume_m3": 4.956118535170175e-07,
+    "center_normalized_mesh_m": [
+      2.1288508448703273e-05,
+      -0.001816387330051657,
+      0.0009181066300297513
+    ],
+    "inertia_at_COM_density_1": [
+      [
+        1.9599646922045722e-11,
+        -3.674221935342316e-14,
+        -6.26485827131341e-15
+      ],
+      [
+        -3.674221935342316e-14,
+        1.2809579279253965e-11,
+        -1.1921473117104916e-12
+      ],
+      [
+        -6.26485827131341e-15,
+        -1.1921473117104916e-12,
+        3.1234871014299483e-11
+      ]
+    ],
+    "moment_basis": "saved_native_CAD_solid_moments",
+    "fallback_reason": null,
+    "solid_body_names": [
+      "倒角14"
+    ],
+    "native_geometry": "G0150",
+    "native_file": "E:\\codex_work\\导出urdf\\work\\model_variant_compare_20261011\\sources\\raised_5mm\\A3.2 Motor flange.SLDPRT",
+    "normalization_center_source_m": [
+      0.0,
+      0.001786207314580679,
+      -0.001500000071246177
+    ],
+    "tessellation_volume_check": null,
+    "right_hand_derivation": "reflected normalized geometry frame; native_file and native labels refer to original left source evidence"
+  },
+  "G0028": {
+    "volume_m3": 3.2341857210031887e-06,
+    "center_normalized_mesh_m": [
+      0.002895896753017974,
+      3.904903645467278e-06,
+      -0.002092996113044249
+    ],
+    "inertia_at_COM_density_1": [
+      [
+        4.207898917639534e-10,
+        -1.1553367704099795e-13,
+        -8.767198134906827e-12
+      ],
+      [
+        -1.1553367704099795e-13,
+        4.924369969713804e-10,
+        1.1015868236944088e-13
+      ],
+      [
+        -8.767198134906827e-12,
+        1.1015868236944088e-13,
+        2.990010613845446e-10
+      ]
+    ],
+    "moment_basis": "saved_native_CAD_solid_moments",
+    "fallback_reason": null,
+    "solid_body_names": [
+      "A32F2V1_定子尾部挡磁片S1-1-solid1",
+      "A32F2V1_定子内支撑管S1-1-solid1",
+      "A32F2V1_定子固定件S1-1-solid1",
+      "A32F2V1_走线槽S1-1-solid2",
+      "A32F123V1_管接头-1-solid1",
+      "A32F123V1_管接头-2-solid1",
+      "A32F2V1_定子前端盖S1-1-solid1",
+      "A32F2V1_走线槽S1-1-solid1",
+      "A32F123V1_管接头-3-solid1",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid248",
+      "A32F2V1_定子外壳S1-1-solid1",
+      "A32F123V1_管接头-4-solid1",
+      "A32F2V1_散热通道S1-2-solid1",
+      "A32F2V1_驱动板S1-1-solid1"
+    ],
+    "native_geometry": "G0152",
+    "native_file": "E:\\codex_work\\导出urdf\\work\\model_variant_compare_20261011\\sources\\raised_5mm\\A32F2V1装配体_定子S1.SLDPRT",
+    "normalization_center_source_m": [
+      0.9850531220436096,
+      1.0158451795578003,
+      0.9995042383670807
+    ],
+    "tessellation_volume_check": null,
+    "right_hand_derivation": "reflected normalized geometry frame; native_file and native labels refer to original left source evidence"
+  },
+  "G0025": {
+    "volume_m3": 9.92932720816649e-07,
+    "center_normalized_mesh_m": [
+      -3.1487472981084417e-06,
+      -0.0007604440610130964,
+      0.0011163743331759758
+    ],
+    "inertia_at_COM_density_1": [
+      [
+        1.1238164271473528e-10,
+        -4.9987510814372475e-14,
+        -9.766402353125068e-15
+      ],
+      [
+        -4.9987510814372475e-14,
+        8.675292664517613e-11,
+        1.8709147742078256e-12
+      ],
+      [
+        -9.766402353125068e-15,
+        1.8709147742078256e-12,
+        1.745960478773834e-10
+      ]
+    ],
+    "moment_basis": "saved_native_CAD_solid_moments",
+    "fallback_reason": null,
+    "solid_body_names": [
+      "FINGER3-XIA[1]"
+    ],
+    "native_geometry": "G0151",
+    "native_file": "E:\\codex_work\\导出urdf\\work\\model_variant_compare_20261011\\sources\\raised_5mm\\Index, ring&middle finger PIP cover.SLDPRT",
+    "normalization_center_source_m": [
+      0.0,
+      0.03155000088736415,
+      -0.00414999999338761
+    ],
+    "tessellation_volume_check": null,
+    "right_hand_derivation": "reflected normalized geometry frame; native_file and native labels refer to original left source evidence"
+  },
+  "G0029": {
+    "volume_m3": 3.1122711221562883e-09,
+    "center_normalized_mesh_m": [
+      -1.1265611665379857e-20,
+      -9.997546861453419e-52,
+      -9.499490256914545e-11
+    ],
+    "inertia_at_COM_density_1": [
+      [
+        4.268565714236548e-15,
+        -1.328187263525352e-49,
+        -1.5852698339368373e-47
+      ],
+      [
+        -1.328187263525352e-49,
+        4.268565714236548e-15,
+        3.108366131310171e-48
+      ],
+      [
+        -1.5852698339368373e-47,
+        3.108366131310171e-48,
+        3.862650999441723e-16
+      ]
+    ],
+    "moment_basis": "saved_native_CAD_solid_moments",
+    "fallback_reason": null,
+    "solid_body_names": [
+      "倒角1"
+    ],
+    "native_geometry": "G0153",
+    "native_file": "E:\\codex_work\\导出urdf\\work\\model_variant_compare_20261011\\sources\\raised_5mm\\Pin D1XL4.SLDPRT",
+    "normalization_center_source_m": [
+      0.0,
+      0.0,
+      0.0020000000949949026
+    ],
+    "tessellation_volume_check": null,
+    "right_hand_derivation": "reflected normalized geometry frame; native_file and native labels refer to original left source evidence"
+  },
+  "G0026": {
+    "volume_m3": 4.702962771274757e-07,
+    "center_normalized_mesh_m": [
+      1.778952723523533e-05,
+      0.00037594199555089636,
+      2.7358222613356464e-06
+    ],
+    "inertia_at_COM_density_1": [
+      [
+        1.906792241353236e-11,
+        -5.143648195505579e-15,
+        -6.783633453940996e-15
+      ],
+      [
+        -5.143648195505579e-15,
+        5.1692324954254566e-12,
+        -5.7258928703161414e-15
+      ],
+      [
+        -6.783633453940996e-15,
+        -5.7258928703161414e-15,
+        2.3939261156180686e-11
+      ]
+    ],
+    "moment_basis": "saved_native_CAD_solid_moments",
+    "fallback_reason": null,
+    "solid_body_names": [
+      "实体-移动/复制1"
+    ],
+    "native_geometry": "G0155",
+    "native_file": "E:\\codex_work\\导出urdf\\work\\model_variant_compare_20261011\\sources\\raised_5mm\\Index, ring&middle finger PIP rubber.SLDPRT",
+    "normalization_center_source_m": [
+      -0.030893661081790924,
+      -0.011758831329641943,
+      0.0010337412822988615
+    ],
+    "tessellation_volume_check": null,
+    "right_hand_derivation": "reflected normalized geometry frame; native_file and native labels refer to original left source evidence"
+  },
+  "G_X16_OUTPUT": {
+    "volume_m3": 3.285202643487024e-07,
+    "center_normalized_mesh_m": [
+      4.1541765973072386e-07,
+      -0.00014124862229968754,
+      4.028715947058503e-05
+    ],
+    "inertia_at_COM_density_1": [
+      [
+        4.719530124424679e-12,
+        1.2416458861288416e-16,
+        8.441759467922181e-16
+      ],
+      [
+        1.2416458861288416e-16,
+        8.759207848595091e-12,
+        1.2028655918612286e-14
+      ],
+      [
+        8.441759467922181e-16,
+        1.2028655918612286e-14,
+        4.801399182841188e-12
+      ]
+    ],
+    "moment_basis": "saved_native_CAD_solid_moments",
+    "fallback_reason": null,
+    "solid_body_names": [
+      "x16s_final.stp-1/094200000008.stp-1-solid1"
+    ],
+    "native_geometry": "G0178",
+    "native_file": "E:\\codex_work\\导出urdf\\work\\model_variant_compare_20261011\\sources\\raised_5mm\\x16s_final.SLDPRT",
+    "normalization_center_source_m": [
+      0.0,
+      0.01597499940544367,
+      0.0
+    ],
+    "tessellation_volume_check": null,
+    "right_hand_derivation": "reflected normalized geometry frame; native_file and native labels refer to original left source evidence"
+  },
+  "G0003": {
+    "volume_m3": 9.302871064871106e-09,
+    "center_normalized_mesh_m": [
+      1.1003285180793555e-06,
+      3.4584050480437183e-10,
+      9.535742038086356e-05
+    ],
+    "inertia_at_COM_density_1": [
+      [
+        2.554350547620959e-14,
+        -6.072256776807129e-29,
+        4.5000899092025276e-29
+      ],
+      [
+        -6.072256776807129e-29,
+        2.541980757475741e-14,
+        1.4430373599623853e-20
+      ],
+      [
+        4.5000899092025276e-29,
+        1.4430373599623853e-20,
+        2.5478155120220604e-15
+      ]
+    ],
+    "moment_basis": "saved_native_CAD_solid_moments",
+    "fallback_reason": null,
+    "solid_body_names": [
+      "倒角3"
+    ],
+    "native_geometry": "G0160",
+    "native_file": "E:\\codex_work\\导出urdf\\work\\model_variant_compare_20261011\\sources\\raised_5mm\\M1.4-1.5X6.SLDPRT",
+    "normalization_center_source_m": [
+      -1.1003285180777311e-06,
+      0.0,
+      0.0
+    ],
+    "tessellation_volume_check": null,
+    "right_hand_derivation": "reflected normalized geometry frame; native_file and native labels refer to original left source evidence"
+  },
+  "G0014": {
+    "volume_m3": 4.18119176500367e-06,
+    "center_normalized_mesh_m": [
+      -0.001303191122824578,
+      -1.012975909053336e-05,
+      -0.00144814726851365
+    ],
+    "inertia_at_COM_density_1": [
+      [
+        3.0609756537214496e-10,
+        4.5301260243060075e-13,
+        -4.290518560707277e-12
+      ],
+      [
+        4.5301260243060075e-13,
+        3.673497047299223e-10,
+        5.2018200470790356e-15
+      ],
+      [
+        -4.290518560707277e-12,
+        5.2018200470790356e-15,
+        2.2368919013219645e-10
+      ]
+    ],
+    "moment_basis": "saved_native_CAD_solid_moments",
+    "fallback_reason": null,
+    "solid_body_names": [
+      "A32F1V1_定子铁芯S1-32-solid1",
+      "A32F1V1_定子内支撑管S1-1-solid1",
+      "A32F1V1_定子铁芯S1-13-solid1",
+      "A3.2方形电子皮肤组件0715_1T-1-solid2",
+      "A32F1V1_定子线圈S1-1-solid1",
+      "A32F1V1_走线槽S1-1-solid1",
+      "A32F1V1_定子线圈S1-6-solid1",
+      "A32F1V1_定子铁芯S1-29-solid1",
+      "A32F1V1_定子铁芯S1-10-solid1",
+      "A3.2方形电子皮肤组件0715_1T-1-solid1",
+      "A32F1V1_连通管折弯S2-1-solid1",
+      "A32F1V1_定子前端盖S1-1-solid1",
+      "A32F1V1_端部隔片S1-1-solid1",
+      "A32F1V1_定子铁芯S1-26-solid1",
+      "A32F1V1_定子线圈S1-4-solid1",
+      "移动面1[2]",
+      "A32F1V1_走线槽S1-1-solid2",
+      "A32F1V1_定子铁芯S1-31-solid1",
+      "A32F1V1_驱动板S1-1-solid1",
+      "A32F1V1_定子铁芯S1-12-solid1",
+      "A32F1V1_定子线圈S1-2-solid1",
+      "A32F1V1_定子铁芯S1-28-solid1",
+      "A32F1V1_定子铁芯S1-1-solid1",
+      "A32F1V1_传感支撑板带座S2-1-solid1",
+      "A32F1V1_定子铁芯S1-33-solid1",
+      "A32F1V1_定子铁芯S1-14-solid1",
+      "A32F1V1_端部隔片S1-2-solid1",
+      "A32F1V1_定子外壳S1-1-solid1",
+      "A32F1V1_定子线圈S1-5-solid1",
+      "A32F1V1_定子铁芯S1-30-solid1",
+      "A32F1V1_定子后端盖S1-1-solid1",
+      "A32F1V1_定子铁芯S1-11-solid1",
+      "移动面1[1]",
+      "A32F1V1_定子线圈S1-3-solid1",
+      "A32F1V1_定子铁芯S1-27-solid1"
+    ],
+    "native_geometry": "G0166",
+    "native_file": "E:\\codex_work\\导出urdf\\work\\model_variant_compare_20261011\\sources\\raised_5mm\\A32F1V1装配体变窄_定子S1.SLDPRT",
+    "normalization_center_source_m": [
+      0.9573318064212799,
+      1.0237147212028503,
+      1.0235595703125
+    ],
+    "tessellation_volume_check": null,
+    "right_hand_derivation": "reflected normalized geometry frame; native_file and native labels refer to original left source evidence"
+  },
+  "G0011": {
+    "volume_m3": 7.768542894045353e-07,
+    "center_normalized_mesh_m": [
+      2.4313489911664468e-05,
+      -0.00021902452176916776,
+      0.0009643606012951422
+    ],
+    "inertia_at_COM_density_1": [
+      [
+        5.42771991644064e-11,
+        -8.612819566093032e-16,
+        8.380519644551382e-14
+      ],
+      [
+        -8.612819566093032e-16,
+        4.2408970242708756e-11,
+        -1.1752162249077824e-12
+      ],
+      [
+        8.380519644551382e-14,
+        -1.1752162249077824e-12,
+        7.927709832445056e-11
+      ]
+    ],
+    "moment_basis": "saved_native_CAD_solid_moments",
+    "fallback_reason": null,
+    "solid_body_names": [
+      "FINGER3-MID[1]"
+    ],
+    "native_geometry": "G0170",
+    "native_file": "E:\\codex_work\\导出urdf\\work\\model_variant_compare_20261011\\sources\\raised_5mm\\Index&ring finger DIP cover.SLDPRT",
+    "normalization_center_source_m": [
+      0.0,
+      0.06249999813735485,
+      -0.00546350829245057
+    ],
+    "tessellation_volume_check": null,
+    "right_hand_derivation": "reflected normalized geometry frame; native_file and native labels refer to original left source evidence"
+  },
+  "G0012": {
+    "volume_m3": 2.157552870611036e-07,
+    "center_normalized_mesh_m": [
+      7.367033969737924e-07,
+      0.0002874791125403461,
+      3.291065520211363e-05
+    ],
+    "inertia_at_COM_density_1": [
+      [
+        3.259084518333692e-12,
+        -1.2704147491429444e-15,
+        -2.6083159433350042e-15
+      ],
+      [
+        -1.2704147491429444e-15,
+        1.3404924088807575e-12,
+        -1.7419551520043927e-17
+      ],
+      [
+        -2.6083159433350042e-15,
+        -1.7419551520043927e-17,
+        4.456982088566575e-12
+      ]
+    ],
+    "moment_basis": "saved_native_CAD_solid_moments",
+    "fallback_reason": null,
+    "solid_body_names": [
+      "实体-移动/复制1"
+    ],
+    "native_geometry": "G0171",
+    "native_file": "E:\\codex_work\\导出urdf\\work\\model_variant_compare_20261011\\sources\\raised_5mm\\Index&ring finger DIP rubber.SLDPRT",
+    "normalization_center_source_m": [
+      -0.03361631464213133,
+      -0.007241232786326567,
+      0.001058818888850671
+    ],
+    "tessellation_volume_check": null,
+    "right_hand_derivation": "reflected normalized geometry frame; native_file and native labels refer to original left source evidence"
+  },
+  "G0001": {
+    "volume_m3": 2.1581625715716443e-07,
+    "center_normalized_mesh_m": [
+      -0.00022243694938381775,
+      8.555845875207804e-20,
+      -3.120422855605855e-05
+    ],
+    "inertia_at_COM_density_1": [
+      [
+        1.9554748304074145e-12,
+        -2.119128698174761e-28,
+        2.6022153952928887e-14
+      ],
+      [
+        -2.119128698174761e-28,
+        1.7722478458367115e-12,
+        7.736383657732059e-29
+      ],
+      [
+        2.6022153952928887e-14,
+        7.736383657732059e-29,
+        3.440285034993696e-12
+      ]
+    ],
+    "moment_basis": "saved_native_CAD_solid_moments",
+    "fallback_reason": null,
+    "solid_body_names": [
+      "方形电子皮肤组件0715.STEP-1/HDI板0714.STEP-1-solid1",
+      "方形电子皮肤组件0715.STEP-1/方形电子皮肤盖板.STEP-1-solid1",
+      "移动面1[2]",
+      "移动面1[1]"
+    ],
+    "native_geometry": "G0157",
+    "native_file": "E:\\codex_work\\导出urdf\\work\\model_variant_compare_20261011\\sources\\raised_5mm\\A3.1方形电子皮肤组件0715.SLDPRT",
+    "normalization_center_source_m": [
+      0.0,
+      0.0,
+      0.002224999974714592
+    ],
+    "tessellation_volume_check": null,
+    "right_hand_derivation": "reflected normalized geometry frame; native_file and native labels refer to original left source evidence"
+  },
+  "G0002": {
+    "volume_m3": 3.3693676350887533e-07,
+    "center_normalized_mesh_m": [
+      0.0005351333040390632,
+      -0.0004486654556642034,
+      -7.613638844659712e-08
+    ],
+    "inertia_at_COM_density_1": [
+      [
+        8.161766593602103e-12,
+        1.1970774372525586e-12,
+        -3.9606793724268136e-17
+      ],
+      [
+        1.1970774372525586e-12,
+        4.6561064751562035e-12,
+        -5.54888492844808e-18
+      ],
+      [
+        -3.9606793724268136e-17,
+        -5.54888492844808e-18,
+        8.960832245496203e-12
+      ]
+    ],
+    "moment_basis": "saved_native_CAD_solid_moments",
+    "fallback_reason": null,
+    "solid_body_names": [
+      "倒角36"
+    ],
+    "native_geometry": "G0158",
+    "native_file": "E:\\codex_work\\导出urdf\\work\\model_variant_compare_20261011\\sources\\raised_5mm\\A3.2 F1顶部铰接件.SLDPRT",
+    "normalization_center_source_m": [
+      0.003904951619915664,
+      -0.005175139522179961,
+      0.0
+    ],
+    "tessellation_volume_check": null,
+    "right_hand_derivation": "reflected normalized geometry frame; native_file and native labels refer to original left source evidence"
+  },
+  "G0178": {
+    "volume_m3": 7.043378559336438e-07,
+    "center_normalized_mesh_m": [
+      1.743428082815149e-07,
+      0.0020251197681629834,
+      -0.001286479491763243
+    ],
+    "inertia_at_COM_density_1": [
+      [
+        4.225925258529203e-11,
+        -3.7695318056840655e-15,
+        1.3729439840971022e-15
+      ],
+      [
+        -3.7695318056840655e-15,
+        1.577493837431371e-11,
+        1.2592418681878968e-11
+      ],
+      [
+        1.3729439840971022e-15,
+        1.2592418681878968e-11,
+        4.369453176787578e-11
+      ]
+    ],
+    "moment_basis": "saved_native_CAD_solid_moments",
+    "fallback_reason": null,
+    "solid_body_names": [
+      "切除-拉伸4"
+    ],
+    "native_geometry": "G0209",
+    "native_file": "E:\\codex_work\\导出urdf\\work\\model_variant_compare_20261011\\sources\\raised_5mm\\Index tip rear cover.SLDPRT",
+    "normalization_center_source_m": [
+      1.3969838619232178e-09,
+      0.10514204204082489,
+      -0.013476874679327011
+    ],
+    "tessellation_volume_check": null,
+    "right_hand_derivation": "reflected normalized geometry frame; native_file and native labels refer to original left source evidence"
+  },
+  "G0179": {
+    "volume_m3": 4.6644109751731224e-07,
+    "center_normalized_mesh_m": [
+      5.322667879854369e-07,
+      0.0008438896538612295,
+      0.0021921971050462
+    ],
+    "inertia_at_COM_density_1": [
+      [
+        8.377362116279354e-12,
+        -3.026389130173302e-16,
+        1.7875858134910753e-16
+      ],
+      [
+        -3.026389130173302e-16,
+        5.270631753202429e-12,
+        -4.775945963952141e-13
+      ],
+      [
+        1.7875858134910753e-16,
+        -4.775945963952141e-13,
+        1.2044003714648141e-11
+      ]
+    ],
+    "moment_basis": "saved_native_CAD_solid_moments",
+    "fallback_reason": null,
+    "solid_body_names": [
+      "PRT0011[2]"
+    ],
+    "native_geometry": "G0207",
+    "native_file": "E:\\codex_work\\导出urdf\\work\\model_variant_compare_20261011\\sources\\raised_5mm\\Index tip rubber.SLDPRT",
+    "normalization_center_source_m": [
+      -4.4656917452812195e-07,
+      0.0850101076066494,
+      -0.0006604408845305443
+    ],
+    "tessellation_volume_check": null,
+    "right_hand_derivation": "reflected normalized geometry frame; native_file and native labels refer to original left source evidence"
+  },
+  "G0180": {
+    "volume_m3": 4.927891935165625e-07,
+    "center_normalized_mesh_m": [
+      -5.5386955839165936e-05,
+      0.0009260679272829891,
+      0.0005597154116502474
+    ],
+    "inertia_at_COM_density_1": [
+      [
+        2.410893596896073e-11,
+        2.2140512372808988e-13,
+        -1.0332279763987498e-13
+      ],
+      [
+        2.2140512372808988e-13,
+        1.3457864257773778e-11,
+        1.3949401516079686e-12
+      ],
+      [
+        -1.0332279763987498e-13,
+        1.3949401516079686e-12,
+        3.320795142013168e-11
+      ]
+    ],
+    "moment_basis": "saved_native_CAD_solid_moments",
+    "fallback_reason": null,
+    "solid_body_names": [
+      "圆角4"
+    ],
+    "native_geometry": "G0208",
+    "native_file": "E:\\codex_work\\导出urdf\\work\\model_variant_compare_20261011\\sources\\raised_5mm\\Index tip rubber rib.SLDPRT",
+    "normalization_center_source_m": [
+      -4.307366907596588e-08,
+      0.10332644358277321,
+      -0.008850023383274674
+    ],
+    "tessellation_volume_check": null,
+    "right_hand_derivation": "reflected normalized geometry frame; native_file and native labels refer to original left source evidence"
+  },
+  "G0018": {
+    "volume_m3": 2.921648641647402e-07,
+    "center_normalized_mesh_m": [
+      8.833112911956025e-05,
+      0.00017949152544939102,
+      0.0037695538576301983
+    ],
+    "inertia_at_COM_density_1": [
+      [
+        2.867834253590715e-11,
+        2.0852193927933843e-14,
+        -2.5957073456237796e-13
+      ],
+      [
+        2.0852193927933843e-14,
+        2.8733733240888123e-11,
+        -5.25527526758004e-13
+      ],
+      [
+        -2.5957073456237796e-13,
+        -5.25527526758004e-13,
+        5.741475376763585e-12
+      ]
+    ],
+    "moment_basis": "saved_native_CAD_solid_moments",
+    "fallback_reason": null,
+    "solid_body_names": [
+      "A32F3V1_动子偏心连接件S1-1-solid1",
+      "A32F3V1_动子外壳S1-1-solid1"
+    ],
+    "native_geometry": "G0173",
+    "native_file": "E:\\codex_work\\导出urdf\\work\\model_variant_compare_20261011\\sources\\raised_5mm\\A32F3V1装配体_动子S1.SLDPRT",
+    "normalization_center_source_m": [
+      1.0053182244300842,
+      1.0099732279777527,
+      1.0109092891216278
+    ],
+    "tessellation_volume_check": null,
+    "right_hand_derivation": "reflected normalized geometry frame; native_file and native labels refer to original left source evidence"
+  },
+  "G0016": {
+    "volume_m3": 1.1662185835965772e-07,
+    "center_normalized_mesh_m": [
+      0.0007220596139962954,
+      -1.112585955289804e-19,
+      3.0086136375879254e-05
+    ],
+    "inertia_at_COM_density_1": [
+      [
+        4.41725581106405e-13,
+        -2.3519047447128116e-29,
+        -1.1501331719312236e-14
+      ],
+      [
+        -2.3519047447128116e-29,
+        1.1686976364755923e-12,
+        -4.3839821093824964e-30
+      ],
+      [
+        -1.1501331719312236e-14,
+        -4.3839821093824964e-30,
+        9.643073952464764e-13
+      ]
+    ],
+    "moment_basis": "saved_native_CAD_solid_moments",
+    "fallback_reason": null,
+    "solid_body_names": [
+      "倒角10"
+    ],
+    "native_geometry": "G0172",
+    "native_file": "E:\\codex_work\\导出urdf\\work\\model_variant_compare_20261011\\sources\\raised_5mm\\A3.2-A3F3连杆.SLDPRT",
+    "normalization_center_source_m": [
+      0.009799999883398414,
+      0.0,
+      0.0010000000474974513
+    ],
+    "tessellation_volume_check": null,
+    "right_hand_derivation": "reflected normalized geometry frame; native_file and native labels refer to original left source evidence"
+  },
+  "G0010": {
+    "volume_m3": 3.5124954987404904e-07,
+    "center_normalized_mesh_m": [
+      -2.6777291244528336e-05,
+      0.00016425266463842528,
+      0.002963176694479225
+    ],
+    "inertia_at_COM_density_1": [
+      [
+        7.889243778813376e-12,
+        -1.904723667572679e-14,
+        3.9874079361541e-14
+      ],
+      [
+        -1.904723667572679e-14,
+        7.944895597302022e-12,
+        -2.5019790691315186e-13
+      ],
+      [
+        3.9874079361541e-14,
+        -2.5019790691315186e-13,
+        5.362807395735774e-12
+      ]
+    ],
+    "moment_basis": "saved_native_CAD_solid_moments",
+    "fallback_reason": null,
+    "solid_body_names": [
+      "A32F2V1_动子外壳S1-1-solid1",
+      "A32F2V1_动子导磁连接件S1-1-solid1"
+    ],
+    "native_geometry": "G0167",
+    "native_file": "E:\\codex_work\\导出urdf\\work\\model_variant_compare_20261011\\sources\\raised_5mm\\A32F2V1装配体_动子S1.SLDPRT",
+    "normalization_center_source_m": [
+      1.0029545724391937,
+      1.0091920495033264,
+      1.0074540376663208
+    ],
+    "tessellation_volume_check": null,
+    "right_hand_derivation": "reflected normalized geometry frame; native_file and native labels refer to original left source evidence"
+  },
+  "G0013": {
+    "volume_m3": 1.3107102673667867e-07,
+    "center_normalized_mesh_m": [
+      0.0010244441576615915,
+      9.91678175745031e-20,
+      2.424795914619457e-05
+    ],
+    "inertia_at_COM_density_1": [
+      [
+        4.665245532797305e-13,
+        -3.942733649047865e-29,
+        -1.2952977463876442e-14
+      ],
+      [
+        -3.942733649047865e-29,
+        1.8103642058971e-12,
+        -1.6055831017287648e-29
+      ],
+      [
+        -1.2952977463876442e-14,
+        -1.6055831017287648e-29,
+        1.6078764321520463e-12
+      ]
+    ],
+    "moment_basis": "saved_native_CAD_solid_moments",
+    "fallback_reason": null,
+    "solid_body_names": [
+      "倒角6"
+    ],
+    "native_geometry": "G0168",
+    "native_file": "E:\\codex_work\\导出urdf\\work\\model_variant_compare_20261011\\sources\\raised_5mm\\A3.2-F2连杆.SLDPRT",
+    "normalization_center_source_m": [
+      0.008699999831151217,
+      0.0,
+      0.0010000000474974513
+    ],
+    "tessellation_volume_check": null,
+    "right_hand_derivation": "reflected normalized geometry frame; native_file and native labels refer to original left source evidence"
+  },
+  "G0005": {
+    "volume_m3": 1.7272020247832776e-07,
+    "center_normalized_mesh_m": [
+      1.9373006656326944e-05,
+      -0.0020967439888399143,
+      7.032473143259622e-06
+    ],
+    "inertia_at_COM_density_1": [
+      [
+        3.2978579949661786e-12,
+        1.4519564551914132e-14,
+        -2.7144176777975553e-14
+      ],
+      [
+        1.4519564551914132e-14,
+        1.8781755343924067e-12,
+        2.8319588635092424e-15
+      ],
+      [
+        -2.7144176777975553e-14,
+        2.8319588635092424e-15,
+        3.4317329396255586e-12
+      ]
+    ],
+    "moment_basis": "saved_native_CAD_solid_moments",
+    "fallback_reason": null,
+    "solid_body_names": [
+      "A32F1V1_动子外壳S1-1-solid1",
+      "A32F1V1_动子导磁连接件S1-1-solid1"
+    ],
+    "native_geometry": "G0163",
+    "native_file": "E:\\codex_work\\导出urdf\\work\\model_variant_compare_20261011\\sources\\raised_5mm\\A32F1V1装配体_动子S1.SLDPRT",
+    "normalization_center_source_m": [
+      0.9994138777256012,
+      1.0150916576385498,
+      1.0091937184333801
+    ],
+    "tessellation_volume_check": null,
+    "right_hand_derivation": "reflected normalized geometry frame; native_file and native labels refer to original left source evidence"
+  },
+  "G0004": {
+    "volume_m3": 1.4827808280449356e-07,
+    "center_normalized_mesh_m": [
+      1.1162569894526267e-20,
+      -0.001272975936805771,
+      -2.1625598939979526e-05
+    ],
+    "inertia_at_COM_density_1": [
+      [
+        1.8859895290962435e-12,
+        -1.4163769155289556e-28,
+        1.283874688504422e-29
+      ],
+      [
+        -1.4163769155289556e-28,
+        6.44197381940762e-13,
+        -8.50398704866838e-15
+      ],
+      [
+        1.283874688504422e-29,
+        -8.50398704866838e-15,
+        1.6395517478287567e-12
+      ]
+    ],
+    "moment_basis": "saved_native_CAD_solid_moments",
+    "fallback_reason": null,
+    "solid_body_names": [
+      "倒角2"
+    ],
+    "native_geometry": "G0159",
+    "native_file": "E:\\codex_work\\导出urdf\\work\\model_variant_compare_20261011\\sources\\raised_5mm\\A3.2 F1连杆.SLDPRT",
+    "normalization_center_source_m": [
+      0.0,
+      0.004674999858252704,
+      0.0
+    ],
+    "tessellation_volume_check": null,
+    "right_hand_derivation": "reflected normalized geometry frame; native_file and native labels refer to original left source evidence"
+  },
+  "G0006": {
+    "volume_m3": 5.813347406650487e-07,
+    "center_normalized_mesh_m": [
+      -1.4162029727139008e-05,
+      0.0010070792493416386,
+      0.0019985901297862596
+    ],
+    "inertia_at_COM_density_1": [
+      [
+        1.1831642133626809e-11,
+        -1.7972098567443173e-14,
+        1.57236325352833e-14
+      ],
+      [
+        -1.7972098567443173e-14,
+        6.688020386316992e-12,
+        -3.7819402726408757e-13
+      ],
+      [
+        1.57236325352833e-14,
+        -3.7819402726408757e-13,
+        1.646073916005207e-11
+      ]
+    ],
+    "moment_basis": "saved_native_CAD_solid_moments",
+    "fallback_reason": null,
+    "solid_body_names": [
+      "PRT0011[1]"
+    ],
+    "native_geometry": "G0161",
+    "native_file": "E:\\codex_work\\导出urdf\\work\\model_variant_compare_20261011\\sources\\raised_5mm\\Ring tip rubber.SLDPRT",
+    "normalization_center_source_m": [
+      0.03078742977231741,
+      0.08100000768899918,
+      -0.00045437412336468697
+    ],
+    "tessellation_volume_check": null,
+    "right_hand_derivation": "reflected normalized geometry frame; native_file and native labels refer to original left source evidence"
+  },
+  "G0007": {
+    "volume_m3": 6.913217059387274e-07,
+    "center_normalized_mesh_m": [
+      -5.9255898467606975e-05,
+      0.0005290717285819646,
+      0.0004835404208303495
+    ],
+    "inertia_at_COM_density_1": [
+      [
+        3.772854083533278e-11,
+        1.853919636869176e-13,
+        -8.635973529050385e-14
+      ],
+      [
+        1.853919636869176e-13,
+        1.9277814708958213e-11,
+        1.8879581746488664e-12
+      ],
+      [
+        -8.635973529050385e-14,
+        1.8879581746488664e-12,
+        5.074817914762354e-11
+      ]
+    ],
+    "moment_basis": "saved_native_CAD_solid_moments",
+    "fallback_reason": null,
+    "solid_body_names": [
+      "圆角4"
+    ],
+    "native_geometry": "G0162",
+    "native_file": "E:\\codex_work\\导出urdf\\work\\model_variant_compare_20261011\\sources\\raised_5mm\\Ring tip rubber rib.SLDPRT",
+    "normalization_center_source_m": [
+      0.030948689207434654,
+      0.08284099772572517,
+      -0.0039499960944948675
+    ],
+    "tessellation_volume_check": null,
+    "right_hand_derivation": "reflected normalized geometry frame; native_file and native labels refer to original left source evidence"
+  },
+  "G0008": {
+    "volume_m3": 8.401426651107225e-07,
+    "center_normalized_mesh_m": [
+      3.7072931705358034e-07,
+      0.0020812052532046543,
+      -0.0015906649432060813
+    ],
+    "inertia_at_COM_density_1": [
+      [
+        5.877097583367608e-11,
+        1.797013533434794e-15,
+        -2.2947267645251983e-15
+      ],
+      [
+        1.797013533434794e-15,
+        2.0046985769228173e-11,
+        1.6115655886009443e-11
+      ],
+      [
+        -2.2947267645251983e-15,
+        1.6115655886009443e-11,
+        6.130775539264823e-11
+      ]
+    ],
+    "moment_basis": "saved_native_CAD_solid_moments",
+    "fallback_reason": null,
+    "solid_body_names": [
+      "切除-拉伸3"
+    ],
+    "native_geometry": "G0165",
+    "native_file": "E:\\codex_work\\导出urdf\\work\\model_variant_compare_20261011\\sources\\raised_5mm\\Ring tip rear cover.SLDPRT",
+    "normalization_center_source_m": [
+      0.0,
+      0.10379204154014587,
+      -0.013401241973042488
+    ],
+    "tessellation_volume_check": null,
+    "right_hand_derivation": "reflected normalized geometry frame; native_file and native labels refer to original left source evidence"
+  },
+  "G0214": {
+    "volume_m3": 2.637941726101424e-06,
+    "center_normalized_mesh_m": [
+      0.002979186410533096,
+      -9.216229929693147e-06,
+      0.0018370499325446159
+    ],
+    "inertia_at_COM_density_1": [
+      [
+        2.664288960275136e-10,
+        1.5062123894254594e-14,
+        6.054061552968207e-12
+      ],
+      [
+        1.5062123894254594e-14,
+        3.380147408092755e-10,
+        2.29060511085592e-13
+      ],
+      [
+        6.054061552968207e-12,
+        2.29060511085592e-13,
+        2.209132050735287e-10
+      ]
+    ],
+    "moment_basis": "saved_native_CAD_solid_moments",
+    "fallback_reason": null,
+    "solid_body_names": [
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid53",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid27",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid5",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid239",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid225",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid243",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid231",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid218",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid19",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid68",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid17",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid10",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid38",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid95",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid205",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid2",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid13",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid93",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid115",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid108",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid189",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid24",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid208",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid198",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid169",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid88",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid14",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid128",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid111",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid101",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid109",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid219",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid46",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid15",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid220",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid76",
+      "移动面1",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid204",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid86",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid158",
+      "A32F4V1_定子外壳S1-1-solid1",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid92",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid143",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid136",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid64",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid197",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid168",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid156",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid127",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid34",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid137",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid110",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid80",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid178",
+      "A32F4V1_驱动板S1-1-solid1",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid203",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid85",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid78",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid58",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid229",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid186",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid247",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid91",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid235",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid171",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid164",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid28",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid179",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid221",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid214",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid196",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid184",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid155",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid126",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid165",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid51",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid48",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid44",
+      "A32F4V1_走线槽S1-1-solid1",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid107",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid84",
+      "A32F4V1_连通管折弯S1-1-solid1",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid74",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid192",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid122",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid66",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid23",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid183",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid154",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid62",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid236",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid193",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid149",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid36",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid12",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid123",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid222",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid200",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid89",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid32",
+      "A32F4V1_走线槽S1-1-solid2",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid240",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid215",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid135",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid106",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid6",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid81",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid56",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid150",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid3",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid159",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid26",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid182",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid177",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid148",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid119",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid151",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid40",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid163",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid134",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid105",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid70",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid237",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid216",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid187",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid97",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid9",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid176",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid147",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid248",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid209",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid191",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid162",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid133",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid16",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid121",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid52",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid49",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid207",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid116",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid96",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid175",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid226",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid244",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid102",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid232",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid67",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid42",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid114",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid1",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid190",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid188",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid161",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid21",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid201",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid120",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid72",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid37",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid211",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid139",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid100",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid11",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid8",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid144",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid60",
+      "A32F4V1_端部隔片S1-1-solid1",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid30",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid130",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid142",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid113",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid227",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid54",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid245",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid167",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid233",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid50",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid22",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid138",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid172",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid47",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid212",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid202",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid199",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid90",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid170",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid141",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid129",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid112",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid69",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid77",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid18",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid65",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid39",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid195",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid125",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid35",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid166",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid87",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid20",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid228",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid246",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid234",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid117",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid83",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid59",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid157",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid140",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid29",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid213",
+      "A32F4V1_连通管折弯S1-1-solid2",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid103",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid79",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid153",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid43",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid194",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid210",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid124",
+      "A32F1V1_定子内支撑管S1S2-1-solid1",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid73",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid145",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid82",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid185",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid61",
+      "倒角3",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid131",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid31",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid181",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid223",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid118",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid241",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid152",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid55",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid173",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid104",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid25",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid4",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid206",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid146",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid45",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid7",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid180",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid94",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid41",
+      "倒角2",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid75",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid238",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid132",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid99",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid71",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid224",
+      "A32F4V1_端部隔片S1-2-solid1",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid242",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid230",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid217",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid63",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid33",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid174",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid57",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid160",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1S2-1-solid98"
+    ],
+    "native_geometry": "G0185",
+    "native_file": "E:\\codex_work\\导出urdf\\work\\model_variant_compare_20261011\\sources\\raised_5mm\\A32F4V1装配体_定子S1.SLDPRT",
+    "normalization_center_source_m": [
+      0.9547777473926544,
+      1.0237046480178833,
+      1.0199413895606995
+    ],
+    "tessellation_volume_check": null,
+    "right_hand_derivation": "reflected normalized geometry frame; native_file and native labels refer to original left source evidence"
+  },
+  "G0215": {
+    "volume_m3": 3.301833202809933e-07,
+    "center_normalized_mesh_m": [
+      2.102828469893736e-05,
+      0.0003064100229738225,
+      2.316699409722102e-05
+    ],
+    "inertia_at_COM_density_1": [
+      [
+        8.364954689248695e-12,
+        -3.166128288932874e-15,
+        -1.911856661102033e-15
+      ],
+      [
+        -3.166128288932874e-15,
+        2.5611137293295024e-12,
+        -4.782358196281969e-15
+      ],
+      [
+        -1.911856661102033e-15,
+        -4.782358196281969e-15,
+        1.0682352304670423e-11
+      ]
+    ],
+    "moment_basis": "saved_native_CAD_solid_moments",
+    "fallback_reason": null,
+    "solid_body_names": [
+      "实体-移动/复制1"
+    ],
+    "native_geometry": "G0183",
+    "native_file": "E:\\codex_work\\导出urdf\\work\\model_variant_compare_20261011\\sources\\raised_5mm\\Pinky PIP rubber.SLDPRT",
+    "normalization_center_source_m": [
+      0.05041142925620079,
+      -0.009404539130626678,
+      0.0011075694346800494
+    ],
+    "tessellation_volume_check": null,
+    "right_hand_derivation": "reflected normalized geometry frame; native_file and native labels refer to original left source evidence"
+  },
+  "G0216": {
+    "volume_m3": 7.732603130773786e-07,
+    "center_normalized_mesh_m": [
+      -8.357131719403459e-07,
+      0.0004343660483621878,
+      0.000853762648002924
+    ],
+    "inertia_at_COM_density_1": [
+      [
+        6.231450214393991e-11,
+        3.0698035386753815e-15,
+        2.3121461798385097e-15
+      ],
+      [
+        3.0698035386753815e-15,
+        5.607706105378772e-11,
+        -1.1096994175786039e-12
+      ],
+      [
+        2.3121461798385097e-15,
+        -1.1096994175786039e-12,
+        9.984862856758666e-11
+      ]
+    ],
+    "moment_basis": "saved_native_CAD_solid_moments",
+    "fallback_reason": null,
+    "solid_body_names": [
+      "XIAO-XIA[1]"
+    ],
+    "native_geometry": "G0184",
+    "native_file": "E:\\codex_work\\导出urdf\\work\\model_variant_compare_20261011\\sources\\raised_5mm\\Pinky PIP cover.SLDPRT",
+    "normalization_center_source_m": [
+      -2.3283064365386963e-09,
+      0.014895625412464142,
+      -0.005618446215235551
+    ],
+    "tessellation_volume_check": null,
+    "right_hand_derivation": "reflected normalized geometry frame; native_file and native labels refer to original left source evidence"
+  },
+  "G0211": {
+    "volume_m3": 4.0659224314290985e-06,
+    "center_normalized_mesh_m": [
+      -0.0010164928190958703,
+      -1.0606095752760697e-05,
+      -0.0008109404246383639
+    ],
+    "inertia_at_COM_density_1": [
+      [
+        2.8568125171495957e-10,
+        4.588210273073522e-13,
+        7.940527801475871e-12
+      ],
+      [
+        4.588210273073522e-13,
+        3.3837991517878383e-10,
+        2.986072422673487e-14
+      ],
+      [
+        7.940527801475871e-12,
+        2.986072422673487e-14,
+        2.14139495337732e-10
+      ]
+    ],
+    "moment_basis": "saved_native_CAD_solid_moments",
+    "fallback_reason": null,
+    "solid_body_names": [
+      "A32F1V1_定子铁芯S1-28-solid1",
+      "A32F1V1_传感支撑板带座S2-1-solid1",
+      "A32F1V1_定子铁芯S1-1-solid1",
+      "A32F1V1_定子铁芯S1-33-solid1",
+      "A32F1V1_定子铁芯S1-14-solid1",
+      "A32F1V1_端部隔片S1-2-solid1",
+      "A32F1V1_定子外壳S1-1-solid1",
+      "A32F1V1_定子线圈S1-5-solid1",
+      "A32F1V1_定子铁芯S1-30-solid1",
+      "A32F1V1_定子铁芯S1-11-solid1",
+      "移动面2[1]",
+      "A32F1V1_定子线圈S1-3-solid1",
+      "A32F1V1_定子铁芯S1-27-solid1",
+      "A32F1V1_定子内支撑管S1-1-solid1",
+      "A32F1V1_定子铁芯S1-32-solid1",
+      "A32F1V1_定子铁芯S1-13-solid1",
+      "A32F1V1_定子线圈S1-1-solid1",
+      "A3.2方形电子皮肤组件0715_1T-1-solid2",
+      "A32F1V1_走线槽S1-1-solid1",
+      "A32F1V1_定子前端盖S1-1-solid1",
+      "A32F1V1_定子线圈S1-6-solid1",
+      "A32F1V1_定子铁芯S1-29-solid1",
+      "A32F1V1_定子铁芯S1-10-solid1",
+      "A32F1V1_连通管折弯S2-1-solid1",
+      "切除-拉伸2",
+      "A32F1V1_端部隔片S1-1-solid1",
+      "A32F1V1_定子铁芯S1-26-solid1",
+      "A32F1V1_定子线圈S1-4-solid1",
+      "移动面2[2]",
+      "A32F1V1_走线槽S1-1-solid2",
+      "A32F1V1_定子铁芯S1-31-solid1",
+      "A32F1V1_驱动板S1-1-solid1",
+      "A32F1V1_定子铁芯S1-12-solid1",
+      "A3.2方形电子皮肤组件0715_1T-1-solid1",
+      "A32F1V1_定子线圈S1-2-solid1"
+    ],
+    "native_geometry": "G0190",
+    "native_file": "E:\\codex_work\\导出urdf\\work\\model_variant_compare_20261011\\sources\\raised_5mm\\A32F1V1装配体变窄_DIP定子S1.SLDPRT",
+    "normalization_center_source_m": [
+      0.9568068087100983,
+      1.0237147212028503,
+      1.0225595831871033
+    ],
+    "tessellation_volume_check": null,
+    "right_hand_derivation": "reflected normalized geometry frame; native_file and native labels refer to original left source evidence"
+  },
+  "G0212": {
+    "volume_m3": 6.38447355958142e-07,
+    "center_normalized_mesh_m": [
+      -6.17352494161149e-05,
+      -0.0013004637464057583,
+      0.00043906021969827413
+    ],
+    "inertia_at_COM_density_1": [
+      [
+        3.7461111088483705e-11,
+        -4.2723364178691257e-13,
+        -1.3999760485189845e-13
+      ],
+      [
+        -4.2723364178691257e-13,
+        3.4031927558998213e-11,
+        1.4994455867402824e-12
+      ],
+      [
+        -1.3999760485189845e-13,
+        1.4994455867402824e-12,
+        5.927845210599777e-11
+      ]
+    ],
+    "moment_basis": "saved_native_CAD_solid_moments",
+    "fallback_reason": null,
+    "solid_body_names": [
+      "FINGER2-ZHONG[1]"
+    ],
+    "native_geometry": "G0188",
+    "native_file": "E:\\codex_work\\导出urdf\\work\\model_variant_compare_20261011\\sources\\raised_5mm\\Pinky DIP cover.SLDPRT",
+    "normalization_center_source_m": [
+      0.0,
+      0.06274999864399433,
+      -0.005213508251472376
+    ],
+    "tessellation_volume_check": null,
+    "right_hand_derivation": "reflected normalized geometry frame; native_file and native labels refer to original left source evidence"
+  },
+  "G0213": {
+    "volume_m3": 1.320119552662135e-07,
+    "center_normalized_mesh_m": [
+      3.0489833217628437e-06,
+      0.00013827739816986775,
+      -1.0216362202283857e-05
+    ],
+    "inertia_at_COM_density_1": [
+      [
+        1.101311823439623e-12,
+        1.0899531765701287e-15,
+        -2.4191434321998386e-16
+      ],
+      [
+        1.0899531765701287e-15,
+        8.14543982406168e-13,
+        -4.484875035100993e-16
+      ],
+      [
+        -2.4191434321998386e-16,
+        -4.484875035100993e-16,
+        1.8630514879370117e-12
+      ]
+    ],
+    "moment_basis": "saved_native_CAD_solid_moments",
+    "fallback_reason": null,
+    "solid_body_names": [
+      "PRT0010[8]"
+    ],
+    "native_geometry": "G0189",
+    "native_file": "E:\\codex_work\\导出urdf\\work\\model_variant_compare_20261011\\sources\\raised_5mm\\Pinky DIP rubber2.SLDPRT",
+    "normalization_center_source_m": [
+      0.053425636142492294,
+      -0.005227044224737111,
+      0.0008275700965896247
+    ],
+    "tessellation_volume_check": null,
+    "right_hand_derivation": "reflected normalized geometry frame; native_file and native labels refer to original left source evidence"
+  },
+  "G0217": {
+    "volume_m3": 3.3974861332901227e-07,
+    "center_normalized_mesh_m": [
+      0.00039757989167813097,
+      -0.00036274081801230314,
+      -2.34619900198364e-08
+    ],
+    "inertia_at_COM_density_1": [
+      [
+        7.352194226482369e-12,
+        1.1319976311387905e-12,
+        -1.0835136696528643e-17
+      ],
+      [
+        1.1319976311387905e-12,
+        5.1298051431479104e-12,
+        -1.3463202869958917e-17
+      ],
+      [
+        -1.0835136696528643e-17,
+        -1.3463202869958917e-17,
+        8.624725933297678e-12
+      ]
+    ],
+    "moment_basis": "saved_native_CAD_solid_moments",
+    "fallback_reason": null,
+    "solid_body_names": [
+      "倒角28"
+    ],
+    "native_geometry": "G0179",
+    "native_file": "E:\\codex_work\\导出urdf\\work\\model_variant_compare_20261011\\sources\\raised_5mm\\A3.2 Thumb F1顶部铰接件.SLDPRT",
+    "normalization_center_source_m": [
+      0.004354073898866773,
+      -0.004831006750464439,
+      0.0
+    ],
+    "tessellation_volume_check": null,
+    "right_hand_derivation": "reflected normalized geometry frame; native_file and native labels refer to original left source evidence"
+  },
+  "G0206": {
+    "volume_m3": 4.226708984850227e-07,
+    "center_normalized_mesh_m": [
+      1.1149061384169656e-07,
+      0.0005402876244720292,
+      0.0011506464151031536
+    ],
+    "inertia_at_COM_density_1": [
+      [
+        5.393680092882805e-12,
+        -8.417671678838408e-17,
+        -2.435472202817315e-16
+      ],
+      [
+        -8.417671678838408e-17,
+        4.910878084968429e-12,
+        -5.737250715363617e-14
+      ],
+      [
+        -2.435472202817315e-16,
+        -5.737250715363617e-14,
+        9.049433187818324e-12
+      ]
+    ],
+    "moment_basis": "saved_native_CAD_solid_moments",
+    "fallback_reason": null,
+    "solid_body_names": [
+      "切除-拉伸4"
+    ],
+    "native_geometry": "G0180",
+    "native_file": "E:\\codex_work\\导出urdf\\work\\model_variant_compare_20261011\\sources\\raised_5mm\\Thumb tip rubber.SLDPRT",
+    "normalization_center_source_m": [
+      0.0,
+      0.00590642326278612,
+      0.0005257795564830303
+    ],
+    "tessellation_volume_check": null,
+    "right_hand_derivation": "reflected normalized geometry frame; native_file and native labels refer to original left source evidence"
+  },
+  "G0207": {
+    "volume_m3": 5.354044898885908e-07,
+    "center_normalized_mesh_m": [
+      3.452481172717805e-07,
+      0.001758333398625911,
+      -0.0012504139461856096
+    ],
+    "inertia_at_COM_density_1": [
+      [
+        2.3531349427302924e-11,
+        1.4189000865617517e-16,
+        -1.696779028840676e-16
+      ],
+      [
+        1.4189000865617517e-16,
+        1.2481786451283627e-11,
+        8.581972652325567e-12
+      ],
+      [
+        -1.696779028840676e-16,
+        8.581972652325567e-12,
+        2.4576547292715626e-11
+      ]
+    ],
+    "moment_basis": "saved_native_CAD_solid_moments",
+    "fallback_reason": null,
+    "solid_body_names": [
+      "切除-拉伸5"
+    ],
+    "native_geometry": "G0182",
+    "native_file": "E:\\codex_work\\导出urdf\\work\\model_variant_compare_20261011\\sources\\raised_5mm\\Thumb tip rear cover.SLDPRT",
+    "normalization_center_source_m": [
+      0.0,
+      0.1003740094602108,
+      -0.01373028289526701
+    ],
+    "tessellation_volume_check": null,
+    "right_hand_derivation": "reflected normalized geometry frame; native_file and native labels refer to original left source evidence"
+  },
+  "G0205": {
+    "volume_m3": 3.411238287086521e-07,
+    "center_normalized_mesh_m": [
+      -5.7480365055151464e-05,
+      0.002252510161965024,
+      0.0007533989652448373
+    ],
+    "inertia_at_COM_density_1": [
+      [
+        1.1342005237299647e-11,
+        1.0560376330081953e-13,
+        -8.117221564904158e-14
+      ],
+      [
+        1.0560376330081953e-13,
+        1.1226352924559893e-11,
+        1.0490559387837882e-12
+      ],
+      [
+        -8.117221564904158e-14,
+        1.0490559387837882e-12,
+        1.8988592140019704e-11
+      ]
+    ],
+    "moment_basis": "saved_native_CAD_solid_moments",
+    "fallback_reason": null,
+    "solid_body_names": [
+      "切除-拉伸5"
+    ],
+    "native_geometry": "G0181",
+    "native_file": "E:\\codex_work\\导出urdf\\work\\model_variant_compare_20261011\\sources\\raised_5mm\\Thumb tip rubber rib.SLDPRT",
+    "normalization_center_source_m": [
+      -6.984919309616089e-10,
+      0.008537842243939053,
+      -0.004200081806629886
+    ],
+    "tessellation_volume_check": null,
+    "right_hand_derivation": "reflected normalized geometry frame; native_file and native labels refer to original left source evidence"
+  },
+  "G0209": {
+    "volume_m3": 1.5174012313887484e-07,
+    "center_normalized_mesh_m": [
+      -2.694387166097577e-06,
+      0.0019685286580250643,
+      -2.48411296271095e-05
+    ],
+    "inertia_at_COM_density_1": [
+      [
+        3.328219749843213e-12,
+        -6.103196138220915e-16,
+        5.997030522881687e-15
+      ],
+      [
+        -6.103196138220915e-16,
+        1.70526637382875e-12,
+        1.466120071606194e-14
+      ],
+      [
+        5.997030522881687e-15,
+        1.466120071606194e-14,
+        3.1844077166861224e-12
+      ]
+    ],
+    "moment_basis": "saved_native_CAD_solid_moments",
+    "fallback_reason": null,
+    "solid_body_names": [
+      "A3F1V1_动子连接件S2Op-1-solid1",
+      "移动面1"
+    ],
+    "native_geometry": "G0186",
+    "native_file": "E:\\codex_work\\导出urdf\\work\\model_variant_compare_20261011\\sources\\raised_5mm\\A3F1V1装配体_动子S2Op.SLDPRT",
+    "normalization_center_source_m": [
+      0.9994156658649445,
+      1.0093616247177124,
+      1.0091977715492249
+    ],
+    "tessellation_volume_check": null,
+    "right_hand_derivation": "reflected normalized geometry frame; native_file and native labels refer to original left source evidence"
+  },
+  "G0210": {
+    "volume_m3": 1.6564390898806333e-07,
+    "center_normalized_mesh_m": [
+      1.4477665774264547e-20,
+      -0.0016866774000814135,
+      -1.9796189573991723e-05
+    ],
+    "inertia_at_COM_density_1": [
+      [
+        2.920361020970747e-12,
+        -1.0063107265211872e-28,
+        3.700433666441651e-29
+      ],
+      [
+        -1.0063107265211872e-28,
+        6.67252659374743e-13,
+        -1.1438578682083511e-14
+      ],
+      [
+        3.700433666441651e-29,
+        -1.1438578682083511e-14,
+        2.6854920315675754e-12
+      ]
+    ],
+    "moment_basis": "saved_native_CAD_solid_moments",
+    "fallback_reason": null,
+    "solid_body_names": [
+      "移动面1"
+    ],
+    "native_geometry": "G0187",
+    "native_file": "E:\\codex_work\\导出urdf\\work\\model_variant_compare_20261011\\sources\\raised_5mm\\A3.2 F4 连杆.SLDPRT",
+    "normalization_center_source_m": [
+      0.0,
+      0.0034250132739543915,
+      0.0
+    ],
+    "tessellation_volume_check": null,
+    "right_hand_derivation": "reflected normalized geometry frame; native_file and native labels refer to original left source evidence"
+  },
+  "G0197": {
+    "volume_m3": 1.873483482475912e-07,
+    "center_normalized_mesh_m": [
+      5.992740495764987e-06,
+      0.00026642423245088734,
+      0.003096587318011706
+    ],
+    "inertia_at_COM_density_1": [
+      [
+        3.4111114193735147e-12,
+        5.796227078522603e-16,
+        -2.358223549760976e-15
+      ],
+      [
+        5.796227078522603e-16,
+        4.883935100231304e-12,
+        5.605006770675512e-13
+      ],
+      [
+        -2.358223549760976e-15,
+        5.605006770675512e-13,
+        2.4098129387033893e-12
+      ]
+    ],
+    "moment_basis": "saved_native_CAD_solid_moments",
+    "fallback_reason": null,
+    "solid_body_names": [
+      "倒角2[1]"
+    ],
+    "native_geometry": "G0194",
+    "native_file": "E:\\codex_work\\导出urdf\\work\\model_variant_compare_20261011\\sources\\raised_5mm\\线扣卡2.SLDPRT",
+    "normalization_center_source_m": [
+      0.0,
+      -0.0002500000409781933,
+      -0.0022499999031424522
+    ],
+    "tessellation_volume_check": null,
+    "right_hand_derivation": "reflected normalized geometry frame; native_file and native labels refer to original left source evidence"
+  },
+  "G0190_housing": {
+    "volume_m3": 5.762942651481866e-06,
+    "center_normalized_mesh_m": [
+      0.0024941191841779484,
+      0.000280851440100254,
+      2.5563407971514064e-05
+    ],
+    "inertia_at_COM_density_1": [
+      [
+        3.3107402077341883e-10,
+        5.301887666797173e-12,
+        -1.2783952530629197e-12
+      ],
+      [
+        5.301887666797173e-12,
+        3.671160805565141e-10,
+        7.1215460942928385e-12
+      ],
+      [
+        -1.2783952530629197e-12,
+        7.1215460942928385e-12,
+        3.5606334081387867e-10
+      ]
+    ],
+    "moment_basis": "saved_native_CAD_solid_moments",
+    "fallback_reason": null,
+    "solid_body_names": [
+      "X20S-UZ.stp-1/08_ASM_1_ASM.stp-1/020200000011_ASM_42_ASM_1_ASM.stp-1/083000000001_18_1.stp-1-solid1",
+      "X20S-UZ.stp-1/08_ASM_1_ASM.stp-1/020200000011_ASM_42_ASM_1_ASM.stp-1/085000000001_ASM_12_ASM_1_ASM.stp-1/0250_6_1.stp-1-solid1",
+      "X20S-UZ.stp-1/08_ASM_1_ASM.stp-1/020200000011_ASM_42_ASM_1_ASM.stp-1/MOTOR_20MM_PCB_ASM_1_ASM_1_ASM.stp-1/XIANSHU_1_1.stp-2-solid1",
+      "X20S-UZ.stp-1/08_ASM_1_ASM.stp-1/020200000011_ASM_42_ASM_1_ASM.stp-1/085000000001_ASM_12_ASM_1_ASM.stp-1/0250_6_1.stp-3-solid1",
+      "X20S-UZ.stp-1/08_ASM_1_ASM.stp-1/020200000011_ASM_42_ASM_1_ASM.stp-1/MOTOR_20MM_PCB_ASM_1_ASM_1_ASM.stp-1/XIANSHU_1_1.stp-4-solid1",
+      "X20S-UZ.stp-1/08_ASM_1_ASM.stp-1/020200000011_ASM_42_ASM_1_ASM.stp-1/085000000001_ASM_12_ASM_1_ASM.stp-1/0252_11_1.stp-1-solid1",
+      "X20S-UZ.stp-1/08_ASM_1_ASM.stp-1/020200000011_ASM_42_ASM_1_ASM.stp-1/020300000004_ASM_21_ASM_1_ASM.stp-1/020400000004_ASM_29_ASM_1_ASM.stp-1/Y02270000004_ASM_34_ASM_1_ASM.stp-1/082700000001_37_1.stp-1-solid1",
+      "X20S-UZ.stp-1/08_ASM_1_ASM.stp-1/020200000011_ASM_42_ASM_1_ASM.stp-1/020300000004_ASM_21_ASM_1_ASM.stp-1/020400000004_ASM_29_ASM_1_ASM.stp-1/Y02270000004_ASM_34_ASM_1_ASM.stp-2/082700000001_37_1.stp-1-solid1",
+      "X20S-UZ.stp-1/08_ASM_1_ASM.stp-1/020200000011_ASM_42_ASM_1_ASM.stp-1/020600000005_ASM_11_ASM_1_ASM.stp-1/023500000004_5_1.stp-1-solid1",
+      "X20S-UZ.stp-1/08_ASM_1_ASM.stp-1/020200000011_ASM_42_ASM_1_ASM.stp-1/085400000001_7_1.stp-1-solid1",
+      "X20S-UZ.stp-1/08_ASM_1_ASM.stp-1/020200000011_ASM_42_ASM_1_ASM.stp-1/020600000005_ASM_11_ASM_1_ASM.stp-1/063500000004_5_1.stp-1-solid1",
+      "X20S-UZ.stp-1/08_ASM_1_ASM.stp-1/020200000011_ASM_42_ASM_1_ASM.stp-1/0854_2_1.stp-1-solid1",
+      "X20S-UZ.stp-1/08_ASM_1_ASM.stp-1/020200000011_ASM_42_ASM_1_ASM.stp-1/020300000004_ASM_21_ASM_1_ASM.stp-1/020400000004_ASM_29_ASM_1_ASM.stp-1/021200000003_ASM_26_ASM_1_ASM.stp-1/022800000002_39_1.stp-1-solid1",
+      "X20S-UZ.stp-1/08_ASM_1_ASM.stp-1/020200000011_ASM_42_ASM_1_ASM.stp-1/085000000001_ASM_12_ASM_1_ASM.stp-1/0250_6_1.stp-2-solid1",
+      "X20S-UZ.stp-1/08_ASM_1_ASM.stp-1/020200000011_ASM_42_ASM_1_ASM.stp-1/MOTOR_20MM_PCB_ASM_1_ASM_1_ASM.stp-1/XIANSHU_1_1.stp-1-solid1",
+      "X20S-UZ.stp-1/08_ASM_1_ASM.stp-1/020200000011_ASM_42_ASM_1_ASM.stp-1/024100000002_21_1.stp-1-solid1",
+      "X20S-UZ.stp-1/08_ASM_1_ASM.stp-1/020200000011_ASM_42_ASM_1_ASM.stp-1/MOTOR_20MM_PCB_ASM_1_ASM_1_ASM.stp-1/XIANSHU_1_1.stp-3-solid1",
+      "X20S-UZ.stp-1/08_ASM_1_ASM.stp-1/020200000011_ASM_42_ASM_1_ASM.stp-1/085000000001_ASM_12_ASM_1_ASM.stp-1/0250_6_1.stp-4-solid1",
+      "X20S-UZ.stp-1/08_ASM_1_ASM.stp-1/PRT0012_11_1_1.stp-1-solid1",
+      "X20S-UZ.stp-1/08_ASM_1_ASM.stp-1/020200000011_ASM_42_ASM_1_ASM.stp-1/082700000002_6_1.stp-1-solid1",
+      "X20S-UZ.stp-1/08_ASM_1_ASM.stp-1/020200000011_ASM_42_ASM_1_ASM.stp-1/024100000001_1_1.stp-1-solid1"
+    ],
+    "native_geometry": "G0193",
+    "native_file": "E:\\codex_work\\导出urdf\\work\\model_variant_compare_20261011\\sources\\raised_5mm\\A3.1X20S-UZ.SLDPRT",
+    "normalization_center_source_m": [
+      -0.003230007365345955,
+      5.077803507447243e-05,
+      -0.010197840456385165
+    ],
+    "tessellation_volume_check": null,
+    "right_hand_derivation": "reflected normalized geometry frame; native_file and native labels refer to original left source evidence"
+  },
+  "G0192": {
+    "volume_m3": 3.8976692855537365e-09,
+    "center_normalized_mesh_m": [
+      -1.1278724466523695e-20,
+      0.0,
+      5.587935496265128e-11
+    ],
+    "inertia_at_COM_density_1": [
+      [
+        8.245115155334172e-15,
+        -1.6048929434264638e-49,
+        -1.8230878992108347e-47
+      ],
+      [
+        -1.6048929434264638e-49,
+        8.245115155334172e-15,
+        4.856822080172119e-48
+      ],
+      [
+        -1.8230878992108347e-47,
+        4.856822080172119e-48,
+        4.844398703688534e-16
+      ]
+    ],
+    "moment_basis": "saved_native_CAD_solid_moments",
+    "fallback_reason": null,
+    "solid_body_names": [
+      "倒角1"
+    ],
+    "native_geometry": "G0192",
+    "native_file": "E:\\codex_work\\导出urdf\\work\\model_variant_compare_20261011\\sources\\raised_5mm\\Pin D1XL5.SLDPRT",
+    "normalization_center_source_m": [
+      0.0,
+      0.0,
+      0.0024999999441206455
+    ],
+    "tessellation_volume_check": null,
+    "right_hand_derivation": "reflected normalized geometry frame; native_file and native labels refer to original left source evidence"
+  },
+  "GT_THUMB_PALM_MOUNT": {
+    "volume_m3": 1.6956592662490139e-06,
+    "center_normalized_mesh_m": [
+      -0.0006484563051471756,
+      -0.00044151185962409224,
+      -0.0021702924050449857
+    ],
+    "inertia_at_COM_density_1": [
+      [
+        6.920298206232745e-11,
+        -5.969915796371955e-12,
+        -9.309749396299146e-12
+      ],
+      [
+        -5.969915796371955e-12,
+        7.626202094652577e-11,
+        -7.553061992476044e-12
+      ],
+      [
+        -9.309749396299146e-12,
+        -7.553061992476044e-12,
+        4.469468138024559e-11
+      ]
+    ],
+    "moment_basis": "current_original_closed_tessellation_estimate",
+    "fallback_reason": "No saved solid moments for the exact restored geometry",
+    "solid_body_names": [
+      "M2 螺纹孔1"
+    ],
+    "native_geometry": null,
+    "native_file": "E:\\codex_work\\导出urdf\\work\\model_variant_compare_20261011\\sources\\raised_5mm\\A3.2 Thumb 1st motor fixed block.SLDPRT",
+    "normalization_center_source_m": [
+      -0.01804438978433609,
+      -0.004051727941259742,
+      -0.006649999879300594
+    ],
+    "tessellation_volume_check": {
+      "exact_native_reopened_volume_m3": 1.6949819669951018e-06,
+      "adopted_volume_m3": 1.6956592662490139e-06,
+      "relative_error": 0.00039959083170226783
+    },
+    "right_hand_derivation": "reflected normalized geometry frame; native_file and native labels refer to original left source evidence"
+  },
+  "G0191": {
+    "volume_m3": 1.2521550555792113e-06,
+    "center_normalized_mesh_m": [
+      -0.00074078807748512,
+      -9.464544995908637e-05,
+      0.00022465871780901405
+    ],
+    "inertia_at_COM_density_1": [
+      [
+        4.8006763378774794e-11,
+        -3.2721989568372435e-11,
+        -6.702560393855935e-12
+      ],
+      [
+        -3.2721989568372435e-11,
+        1.4003788953439588e-10,
+        -1.6972369211451659e-12
+      ],
+      [
+        -6.702560393855935e-12,
+        -1.6972369211451659e-12,
+        1.828332233559259e-10
+      ]
+    ],
+    "moment_basis": "current_original_closed_tessellation_estimate",
+    "fallback_reason": "Earlier assembly cache differs from the independently reopened original solid; use the current original closed tessellation, not the changed cached shape",
+    "solid_body_names": [
+      "切除-拉伸26"
+    ],
+    "native_geometry": "G0196",
+    "native_file": "E:\\codex_work\\导出urdf\\work\\model_variant_compare_20261011\\sources\\raised_5mm\\A3.1Thumb connect block of 20&20 motor.SLDPRT",
+    "normalization_center_source_m": [
+      -0.00866949139162898,
+      0.0027502295561134815,
+      -0.013750000391155481
+    ],
+    "tessellation_volume_check": {
+      "exact_native_reopened_volume_m3": 1.2542538815671e-06,
+      "adopted_volume_m3": 1.2521550555792113e-06,
+      "relative_error": -0.0016733661491774576
+    },
+    "right_hand_derivation": "reflected normalized geometry frame; native_file and native labels refer to original left source evidence"
+  },
+  "G0190_output": {
+    "volume_m3": 6.151646912619654e-07,
+    "center_normalized_mesh_m": [
+      -3.033168099314472e-05,
+      5.3215663258231955e-06,
+      0.00026472836091495286
+    ],
+    "inertia_at_COM_density_1": [
+      [
+        1.3557460240348236e-11,
+        -2.504565794408455e-14,
+        1.5310413429185756e-14
+      ],
+      [
+        -2.504565794408455e-14,
+        1.3419093418907527e-11,
+        -2.6860194052754808e-15
+      ],
+      [
+        1.5310413429185756e-14,
+        -2.6860194052754808e-15,
+        2.560214857323502e-11
+      ]
+    ],
+    "moment_basis": "saved_native_CAD_solid_moments",
+    "fallback_reason": null,
+    "solid_body_names": [
+      "X20S-UZ.stp-1/08_ASM_1_ASM.stp-1/020200000011_ASM_42_ASM_1_ASM.stp-1/020600000005_ASM_11_ASM_1_ASM.stp-1/024200000006_114_1.stp-1-solid1",
+      "X20S-UZ.stp-1/08_ASM_1_ASM.stp-1/020200000011_ASM_42_ASM_1_ASM.stp-1/020600000005_ASM_11_ASM_1_ASM.stp-1/024300000006_21_1.stp-8-solid1",
+      "X20S-UZ.stp-1/08_ASM_1_ASM.stp-1/020200000011_ASM_42_ASM_1_ASM.stp-1/020600000005_ASM_11_ASM_1_ASM.stp-1/024300000006_21_1.stp-7-solid1",
+      "X20S-UZ.stp-1/08_ASM_1_ASM.stp-1/020200000011_ASM_42_ASM_1_ASM.stp-1/020600000005_ASM_11_ASM_1_ASM.stp-1/024300000006_21_1.stp-6-solid1",
+      "X20S-UZ.stp-1/08_ASM_1_ASM.stp-1/020200000011_ASM_42_ASM_1_ASM.stp-1/020600000005_ASM_11_ASM_1_ASM.stp-1/024300000006_21_1.stp-5-solid1",
+      "X20S-UZ.stp-1/08_ASM_1_ASM.stp-1/020200000011_ASM_42_ASM_1_ASM.stp-1/020600000005_ASM_11_ASM_1_ASM.stp-1/024300000006_21_1.stp-4-solid1",
+      "X20S-UZ.stp-1/08_ASM_1_ASM.stp-1/020200000011_ASM_42_ASM_1_ASM.stp-1/020600000005_ASM_11_ASM_1_ASM.stp-1/024300000006_21_1.stp-3-solid1",
+      "X20S-UZ.stp-1/08_ASM_1_ASM.stp-1/020200000011_ASM_42_ASM_1_ASM.stp-1/020600000005_ASM_11_ASM_1_ASM.stp-1/024300000006_21_1.stp-2-solid1",
+      "X20S-UZ.stp-1/08_ASM_1_ASM.stp-1/020200000011_ASM_42_ASM_1_ASM.stp-1/020600000005_ASM_11_ASM_1_ASM.stp-1/024300000006_21_1.stp-1-solid1"
+    ],
+    "native_geometry": "G0193",
+    "native_file": "E:\\codex_work\\导出urdf\\work\\model_variant_compare_20261011\\sources\\raised_5mm\\A3.1X20S-UZ.SLDPRT",
+    "normalization_center_source_m": [
+      9.529851377010345e-05,
+      8.632335811853409e-05,
+      0.00044999999227002263
+    ],
+    "tessellation_volume_check": null,
+    "right_hand_derivation": "reflected normalized geometry frame; native_file and native labels refer to original left source evidence"
+  },
+  "G0198": {
+    "volume_m3": 1.0879733860336117e-08,
+    "center_normalized_mesh_m": [
+      -1.6024129109391433e-20,
+      1.4682742735980839e-21,
+      -0.00041591454938994774
+    ],
+    "inertia_at_COM_density_1": [
+      [
+        2.1568385396704004e-14,
+        6.066679324819793e-32,
+        1.2419344695107793e-30
+      ],
+      [
+        6.066679324819793e-32,
+        2.1568385396704004e-14,
+        2.532643889856248e-32
+      ],
+      [
+        1.2419344695107793e-30,
+        2.532643889856248e-32,
+        7.473629904585423e-15
+      ]
+    ],
+    "moment_basis": "saved_native_CAD_solid_moments",
+    "fallback_reason": null,
+    "solid_body_names": [
+      "M1.6 机械螺纹 螺柱1"
+    ],
+    "native_geometry": "G0201",
+    "native_file": "E:\\codex_work\\导出urdf\\work\\model_variant_compare_20261011\\sources\\raised_5mm\\M1.6X3.5梅花头扁头螺钉.SLDPRT",
+    "normalization_center_source_m": [
+      0.0,
+      0.0,
+      0.0014000000664964318
+    ],
+    "tessellation_volume_check": null,
+    "right_hand_derivation": "reflected normalized geometry frame; native_file and native labels refer to original left source evidence"
+  },
+  "G0199": {
+    "volume_m3": 3.1701079362676594e-06,
+    "center_normalized_mesh_m": [
+      0.002325931759876496,
+      4.600809557804015e-06,
+      -0.0006987479004918177
+    ],
+    "inertia_at_COM_density_1": [
+      [
+        4.001491454141854e-10,
+        -1.2630344185314757e-13,
+        1.1881317092804948e-11
+      ],
+      [
+        -1.2630344185314757e-13,
+        4.562294203926446e-10,
+        2.92978033194607e-13
+      ],
+      [
+        1.1881317092804948e-11,
+        2.92978033194607e-13,
+        2.77732248514976e-10
+      ]
+    ],
+    "moment_basis": "saved_native_CAD_solid_moments",
+    "fallback_reason": null,
+    "solid_body_names": [
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid214",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid172",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid194",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid100",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid6",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid200",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid105",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid35",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid190",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid63",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid151",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid150",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid27",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid98",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid67",
+      "A32F2V1_散热通道S1-2-solid1",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid233",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid225",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid87",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid84",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid24",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid5",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid209",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid30",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid10",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid12",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid34",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid129",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid198",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid141",
+      "A32F123V1_管接头-1-solid1",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid126",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid19",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid11",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid195",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid243",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid179",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid158",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid94",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid211",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid178",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid45",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid65",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid218",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid206",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid106",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid80",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid29",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid191",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid49",
+      "A32F2V1_定子外壳带安装孔S1-1-solid1",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid57",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid165",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid164",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid1",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid99",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid32",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid229",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid60",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid230",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid222",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid96",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid85",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid21",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid237",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid145",
+      "A32F2V1_定子尾部挡磁片S1-1-solid1",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid82",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid64",
+      "A32F123V1_管接头-2-solid1",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid118",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid47",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid142",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid28",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid127",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid247",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid75",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid188",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid147",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid131",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid14",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid171",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid240",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid124",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid31",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid107",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid59",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid215",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid20",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid104",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid120",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid89",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid42",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid133",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid62",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid97",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid26",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid226",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid46",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid86",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid54",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid83",
+      "A32F123V1_管接头-3-solid1",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid234",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid58",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid128",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid148",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid125",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid244",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid61",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid157",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid116",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid210",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid154",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid138",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid44",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid25",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid186",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid212",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid72",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid8",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid121",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid219",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid134",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid102",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid56",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid76",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid193",
+      "A32F123V1_管接头-4-solid1",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid223",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid192",
+      "A32F2V1_走线槽S1-1-solid1",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid238",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid23",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid231",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid43",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid173",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid51",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid201",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid149",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid146",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid139",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid74",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid241",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid170",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid55",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid155",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid91",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid175",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid168",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid77",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid152",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid39",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid2",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid208",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid203",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid135",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid216",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid132",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid41",
+      "A32F2V1_走线槽S1-1-solid2",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid109",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid108",
+      "A32F2V1_定子内支撑管S1-1-solid1",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid248",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid161",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid220",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid53",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid235",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid227",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid73",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid9",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid159",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid78",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid18",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid95",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid40",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid156",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid115",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid92",
+      "A32F2V1_驱动板S1-1-solid1",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid176",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid169",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid153",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid112",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid69",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid245",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid81",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid185",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid144",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid204",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid182",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid166",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid71",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid22",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid52",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid213",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid101",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid162",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid36",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid123",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid130",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid122",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid79",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid4",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid232",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid224",
+      "A32F2V1_定子前端盖S1-1-solid1",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid239",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid207",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid88",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid50",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid70",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid93",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid177",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid113",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid17",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid90",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid174",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid167",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid242",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid205",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid13",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid199",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid183",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid110",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid15",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid202",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid38",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid217",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid196",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid180",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid66",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid163",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid160",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid3",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid137",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid136",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid7",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid33",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid221",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid236",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid228",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid117",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid37",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid187",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid114",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid111",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid48",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid119",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid103",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid68",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid16",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid184",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid143",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid197",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid181",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid140",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid246",
+      "ESKIN_MCP_20260803_3D_2026-08-13S1-1-solid189"
+    ],
+    "native_geometry": "G0199",
+    "native_file": "E:\\codex_work\\导出urdf\\work\\model_variant_compare_20261011\\sources\\raised_5mm\\A32F2V1装配体_定子S1_拇指(1).SLDPRT",
+    "normalization_center_source_m": [
+      0.9861530959606171,
+      1.0158451795578003,
+      0.998504251241684
+    ],
+    "tessellation_volume_check": null,
+    "right_hand_derivation": "reflected normalized geometry frame; native_file and native labels refer to original left source evidence"
+  },
+  "G0200": {
+    "volume_m3": 1.1429336677451621e-06,
+    "center_normalized_mesh_m": [
+      -0.0005064316818739201,
+      -0.0010281367294701638,
+      0.0013478656801292057
+    ],
+    "inertia_at_COM_density_1": [
+      [
+        1.647033071092989e-10,
+        1.0252506128195972e-11,
+        -2.142450585907418e-13
+      ],
+      [
+        1.0252506128195972e-11,
+        9.13104405604226e-11,
+        -1.3230720264136814e-12
+      ],
+      [
+        -2.142450585907418e-13,
+        -1.3230720264136814e-12,
+        2.3075753728219704e-10
+      ]
+    ],
+    "moment_basis": "saved_native_CAD_solid_moments",
+    "fallback_reason": null,
+    "solid_body_names": [
+      "圆角4"
+    ],
+    "native_geometry": "G0202",
+    "native_file": "E:\\codex_work\\导出urdf\\work\\model_variant_compare_20261011\\sources\\raised_5mm\\A3.2 Thumb cover of MCP0922.SLDPRT",
+    "normalization_center_source_m": [
+      -0.06509105488657951,
+      -0.019801784306764554,
+      0.005440565757318529
+    ],
+    "tessellation_volume_check": null,
+    "right_hand_derivation": "reflected normalized geometry frame; native_file and native labels refer to original left source evidence"
+  },
+  "G0201": {
+    "volume_m3": 3.9708867756692967e-07,
+    "center_normalized_mesh_m": [
+      -8.406559809610858e-06,
+      0.0004272539257072546,
+      0.00025492664071930513
+    ],
+    "inertia_at_COM_density_1": [
+      [
+        2.1767142232994122e-11,
+        -3.350357411200561e-15,
+        1.385912603443096e-14
+      ],
+      [
+        -3.350357411200561e-15,
+        3.6546255802733116e-12,
+        -8.476056556675274e-14
+      ],
+      [
+        1.385912603443096e-14,
+        -8.476056556675274e-14,
+        2.5254996096840986e-11
+      ]
+    ],
+    "moment_basis": "saved_native_CAD_solid_moments",
+    "fallback_reason": null,
+    "solid_body_names": [
+      "凸台-拉伸3"
+    ],
+    "native_geometry": "G0203",
+    "native_file": "E:\\codex_work\\导出urdf\\work\\model_variant_compare_20261011\\sources\\raised_5mm\\A3.2 Thumb rubber of MCP0922.SLDPRT",
+    "normalization_center_source_m": [
+      -0.06034219078719616,
+      -0.013521417044099704,
+      -3.953085979446769e-05
+    ],
+    "tessellation_volume_check": null,
+    "right_hand_derivation": "reflected normalized geometry frame; native_file and native labels refer to original left source evidence"
+  },
+  "G0202": {
+    "volume_m3": 3.6437745106727226e-07,
+    "center_normalized_mesh_m": [
+      4.804860616432439e-10,
+      -2.482943970132885e-19,
+      -0.000525429072287279
+    ],
+    "inertia_at_COM_density_1": [
+      [
+        2.4521484654857974e-12,
+        7.706494375811377e-19,
+        -5.084464617541224e-19
+      ],
+      [
+        7.706494375811377e-19,
+        9.662148135281788e-12,
+        -5.531022300872272e-24
+      ],
+      [
+        -5.084464617541224e-19,
+        -5.531022300872272e-24,
+        9.249733271457328e-12
+      ]
+    ],
+    "moment_basis": "saved_native_CAD_solid_moments",
+    "fallback_reason": null,
+    "solid_body_names": [
+      "倒角3[1]"
+    ],
+    "native_geometry": "G0200",
+    "native_file": "E:\\codex_work\\导出urdf\\work\\model_variant_compare_20261011\\sources\\raised_5mm\\线扣卡3.SLDPRT",
+    "normalization_center_source_m": [
+      0.0,
+      0.0,
+      -0.0007500001229345798
+    ],
+    "tessellation_volume_check": null,
+    "right_hand_derivation": "reflected normalized geometry frame; native_file and native labels refer to original left source evidence"
+  },
+  "G0208": {
+    "volume_m3": 1.0898636682373461e-06,
+    "center_normalized_mesh_m": [
+      -6.869408255832411e-05,
+      -0.004397185500731628,
+      0.004657722731694975
+    ],
+    "inertia_at_COM_density_1": [
+      [
+        1.4449486439628e-10,
+        -1.1266111117007991e-11,
+        -4.998803147202515e-12
+      ],
+      [
+        -1.1266111117007991e-11,
+        7.300875317166752e-11,
+        -3.782838657913908e-11
+      ],
+      [
+        -4.998803147202515e-12,
+        -3.782838657913908e-11,
+        1.4773515497781626e-10
+      ]
+    ],
+    "moment_basis": "saved_native_CAD_solid_moments",
+    "fallback_reason": null,
+    "solid_body_names": [
+      "倒角10[1]"
+    ],
+    "native_geometry": "G0204",
+    "native_file": "E:\\codex_work\\导出urdf\\work\\model_variant_compare_20261011\\sources\\raised_5mm\\A3.2Thumb rota motor.SLDPRT",
+    "normalization_center_source_m": [
+      -0.0011408277787268162,
+      0.004900129046291113,
+      -0.007746412535198033
+    ],
+    "tessellation_volume_check": {
+      "exact_native_reopened_volume_m3": 1.0898636682373461e-06,
+      "adopted_volume_m3": 1.0898636682373461e-06,
+      "relative_error": 0.0
+    },
+    "right_hand_derivation": "reflected normalized geometry frame; native_file and native labels refer to original left source evidence"
+  },
+  "G0203": {
+    "volume_m3": 7.814112663001867e-07,
+    "center_normalized_mesh_m": [
+      1.7938336621672314e-08,
+      0.00016027087772003956,
+      0.0010565945073700818
+    ],
+    "inertia_at_COM_density_1": [
+      [
+        5.129612837985931e-11,
+        2.9133120575990214e-16,
+        -1.3791424242530353e-16
+      ],
+      [
+        2.9133120575990214e-16,
+        4.252065314328692e-11,
+        -1.0178281121964324e-12
+      ],
+      [
+        -1.3791424242530353e-16,
+        -1.0178281121964324e-12,
+        7.579534864074022e-11
+      ]
+    ],
+    "moment_basis": "saved_native_CAD_solid_moments",
+    "fallback_reason": null,
+    "solid_body_names": [
+      "DA-ZHONG[1]"
+    ],
+    "native_geometry": "G0205",
+    "native_file": "E:\\codex_work\\导出urdf\\work\\model_variant_compare_20261011\\sources\\raised_5mm\\A3.2 Thumb cover of PIP.SLDPRT",
+    "normalization_center_source_m": [
+      0.0,
+      0.0644720084965229,
+      -0.0055750001774868
+    ],
+    "tessellation_volume_check": null,
+    "right_hand_derivation": "reflected normalized geometry frame; native_file and native labels refer to original left source evidence"
+  },
+  "G0204": {
+    "volume_m3": 2.0526812931076194e-07,
+    "center_normalized_mesh_m": [
+      -1.0259220361102939e-05,
+      0.00022224315998197863,
+      5.470711308739316e-05
+    ],
+    "inertia_at_COM_density_1": [
+      [
+        2.7757505579845564e-12,
+        4.440849094842049e-17,
+        -1.1341293455977352e-15
+      ],
+      [
+        4.440849094842049e-17,
+        1.1697630780278335e-12,
+        2.4547445323207666e-15
+      ],
+      [
+        -1.1341293455977352e-15,
+        2.4547445323207666e-15,
+        3.795496465391822e-12
+      ]
+    ],
+    "moment_basis": "saved_native_CAD_solid_moments",
+    "fallback_reason": null,
+    "solid_body_names": [
+      "实体-移动/复制2"
+    ],
+    "native_geometry": "G0206",
+    "native_file": "E:\\codex_work\\导出urdf\\work\\model_variant_compare_20261011\\sources\\raised_5mm\\A3.2 Thumb rubber of PIP.SLDPRT",
+    "normalization_center_source_m": [
+      -0.07799651473760605,
+      -0.005853743525221944,
+      0.0010940200882032544
+    ],
+    "tessellation_volume_check": null,
+    "right_hand_derivation": "reflected normalized geometry frame; native_file and native labels refer to original left source evidence"
+  },
+  "GT_F1_HINGE": {
+    "volume_m3": 3.3974861332901227e-07,
+    "center_normalized_mesh_m": [
+      0.00039757989167813097,
+      -0.00036274081801230314,
+      -2.34619900198364e-08
+    ],
+    "inertia_at_COM_density_1": [
+      [
+        7.352194226482369e-12,
+        1.1319976311387905e-12,
+        -1.0835136696528643e-17
+      ],
+      [
+        1.1319976311387905e-12,
+        5.1298051431479104e-12,
+        -1.3463202869958917e-17
+      ],
+      [
+        -1.0835136696528643e-17,
+        -1.3463202869958917e-17,
+        8.624725933297678e-12
+      ]
+    ],
+    "moment_basis": "saved_native_CAD_solid_moments",
+    "fallback_reason": null,
+    "solid_body_names": [
+      "倒角28"
+    ],
+    "native_geometry": "G0179",
+    "native_file": "E:\\codex_work\\导出urdf\\work\\model_variant_compare_20261011\\sources\\raised_5mm\\A3.2 Thumb F1顶部铰接件.SLDPRT",
+    "normalization_center_source_m": [
+      0.004354073898866773,
+      -0.004831006750464439,
+      0.0
+    ],
+    "tessellation_volume_check": null,
+    "right_hand_derivation": "reflected normalized geometry frame; native_file and native labels refer to original left source evidence"
+  },
+  "GT_F2_ROD": {
+    "volume_m3": 1.3107102673667867e-07,
+    "center_normalized_mesh_m": [
+      0.0010244441576615915,
+      9.91678175745031e-20,
+      2.424795914619457e-05
+    ],
+    "inertia_at_COM_density_1": [
+      [
+        4.665245532797305e-13,
+        -3.942733649047865e-29,
+        -1.2952977463876442e-14
+      ],
+      [
+        -3.942733649047865e-29,
+        1.8103642058971e-12,
+        -1.6055831017287648e-29
+      ],
+      [
+        -1.2952977463876442e-14,
+        -1.6055831017287648e-29,
+        1.6078764321520463e-12
+      ]
+    ],
+    "moment_basis": "saved_native_CAD_solid_moments",
+    "fallback_reason": null,
+    "solid_body_names": [
+      "倒角6"
+    ],
+    "native_geometry": "G0168",
+    "native_file": "E:\\codex_work\\导出urdf\\work\\model_variant_compare_20261011\\sources\\raised_5mm\\A3.2-F2连杆.SLDPRT",
+    "normalization_center_source_m": [
+      0.008699999831151217,
+      0.0,
+      0.0010000000474974513
+    ],
+    "tessellation_volume_check": null,
+    "right_hand_derivation": "reflected normalized geometry frame; native_file and native labels refer to original left source evidence"
+  },
+  "GT_F1_ROD": {
+    "volume_m3": 1.4827808280449356e-07,
+    "center_normalized_mesh_m": [
+      1.1162569894526267e-20,
+      -0.001272975936805771,
+      -2.1625598939979526e-05
+    ],
+    "inertia_at_COM_density_1": [
+      [
+        1.8859895290962435e-12,
+        -1.4163769155289556e-28,
+        1.283874688504422e-29
+      ],
+      [
+        -1.4163769155289556e-28,
+        6.44197381940762e-13,
+        -8.50398704866838e-15
+      ],
+      [
+        1.283874688504422e-29,
+        -8.50398704866838e-15,
+        1.6395517478287567e-12
+      ]
+    ],
+    "moment_basis": "saved_native_CAD_solid_moments",
+    "fallback_reason": null,
+    "solid_body_names": [
+      "倒角2"
+    ],
+    "native_geometry": "G0159",
+    "native_file": "E:\\codex_work\\导出urdf\\work\\model_variant_compare_20261011\\sources\\raised_5mm\\A3.2 F1连杆.SLDPRT",
+    "normalization_center_source_m": [
+      0.0,
+      0.004674999858252704,
+      0.0
+    ],
+    "tessellation_volume_check": null,
+    "right_hand_derivation": "reflected normalized geometry frame; native_file and native labels refer to original left source evidence"
+  }
+}

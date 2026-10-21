@@ -1,0 +1,273 @@
+{
+  "passed": true,
+  "links": 22,
+  "output_joints": 20,
+  "fixed_joints": 1,
+  "visual_meshes": 367,
+  "physical_collision_meshes": 367,
+  "mass_kg": 0.952,
+  "dynamics_tags": 0,
+  "joint_names_frames_limits_unchanged": true,
+  "visuals_and_mesh_bytes_unchanged": true,
+  "full_inertial_elements_unchanged": true,
+  "poses_checked": 162,
+  "output_fk_checks": 3240,
+  "maximum_fk_matrix_change": 0.0,
+  "inertial_checks": [
+    {
+      "link": "base_link",
+      "mass_kg": 0.15,
+      "COM_error_m": 3.64807851372056e-17,
+      "tensor_relative_error": 1.6071100678959277e-15,
+      "principal_inertias": [
+        8.837709164033009e-05,
+        0.00012298778481637253,
+        0.0001581067845460098
+      ]
+    },
+    {
+      "link": "Left_hand_palm_link",
+      "mass_kg": 0.017,
+      "COM_error_m": 0.0,
+      "tensor_relative_error": 4.519558182673488e-16,
+      "principal_inertias": [
+        2.3343999115898003e-06,
+        4.298061073535957e-06,
+        5.534419375280121e-06
+      ]
+    },
+    {
+      "link": "left_hand_thumb_rota_block_link",
+      "mass_kg": 0.035,
+      "COM_error_m": 4.2491873609703695e-18,
+      "tensor_relative_error": 1.7789276829671318e-15,
+      "principal_inertias": [
+        2.1422214606692673e-06,
+        5.166479775499369e-06,
+        5.3432572568363325e-06
+      ]
+    },
+    {
+      "link": "left_hand_thumb_rotaback_link2",
+      "mass_kg": 0.075,
+      "COM_error_m": 2.168404344971009e-19,
+      "tensor_relative_error": 1.258762184712535e-15,
+      "principal_inertias": [
+        5.897991405241808e-06,
+        2.2265506299535318e-05,
+        2.3119072995991362e-05
+      ]
+    },
+    {
+      "link": "left_hand_thumb_MCP_link",
+      "mass_kg": 0.04,
+      "COM_error_m": 1.9394799921876313e-18,
+      "tensor_relative_error": 5.763661566017015e-16,
+      "principal_inertias": [
+        2.5310923662641826e-06,
+        2.96893524735628e-06,
+        3.8007961302546455e-06
+      ]
+    },
+    {
+      "link": "left_hand_thumb_PIP_link",
+      "mass_kg": 0.015,
+      "COM_error_m": 1.748224293961505e-18,
+      "tensor_relative_error": 1.4994027659967818e-16,
+      "principal_inertias": [
+        4.6069627350909605e-07,
+        6.43585281108546e-07,
+        7.149044966090643e-07
+      ]
+    },
+    {
+      "link": "left_hand_index_MCP_link",
+      "mass_kg": 0.03,
+      "COM_error_m": 0.0,
+      "tensor_relative_error": 6.188848896663059e-16,
+      "principal_inertias": [
+        1.634750124521383e-06,
+        2.2959490151993292e-06,
+        2.377279537787093e-06
+      ]
+    },
+    {
+      "link": "left_hand_index_swing_link",
+      "mass_kg": 0.07,
+      "COM_error_m": 0.0,
+      "tensor_relative_error": 1.1138361011749185e-15,
+      "principal_inertias": [
+        6.47459281026809e-06,
+        1.460361088015415e-05,
+        1.6154031293998485e-05
+      ]
+    },
+    {
+      "link": "left_hand_index_PIP_link",
+      "mass_kg": 0.04,
+      "COM_error_m": 3.496447177185381e-18,
+      "tensor_relative_error": 1.0992117828807455e-15,
+      "principal_inertias": [
+        2.539751967502066e-06,
+        2.993981480929043e-06,
+        3.829865056106001e-06
+      ]
+    },
+    {
+      "link": "left_hand_index_DIP_link",
+      "mass_kg": 0.015,
+      "COM_error_m": 0.0,
+      "tensor_relative_error": 9.137893341617049e-16,
+      "principal_inertias": [
+        5.243464318406993e-07,
+        7.699117118434909e-07,
+        9.159724864624519e-07
+      ]
+    },
+    {
+      "link": "left_hand_mid_MCP_link",
+      "mass_kg": 0.03,
+      "COM_error_m": 0.0,
+      "tensor_relative_error": 6.106693771239363e-16,
+      "principal_inertias": [
+        1.6347503637356823e-06,
+        2.2959493048927507e-06,
+        2.377279586497674e-06
+      ]
+    },
+    {
+      "link": "left_hand_mid_swing_link",
+      "mass_kg": 0.07,
+      "COM_error_m": 3.469447055351189e-18,
+      "tensor_relative_error": 1.1886958028214203e-15,
+      "principal_inertias": [
+        6.474600039559942e-06,
+        1.4603620577458572e-05,
+        1.6154029265071555e-05
+      ]
+    },
+    {
+      "link": "left_hand_mid_PIP_link",
+      "mass_kg": 0.04,
+      "COM_error_m": 1.7881120432115467e-18,
+      "tensor_relative_error": 1.003123114580689e-15,
+      "principal_inertias": [
+        2.5397519675020806e-06,
+        2.993981480929041e-06,
+        3.829865056106019e-06
+      ]
+    },
+    {
+      "link": "left_hand_mid_DIP_link",
+      "mass_kg": 0.015,
+      "COM_error_m": 0.0,
+      "tensor_relative_error": 6.534129590066007e-16,
+      "principal_inertias": [
+        5.243464318406984e-07,
+        7.699117118434904e-07,
+        9.159724864624508e-07
+      ]
+    },
+    {
+      "link": "left_hand_ring_MCP_link",
+      "mass_kg": 0.03,
+      "COM_error_m": 0.0,
+      "tensor_relative_error": 2.774104024946018e-16,
+      "principal_inertias": [
+        1.629490810160036e-06,
+        2.2928119905321916e-06,
+        2.373895392391676e-06
+      ]
+    },
+    {
+      "link": "left_hand_ring_swing_link",
+      "mass_kg": 0.07,
+      "COM_error_m": 0.0,
+      "tensor_relative_error": 1.1515726783038595e-15,
+      "principal_inertias": [
+        6.474592810267631e-06,
+        1.4603610880154522e-05,
+        1.6154031293998386e-05
+      ]
+    },
+    {
+      "link": "left_hand_ring_PIP_link",
+      "mass_kg": 0.04,
+      "COM_error_m": 1.78811208082794e-18,
+      "tensor_relative_error": 1.79677612628084e-16,
+      "principal_inertias": [
+        2.539552383675533e-06,
+        2.9937826803592397e-06,
+        3.829861265509479e-06
+      ]
+    },
+    {
+      "link": "left_hand_ring_DIP_link",
+      "mass_kg": 0.015,
+      "COM_error_m": 0.0,
+      "tensor_relative_error": 2.1615331152547853e-16,
+      "principal_inertias": [
+        5.437606521893945e-07,
+        9.05405295883133e-07,
+        1.0363357545564397e-06
+      ]
+    },
+    {
+      "link": "left_hand_pinky_MCP_link",
+      "mass_kg": 0.03,
+      "COM_error_m": 0.0,
+      "tensor_relative_error": 2.8831910105909007e-16,
+      "principal_inertias": [
+        1.628899126660667e-06,
+        2.2927975629601696e-06,
+        2.3756237641960284e-06
+      ]
+    },
+    {
+      "link": "left_hand_pinky_swing_link",
+      "mass_kg": 0.07,
+      "COM_error_m": 0.0,
+      "tensor_relative_error": 5.149114558996386e-16,
+      "principal_inertias": [
+        5.8893496942835745e-06,
+        1.3557539914495646e-05,
+        1.5410320386265745e-05
+      ]
+    },
+    {
+      "link": "left_hand_pinky_PIP_link",
+      "mass_kg": 0.04,
+      "COM_error_m": 3.4762430291113754e-18,
+      "tensor_relative_error": 5.996467063646134e-16,
+      "principal_inertias": [
+        2.3682490935389338e-06,
+        2.858558571907888e-06,
+        3.5187441145655775e-06
+      ]
+    },
+    {
+      "link": "left_hand_pinky_DIP_link",
+      "mass_kg": 0.015,
+      "COM_error_m": 0.0,
+      "tensor_relative_error": 5.024736133805484e-16,
+      "principal_inertias": [
+        4.6109743636226274e-07,
+        6.439971779900027e-07,
+        7.149345709319251e-07
+      ]
+    }
+  ],
+  "mock_xacro_20_controls": true,
+  "launch_syntax_checked": true,
+  "YAML_parsed": true,
+  "source_CAD_hashes_verified": 556,
+  "thumb_required_components_collision_included": {
+    "P_THUMB_PALM_MOUNT": "base_link",
+    "P0353_OUTPUT": "left_hand_thumb_rota_block_link",
+    "P0334_OUTPUT": "left_hand_thumb_rotaback_link2",
+    "P0336": "left_hand_thumb_rota_block_link",
+    "P0386": "left_hand_thumb_rotaback_link2"
+  },
+  "main_URDF_sha256": "5357bf30877699844a841edb00bdf9b69027e3473e2787122bfaf7bbc721b452",
+  "ROS_runtime_report": "checks/ROS2_runtime_validation.json"
+}

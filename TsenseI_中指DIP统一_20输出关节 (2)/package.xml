@@ -1,0 +1,2 @@
+<?xml version="1.0"?>
+<package format="3"><name>tsensei_hand_20_outputs_description</name><version>0.1.0</version><description>Current middle DIP standard CAD with 20 TsenseI named output coordinates.</description><maintainer email="user@example.invalid">URDF export</maintainer><license>LicenseRef-User-CAD</license><buildtool_depend>ament_cmake</buildtool_depend><exec_depend>robot_state_publisher</exec_depend><export><build_type>ament_cmake</build_type></export></package>

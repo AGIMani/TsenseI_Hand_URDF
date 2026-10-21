@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.8)
+project(tsensei_hand_right_raised5mm_20_outputs_description)
+find_package(ament_cmake REQUIRED)
+install(DIRECTORY urdf meshes config examples provenance checks launch rviz docs preview DESTINATION share/${PROJECT_NAME})
+install(PROGRAMS tools/rebuild_inertials.py tools/stroke_conversion.py DESTINATION lib/${PROJECT_NAME})
+install(FILES README.txt tools/requirements.txt DESTINATION share/${PROJECT_NAME})
+ament_package()

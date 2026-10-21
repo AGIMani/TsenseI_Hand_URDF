@@ -1,0 +1,209 @@
+<?xml version='1.0' encoding='utf-8'?>
+<robot name="TsenseI_hand_v3_2_withid_right_raised5mm" xmlns:xacro="http://www.ros.org/wiki/xacro">
+  <xacro:include filename="TsenseI_hand_right_ros.urdf" />
+  <ros2_control name="TsenseI_20_Outputs_Mock" type="system">
+    <hardware>
+      <plugin>mock_components/GenericSystem</plugin>
+    </hardware>
+    <joint name="right_hand_thumb_rota_block_joint">
+      <command_interface name="position">
+        <param name="min">0.0</param>
+        <param name="max">2.09</param>
+      </command_interface>
+      <state_interface name="position">
+        <param name="initial_value">0</param>
+      </state_interface>
+      <state_interface name="velocity" />
+    </joint>
+    <joint name="right_hand_thumb_rotaback_joint2">
+      <command_interface name="position">
+        <param name="min">-1.74</param>
+        <param name="max">-0.0</param>
+      </command_interface>
+      <state_interface name="position">
+        <param name="initial_value">0</param>
+      </state_interface>
+      <state_interface name="velocity" />
+    </joint>
+    <joint name="right_hand_thumb_MCP_joint">
+      <command_interface name="position">
+        <param name="min">0.0</param>
+        <param name="max">1.57</param>
+      </command_interface>
+      <state_interface name="position">
+        <param name="initial_value">0</param>
+      </state_interface>
+      <state_interface name="velocity" />
+    </joint>
+    <joint name="right_hand_thumb_PIP_joint">
+      <command_interface name="position">
+        <param name="min">0.0</param>
+        <param name="max">1.57</param>
+      </command_interface>
+      <state_interface name="position">
+        <param name="initial_value">0</param>
+      </state_interface>
+      <state_interface name="velocity" />
+    </joint>
+    <joint name="right_hand_index_MCP_joint">
+      <command_interface name="position">
+        <param name="min">0.0</param>
+        <param name="max">1.57</param>
+      </command_interface>
+      <state_interface name="position">
+        <param name="initial_value">0</param>
+      </state_interface>
+      <state_interface name="velocity" />
+    </joint>
+    <joint name="right_hand_index_swing_joint">
+      <command_interface name="position">
+        <param name="min">-0.35</param>
+        <param name="max">0.35</param>
+      </command_interface>
+      <state_interface name="position">
+        <param name="initial_value">0</param>
+      </state_interface>
+      <state_interface name="velocity" />
+    </joint>
+    <joint name="right_hand_index_PIP_joint">
+      <command_interface name="position">
+        <param name="min">0.0</param>
+        <param name="max">1.57</param>
+      </command_interface>
+      <state_interface name="position">
+        <param name="initial_value">0</param>
+      </state_interface>
+      <state_interface name="velocity" />
+    </joint>
+    <joint name="right_hand_index_DIP_joint">
+      <command_interface name="position">
+        <param name="min">0.0</param>
+        <param name="max">1.57</param>
+      </command_interface>
+      <state_interface name="position">
+        <param name="initial_value">0</param>
+      </state_interface>
+      <state_interface name="velocity" />
+    </joint>
+    <joint name="right_hand_mid_MCP_joint">
+      <command_interface name="position">
+        <param name="min">0.0</param>
+        <param name="max">1.57</param>
+      </command_interface>
+      <state_interface name="position">
+        <param name="initial_value">0</param>
+      </state_interface>
+      <state_interface name="velocity" />
+    </joint>
+    <joint name="right_hand_mid_swing_joint">
+      <command_interface name="position">
+        <param name="min">-0.35</param>
+        <param name="max">0.35</param>
+      </command_interface>
+      <state_interface name="position">
+        <param name="initial_value">0</param>
+      </state_interface>
+      <state_interface name="velocity" />
+    </joint>
+    <joint name="right_hand_mid_PIP_joint">
+      <command_interface name="position">
+        <param name="min">0.0</param>
+        <param name="max">1.57</param>
+      </command_interface>
+      <state_interface name="position">
+        <param name="initial_value">0</param>
+      </state_interface>
+      <state_interface name="velocity" />
+    </joint>
+    <joint name="right_hand_mid_DIP_joint">
+      <command_interface name="position">
+        <param name="min">0.0</param>
+        <param name="max">1.57</param>
+      </command_interface>
+      <state_interface name="position">
+        <param name="initial_value">0</param>
+      </state_interface>
+      <state_interface name="velocity" />
+    </joint>
+    <joint name="right_hand_ring_MCP_joint">
+      <command_interface name="position">
+        <param name="min">0.0</param>
+        <param name="max">1.57</param>
+      </command_interface>
+      <state_interface name="position">
+        <param name="initial_value">0</param>
+      </state_interface>
+      <state_interface name="velocity" />
+    </joint>
+    <joint name="right_hand_ring_swing_joint">
+      <command_interface name="position">
+        <param name="min">-0.35</param>
+        <param name="max">0.35</param>
+      </command_interface>
+      <state_interface name="position">
+        <param name="initial_value">0</param>
+      </state_interface>
+      <state_interface name="velocity" />
+    </joint>
+    <joint name="right_hand_ring_PIP_joint">
+      <command_interface name="position">
+        <param name="min">0.0</param>
+        <param name="max">1.57</param>
+      </command_interface>
+      <state_interface name="position">
+        <param name="initial_value">0</param>
+      </state_interface>
+      <state_interface name="velocity" />
+    </joint>
+    <joint name="right_hand_ring_DIP_joint">
+      <command_interface name="position">
+        <param name="min">0.0</param>
+        <param name="max">1.57</param>
+      </command_interface>
+      <state_interface name="position">
+        <param name="initial_value">0</param>
+      </state_interface>
+      <state_interface name="velocity" />
+    </joint>
+    <joint name="right_hand_pinky_MCP_joint">
+      <command_interface name="position">
+        <param name="min">0.0</param>
+        <param name="max">1.57</param>
+      </command_interface>
+      <state_interface name="position">
+        <param name="initial_value">0</param>
+      </state_interface>
+      <state_interface name="velocity" />
+    </joint>
+    <joint name="right_hand_pinky_swing_joint">
+      <command_interface name="position">
+        <param name="min">-0.35</param>
+        <param name="max">0.35</param>
+      </command_interface>
+      <state_interface name="position">
+        <param name="initial_value">0</param>
+      </state_interface>
+      <state_interface name="velocity" />
+    </joint>
+    <joint name="right_hand_pinky_PIP_joint">
+      <command_interface name="position">
+        <param name="min">0.0</param>
+        <param name="max">1.57</param>
+      </command_interface>
+      <state_interface name="position">
+        <param name="initial_value">0</param>
+      </state_interface>
+      <state_interface name="velocity" />
+    </joint>
+    <joint name="right_hand_pinky_DIP_joint">
+      <command_interface name="position">
+        <param name="min">0.0</param>
+        <param name="max">1.57</param>
+      </command_interface>
+      <state_interface name="position">
+        <param name="initial_value">0</param>
+      </state_interface>
+      <state_interface name="velocity" />
+    </joint>
+  </ros2_control>
+</robot>

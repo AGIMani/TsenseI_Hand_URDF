@@ -1,0 +1,37 @@
+{
+  "id": "raised_thumb_reference_module_shell_clear_zero_r05_20261015",
+  "from_model_id": "683b80cc0f91bb4a-review-rot2positive-r04-4b9a87f8",
+  "from_kinematics_sha256": "4b9a87f8408c5f65dbeba21b7c8b5c9e13f18e44f4c4f4b49371d8564430226d",
+  "old_angle_at_new_zero_deg": {
+    "002_rot1": 0.0,
+    "002_rot2": -2.45
+  },
+  "old_angle_at_new_zero_rad": {
+    "002_rot1": 0.0,
+    "002_rot2": -0.04276056667386108
+  },
+  "formula_from_r04": "q_r05 = q_r04 - old_angle_at_new_zero",
+  "new_review_bounds_deg": {
+    "002_rot1": [
+      0.0,
+      120.0
+    ],
+    "002_rot2": [
+      0.0,
+      100.0
+    ]
+  },
+  "zero_source": "P0364 long linear motor cover versus P0227 palm cover; native solid contact bracket old r04 -2.46..-2.45 degrees; adopt nonpenetrating side -2.45",
+  "first_rotation_height_changed": false,
+  "first_rotation_mechanical_reference_unchanged": true,
+  "second_reference_is_shell_clear_assembly_pose_not_old_pin_stop": true,
+  "old_second_stop_pin_P0350_adopted_absent_from_reference_variant": true,
+  "opposite_physical_endpoint_preserved_from_r04": false,
+  "second_upper_user_adopted_new_zero_deg": 100.0,
+  "second_new_zero_from_reference_saved_pose_approx_deg": 1.7827677845123,
+  "other_18_zero_direction_ranges_unchanged": true,
+  "14_nonlinear_transmissions_unchanged": true,
+  "hardware_encoder_zero_measured": false,
+  "real_hardware_stop_angles_measured": false,
+  "extra_manufacturing_clearance_added": false
+}

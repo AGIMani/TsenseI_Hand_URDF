@@ -1,0 +1,94 @@
+{
+  "sources": [
+    {
+      "relative_source": "urdf/TsenseI_hand_left_v3_2_withid.urdf",
+      "absolute_source": "E:\\codex_work\\导出urdf\\outputs\\urdf_raised_5mm_20261011\\TsenseI_20关节_完整模型_20261013_r03\\tsensei_hand_raised5mm_20_outputs_description\\urdf\\TsenseI_hand_left_v3_2_withid.urdf",
+      "sha256": "5357bf30877699844a841edb00bdf9b69027e3473e2787122bfaf7bbc721b452",
+      "snapshot": "provenance/left_r03_source/urdf/TsenseI_hand_left_v3_2_withid.urdf.txt"
+    },
+    {
+      "relative_source": "config/structure_mesh_manifest.json",
+      "absolute_source": "E:\\codex_work\\导出urdf\\outputs\\urdf_raised_5mm_20261011\\TsenseI_20关节_完整模型_20261013_r03\\tsensei_hand_raised5mm_20_outputs_description\\config\\structure_mesh_manifest.json",
+      "sha256": "8f565c5bcdaab723693ca0a69e487600a1296c57b7a167563ecc942900153817",
+      "snapshot": "provenance/left_r03_source/config/structure_mesh_manifest.json"
+    },
+    {
+      "relative_source": "config/inertial_parameters.json",
+      "absolute_source": "E:\\codex_work\\导出urdf\\outputs\\urdf_raised_5mm_20261011\\TsenseI_20关节_完整模型_20261013_r03\\tsensei_hand_raised5mm_20_outputs_description\\config\\inertial_parameters.json",
+      "sha256": "91061ee3e9ee1541f6fe6a875680bcc939c4dff5998145d8853bb146dc305930",
+      "snapshot": "provenance/left_r03_source/config/inertial_parameters.json"
+    },
+    {
+      "relative_source": "config/coordinate_frames.json",
+      "absolute_source": "E:\\codex_work\\导出urdf\\outputs\\urdf_raised_5mm_20261011\\TsenseI_20关节_完整模型_20261013_r03\\tsensei_hand_raised5mm_20_outputs_description\\config\\coordinate_frames.json",
+      "sha256": "de6e70cd3f40f972247f8733c75027fb517aa240ce7ea8c1f8a9492264aaa080",
+      "snapshot": "provenance/left_r03_source/config/coordinate_frames.json"
+    },
+    {
+      "relative_source": "config/name_mapping.json",
+      "absolute_source": "E:\\codex_work\\导出urdf\\outputs\\urdf_raised_5mm_20261011\\TsenseI_20关节_完整模型_20261013_r03\\tsensei_hand_raised5mm_20_outputs_description\\config\\name_mapping.json",
+      "sha256": "3f67f44208014bd3df7f955323fb1f77637777d1d6e0c97fa685151bd2f931bb",
+      "snapshot": "provenance/left_r03_source/config/name_mapping.json"
+    },
+    {
+      "relative_source": "config/nonlinear_loops.json",
+      "absolute_source": "E:\\codex_work\\导出urdf\\outputs\\urdf_raised_5mm_20261011\\TsenseI_20关节_完整模型_20261013_r03\\tsensei_hand_raised5mm_20_outputs_description\\config\\nonlinear_loops.json",
+      "sha256": "370fcb6e3373cc93285a25bd20a1799a4cb71b668ec88942158719927b4e4414",
+      "snapshot": "provenance/left_r03_source/config/nonlinear_loops.json"
+    },
+    {
+      "relative_source": "config/actuator_mapping.json",
+      "absolute_source": "E:\\codex_work\\导出urdf\\outputs\\urdf_raised_5mm_20261011\\TsenseI_20关节_完整模型_20261013_r03\\tsensei_hand_raised5mm_20_outputs_description\\config\\actuator_mapping.json",
+      "sha256": "0cff8011ccb5644aa3ebc1c638d7f8c73bc202cb19d848bb350c52033ea1f724",
+      "snapshot": "provenance/left_r03_source/config/actuator_mapping.json"
+    },
+    {
+      "relative_source": "checks/r03_model_validation.json",
+      "absolute_source": "E:\\codex_work\\导出urdf\\outputs\\urdf_raised_5mm_20261011\\TsenseI_20关节_完整模型_20261013_r03\\tsensei_hand_raised5mm_20_outputs_description\\checks\\r03_model_validation.json",
+      "sha256": "2e1efb09d9e8324980e84986af0da27905922e58050848f76eab6452bbbe4938",
+      "snapshot": "provenance/left_r03_source/checks/r03_model_validation.json"
+    },
+    {
+      "relative_source": "checks/ROS2_runtime_validation.json",
+      "absolute_source": "E:\\codex_work\\导出urdf\\outputs\\urdf_raised_5mm_20261011\\TsenseI_20关节_完整模型_20261013_r03\\tsensei_hand_raised5mm_20_outputs_description\\checks\\ROS2_runtime_validation.json",
+      "sha256": "b9e08900343f32d9eefc8852da5b26c1af26ad1b8828b59fd35036436de3d74b",
+      "snapshot": "provenance/left_r03_source/checks/ROS2_runtime_validation.json"
+    },
+    {
+      "relative_source": "checks/collision_rigid_20.json",
+      "absolute_source": "E:\\codex_work\\导出urdf\\outputs\\urdf_raised_5mm_20261011\\TsenseI_20关节_完整模型_20261013_r03\\tsensei_hand_raised5mm_20_outputs_description\\checks\\collision_rigid_20.json",
+      "sha256": "46e6d8a347af31cbeddb6be6fd8b013dc6c3afd3a382cf9a6652bf025b90d92b",
+      "snapshot": "provenance/left_r03_source/checks/collision_rigid_20.json"
+    },
+    {
+      "relative_source": "checks/collision_nonlinear.json",
+      "absolute_source": "E:\\codex_work\\导出urdf\\outputs\\urdf_raised_5mm_20261011\\TsenseI_20关节_完整模型_20261013_r03\\tsensei_hand_raised5mm_20_outputs_description\\checks\\collision_nonlinear.json",
+      "sha256": "31c673a5e1a1691a543d34de7ee1f3447f968c8d9d767a761400c43daeb45ec9",
+      "snapshot": "provenance/left_r03_source/checks/collision_nonlinear.json"
+    },
+    {
+      "relative_source": "provenance/native_solid_mass_properties_density_1.json",
+      "absolute_source": "E:\\codex_work\\导出urdf\\outputs\\urdf_raised_5mm_20261011\\TsenseI_20关节_完整模型_20261013_r03\\tsensei_hand_raised5mm_20_outputs_description\\provenance\\native_solid_mass_properties_density_1.json",
+      "sha256": "7d6786ce149869b7901ad6089d5af73a65b8c9131350bc0d92facd7c9909ade0",
+      "snapshot": "provenance/left_r03_source/provenance/native_solid_mass_properties_density_1.json"
+    },
+    {
+      "relative_source": "provenance/part_mass_moment_ledger_density_1.json",
+      "absolute_source": "E:\\codex_work\\导出urdf\\outputs\\urdf_raised_5mm_20261011\\TsenseI_20关节_完整模型_20261013_r03\\tsensei_hand_raised5mm_20_outputs_description\\provenance\\part_mass_moment_ledger_density_1.json",
+      "sha256": "94f6dfbb51f21eed99a5afada21cbf76add71df53f1aff2e287dd7b5209774d7",
+      "snapshot": "provenance/left_r03_source/provenance/part_mass_moment_ledger_density_1.json"
+    },
+    {
+      "relative_source": "provenance/full_linkage_DISPLAY_ONLY_source.urdf.txt",
+      "absolute_source": "E:\\codex_work\\导出urdf\\outputs\\urdf_raised_5mm_20261011\\TsenseI_20关节_完整模型_20261013_r03\\tsensei_hand_raised5mm_20_outputs_description\\provenance\\full_linkage_DISPLAY_ONLY_source.urdf.txt",
+      "sha256": "6c70a0643060396a5cd9cdf40202bffe6db59fa4a297c7056a9ff983a591afe7",
+      "snapshot": "provenance/left_r03_source/provenance/full_linkage_DISPLAY_ONLY_source.urdf.txt"
+    },
+    {
+      "relative_source": "provenance/link质量_来源.xlsx",
+      "absolute_source": "E:\\codex_work\\导出urdf\\outputs\\urdf_raised_5mm_20261011\\TsenseI_20关节_完整模型_20261013_r03\\tsensei_hand_raised5mm_20_outputs_description\\provenance\\link质量_来源.xlsx",
+      "sha256": "17954cf0b6f3364e048203f53c7e94bfe2fd8a84feb16d7cee4f57a6f5fa4539",
+      "snapshot": "provenance/left_r03_source/provenance/link质量_来源.xlsx"
+    }
+  ]
+}

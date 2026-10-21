@@ -1,0 +1,1216 @@
+{
+  "schema_version": 1,
+  "interface_id": "hand1009_20outputs_anatomical_names_v1",
+  "model_id": "683b80cc0f91bb4a-review-raised-shellzero-r05-5c3ee9ae",
+  "kinematics_sha256": "5c3ee9aec3a730abb97144f0e4ccfd57c1c64d2922abf4b784532ed987766fbb",
+  "model_sha256": "863b920b1d6de1ee3fe62a2f11b966db63126d4ca23ccd058fb274c5747e1565",
+  "status": "mechanically_unambiguous_names_adopted; human_CMC_pure_axis_labels_not_assumed",
+  "stable_control_ids_retained": true,
+  "link_names_by_group": {
+    "PALM": "hand_base",
+    "g_003_palm_anchor": "index_mount",
+    "g_003_swing_support": "index_mcp_carrier",
+    "g_003_proximal": "index_proximal",
+    "g_003_middle": "index_middle",
+    "g_003_tip": "index_distal",
+    "g_003_base_mover": "index_mcp_slider",
+    "g_003_base_rod": "index_mcp_rod",
+    "g_003_middle_mover": "index_pip_slider",
+    "g_003_middle_rod": "index_pip_rod",
+    "g_003_distal_mover": "index_dip_slider",
+    "g_003_distal_rod": "index_dip_rod",
+    "g_004_palm_anchor": "middle_mount",
+    "g_004_swing_support": "middle_mcp_carrier",
+    "g_004_proximal": "middle_proximal",
+    "g_004_middle": "middle_middle",
+    "g_004_tip": "middle_distal",
+    "g_004_base_mover": "middle_mcp_slider",
+    "g_004_base_rod": "middle_mcp_rod",
+    "g_004_middle_mover": "middle_pip_slider",
+    "g_004_middle_rod": "middle_pip_rod",
+    "g_004_distal_mover": "middle_dip_slider",
+    "g_004_distal_rod": "middle_dip_rod",
+    "g_005_palm_anchor": "ring_mount",
+    "g_005_swing_support": "ring_mcp_carrier",
+    "g_005_proximal": "ring_proximal",
+    "g_005_middle": "ring_middle",
+    "g_005_tip": "ring_distal",
+    "g_005_base_mover": "ring_mcp_slider",
+    "g_005_base_rod": "ring_mcp_rod",
+    "g_005_middle_mover": "ring_pip_slider",
+    "g_005_middle_rod": "ring_pip_rod",
+    "g_005_distal_mover": "ring_dip_slider",
+    "g_005_distal_rod": "ring_dip_rod",
+    "g_006_palm_anchor": "little_mount",
+    "g_006_swing_support": "little_mcp_carrier",
+    "g_006_proximal": "little_proximal",
+    "g_006_middle": "little_middle",
+    "g_006_tip": "little_distal",
+    "g_006_base_mover": "little_mcp_slider",
+    "g_006_base_rod": "little_mcp_rod",
+    "g_006_middle_mover": "little_pip_slider",
+    "g_006_middle_rod": "little_pip_rod",
+    "g_006_distal_mover": "little_dip_slider",
+    "g_006_distal_rod": "little_dip_rod",
+    "THUMB_BASE": "thumb_mount",
+    "THUMB_CARRIER": "thumb_base_axis1_carrier",
+    "THUMB_PROXIMAL": "thumb_metacarpal",
+    "THUMB_MIDDLE": "thumb_proximal",
+    "THUMB_TIP": "thumb_distal",
+    "THUMB_F2_MOVER": "thumb_mcp_slider",
+    "THUMB_F1_MOVER": "thumb_ip_slider",
+    "THUMB_F2_ROD": "thumb_mcp_rod",
+    "THUMB_F1_ROD": "thumb_ip_rod"
+  },
+  "output_names_by_control": {
+    "003_base": "index_mcp_flexion",
+    "003_middle": "index_pip_flexion",
+    "003_distal": "index_dip_flexion",
+    "003_swing": "index_mcp_abduction",
+    "004_base": "middle_mcp_flexion",
+    "004_middle": "middle_pip_flexion",
+    "004_distal": "middle_dip_flexion",
+    "004_swing": "middle_mcp_abduction",
+    "005_base": "ring_mcp_flexion",
+    "005_middle": "ring_pip_flexion",
+    "005_distal": "ring_dip_flexion",
+    "005_swing": "ring_mcp_abduction",
+    "006_base": "little_mcp_flexion",
+    "006_middle": "little_pip_flexion",
+    "006_distal": "little_dip_flexion",
+    "006_swing": "little_mcp_abduction",
+    "002_rot1": "thumb_base_rotation_1",
+    "002_rot2": "thumb_base_rotation_2",
+    "002_f2": "thumb_mcp_flexion",
+    "002_f1": "thumb_ip_flexion"
+  },
+  "previous_working_joint_name_map": {
+    "index_mount_fixed": "index_mount_fixed",
+    "index_mcp_flexion": "index_mcp_flexion",
+    "index_mcp_slider_joint": "index_mcp_slider_joint",
+    "index_mcp_rod_joint": "index_mcp_rod_joint",
+    "index_mcp_abduction": "index_mcp_abduction",
+    "index_pip_flexion": "index_pip_flexion",
+    "index_pip_slider_joint": "index_pip_slider_joint",
+    "index_pip_rod_joint": "index_pip_rod_joint",
+    "index_dip_flexion": "index_dip_flexion",
+    "index_dip_slider_joint": "index_dip_slider_joint",
+    "index_dip_rod_joint": "index_dip_rod_joint",
+    "middle_mount_fixed": "middle_mount_fixed",
+    "middle_mcp_flexion": "middle_mcp_flexion",
+    "middle_mcp_slider_joint": "middle_mcp_slider_joint",
+    "middle_mcp_rod_joint": "middle_mcp_rod_joint",
+    "middle_mcp_abduction": "middle_mcp_abduction",
+    "middle_pip_flexion": "middle_pip_flexion",
+    "middle_pip_slider_joint": "middle_pip_slider_joint",
+    "middle_pip_rod_joint": "middle_pip_rod_joint",
+    "middle_dip_flexion": "middle_dip_flexion",
+    "middle_dip_slider_joint": "middle_dip_slider_joint",
+    "middle_dip_rod_joint": "middle_dip_rod_joint",
+    "ring_mount_fixed": "ring_mount_fixed",
+    "ring_mcp_flexion": "ring_mcp_flexion",
+    "ring_mcp_slider_joint": "ring_mcp_slider_joint",
+    "ring_mcp_rod_joint": "ring_mcp_rod_joint",
+    "ring_mcp_abduction": "ring_mcp_abduction",
+    "ring_pip_flexion": "ring_pip_flexion",
+    "ring_pip_slider_joint": "ring_pip_slider_joint",
+    "ring_pip_rod_joint": "ring_pip_rod_joint",
+    "ring_dip_flexion": "ring_dip_flexion",
+    "ring_dip_slider_joint": "ring_dip_slider_joint",
+    "ring_dip_rod_joint": "ring_dip_rod_joint",
+    "little_mount_fixed": "little_mount_fixed",
+    "little_mcp_flexion": "little_mcp_flexion",
+    "little_mcp_slider_joint": "little_mcp_slider_joint",
+    "little_mcp_rod_joint": "little_mcp_rod_joint",
+    "little_mcp_abduction": "little_mcp_abduction",
+    "little_pip_flexion": "little_pip_flexion",
+    "little_pip_slider_joint": "little_pip_slider_joint",
+    "little_pip_rod_joint": "little_pip_rod_joint",
+    "little_dip_flexion": "little_dip_flexion",
+    "little_dip_slider_joint": "little_dip_slider_joint",
+    "little_dip_rod_joint": "little_dip_rod_joint",
+    "thumb_mount_fixed": "thumb_mount_fixed",
+    "thumb_rot1": "thumb_base_rotation_1",
+    "thumb_rot2": "thumb_base_rotation_2",
+    "thumb_f2_flexion": "thumb_mcp_flexion",
+    "thumb_f2_slider_joint": "thumb_mcp_slider_joint",
+    "thumb_f2_rod_joint": "thumb_mcp_rod_joint",
+    "thumb_f1_flexion": "thumb_ip_flexion",
+    "thumb_f1_slider_joint": "thumb_ip_slider_joint",
+    "thumb_f1_rod_joint": "thumb_ip_rod_joint"
+  },
+  "previous_working_link_name_map": {
+    "hand_base": "hand_base",
+    "index_mount": "index_mount",
+    "index_mcp_carrier": "index_mcp_carrier",
+    "index_proximal": "index_proximal",
+    "index_middle": "index_middle",
+    "index_distal": "index_distal",
+    "index_mcp_slider": "index_mcp_slider",
+    "index_mcp_rod": "index_mcp_rod",
+    "index_pip_slider": "index_pip_slider",
+    "index_pip_rod": "index_pip_rod",
+    "index_dip_slider": "index_dip_slider",
+    "index_dip_rod": "index_dip_rod",
+    "middle_mount": "middle_mount",
+    "middle_mcp_carrier": "middle_mcp_carrier",
+    "middle_proximal": "middle_proximal",
+    "middle_middle": "middle_middle",
+    "middle_distal": "middle_distal",
+    "middle_mcp_slider": "middle_mcp_slider",
+    "middle_mcp_rod": "middle_mcp_rod",
+    "middle_pip_slider": "middle_pip_slider",
+    "middle_pip_rod": "middle_pip_rod",
+    "middle_dip_slider": "middle_dip_slider",
+    "middle_dip_rod": "middle_dip_rod",
+    "ring_mount": "ring_mount",
+    "ring_mcp_carrier": "ring_mcp_carrier",
+    "ring_proximal": "ring_proximal",
+    "ring_middle": "ring_middle",
+    "ring_distal": "ring_distal",
+    "ring_mcp_slider": "ring_mcp_slider",
+    "ring_mcp_rod": "ring_mcp_rod",
+    "ring_pip_slider": "ring_pip_slider",
+    "ring_pip_rod": "ring_pip_rod",
+    "ring_dip_slider": "ring_dip_slider",
+    "ring_dip_rod": "ring_dip_rod",
+    "little_mount": "little_mount",
+    "little_mcp_carrier": "little_mcp_carrier",
+    "little_proximal": "little_proximal",
+    "little_middle": "little_middle",
+    "little_distal": "little_distal",
+    "little_mcp_slider": "little_mcp_slider",
+    "little_mcp_rod": "little_mcp_rod",
+    "little_pip_slider": "little_pip_slider",
+    "little_pip_rod": "little_pip_rod",
+    "little_dip_slider": "little_dip_slider",
+    "little_dip_rod": "little_dip_rod",
+    "thumb_mount": "thumb_mount",
+    "thumb_rot1_carrier": "thumb_base_axis1_carrier",
+    "thumb_rot2_carrier": "thumb_metacarpal",
+    "thumb_f2_output": "thumb_proximal",
+    "thumb_f1_output": "thumb_distal",
+    "thumb_f2_slider": "thumb_mcp_slider",
+    "thumb_f1_slider": "thumb_ip_slider",
+    "thumb_f2_rod": "thumb_mcp_rod",
+    "thumb_f1_rod": "thumb_ip_rod"
+  },
+  "outputs": [
+    {
+      "control": "003_base",
+      "name": "index_mcp_flexion",
+      "previous_working_name": "index_mcp_flexion",
+      "display_name": "食指 MCP 弯曲",
+      "anatomical_level": "MCP",
+      "mechanical_kind": "loop",
+      "description_joint_role": "passive_output_of_linear_actuator",
+      "parent_group": "g_003_palm_anchor",
+      "output_group": "g_003_swing_support",
+      "axis_in_saved_world": [
+        0.994021477144795,
+        0.10895084294979145,
+        0.007142604245622922
+      ],
+      "limits_rad": [
+        0.0,
+        1.57
+      ],
+      "positive_definition": "朝手掌弯曲为正",
+      "naming_reason": "依据当前机构链中的关节层级、轴线和实际相对运动命名。",
+      "legacy_aliases_by_source": [
+        {
+          "source_id": "legacy_1_84fc48fa",
+          "joint_name": "left_hand_index_MCP_joint",
+          "lower_rad": 0.0,
+          "upper_rad": 1.57,
+          "is_name_reference_only_not_encoder_calibration": true
+        },
+        {
+          "source_id": "legacy_2_424ca17a",
+          "joint_name": "left_hand_index_MCP_joint",
+          "lower_rad": 0.0,
+          "upper_rad": 1.57,
+          "is_name_reference_only_not_encoder_calibration": true
+        },
+        {
+          "source_id": "legacy_3_4d8f6c76",
+          "joint_name": "left_hand_index_MCP_joint",
+          "lower_rad": 0.0,
+          "upper_rad": 1.57,
+          "is_name_reference_only_not_encoder_calibration": true
+        }
+      ]
+    },
+    {
+      "control": "003_swing",
+      "name": "index_mcp_abduction",
+      "previous_working_name": "index_mcp_abduction",
+      "display_name": "食指 MCP 外展/内收（侧摆）",
+      "anatomical_level": "MCP",
+      "mechanical_kind": "rotary",
+      "description_joint_role": "rotary_actuator",
+      "parent_group": "g_003_swing_support",
+      "output_group": "g_003_proximal",
+      "axis_in_saved_world": [
+        0.007100083136946333,
+        0.0007782126046535173,
+        -0.9999744912769477
+      ],
+      "limits_rad": [
+        -0.35,
+        0.35
+      ],
+      "positive_definition": "沿已确认URDF轴的右手定则；不因名称变化翻转符号",
+      "naming_reason": "依据当前机构链中的关节层级、轴线和实际相对运动命名。",
+      "legacy_aliases_by_source": [
+        {
+          "source_id": "legacy_1_84fc48fa",
+          "joint_name": "left_hand_index_swing_joint",
+          "lower_rad": -0.35,
+          "upper_rad": 0.35,
+          "is_name_reference_only_not_encoder_calibration": true
+        },
+        {
+          "source_id": "legacy_2_424ca17a",
+          "joint_name": "left_hand_index_swing_joint",
+          "lower_rad": -0.35,
+          "upper_rad": 0.35,
+          "is_name_reference_only_not_encoder_calibration": true
+        },
+        {
+          "source_id": "legacy_3_4d8f6c76",
+          "joint_name": "left_hand_index_swing_joint",
+          "lower_rad": -0.35,
+          "upper_rad": 0.35,
+          "is_name_reference_only_not_encoder_calibration": true
+        }
+      ]
+    },
+    {
+      "control": "003_middle",
+      "name": "index_pip_flexion",
+      "previous_working_name": "index_pip_flexion",
+      "display_name": "食指 PIP 弯曲",
+      "anatomical_level": "PIP",
+      "mechanical_kind": "loop",
+      "description_joint_role": "passive_output_of_linear_actuator",
+      "parent_group": "g_003_proximal",
+      "output_group": "g_003_middle",
+      "axis_in_saved_world": [
+        0.994021477144795,
+        0.10895084294979102,
+        0.007142604245622953
+      ],
+      "limits_rad": [
+        0.0,
+        1.57
+      ],
+      "positive_definition": "朝手掌弯曲为正",
+      "naming_reason": "依据当前机构链中的关节层级、轴线和实际相对运动命名。",
+      "legacy_aliases_by_source": [
+        {
+          "source_id": "legacy_1_84fc48fa",
+          "joint_name": "left_hand_index_PIP_joint",
+          "lower_rad": 0.0,
+          "upper_rad": 1.57,
+          "is_name_reference_only_not_encoder_calibration": true
+        },
+        {
+          "source_id": "legacy_2_424ca17a",
+          "joint_name": "left_hand_index_PIP_joint",
+          "lower_rad": 0.0,
+          "upper_rad": 1.57,
+          "is_name_reference_only_not_encoder_calibration": true
+        },
+        {
+          "source_id": "legacy_3_4d8f6c76",
+          "joint_name": "left_hand_index_PIP_joint",
+          "lower_rad": 0.0,
+          "upper_rad": 1.57,
+          "is_name_reference_only_not_encoder_calibration": true
+        }
+      ]
+    },
+    {
+      "control": "003_distal",
+      "name": "index_dip_flexion",
+      "previous_working_name": "index_dip_flexion",
+      "display_name": "食指 DIP 弯曲",
+      "anatomical_level": "DIP",
+      "mechanical_kind": "loop",
+      "description_joint_role": "passive_output_of_linear_actuator",
+      "parent_group": "g_003_middle",
+      "output_group": "g_003_tip",
+      "axis_in_saved_world": [
+        0.994021477144795,
+        0.10895084294979103,
+        0.007142604245623037
+      ],
+      "limits_rad": [
+        0.0,
+        1.57
+      ],
+      "positive_definition": "朝手掌弯曲为正",
+      "naming_reason": "依据当前机构链中的关节层级、轴线和实际相对运动命名。",
+      "legacy_aliases_by_source": [
+        {
+          "source_id": "legacy_1_84fc48fa",
+          "joint_name": "left_hand_index_DIP_joint",
+          "lower_rad": 0.0,
+          "upper_rad": 1.57,
+          "is_name_reference_only_not_encoder_calibration": true
+        },
+        {
+          "source_id": "legacy_2_424ca17a",
+          "joint_name": "left_hand_index_DIP_joint",
+          "lower_rad": 0.0,
+          "upper_rad": 1.57,
+          "is_name_reference_only_not_encoder_calibration": true
+        },
+        {
+          "source_id": "legacy_3_4d8f6c76",
+          "joint_name": "left_hand_index_DIP_joint",
+          "lower_rad": 0.0,
+          "upper_rad": 1.57,
+          "is_name_reference_only_not_encoder_calibration": true
+        }
+      ]
+    },
+    {
+      "control": "004_base",
+      "name": "middle_mcp_flexion",
+      "previous_working_name": "middle_mcp_flexion",
+      "display_name": "中指 MCP 弯曲",
+      "anatomical_level": "MCP",
+      "mechanical_kind": "loop",
+      "description_joint_role": "passive_output_of_linear_actuator",
+      "parent_group": "g_004_palm_anchor",
+      "output_group": "g_004_swing_support",
+      "axis_in_saved_world": [
+        0.9999744912769477,
+        -3.381840833603671e-16,
+        0.0071426042456228
+      ],
+      "limits_rad": [
+        0.0,
+        1.57
+      ],
+      "positive_definition": "朝手掌弯曲为正",
+      "naming_reason": "依据当前机构链中的关节层级、轴线和实际相对运动命名。",
+      "legacy_aliases_by_source": [
+        {
+          "source_id": "legacy_1_84fc48fa",
+          "joint_name": "left_hand_mid_MCP_joint",
+          "lower_rad": 0.0,
+          "upper_rad": 1.57,
+          "is_name_reference_only_not_encoder_calibration": true
+        },
+        {
+          "source_id": "legacy_2_424ca17a",
+          "joint_name": "left_hand_mid_MCP_joint",
+          "lower_rad": 0.0,
+          "upper_rad": 1.57,
+          "is_name_reference_only_not_encoder_calibration": true
+        },
+        {
+          "source_id": "legacy_3_4d8f6c76",
+          "joint_name": "left_hand_mid_MCP_joint",
+          "lower_rad": 0.0,
+          "upper_rad": 1.57,
+          "is_name_reference_only_not_encoder_calibration": true
+        }
+      ]
+    },
+    {
+      "control": "004_swing",
+      "name": "middle_mcp_abduction",
+      "previous_working_name": "middle_mcp_abduction",
+      "display_name": "中指 MCP 外展/内收（侧摆）",
+      "anatomical_level": "MCP",
+      "mechanical_kind": "rotary",
+      "description_joint_role": "rotary_actuator",
+      "parent_group": "g_004_swing_support",
+      "output_group": "g_004_proximal",
+      "axis_in_saved_world": [
+        0.007142604245622597,
+        4.3782358127641977e-16,
+        -0.9999744912769477
+      ],
+      "limits_rad": [
+        -0.35,
+        0.35
+      ],
+      "positive_definition": "沿已确认URDF轴的右手定则；不因名称变化翻转符号",
+      "naming_reason": "依据当前机构链中的关节层级、轴线和实际相对运动命名。",
+      "legacy_aliases_by_source": [
+        {
+          "source_id": "legacy_1_84fc48fa",
+          "joint_name": "left_hand_mid_swing_joint",
+          "lower_rad": -0.35,
+          "upper_rad": 0.35,
+          "is_name_reference_only_not_encoder_calibration": true
+        },
+        {
+          "source_id": "legacy_2_424ca17a",
+          "joint_name": "left_hand_mid_swing_joint",
+          "lower_rad": -0.35,
+          "upper_rad": 0.35,
+          "is_name_reference_only_not_encoder_calibration": true
+        },
+        {
+          "source_id": "legacy_3_4d8f6c76",
+          "joint_name": "left_hand_mid_swing_joint",
+          "lower_rad": -0.35,
+          "upper_rad": 0.35,
+          "is_name_reference_only_not_encoder_calibration": true
+        }
+      ]
+    },
+    {
+      "control": "004_middle",
+      "name": "middle_pip_flexion",
+      "previous_working_name": "middle_pip_flexion",
+      "display_name": "中指 PIP 弯曲",
+      "anatomical_level": "PIP",
+      "mechanical_kind": "loop",
+      "description_joint_role": "passive_output_of_linear_actuator",
+      "parent_group": "g_004_proximal",
+      "output_group": "g_004_middle",
+      "axis_in_saved_world": [
+        0.9999744912769477,
+        -1.0841112690228983e-16,
+        0.007142604245622864
+      ],
+      "limits_rad": [
+        0.0,
+        1.57
+      ],
+      "positive_definition": "朝手掌弯曲为正",
+      "naming_reason": "依据当前机构链中的关节层级、轴线和实际相对运动命名。",
+      "legacy_aliases_by_source": [
+        {
+          "source_id": "legacy_1_84fc48fa",
+          "joint_name": "left_hand_mid_PIP_joint",
+          "lower_rad": 0.0,
+          "upper_rad": 1.57,
+          "is_name_reference_only_not_encoder_calibration": true
+        },
+        {
+          "source_id": "legacy_2_424ca17a",
+          "joint_name": "left_hand_mid_PIP_joint",
+          "lower_rad": 0.0,
+          "upper_rad": 1.57,
+          "is_name_reference_only_not_encoder_calibration": true
+        },
+        {
+          "source_id": "legacy_3_4d8f6c76",
+          "joint_name": "left_hand_mid_PIP_joint",
+          "lower_rad": 0.0,
+          "upper_rad": 1.57,
+          "is_name_reference_only_not_encoder_calibration": true
+        }
+      ]
+    },
+    {
+      "control": "004_distal",
+      "name": "middle_dip_flexion",
+      "previous_working_name": "middle_dip_flexion",
+      "display_name": "中指 DIP 弯曲",
+      "anatomical_level": "DIP",
+      "mechanical_kind": "loop",
+      "description_joint_role": "passive_output_of_linear_actuator",
+      "parent_group": "g_004_middle",
+      "output_group": "g_004_tip",
+      "axis_in_saved_world": [
+        0.9999744912769477,
+        -8.368051224697256e-17,
+        0.007142604245622689
+      ],
+      "limits_rad": [
+        0.0,
+        1.57
+      ],
+      "positive_definition": "朝手掌弯曲为正",
+      "naming_reason": "依据当前机构链中的关节层级、轴线和实际相对运动命名。",
+      "legacy_aliases_by_source": [
+        {
+          "source_id": "legacy_1_84fc48fa",
+          "joint_name": "left_hand_mid_DIP_joint",
+          "lower_rad": 0.0,
+          "upper_rad": 1.57,
+          "is_name_reference_only_not_encoder_calibration": true
+        },
+        {
+          "source_id": "legacy_2_424ca17a",
+          "joint_name": "left_hand_mid_DIP_joint",
+          "lower_rad": 0.0,
+          "upper_rad": 1.57,
+          "is_name_reference_only_not_encoder_calibration": true
+        },
+        {
+          "source_id": "legacy_3_4d8f6c76",
+          "joint_name": "left_hand_mid_DIP_joint",
+          "lower_rad": 0.0,
+          "upper_rad": 1.57,
+          "is_name_reference_only_not_encoder_calibration": true
+        }
+      ]
+    },
+    {
+      "control": "005_base",
+      "name": "ring_mcp_flexion",
+      "previous_working_name": "ring_mcp_flexion",
+      "display_name": "无名指 MCP 弯曲",
+      "anatomical_level": "MCP",
+      "mechanical_kind": "loop",
+      "description_joint_role": "passive_output_of_linear_actuator",
+      "parent_group": "g_005_palm_anchor",
+      "output_group": "g_005_swing_support",
+      "axis_in_saved_world": [
+        0.9961692864371072,
+        -0.08715351951571025,
+        0.007142604245622922
+      ],
+      "limits_rad": [
+        0.0,
+        1.57
+      ],
+      "positive_definition": "朝手掌弯曲为正",
+      "naming_reason": "依据当前机构链中的关节层级、轴线和实际相对运动命名。",
+      "legacy_aliases_by_source": [
+        {
+          "source_id": "legacy_1_84fc48fa",
+          "joint_name": "left_hand_ring_MCP_joint",
+          "lower_rad": 0.0,
+          "upper_rad": 1.57,
+          "is_name_reference_only_not_encoder_calibration": true
+        },
+        {
+          "source_id": "legacy_2_424ca17a",
+          "joint_name": "left_hand_ring_MCP_joint",
+          "lower_rad": 0.0,
+          "upper_rad": 1.57,
+          "is_name_reference_only_not_encoder_calibration": true
+        },
+        {
+          "source_id": "legacy_3_4d8f6c76",
+          "joint_name": "left_hand_ring_MCP_joint",
+          "lower_rad": 0.0,
+          "upper_rad": 1.57,
+          "is_name_reference_only_not_encoder_calibration": true
+        }
+      ]
+    },
+    {
+      "control": "005_swing",
+      "name": "ring_mcp_abduction",
+      "previous_working_name": "ring_mcp_abduction",
+      "display_name": "无名指 MCP 外展/内收（侧摆）",
+      "anatomical_level": "MCP",
+      "mechanical_kind": "rotary",
+      "description_joint_role": "rotary_actuator",
+      "parent_group": "g_005_swing_support",
+      "output_group": "g_005_proximal",
+      "axis_in_saved_world": [
+        0.007115424480059656,
+        -0.0006225189781517209,
+        -0.9999744912769477
+      ],
+      "limits_rad": [
+        -0.35,
+        0.35
+      ],
+      "positive_definition": "沿已确认URDF轴的右手定则；不因名称变化翻转符号",
+      "naming_reason": "依据当前机构链中的关节层级、轴线和实际相对运动命名。",
+      "legacy_aliases_by_source": [
+        {
+          "source_id": "legacy_1_84fc48fa",
+          "joint_name": "left_hand_ring_swing_joint",
+          "lower_rad": -0.35,
+          "upper_rad": 0.35,
+          "is_name_reference_only_not_encoder_calibration": true
+        },
+        {
+          "source_id": "legacy_2_424ca17a",
+          "joint_name": "left_hand_ring_swing_joint",
+          "lower_rad": -0.35,
+          "upper_rad": 0.35,
+          "is_name_reference_only_not_encoder_calibration": true
+        },
+        {
+          "source_id": "legacy_3_4d8f6c76",
+          "joint_name": "left_hand_ring_swing_joint",
+          "lower_rad": -0.35,
+          "upper_rad": 0.35,
+          "is_name_reference_only_not_encoder_calibration": true
+        }
+      ]
+    },
+    {
+      "control": "005_middle",
+      "name": "ring_pip_flexion",
+      "previous_working_name": "ring_pip_flexion",
+      "display_name": "无名指 PIP 弯曲",
+      "anatomical_level": "PIP",
+      "mechanical_kind": "loop",
+      "description_joint_role": "passive_output_of_linear_actuator",
+      "parent_group": "g_005_proximal",
+      "output_group": "g_005_middle",
+      "axis_in_saved_world": [
+        0.9961692864371071,
+        -0.08715351951571067,
+        0.007142604245622952
+      ],
+      "limits_rad": [
+        0.0,
+        1.57
+      ],
+      "positive_definition": "朝手掌弯曲为正",
+      "naming_reason": "依据当前机构链中的关节层级、轴线和实际相对运动命名。",
+      "legacy_aliases_by_source": [
+        {
+          "source_id": "legacy_1_84fc48fa",
+          "joint_name": "left_hand_ring_PIP_joint",
+          "lower_rad": 0.0,
+          "upper_rad": 1.57,
+          "is_name_reference_only_not_encoder_calibration": true
+        },
+        {
+          "source_id": "legacy_2_424ca17a",
+          "joint_name": "left_hand_ring_PIP_joint",
+          "lower_rad": 0.0,
+          "upper_rad": 1.57,
+          "is_name_reference_only_not_encoder_calibration": true
+        },
+        {
+          "source_id": "legacy_3_4d8f6c76",
+          "joint_name": "left_hand_ring_PIP_joint",
+          "lower_rad": 0.0,
+          "upper_rad": 1.57,
+          "is_name_reference_only_not_encoder_calibration": true
+        }
+      ]
+    },
+    {
+      "control": "005_distal",
+      "name": "ring_dip_flexion",
+      "previous_working_name": "ring_dip_flexion",
+      "display_name": "无名指 DIP 弯曲",
+      "anatomical_level": "DIP",
+      "mechanical_kind": "loop",
+      "description_joint_role": "passive_output_of_linear_actuator",
+      "parent_group": "g_005_middle",
+      "output_group": "g_005_tip",
+      "axis_in_saved_world": [
+        0.9961692864371071,
+        -0.08715351951571065,
+        0.007142604245623036
+      ],
+      "limits_rad": [
+        0.0,
+        1.57
+      ],
+      "positive_definition": "朝手掌弯曲为正",
+      "naming_reason": "依据当前机构链中的关节层级、轴线和实际相对运动命名。",
+      "legacy_aliases_by_source": [
+        {
+          "source_id": "legacy_1_84fc48fa",
+          "joint_name": "left_hand_ring_DIP_joint",
+          "lower_rad": 0.0,
+          "upper_rad": 1.57,
+          "is_name_reference_only_not_encoder_calibration": true
+        },
+        {
+          "source_id": "legacy_2_424ca17a",
+          "joint_name": "left_hand_ring_DIP_joint",
+          "lower_rad": 0.0,
+          "upper_rad": 1.57,
+          "is_name_reference_only_not_encoder_calibration": true
+        },
+        {
+          "source_id": "legacy_3_4d8f6c76",
+          "joint_name": "left_hand_ring_DIP_joint",
+          "lower_rad": 0.0,
+          "upper_rad": 1.57,
+          "is_name_reference_only_not_encoder_calibration": true
+        }
+      ]
+    },
+    {
+      "control": "006_base",
+      "name": "little_mcp_flexion",
+      "previous_working_name": "little_mcp_flexion",
+      "display_name": "小拇指 MCP 弯曲",
+      "anatomical_level": "MCP",
+      "mechanical_kind": "loop",
+      "description_joint_role": "passive_output_of_linear_actuator",
+      "parent_group": "g_006_palm_anchor",
+      "output_group": "g_006_swing_support",
+      "axis_in_saved_world": [
+        0.9926033052252545,
+        -0.1211926633938314,
+        0.007142604245622793
+      ],
+      "limits_rad": [
+        0.0,
+        1.57
+      ],
+      "positive_definition": "朝手掌弯曲为正",
+      "naming_reason": "依据当前机构链中的关节层级、轴线和实际相对运动命名。",
+      "legacy_aliases_by_source": [
+        {
+          "source_id": "legacy_1_84fc48fa",
+          "joint_name": "left_hand_pinky_rotaback_joint",
+          "lower_rad": 0.0,
+          "upper_rad": 1.57,
+          "is_name_reference_only_not_encoder_calibration": true
+        },
+        {
+          "source_id": "legacy_2_424ca17a",
+          "joint_name": "left_hand_pinky_MCP_joint",
+          "lower_rad": 0.0,
+          "upper_rad": 1.57,
+          "is_name_reference_only_not_encoder_calibration": true
+        },
+        {
+          "source_id": "legacy_3_4d8f6c76",
+          "joint_name": "left_hand_pinky_MCP_joint",
+          "lower_rad": 0.0,
+          "upper_rad": 1.57,
+          "is_name_reference_only_not_encoder_calibration": true
+        }
+      ]
+    },
+    {
+      "control": "006_swing",
+      "name": "little_mcp_abduction",
+      "previous_working_name": "little_mcp_abduction",
+      "display_name": "小拇指 MCP 外展/内收（侧摆）",
+      "anatomical_level": "MCP",
+      "mechanical_kind": "rotary",
+      "description_joint_role": "rotary_actuator",
+      "parent_group": "g_006_swing_support",
+      "output_group": "g_006_proximal",
+      "axis_in_saved_world": [
+        0.007089953437780788,
+        -0.0008656533138056806,
+        -0.9999744912769477
+      ],
+      "limits_rad": [
+        -0.35,
+        0.35
+      ],
+      "positive_definition": "沿已确认URDF轴的右手定则；不因名称变化翻转符号",
+      "naming_reason": "依据当前机构链中的关节层级、轴线和实际相对运动命名。",
+      "legacy_aliases_by_source": [
+        {
+          "source_id": "legacy_1_84fc48fa",
+          "joint_name": "left_hand_pinky_MCP_joint",
+          "lower_rad": -0.35,
+          "upper_rad": 0.35,
+          "is_name_reference_only_not_encoder_calibration": true
+        },
+        {
+          "source_id": "legacy_2_424ca17a",
+          "joint_name": "left_hand_pinky_SWING_joint",
+          "lower_rad": -0.35,
+          "upper_rad": 0.35,
+          "is_name_reference_only_not_encoder_calibration": true
+        },
+        {
+          "source_id": "legacy_3_4d8f6c76",
+          "joint_name": "left_hand_pinky_swing_joint",
+          "lower_rad": -0.35,
+          "upper_rad": 0.35,
+          "is_name_reference_only_not_encoder_calibration": true
+        }
+      ]
+    },
+    {
+      "control": "006_middle",
+      "name": "little_pip_flexion",
+      "previous_working_name": "little_pip_flexion",
+      "display_name": "小拇指 PIP 弯曲",
+      "anatomical_level": "PIP",
+      "mechanical_kind": "loop",
+      "description_joint_role": "passive_output_of_linear_actuator",
+      "parent_group": "g_006_proximal",
+      "output_group": "g_006_middle",
+      "axis_in_saved_world": [
+        0.9926033052252545,
+        -0.12119266339383156,
+        0.007142604245623378
+      ],
+      "limits_rad": [
+        0.0,
+        1.57
+      ],
+      "positive_definition": "朝手掌弯曲为正",
+      "naming_reason": "依据当前机构链中的关节层级、轴线和实际相对运动命名。",
+      "legacy_aliases_by_source": [
+        {
+          "source_id": "legacy_1_84fc48fa",
+          "joint_name": "left_hand_pinky_swing_joint",
+          "lower_rad": 0.0,
+          "upper_rad": 1.57,
+          "is_name_reference_only_not_encoder_calibration": true
+        },
+        {
+          "source_id": "legacy_2_424ca17a",
+          "joint_name": "left_hand_pinky_PIP_joint",
+          "lower_rad": 0.0,
+          "upper_rad": 1.57,
+          "is_name_reference_only_not_encoder_calibration": true
+        },
+        {
+          "source_id": "legacy_3_4d8f6c76",
+          "joint_name": "left_hand_pinky_PIP_joint",
+          "lower_rad": 0.0,
+          "upper_rad": 1.57,
+          "is_name_reference_only_not_encoder_calibration": true
+        }
+      ]
+    },
+    {
+      "control": "006_distal",
+      "name": "little_dip_flexion",
+      "previous_working_name": "little_dip_flexion",
+      "display_name": "小拇指 DIP 弯曲",
+      "anatomical_level": "DIP",
+      "mechanical_kind": "loop",
+      "description_joint_role": "passive_output_of_linear_actuator",
+      "parent_group": "g_006_middle",
+      "output_group": "g_006_tip",
+      "axis_in_saved_world": [
+        0.9924549892846359,
+        -0.12117455464507745,
+        -0.018703517064993874
+      ],
+      "limits_rad": [
+        0.0,
+        1.57
+      ],
+      "positive_definition": "朝手掌弯曲为正",
+      "naming_reason": "依据当前机构链中的关节层级、轴线和实际相对运动命名。",
+      "legacy_aliases_by_source": [
+        {
+          "source_id": "legacy_1_84fc48fa",
+          "joint_name": "left_hand_pinky_PIP_joint",
+          "lower_rad": 0.0,
+          "upper_rad": 1.57,
+          "is_name_reference_only_not_encoder_calibration": true
+        },
+        {
+          "source_id": "legacy_2_424ca17a",
+          "joint_name": "left_hand_pinky_DIP_joint",
+          "lower_rad": 0.0,
+          "upper_rad": 1.57,
+          "is_name_reference_only_not_encoder_calibration": true
+        },
+        {
+          "source_id": "legacy_3_4d8f6c76",
+          "joint_name": "left_hand_pinky_DIP_joint",
+          "lower_rad": 0.0,
+          "upper_rad": 1.57,
+          "is_name_reference_only_not_encoder_calibration": true
+        }
+      ]
+    },
+    {
+      "control": "002_rot1",
+      "name": "thumb_base_rotation_1",
+      "previous_working_name": "thumb_rot1",
+      "display_name": "拇指根部旋转轴 1",
+      "anatomical_level": "CMC-equivalent base",
+      "mechanical_kind": "rotary",
+      "description_joint_role": "rotary_actuator",
+      "parent_group": "THUMB_BASE",
+      "output_group": "THUMB_CARRIER",
+      "axis_in_saved_world": [
+        -0.2102110694461994,
+        0.916586891145835,
+        -0.3401172992687943
+      ],
+      "limits_rad": [
+        0.0,
+        2.0943951023931953
+      ],
+      "positive_definition": "沿已确认URDF轴的右手定则；不因名称变化翻转符号",
+      "naming_reason": "两根部串联旋转轴的机械身份确定；人体CMC纯外展/屈曲及单轴对掌标签尚不强行套用。",
+      "legacy_aliases_by_source": [
+        {
+          "source_id": "legacy_1_84fc48fa",
+          "joint_name": "left_hand_thumb_rota_block_joint",
+          "lower_rad": 0.0,
+          "upper_rad": 2.09,
+          "is_name_reference_only_not_encoder_calibration": true
+        },
+        {
+          "source_id": "legacy_2_424ca17a",
+          "joint_name": "left_hand_thumb_rota_block_joint",
+          "lower_rad": 0.0,
+          "upper_rad": 2.09,
+          "is_name_reference_only_not_encoder_calibration": true
+        },
+        {
+          "source_id": "legacy_3_4d8f6c76",
+          "joint_name": "left_hand_thumb_rota_block_joint",
+          "lower_rad": 0.0,
+          "upper_rad": 2.09,
+          "is_name_reference_only_not_encoder_calibration": true
+        }
+      ],
+      "range_revision_id": "thumb_root1_neg18_legacy_upper_r02_20261015"
+    },
+    {
+      "control": "002_rot2",
+      "name": "thumb_base_rotation_2",
+      "previous_working_name": "thumb_rot2",
+      "display_name": "拇指根部旋转轴 2",
+      "anatomical_level": "CMC-equivalent base",
+      "mechanical_kind": "rotary",
+      "description_joint_role": "rotary_actuator",
+      "parent_group": "THUMB_CARRIER",
+      "output_group": "THUMB_PROXIMAL",
+      "axis_in_saved_world": [
+        -0.13193808852790223,
+        -0.37130470009566774,
+        -0.9190893103950616
+      ],
+      "limits_rad": [
+        0.0,
+        1.7453292519943295
+      ],
+      "positive_definition": "沿已确认URDF轴的右手定则；不因名称变化翻转符号",
+      "naming_reason": "两根部串联旋转轴的机械身份确定；人体CMC纯外展/屈曲及单轴对掌标签尚不强行套用。",
+      "legacy_aliases_by_source": [
+        {
+          "source_id": "legacy_1_84fc48fa",
+          "joint_name": "left_hand_thumb_rotaback_joint2",
+          "lower_rad": 0.0,
+          "upper_rad": 1.74,
+          "is_name_reference_only_not_encoder_calibration": true
+        },
+        {
+          "source_id": "legacy_2_424ca17a",
+          "joint_name": "left_hand_thumb_rotaback_joint2",
+          "lower_rad": 0.0,
+          "upper_rad": 1.74,
+          "is_name_reference_only_not_encoder_calibration": true
+        },
+        {
+          "source_id": "legacy_3_4d8f6c76",
+          "joint_name": "left_hand_thumb_rotaback_joint2",
+          "lower_rad": 0.0,
+          "upper_rad": 1.74,
+          "is_name_reference_only_not_encoder_calibration": true
+        }
+      ]
+    },
+    {
+      "control": "002_f2",
+      "name": "thumb_mcp_flexion",
+      "previous_working_name": "thumb_f2_flexion",
+      "display_name": "拇指 MCP 弯曲",
+      "anatomical_level": "MCP",
+      "mechanical_kind": "loop",
+      "description_joint_role": "passive_output_of_linear_actuator",
+      "parent_group": "THUMB_PROXIMAL",
+      "output_group": "THUMB_MIDDLE",
+      "axis_in_saved_world": [
+        0.697075043445401,
+        0.08388980007110448,
+        -0.7120736515625491
+      ],
+      "limits_rad": [
+        -0.041656989622628135,
+        1.5707963267948966
+      ],
+      "positive_definition": "朝手掌弯曲为正",
+      "naming_reason": "两根部旋转轴之后、IP之前的近端弯曲，按机器人等效掌指关节命名。",
+      "legacy_aliases_by_source": [
+        {
+          "source_id": "legacy_1_84fc48fa",
+          "joint_name": "left_hand_thumb_MCP_joint",
+          "lower_rad": 0.0,
+          "upper_rad": 1.57,
+          "is_name_reference_only_not_encoder_calibration": true
+        },
+        {
+          "source_id": "legacy_2_424ca17a",
+          "joint_name": "left_hand_thumb_MCP_joint",
+          "lower_rad": 0.0,
+          "upper_rad": 1.57,
+          "is_name_reference_only_not_encoder_calibration": true
+        },
+        {
+          "source_id": "legacy_3_4d8f6c76",
+          "joint_name": "left_hand_thumb_MCP_joint",
+          "lower_rad": 0.0,
+          "upper_rad": 1.57,
+          "is_name_reference_only_not_encoder_calibration": true
+        }
+      ]
+    },
+    {
+      "control": "002_f1",
+      "name": "thumb_ip_flexion",
+      "previous_working_name": "thumb_f1_flexion",
+      "display_name": "拇指 IP 弯曲",
+      "anatomical_level": "IP",
+      "mechanical_kind": "loop",
+      "description_joint_role": "passive_output_of_linear_actuator",
+      "parent_group": "THUMB_MIDDLE",
+      "output_group": "THUMB_TIP",
+      "axis_in_saved_world": [
+        0.6970750434454032,
+        0.08388980007110725,
+        -0.7120736515625465
+      ],
+      "limits_rad": [
+        -0.022293648706536127,
+        1.5707963267948966
+      ],
+      "positive_definition": "朝手掌弯曲为正",
+      "naming_reason": "拇指远端最后一级弯曲；两节指骨之间只有一个指间关节，不使用PIP或DIP。",
+      "legacy_aliases_by_source": [
+        {
+          "source_id": "legacy_1_84fc48fa",
+          "joint_name": "left_hand_thumb_PIP_joint",
+          "lower_rad": 0.0,
+          "upper_rad": 1.57,
+          "is_name_reference_only_not_encoder_calibration": true
+        },
+        {
+          "source_id": "legacy_2_424ca17a",
+          "joint_name": "left_hand_thumb_PIP_joint",
+          "lower_rad": 0.0,
+          "upper_rad": 1.57,
+          "is_name_reference_only_not_encoder_calibration": true
+        },
+        {
+          "source_id": "legacy_3_4d8f6c76",
+          "joint_name": "left_hand_thumb_PIP_joint",
+          "lower_rad": 0.0,
+          "upper_rad": 1.57,
+          "is_name_reference_only_not_encoder_calibration": true
+        }
+      ]
+    }
+  ],
+  "legacy_sources": [
+    {
+      "id": "legacy_1_84fc48fa",
+      "archive": "E:\\codex_work\\导出urdf\\work_before\\A3.2+URDF.zip",
+      "archive_sha256": "975b0a4a47ea162b5d860ed8c1e8c9cef6f21f5618bae8f180998783b2834894",
+      "urdf_member": "A3.2 URDF/urdf/A3.1V6 26.8.4-2.urdf",
+      "urdf_sha256": "84fc48faf5d89b97a8766be439fca469f9ab47c3e4bb5faf4cdde4583d3d23f3",
+      "side": "left"
+    },
+    {
+      "id": "legacy_2_424ca17a",
+      "archive": "E:\\codex_work\\导出urdf\\work_before\\A3.2+URDF+0908-2011.zip",
+      "archive_sha256": "cd11c51c1b2d99c74245d02e3bb406eb95309f8841b4ea4478dd136cf6759658",
+      "urdf_member": "A3.2 URDF 0908-2011/urdf/A3.2 URDF 0908-2011.urdf",
+      "urdf_sha256": "424ca17ab605dae410d7dba4a29d8c2f8fd9e00c3cbfaf71d92202f09fed40ee",
+      "side": "left"
+    },
+    {
+      "id": "legacy_3_4d8f6c76",
+      "archive": "E:\\codex_work\\导出urdf\\work_before\\TsenseI_V3.2_hand_mass_inertia_corrected_952g.zip",
+      "archive_sha256": "8f5b1a70807f466ef511cec1948070e4d7ba6e6de3cdda18090f65cb6273ccf5",
+      "urdf_member": "TsenseI_V3.2_hand_withid_fixed/urdf/TsenseI_left.urdf",
+      "urdf_sha256": "4d8f6c76e231a66fa78c6a38ca28e5729f1195265c1f3ee3b2ed83a9522f6424",
+      "side": "left"
+    }
+  ],
+  "ambiguous_legacy_bare_names": {
+    "left_hand_pinky_MCP_joint": [
+      "006_base",
+      "006_swing"
+    ],
+    "left_hand_pinky_swing_joint": [
+      "006_middle",
+      "006_swing"
+    ],
+    "left_hand_pinky_PIP_joint": [
+      "006_distal",
+      "006_middle"
+    ]
+  },
+  "compatibility": "Old working names can migrate without changing numeric angles. Older URDF aliases require source identity and are not encoder/zero calibration.",
+  "thumb_root_axis_geometry": {
+    "mutual_axis_acute_angle_deg": 90.0,
+    "tracks": [
+      {
+        "control": "002_rot1",
+        "axis_angle_to_palm_normal_deg": 70.11597926592572,
+        "samples": [
+          {
+            "angle_deg": 0.0,
+            "F1_output_pin_B_world_mm": [
+              -68.80627987925563,
+              -3.5558394482514237,
+              -20.44553964866128
+            ]
+          },
+          {
+            "angle_deg": 59.87408959117102,
+            "F1_output_pin_B_world_mm": [
+              -46.29358184793889,
+              12.256467491898876,
+              8.253191500322645
+            ]
+          },
+          {
+            "angle_deg": 119.74817918234204,
+            "F1_output_pin_B_world_mm": [
+              -7.591080487785798,
+              18.78791283741671,
+              1.9346154624562266
+            ]
+          }
+        ],
+        "reference_point_is_output_pin_not_measured_fingertip": true
+      },
+      {
+        "control": "002_rot2",
+        "axis_angle_to_palm_normal_deg": 23.20669362662082,
+        "samples": [
+          {
+            "angle_deg": -99.69465635276325,
+            "F1_output_pin_B_world_mm": [
+              -97.05263766558308,
+              -105.90449969118038,
+              24.957348382927798
+            ]
+          },
+          {
+            "angle_deg": -49.84732817638162,
+            "F1_output_pin_B_world_mm": [
+              -108.70234310645175,
+              -47.30649928501111,
+              2.956577760815431
+            ]
+          },
+          {
+            "angle_deg": 0.0,
+            "F1_output_pin_B_world_mm": [
+              -68.80627987925563,
+              -3.5558394482514237,
+              -20.44553964866128
+            ]
+          }
+        ],
+        "reference_point_is_output_pin_not_measured_fingertip": true
+      }
+    ],
+    "opposition_is_a_function_of_the_whole_thumb_chain": true
+  },
+  "anatomy_primary_reference": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3653006/",
+  "anatomical_movement_labels_are_not_motor_channel_ids": true,
+  "mass_inertia_generated": false,
+  "mechanism_zero_axes_limits_or_strokes_changed": false,
+  "zero_revision_id": "raised_thumb_reference_module_shell_clear_zero_r05_20261015",
+  "coordinate_revision_id": "raised_thumb_reference_module_shell_clear_zero_r05_20261015"
+}

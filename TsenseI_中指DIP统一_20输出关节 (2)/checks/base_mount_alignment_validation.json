@@ -1,0 +1,106 @@
+{
+  "passed": true,
+  "source_mount_visual": "visual_NRP0438",
+  "source_mount_part": "A3.2 Holder with wide connector0922",
+  "reference_root": "TsenseI_hand_left_v3_2_withid.base_link",
+  "method": "Least squares circle fits to original native STL countersink vertices on z=-4 mm mounting face; current and reference checked independently.",
+  "current_mount_holes": [
+    {
+      "center_mm": [
+        -6.500000385882238,
+        -5.499998972432446,
+        -4.000000514090019
+      ],
+      "radius_mm": 1.8500001922835354,
+      "fit_residual_mm": 1.9127348085401508e-06,
+      "vertices": 24
+    },
+    {
+      "center_mm": [
+        -6.500000385882231,
+        13.500000923871887,
+        -4.000000514090015
+      ],
+      "radius_mm": 1.8499999833464182,
+      "fit_residual_mm": 1.5306117464586322e-06,
+      "vertices": 24
+    },
+    {
+      "center_mm": [
+        33.49999955296479,
+        -5.499998972432556,
+        -4.000000514090154
+      ],
+      "radius_mm": 1.8500000102049952,
+      "fit_residual_mm": 1.687154339569119e-06,
+      "vertices": 24
+    },
+    {
+      "center_mm": [
+        33.49999955296482,
+        13.500000923872093,
+        -4.000000514090148
+      ],
+      "radius_mm": 1.8499998012676269,
+      "fit_residual_mm": 1.7126904179320945e-06,
+      "vertices": 24
+    }
+  ],
+  "reference_mount_holes": [
+    {
+      "center_mm": [
+        -6.500000127316835,
+        -5.499999999776091,
+        -4.000000000000298
+      ],
+      "radius_mm": 1.850000172088722,
+      "fit_residual_mm": 8.451637527606692e-07,
+      "vertices": 12
+    },
+    {
+      "center_mm": [
+        -6.50000012731677,
+        13.500000159169904,
+        -4.000000000000298
+      ],
+      "radius_mm": 1.8500003097398823,
+      "fit_residual_mm": 9.547447072932869e-07,
+      "vertices": 12
+    },
+    {
+      "center_mm": [
+        33.50000019057475,
+        -5.499999999776304,
+        -4.000000000000298
+      ],
+      "radius_mm": 1.85000001314254,
+      "fit_residual_mm": 5.853471511940711e-07,
+      "vertices": 12
+    },
+    {
+      "center_mm": [
+        33.500000190574745,
+        13.500000159169954,
+        -4.000000000000298
+      ],
+      "radius_mm": 1.850000150794004,
+      "fit_residual_mm": 7.240682173836888e-07,
+      "vertices": 12
+    }
+  ],
+  "center_difference_to_reference_mm": [
+    1.177531007391521e-06,
+    9.570336766020345e-07,
+    1.313875954053879e-06,
+    1.1205374376670707e-06
+  ],
+  "max_difference_mm": 1.313875954053879e-06,
+  "base_link_origin_in_old_CAD_mm": [
+    1.499998778104865,
+    -89.13800723026927,
+    -30.59999953836597
+  ],
+  "mounting_face_in_base_link_z_mm": -4.0,
+  "root_origin_to_mounting_face_mm": 4.0,
+  "native_mounting_geometry_changed": false
+}

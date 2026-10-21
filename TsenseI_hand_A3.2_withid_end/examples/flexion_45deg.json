@@ -1,0 +1,25 @@
+{
+  "interface_id": "hand1009_20outputs_anatomical_names_v1",
+  "angles_rad": {
+    "index_mcp_flexion": 0.7853981633974483,
+    "index_mcp_abduction": 0.0,
+    "index_pip_flexion": 0.7853981633974483,
+    "index_dip_flexion": 0.7853981633974483,
+    "middle_mcp_flexion": 0.7853981633974483,
+    "middle_mcp_abduction": 0.0,
+    "middle_pip_flexion": 0.7853981633974483,
+    "middle_dip_flexion": 0.7853981633974483,
+    "ring_mcp_flexion": 0.7853981633974483,
+    "ring_mcp_abduction": 0.0,
+    "ring_pip_flexion": 0.7853981633974483,
+    "ring_dip_flexion": 0.7853981633974483,
+    "little_mcp_flexion": 0.7853981633974483,
+    "little_mcp_abduction": 0.0,
+    "little_pip_flexion": 0.7853981633974483,
+    "little_dip_flexion": 0.7853981633974483,
+    "thumb_base_rotation_1": 0.0,
+    "thumb_base_rotation_2": 0.0,
+    "thumb_mcp_flexion": 0.7853981633974483,
+    "thumb_ip_flexion": 0.7853981633974483
+  }
+}

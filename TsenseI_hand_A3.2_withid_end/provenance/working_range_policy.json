@@ -1,0 +1,50 @@
+{
+  "model_id": "683b80cc0f91bb4a-review-raised-shellzero-r05-5c3ee9ae",
+  "revision_id": "raised_thumb_reference_module_shell_clear_zero_r05_20261015",
+  "rotary_bounds_deg": {
+    "002_rot1": [
+      0.0,
+      120.0
+    ],
+    "002_rot2": [
+      0.0,
+      100.0
+    ]
+  },
+  "previous_r04_policy": {
+    "model_id": "683b80cc0f91bb4a-review-rot2positive-r04-4b9a87f8",
+    "revision_id": "thumb_root1_120_rot2_working_positive_r04_20261015",
+    "purpose": "Previous adopted working endpoints in new coordinates; not a measured hardware safety profile",
+    "rotary_bounds_deg": {
+      "002_rot1": [
+        0.1796875,
+        120.0
+      ],
+      "002_rot2": [
+        0.24609375,
+        99.94075010276325
+      ]
+    },
+    "other_18_bounds": "unchanged from output_range_policy.json",
+    "enabled_for_hardware": false,
+    "previous_r03_policy": {
+      "model_id": "683b80cc0f91bb4a-review-stopzero-r03-b845a575",
+      "revision_id": "thumb_two_rotary_CAD_stop_zero_r03_20261015",
+      "purpose": "Previous adopted working endpoints in new coordinates; not a measured hardware safety profile",
+      "rotary_bounds_deg": {
+        "002_rot1": [
+          0.1796875,
+          137.92786668234203
+        ],
+        "002_rot2": [
+          -99.94075010276325,
+          -0.24609375
+        ]
+      },
+      "other_18_bounds": "unchanged from output_range_policy.json",
+      "enabled_for_hardware": false
+    }
+  },
+  "enabled_for_hardware": false,
+  "purpose": "User adopted assembly-zero preview domain; second upper is explicitly 100 degrees in the new coordinates. Lower zero is shell-clear geometry, not a verified mechanical stop."
+}

@@ -1,0 +1,5676 @@
+{
+  "source_model_id": "683b80cc0f91bb4a-review-raised-shellzero-r05-5c3ee9ae",
+  "source_kinematics_sha256": "5c3ee9aec3a730abb97144f0e4ccfd57c1c64d2922abf4b784532ed987766fbb",
+  "source_output_interface_id": "hand1009_20outputs_anatomical_names_v1",
+  "policy": "freeze follower branches at zero to actuator mounting-side owner; compose fixed installations; no nearest-neighbor assignment",
+  "links": [
+    {
+      "source_link": "hand_base",
+      "target_link": "hand_base",
+      "source_to_target_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_mass_kg": 0.0870273901718131,
+      "visuals": [
+        "visual_P0051",
+        "visual_P0052",
+        "visual_P0053",
+        "visual_P0054",
+        "visual_P0055",
+        "visual_P0056",
+        "visual_P0057",
+        "visual_P0058",
+        "visual_P0059",
+        "visual_P0060",
+        "visual_P0061",
+        "visual_P0062",
+        "visual_P0063",
+        "visual_P0064",
+        "visual_P0065",
+        "visual_P0066",
+        "visual_P0067",
+        "visual_P0068",
+        "visual_P0069",
+        "visual_P0070",
+        "visual_P0071",
+        "visual_P0072",
+        "visual_P0073",
+        "visual_P0074",
+        "visual_P0075",
+        "visual_P0076",
+        "visual_P0077",
+        "visual_P0078",
+        "visual_P0079",
+        "visual_P0080",
+        "visual_P0081",
+        "visual_P0082",
+        "visual_P0083",
+        "visual_P0084",
+        "visual_P0085",
+        "visual_P0086",
+        "visual_P0087",
+        "visual_P0088",
+        "visual_P0089",
+        "visual_P0090",
+        "visual_P0216",
+        "visual_P0220",
+        "visual_P0221",
+        "visual_P0222",
+        "visual_P0223",
+        "visual_P0224",
+        "visual_P0225",
+        "visual_P0226",
+        "visual_P0227",
+        "visual_P0228",
+        "visual_P0229",
+        "visual_P0230"
+      ],
+      "collisions": [
+        "collision_P0051",
+        "collision_P0052",
+        "collision_P0053",
+        "collision_P0054",
+        "collision_P0055",
+        "collision_P0056",
+        "collision_P0057",
+        "collision_P0058",
+        "collision_P0059",
+        "collision_P0060",
+        "collision_P0061",
+        "collision_P0062",
+        "collision_P0063",
+        "collision_P0064",
+        "collision_P0065",
+        "collision_P0066",
+        "collision_P0067",
+        "collision_P0068",
+        "collision_P0069",
+        "collision_P0070",
+        "collision_P0071",
+        "collision_P0072",
+        "collision_P0073",
+        "collision_P0074",
+        "collision_P0075",
+        "collision_P0076",
+        "collision_P0077",
+        "collision_P0078",
+        "collision_P0079",
+        "collision_P0080",
+        "collision_P0081",
+        "collision_P0082",
+        "collision_P0083",
+        "collision_P0084",
+        "collision_P0085",
+        "collision_P0086",
+        "collision_P0087",
+        "collision_P0088",
+        "collision_P0089",
+        "collision_P0090",
+        "collision_P0216",
+        "collision_P0220",
+        "collision_P0221",
+        "collision_P0222",
+        "collision_P0223",
+        "collision_P0224",
+        "collision_P0225",
+        "collision_P0226",
+        "collision_P0227",
+        "collision_P0228",
+        "collision_P0229",
+        "collision_P0230"
+      ]
+    },
+    {
+      "source_link": "index_mount",
+      "target_link": "hand_base",
+      "source_to_target_matrix": [
+        [
+          0.05185047574167381,
+          -0.0960876222009979,
+          0.9940214771447952,
+          -0.02606721555707702
+        ],
+        [
+          -0.413466850137623,
+          0.9039772550555696,
+          0.10895084294979096,
+          -0.001430772230618006
+        ],
+        [
+          -0.9090416338114743,
+          -0.41664408216360876,
+          0.007142604245623158,
+          -0.003500295903368408
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_mass_kg": 0.06200771753179305,
+      "visuals": [
+        "visual_P0241",
+        "visual_P0266"
+      ],
+      "collisions": [
+        "collision_P0241",
+        "collision_P0266"
+      ]
+    },
+    {
+      "source_link": "index_mcp_carrier",
+      "target_link": "index_mcp_carrier",
+      "source_to_target_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_mass_kg": 0.025938948479955693,
+      "visuals": [
+        "visual_P0267",
+        "visual_P0268",
+        "visual_P0270",
+        "visual_P0271",
+        "visual_P0272",
+        "visual_P0273",
+        "visual_P0275",
+        "visual_P0276",
+        "visual_P0277",
+        "visual_P0278",
+        "visual_P0280",
+        "visual_P0281"
+      ],
+      "collisions": [
+        "collision_P0267",
+        "collision_P0268",
+        "collision_P0270",
+        "collision_P0271",
+        "collision_P0272",
+        "collision_P0273",
+        "collision_P0275",
+        "collision_P0276",
+        "collision_P0277",
+        "collision_P0278",
+        "collision_P0280",
+        "collision_P0281"
+      ]
+    },
+    {
+      "source_link": "index_proximal",
+      "target_link": "index_proximal",
+      "source_to_target_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_mass_kg": 0.04745220804552516,
+      "visuals": [
+        "visual_P0246",
+        "visual_P0254",
+        "visual_P0255",
+        "visual_P0256",
+        "visual_P0257",
+        "visual_P0258",
+        "visual_P0259",
+        "visual_P0260",
+        "visual_P0261",
+        "visual_P0262",
+        "visual_P0263",
+        "visual_P0264",
+        "visual_P0281_OUTPUT"
+      ],
+      "collisions": [
+        "collision_P0246",
+        "collision_P0254",
+        "collision_P0255",
+        "collision_P0256",
+        "collision_P0257",
+        "collision_P0258",
+        "collision_P0259",
+        "collision_P0260",
+        "collision_P0261",
+        "collision_P0262",
+        "collision_P0263",
+        "collision_P0264",
+        "collision_P0281_OUTPUT"
+      ]
+    },
+    {
+      "source_link": "index_middle",
+      "target_link": "index_middle",
+      "source_to_target_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_mass_kg": 0.0241957938516279,
+      "visuals": [
+        "visual_P0245",
+        "visual_P0250",
+        "visual_P0251",
+        "visual_P0252",
+        "visual_P0253"
+      ],
+      "collisions": [
+        "collision_P0245",
+        "collision_P0250",
+        "collision_P0251",
+        "collision_P0252",
+        "collision_P0253"
+      ]
+    },
+    {
+      "source_link": "index_distal",
+      "target_link": "index_distal",
+      "source_to_target_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_mass_kg": 0.002810219593717029,
+      "visuals": [
+        "visual_P0231",
+        "visual_P0233",
+        "visual_P0236",
+        "visual_P0237",
+        "visual_P0238",
+        "visual_P0240",
+        "visual_P0243"
+      ],
+      "collisions": [
+        "collision_P0231",
+        "collision_P0233",
+        "collision_P0236",
+        "collision_P0237",
+        "collision_P0238",
+        "collision_P0240",
+        "collision_P0243"
+      ]
+    },
+    {
+      "source_link": "index_mcp_slider",
+      "target_link": "hand_base",
+      "source_to_target_matrix": [
+        [
+          0.9940214771447952,
+          -0.007100083136949763,
+          0.10895362221756581,
+          -0.0245250771538917
+        ],
+        [
+          0.10895084294979111,
+          -0.0007782126046270534,
+          -0.9940468340101848,
+          -0.014779471622050344
+        ],
+        [
+          0.007142604245623506,
+          0.9999744912769478,
+          1.6767283562529745e-16,
+          -0.014500015307423703
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_mass_kg": 0.018072562394305994,
+      "visuals": [
+        "visual_P0242",
+        "visual_P0265",
+        "visual_P0279"
+      ],
+      "collisions": [
+        "collision_P0242",
+        "collision_P0265",
+        "collision_P0279"
+      ]
+    },
+    {
+      "source_link": "index_mcp_rod",
+      "target_link": "hand_base",
+      "source_to_target_matrix": [
+        [
+          -0.10721156041816586,
+          -0.020663598127664756,
+          0.9940214771447952,
+          -0.024525077153891704
+        ],
+        [
+          0.9863475444539925,
+          0.12348374536800014,
+          0.10895084294979115,
+          -0.014779471622050346
+        ],
+        [
+          -0.12499681140845603,
+          0.9921314329978209,
+          0.007142604245623504,
+          -0.014500015307423703
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_mass_kg": 0.0010055372611832566,
+      "visuals": [
+        "visual_P0269",
+        "visual_P0274"
+      ],
+      "collisions": [
+        "collision_P0269",
+        "collision_P0274"
+      ]
+    },
+    {
+      "source_link": "index_pip_slider",
+      "target_link": "index_proximal",
+      "source_to_target_matrix": [
+        [
+          -2.381258314217977e-15,
+          2.5473897226421233e-14,
+          -1.0,
+          0.02783220313282781
+        ],
+        [
+          1.0,
+          6.065992956594982e-29,
+          -2.381258314217977e-15,
+          -2.775557561562891e-17
+        ],
+        [
+          0.0,
+          -1.0,
+          -2.5473897226421233e-14,
+          -0.01599999999999985
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_mass_kg": 0.009072562394305993,
+      "visuals": [
+        "visual_P0248",
+        "visual_P0249"
+      ],
+      "collisions": [
+        "collision_P0248",
+        "collision_P0249"
+      ]
+    },
+    {
+      "source_link": "index_pip_rod",
+      "target_link": "index_proximal",
+      "source_to_target_matrix": [
+        [
+          0.9968428301148571,
+          -0.07940007587277285,
+          -2.1921862233963378e-15,
+          0.02783220313282781
+        ],
+        [
+          2.1846681863579424e-15,
+          -1.815540537831784e-16,
+          1.0,
+          -2.775557561562891e-17
+        ],
+        [
+          -0.07940007587277285,
+          -0.9968428301148571,
+          -7.518037038395326e-18,
+          -0.015999999999999848
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_mass_kg": 0.0011211306081994243,
+      "visuals": [
+        "visual_P0244",
+        "visual_P0247"
+      ],
+      "collisions": [
+        "collision_P0244",
+        "collision_P0247"
+      ]
+    },
+    {
+      "source_link": "index_dip_slider",
+      "target_link": "index_middle",
+      "source_to_target_matrix": [
+        [
+          7.273661547324616e-16,
+          -0.930852842097879,
+          0.3653942888966673,
+          0.006008588438242785
+        ],
+        [
+          0.0,
+          -0.3653942888966673,
+          -0.930852842097879,
+          0.01890256247880713
+        ],
+        [
+          1.0,
+          6.770708523785175e-16,
+          -2.6577543887597106e-16,
+          -1.085936895961481e-15
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_mass_kg": 0.006072562394305995,
+      "visuals": [
+        "visual_P0234",
+        "visual_P0235"
+      ],
+      "collisions": [
+        "collision_P0234",
+        "collision_P0235"
+      ]
+    },
+    {
+      "source_link": "index_dip_rod",
+      "target_link": "index_middle",
+      "source_to_target_matrix": [
+        [
+          -0.3655408939399808,
+          -0.930795280852648,
+          6.699566908504811e-16,
+          0.006008588438242785
+        ],
+        [
+          0.930795280852648,
+          -0.3655408939399808,
+          1.462184653103195e-16,
+          0.01890256247880713
+        ],
+        [
+          1.0879711019019418e-16,
+          6.77041354739143e-16,
+          1.0,
+          -1.085936895961481e-15
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_mass_kg": 0.001258787056741943,
+      "visuals": [
+        "visual_P0232",
+        "visual_P0239"
+      ],
+      "collisions": [
+        "collision_P0232",
+        "collision_P0239"
+      ]
+    },
+    {
+      "source_link": "middle_mount",
+      "target_link": "hand_base",
+      "source_to_target_matrix": [
+        [
+          0.006493090263551117,
+          0.0029759997041274248,
+          0.9999744912769477,
+          -8.606868639763742e-05
+        ],
+        [
+          -0.4166547104932061,
+          0.9090648228942876,
+          9.71445146547012e-17,
+          -0.0009999999996577187
+        ],
+        [
+          -0.9090416338114838,
+          -0.4166440821635878,
+          0.0071426042456227985,
+          -0.003500295903368406
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_mass_kg": 0.06200771753179305,
+      "visuals": [
+        "visual_P0304",
+        "visual_P0305"
+      ],
+      "collisions": [
+        "collision_P0304",
+        "collision_P0305"
+      ]
+    },
+    {
+      "source_link": "middle_mcp_carrier",
+      "target_link": "middle_mcp_carrier",
+      "source_to_target_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_mass_kg": 0.025938948479955693,
+      "visuals": [
+        "visual_P0308",
+        "visual_P0309",
+        "visual_P0310",
+        "visual_P0311",
+        "visual_P0312",
+        "visual_P0314",
+        "visual_P0315",
+        "visual_P0316",
+        "visual_P0318",
+        "visual_P0319",
+        "visual_P0320",
+        "visual_P0321"
+      ],
+      "collisions": [
+        "collision_P0308",
+        "collision_P0309",
+        "collision_P0310",
+        "collision_P0311",
+        "collision_P0312",
+        "collision_P0314",
+        "collision_P0315",
+        "collision_P0316",
+        "collision_P0318",
+        "collision_P0319",
+        "collision_P0320",
+        "collision_P0321"
+      ]
+    },
+    {
+      "source_link": "middle_proximal",
+      "target_link": "middle_proximal",
+      "source_to_target_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_mass_kg": 0.04745220804552516,
+      "visuals": [
+        "visual_P0282",
+        "visual_P0283",
+        "visual_P0284",
+        "visual_P0285",
+        "visual_P0286",
+        "visual_P0287",
+        "visual_P0288",
+        "visual_P0289",
+        "visual_P0290",
+        "visual_P0291",
+        "visual_P0292",
+        "visual_P0329",
+        "visual_P0320_OUTPUT"
+      ],
+      "collisions": [
+        "collision_P0282",
+        "collision_P0283",
+        "collision_P0284",
+        "collision_P0285",
+        "collision_P0286",
+        "collision_P0287",
+        "collision_P0288",
+        "collision_P0289",
+        "collision_P0290",
+        "collision_P0291",
+        "collision_P0292",
+        "collision_P0329",
+        "collision_P0320_OUTPUT"
+      ]
+    },
+    {
+      "source_link": "middle_middle",
+      "target_link": "middle_middle",
+      "source_to_target_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_mass_kg": 0.026571907699953275,
+      "visuals": [
+        "visual_P0301",
+        "visual_P0324",
+        "visual_P0325",
+        "visual_P0326",
+        "visual_P0328",
+        "visual_P0332"
+      ],
+      "collisions": [
+        "collision_P0301",
+        "collision_P0324",
+        "collision_P0325",
+        "collision_P0326",
+        "collision_P0328",
+        "collision_P0332"
+      ]
+    },
+    {
+      "source_link": "middle_distal",
+      "target_link": "middle_distal",
+      "source_to_target_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_mass_kg": 0.0035774955199461764,
+      "visuals": [
+        "visual_P0293",
+        "visual_P0295",
+        "visual_P0296",
+        "visual_P0298",
+        "visual_P0302",
+        "visual_P0303",
+        "visual_P0323"
+      ],
+      "collisions": [
+        "collision_P0293",
+        "collision_P0295",
+        "collision_P0296",
+        "collision_P0298",
+        "collision_P0302",
+        "collision_P0303",
+        "collision_P0323"
+      ]
+    },
+    {
+      "source_link": "middle_mcp_slider",
+      "target_link": "hand_base",
+      "source_to_target_matrix": [
+        [
+          0.9999744912769477,
+          -0.007142604245623147,
+          2.5796060641814994e-16,
+          -7.500039695721451e-06
+        ],
+        [
+          2.566636329401771e-16,
+          -2.775557561562892e-16,
+          -1.0,
+          -0.014437253932852553
+        ],
+        [
+          0.007142604245623146,
+          0.9999744912769477,
+          -2.2090522299350746e-16,
+          -0.014500015307423815
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_mass_kg": 0.018072562394305994,
+      "visuals": [
+        "visual_P0306",
+        "visual_P0313"
+      ],
+      "collisions": [
+        "collision_P0306",
+        "collision_P0313"
+      ]
+    },
+    {
+      "source_link": "middle_mcp_rod",
+      "target_link": "hand_base",
+      "source_to_target_matrix": [
+        [
+          0.0008928255306944653,
+          -0.0070865829552284095,
+          0.9999744912769477,
+          -7.500039695721451e-06
+        ],
+        [
+          0.9921567416493628,
+          0.12499999999887783,
+          4.1554304413785366e-16,
+          -0.014437253932852553
+        ],
+        [
+          -0.12499681140849637,
+          0.9921314329978157,
+          0.007142604245623137,
+          -0.014500015307423815
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_mass_kg": 0.0010055372611832566,
+      "visuals": [
+        "visual_P0307",
+        "visual_P0317"
+      ],
+      "collisions": [
+        "collision_P0307",
+        "collision_P0317"
+      ]
+    },
+    {
+      "source_link": "middle_pip_slider",
+      "target_link": "middle_proximal",
+      "source_to_target_matrix": [
+        [
+          -1.2710352895928203e-15,
+          2.4363674201796076e-14,
+          -1.0,
+          0.02783220313282713
+        ],
+        [
+          1.0,
+          -2.2204460492500035e-16,
+          -1.2710352895928256e-15,
+          -1.760473277573338e-17
+        ],
+        [
+          -2.220446049250313e-16,
+          -1.0,
+          -2.4363674201796076e-14,
+          -0.01429999999999819
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_mass_kg": 0.009072562394305993,
+      "visuals": [
+        "visual_P0322",
+        "visual_P0327"
+      ],
+      "collisions": [
+        "collision_P0322",
+        "collision_P0327"
+      ]
+    },
+    {
+      "source_link": "middle_pip_rod",
+      "target_link": "middle_proximal",
+      "source_to_target_matrix": [
+        [
+          0.996842830114893,
+          -0.07940007587232131,
+          -9.232899724694264e-16,
+          0.02783220313282713
+        ],
+        [
+          9.016467396521289e-16,
+          -3.084365409185837e-16,
+          1.0,
+          -1.7591180248577313e-17
+        ],
+        [
+          -0.07940007587232131,
+          -0.996842830114893,
+          -2.358719348217185e-16,
+          -0.014299999999998191
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_mass_kg": 0.0011211306081994243,
+      "visuals": [
+        "visual_P0330",
+        "visual_P0331"
+      ],
+      "collisions": [
+        "collision_P0330",
+        "collision_P0331"
+      ]
+    },
+    {
+      "source_link": "middle_dip_slider",
+      "target_link": "middle_middle",
+      "source_to_target_matrix": [
+        [
+          7.273661547324616e-16,
+          -0.9308528420979184,
+          0.36539428889656683,
+          0.006008588455737297
+        ],
+        [
+          0.0,
+          -0.36539428889656683,
+          -0.9308528420979184,
+          0.01890256243425394
+        ],
+        [
+          1.0,
+          6.770708523785462e-16,
+          -2.65775438875898e-16,
+          -7.263612454566637e-16
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_mass_kg": 0.006072562394305995,
+      "visuals": [
+        "visual_P0299",
+        "visual_P0300"
+      ],
+      "collisions": [
+        "collision_P0299",
+        "collision_P0300"
+      ]
+    },
+    {
+      "source_link": "middle_dip_rod",
+      "target_link": "middle_middle",
+      "source_to_target_matrix": [
+        [
+          -0.3654751107466024,
+          -0.9308211124726161,
+          6.699904242299142e-16,
+          0.006008588455737296
+        ],
+        [
+          0.9308211124726161,
+          -0.3654751107466024,
+          1.4614772920213842e-16,
+          0.01890256243425394
+        ],
+        [
+          1.0882743261330983e-16,
+          6.770545895430761e-16,
+          1.0,
+          -7.263476929295076e-16
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_mass_kg": 0.000623373026158577,
+      "visuals": [
+        "visual_P0294",
+        "visual_P0297"
+      ],
+      "collisions": [
+        "collision_P0294",
+        "collision_P0297"
+      ]
+    },
+    {
+      "source_link": "ring_mount",
+      "target_link": "hand_base",
+      "source_to_target_matrix": [
+        [
+          -0.02984546866746192,
+          0.08219489497167351,
+          0.996169286437107,
+          0.02398844875953242
+        ],
+        [
+          -0.4156351236329215,
+          0.9053461813243985,
+          -0.08715351951571032,
+          -0.00814450385392476
+        ],
+        [
+          -0.9090416338114914,
+          -0.41664408216357135,
+          0.007142604245622888,
+          -0.003500295903368407
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_mass_kg": 0.06200771753179305,
+      "visuals": [
+        "visual_P0026",
+        "visual_P0050"
+      ],
+      "collisions": [
+        "collision_P0026",
+        "collision_P0050"
+      ]
+    },
+    {
+      "source_link": "ring_mcp_carrier",
+      "target_link": "ring_mcp_carrier",
+      "source_to_target_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_mass_kg": 0.02567939501654233,
+      "visuals": [
+        "visual_P0021",
+        "visual_P0024",
+        "visual_P0027",
+        "visual_P0029",
+        "visual_P0033",
+        "visual_P0035",
+        "visual_P0037",
+        "visual_P0038"
+      ],
+      "collisions": [
+        "collision_P0021",
+        "collision_P0024",
+        "collision_P0027",
+        "collision_P0029",
+        "collision_P0033",
+        "collision_P0035",
+        "collision_P0037",
+        "collision_P0038"
+      ]
+    },
+    {
+      "source_link": "ring_proximal",
+      "target_link": "ring_proximal",
+      "source_to_target_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_mass_kg": 0.04745220804552516,
+      "visuals": [
+        "visual_P0016",
+        "visual_P0039",
+        "visual_P0040",
+        "visual_P0041",
+        "visual_P0042",
+        "visual_P0043",
+        "visual_P0044",
+        "visual_P0045",
+        "visual_P0046",
+        "visual_P0047",
+        "visual_P0048",
+        "visual_P0049",
+        "visual_P0037_OUTPUT"
+      ],
+      "collisions": [
+        "collision_P0016",
+        "collision_P0039",
+        "collision_P0040",
+        "collision_P0041",
+        "collision_P0042",
+        "collision_P0043",
+        "collision_P0044",
+        "collision_P0045",
+        "collision_P0046",
+        "collision_P0047",
+        "collision_P0048",
+        "collision_P0049",
+        "collision_P0037_OUTPUT"
+      ]
+    },
+    {
+      "source_link": "ring_middle",
+      "target_link": "ring_middle",
+      "source_to_target_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_mass_kg": 0.0241957938516279,
+      "visuals": [
+        "visual_P0013",
+        "visual_P0014",
+        "visual_P0015",
+        "visual_P0019",
+        "visual_P0020"
+      ],
+      "collisions": [
+        "collision_P0013",
+        "collision_P0014",
+        "collision_P0015",
+        "collision_P0019",
+        "collision_P0020"
+      ]
+    },
+    {
+      "source_link": "ring_distal",
+      "target_link": "ring_distal",
+      "source_to_target_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_mass_kg": 0.0033085065836697927,
+      "visuals": [
+        "visual_P0000",
+        "visual_P0001",
+        "visual_P0002",
+        "visual_P0007",
+        "visual_P0008",
+        "visual_P0009",
+        "visual_P0012"
+      ],
+      "collisions": [
+        "collision_P0000",
+        "collision_P0001",
+        "collision_P0002",
+        "collision_P0007",
+        "collision_P0008",
+        "collision_P0009",
+        "collision_P0012"
+      ]
+    },
+    {
+      "source_link": "ring_mcp_slider",
+      "target_link": "hand_base",
+      "source_to_target_matrix": [
+        [
+          0.996169286437107,
+          -0.007115424480057614,
+          -0.08715574274741433,
+          0.02289558458177978
+        ],
+        [
+          -0.08715351951571017,
+          0.0006225189781780298,
+          -0.9961946980917669,
+          -0.02153747268784746
+        ],
+        [
+          0.007142604245623236,
+          0.9999744912769477,
+          -1.0988292053099184e-16,
+          -0.014500015307423696
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_mass_kg": 0.018072562394305994,
+      "visuals": [
+        "visual_P0022",
+        "visual_P0028",
+        "visual_P0030"
+      ],
+      "collisions": [
+        "collision_P0022",
+        "collision_P0028",
+        "collision_P0030"
+      ]
+    },
+    {
+      "source_link": "ring_mcp_rod",
+      "target_link": "hand_base",
+      "source_to_target_matrix": [
+        [
+          0.08736158580030612,
+          0.0038348514756912978,
+          0.996169286437107,
+          0.022895584581779784
+        ],
+        [
+          0.9883034708349004,
+          0.12514197366077306,
+          -0.08715351951571013,
+          -0.021537472687847465
+        ],
+        [
+          -0.12499681140791005,
+          0.9921314329978895,
+          0.007142604245623233,
+          -0.014500015307423697
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_mass_kg": 0.0010055372611832566,
+      "visuals": [
+        "visual_P0023",
+        "visual_P0031"
+      ],
+      "collisions": [
+        "collision_P0023",
+        "collision_P0031"
+      ]
+    },
+    {
+      "source_link": "ring_pip_slider",
+      "target_link": "ring_proximal",
+      "source_to_target_matrix": [
+        [
+          -1.148508711614426e-14,
+          2.5473897226421236e-14,
+          -1.0,
+          0.02783220313282776
+        ],
+        [
+          1.0,
+          -2.2204460492473874e-16,
+          -1.1485087116144267e-14,
+          -1.700029006457271e-16
+        ],
+        [
+          -2.220446049250313e-16,
+          -1.0,
+          -2.5473897226421233e-14,
+          -0.0159999999999988
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_mass_kg": 0.009072562394305993,
+      "visuals": [
+        "visual_P0011",
+        "visual_P0018"
+      ],
+      "collisions": [
+        "collision_P0011",
+        "collision_P0018"
+      ]
+    },
+    {
+      "source_link": "ring_pip_rod",
+      "target_link": "ring_proximal",
+      "source_to_target_matrix": [
+        [
+          0.9968428301148526,
+          -0.07940007587282863,
+          -1.1454688251626337e-14,
+          0.027832203132827752
+        ],
+        [
+          1.1400797521976754e-14,
+          -1.1320516166331557e-15,
+          1.0,
+          -1.7347234759768078e-16
+        ],
+        [
+          -0.07940007587282863,
+          -0.9968428301148526,
+          -2.232533491049783e-16,
+          -0.0159999999999988
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_mass_kg": 0.0011211306081994243,
+      "visuals": [
+        "visual_P0010",
+        "visual_P0017"
+      ],
+      "collisions": [
+        "collision_P0010",
+        "collision_P0017"
+      ]
+    },
+    {
+      "source_link": "ring_dip_slider",
+      "target_link": "ring_middle",
+      "source_to_target_matrix": [
+        [
+          7.273661547324616e-16,
+          -0.9308528420978749,
+          0.36539428889667763,
+          0.006008588438241159
+        ],
+        [
+          0.0,
+          -0.36539428889667763,
+          -0.9308528420978749,
+          0.01890256247880718
+        ],
+        [
+          1.0,
+          6.770708523785146e-16,
+          -2.657754388759786e-16,
+          -4.718447854656915e-16
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_mass_kg": 0.006072562394305995,
+      "visuals": [
+        "visual_P0005",
+        "visual_P0006"
+      ],
+      "collisions": [
+        "collision_P0005",
+        "collision_P0006"
+      ]
+    },
+    {
+      "source_link": "ring_dip_rod",
+      "target_link": "ring_middle",
+      "source_to_target_matrix": [
+        [
+          -0.3655408939399585,
+          -0.9307952808526567,
+          6.126203893677102e-16,
+          0.006008588438241159
+        ],
+        [
+          0.9307952808526567,
+          -0.3655408939399585,
+          2.922505903717187e-16,
+          0.01890256247880718
+        ],
+        [
+          -4.808766556908039e-17,
+          6.770537094368848e-16,
+          1.0,
+          -4.718447854656915e-16
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_mass_kg": 0.001258787056741943,
+      "visuals": [
+        "visual_P0003",
+        "visual_P0004"
+      ],
+      "collisions": [
+        "collision_P0003",
+        "collision_P0004"
+      ]
+    },
+    {
+      "source_link": "little_mount",
+      "target_link": "hand_base",
+      "source_to_target_matrix": [
+        [
+          -0.04405155492244372,
+          0.1131288599996273,
+          0.9926033052252543,
+          0.04521519166298586
+        ],
+        [
+          -0.414370327733841,
+          0.9020030874854355,
+          -0.12119266339383239,
+          -0.01876708267543374
+        ],
+        [
+          -0.9090416338114905,
+          -0.4166440821635732,
+          0.00714260424562292,
+          -0.003500295903368517
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_mass_kg": 0.06200771753179305,
+      "visuals": [
+        "visual_P0425",
+        "visual_P0438"
+      ],
+      "collisions": [
+        "collision_P0425",
+        "collision_P0438"
+      ]
+    },
+    {
+      "source_link": "little_mcp_carrier",
+      "target_link": "little_mcp_carrier",
+      "source_to_target_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_mass_kg": 0.025702511840098884,
+      "visuals": [
+        "visual_P0422",
+        "visual_P0424",
+        "visual_P0430",
+        "visual_P0431",
+        "visual_P0432",
+        "visual_P0434",
+        "visual_P0435",
+        "visual_P0436",
+        "visual_P0437"
+      ],
+      "collisions": [
+        "collision_P0422",
+        "collision_P0424",
+        "collision_P0430",
+        "collision_P0431",
+        "collision_P0432",
+        "collision_P0434",
+        "collision_P0435",
+        "collision_P0436",
+        "collision_P0437"
+      ]
+    },
+    {
+      "source_link": "little_proximal",
+      "target_link": "little_proximal",
+      "source_to_target_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_mass_kg": 0.03409264962439076,
+      "visuals": [
+        "visual_P0388",
+        "visual_P0397",
+        "visual_P0398",
+        "visual_P0399",
+        "visual_P0400",
+        "visual_P0401",
+        "visual_P0402",
+        "visual_P0405",
+        "visual_P0406",
+        "visual_P0407",
+        "visual_P0436_OUTPUT"
+      ],
+      "collisions": [
+        "collision_P0388",
+        "collision_P0397",
+        "collision_P0398",
+        "collision_P0399",
+        "collision_P0400",
+        "collision_P0401",
+        "collision_P0402",
+        "collision_P0405",
+        "collision_P0406",
+        "collision_P0407",
+        "collision_P0436_OUTPUT"
+      ]
+    },
+    {
+      "source_link": "little_middle",
+      "target_link": "little_middle",
+      "source_to_target_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_mass_kg": 0.023954933706724576,
+      "visuals": [
+        "visual_P0387",
+        "visual_P0389",
+        "visual_P0394",
+        "visual_P0395",
+        "visual_P0396",
+        "visual_P0414"
+      ],
+      "collisions": [
+        "collision_P0387",
+        "collision_P0389",
+        "collision_P0394",
+        "collision_P0395",
+        "collision_P0396",
+        "collision_P0414"
+      ]
+    },
+    {
+      "source_link": "little_distal",
+      "target_link": "little_distal",
+      "source_to_target_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_mass_kg": 0.0024121449370928935,
+      "visuals": [
+        "visual_P0411",
+        "visual_P0413",
+        "visual_P0415",
+        "visual_P0416",
+        "visual_P0417",
+        "visual_P0418",
+        "visual_P0419"
+      ],
+      "collisions": [
+        "collision_P0411",
+        "collision_P0413",
+        "collision_P0415",
+        "collision_P0416",
+        "collision_P0417",
+        "collision_P0418",
+        "collision_P0419"
+      ]
+    },
+    {
+      "source_link": "little_mcp_slider",
+      "target_link": "hand_base",
+      "source_to_target_matrix": [
+        [
+          0.9926033052252543,
+          -0.0070899534377794156,
+          -0.12119575494278062,
+          0.04366464301601017
+        ],
+        [
+          -0.1211926633938327,
+          0.0008656533138045906,
+          -0.9926286259139664,
+          -0.03211480776964944
+        ],
+        [
+          0.007142604245622259,
+          0.9999744912769477,
+          -1.1678988173176904e-15,
+          -0.014500015307423706
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_mass_kg": 0.018072562394305994,
+      "visuals": [
+        "visual_P0420",
+        "visual_P0421"
+      ],
+      "collisions": [
+        "collision_P0420",
+        "collision_P0421"
+      ]
+    },
+    {
+      "source_link": "little_mcp_rod",
+      "target_link": "hand_base",
+      "source_to_target_matrix": [
+        [
+          0.12113142950547824,
+          0.008115124266443539,
+          0.9926033052252543,
+          0.04366464301601017
+        ],
+        [
+          0.9847349764904556,
+          0.12493744200939387,
+          -0.12119266339383289,
+          -0.03211480776964944
+        ],
+        [
+          -0.1249968114085351,
+          0.9921314329978108,
+          0.007142604245622272,
+          -0.014500015307423706
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_mass_kg": 0.0010055372611832566,
+      "visuals": [
+        "visual_P0423",
+        "visual_P0429"
+      ],
+      "collisions": [
+        "collision_P0423",
+        "collision_P0429"
+      ]
+    },
+    {
+      "source_link": "little_pip_slider",
+      "target_link": "little_proximal",
+      "source_to_target_matrix": [
+        [
+          1.6155445744325867e-15,
+          2.5473897226421233e-14,
+          -1.0,
+          0.02640000000064093
+        ],
+        [
+          1.0,
+          4.4408920985002145e-16,
+          1.615544574432598e-15,
+          2.775557561562891e-17
+        ],
+        [
+          4.440892098500626e-16,
+          -1.0,
+          -2.5473897226421233e-14,
+          -0.01380999999999624
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_mass_kg": 0.00590472175959037,
+      "visuals": [
+        "visual_P0390",
+        "visual_P0392"
+      ],
+      "collisions": [
+        "collision_P0390",
+        "collision_P0392"
+      ]
+    },
+    {
+      "source_link": "little_pip_rod",
+      "target_link": "little_proximal",
+      "source_to_target_matrix": [
+        [
+          0.9999999999423145,
+          1.0741089441894635e-05,
+          1.6155486867324599e-15,
+          0.026400000000640928
+        ],
+        [
+          -1.6155534566411896e-15,
+          4.440718570935884e-16,
+          1.0,
+          3.469446951953615e-17
+        ],
+        [
+          1.0741089441894635e-05,
+          -0.9999999999423145,
+          4.44089209872148e-16,
+          -0.013809999999996242
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_mass_kg": 0.0013977136662105011,
+      "visuals": [
+        "visual_P0391",
+        "visual_P0393"
+      ],
+      "collisions": [
+        "collision_P0391",
+        "collision_P0393"
+      ]
+    },
+    {
+      "source_link": "little_dip_slider",
+      "target_link": "little_middle",
+      "source_to_target_matrix": [
+        [
+          0.02507276774653863,
+          -0.9698193012411772,
+          0.24253222313252104,
+          0.004026150542808486
+        ],
+        [
+          0.006268098521521913,
+          -0.24245121199640862,
+          -0.9701433506149475,
+          0.01688046548801222
+        ],
+        [
+          0.9996659778438259,
+          0.025844394780055752,
+          4.836256207581426e-16,
+          -6.245004513516506e-16
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_mass_kg": 0.006072562394305995,
+      "visuals": [
+        "visual_P0409",
+        "visual_P0412"
+      ],
+      "collisions": [
+        "collision_P0409",
+        "collision_P0412"
+      ]
+    },
+    {
+      "source_link": "little_dip_rod",
+      "target_link": "little_middle",
+      "source_to_target_matrix": [
+        [
+          -0.2426849669276129,
+          -0.9697810903213526,
+          0.025072767746538667,
+          0.004026150542808486
+        ],
+        [
+          0.9701051524503796,
+          -0.24260400683036962,
+          0.00626809852152176,
+          0.01688046548801222
+        ],
+        [
+          4.070499194506338e-06,
+          0.025844394459503386,
+          0.9996659778438259,
+          -6.314370275112546e-16
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_mass_kg": 0.001258787056741943,
+      "visuals": [
+        "visual_P0408",
+        "visual_P0410"
+      ],
+      "collisions": [
+        "collision_P0408",
+        "collision_P0410"
+      ]
+    },
+    {
+      "source_link": "thumb_mount",
+      "target_link": "hand_base",
+      "source_to_target_matrix": [
+        [
+          -0.9334285551855993,
+          0.29072743015823216,
+          -0.2102110694461995,
+          -0.01719491196484228
+        ],
+        [
+          -0.0847118199152632,
+          0.39075872165091485,
+          0.9165868911458351,
+          -0.05307703223894665
+        ],
+        [
+          0.3486187601532204,
+          0.8733757397634383,
+          -0.34011729926879375,
+          -0.006111559028990668
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_mass_kg": 0.044618306079769916,
+      "visuals": [
+        "visual_P0351",
+        "visual_P0352",
+        "visual_P0353",
+        "visual_P0354",
+        "visual_P0355",
+        "visual_P0356",
+        "visual_P0357",
+        "visual_P0358",
+        "visual_RESTORED_THUMB_FIXED_MOUNT"
+      ],
+      "collisions": [
+        "collision_P0351",
+        "collision_P0352",
+        "collision_P0353",
+        "collision_P0354",
+        "collision_P0355",
+        "collision_P0356",
+        "collision_P0357",
+        "collision_P0358",
+        "collision_RESTORED_THUMB_FIXED_MOUNT"
+      ]
+    },
+    {
+      "source_link": "thumb_base_axis1_carrier",
+      "target_link": "thumb_base_axis1_carrier",
+      "source_to_target_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_mass_kg": 0.04525965783905293,
+      "visuals": [
+        "visual_P0334",
+        "visual_P0335",
+        "visual_P0336",
+        "visual_P0337",
+        "visual_P0338",
+        "visual_P0339",
+        "visual_P0340",
+        "visual_P0341",
+        "visual_P0342",
+        "visual_P0343",
+        "visual_P0344",
+        "visual_P0345",
+        "visual_P0346",
+        "visual_P0353_OUTPUT"
+      ],
+      "collisions": [
+        "collision_P0334",
+        "collision_P0335",
+        "collision_P0336",
+        "collision_P0337",
+        "collision_P0338",
+        "collision_P0339",
+        "collision_P0340",
+        "collision_P0341",
+        "collision_P0342",
+        "collision_P0343",
+        "collision_P0344",
+        "collision_P0345",
+        "collision_P0346",
+        "collision_P0353_OUTPUT"
+      ]
+    },
+    {
+      "source_link": "thumb_metacarpal",
+      "target_link": "thumb_metacarpal",
+      "source_to_target_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_mass_kg": 0.05023302729385465,
+      "visuals": [
+        "visual_P0334_OUTPUT",
+        "visual_P0360",
+        "visual_P0361",
+        "visual_P0362",
+        "visual_P0363",
+        "visual_P0364",
+        "visual_P0365",
+        "visual_P0366",
+        "visual_P0386"
+      ],
+      "collisions": [
+        "collision_P0334_OUTPUT",
+        "collision_P0360",
+        "collision_P0361",
+        "collision_P0362",
+        "collision_P0363",
+        "collision_P0364",
+        "collision_P0365",
+        "collision_P0366",
+        "collision_P0386"
+      ]
+    },
+    {
+      "source_link": "thumb_proximal",
+      "target_link": "thumb_proximal",
+      "source_to_target_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_mass_kg": 0.024254254207754535,
+      "visuals": [
+        "visual_P0367",
+        "visual_P0371",
+        "visual_P0372",
+        "visual_P0373",
+        "visual_P0377"
+      ],
+      "collisions": [
+        "collision_P0367",
+        "collision_P0371",
+        "collision_P0372",
+        "collision_P0373",
+        "collision_P0377"
+      ]
+    },
+    {
+      "source_link": "thumb_distal",
+      "target_link": "thumb_distal",
+      "source_to_target_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_mass_kg": 0.0024121449370928935,
+      "visuals": [
+        "visual_P0376",
+        "visual_P0378",
+        "visual_P0379",
+        "visual_P0382",
+        "visual_P0384",
+        "visual_P0385",
+        "visual_RECOVERED_THUMB_F1_HINGE"
+      ],
+      "collisions": [
+        "collision_P0376",
+        "collision_P0378",
+        "collision_P0379",
+        "collision_P0382",
+        "collision_P0384",
+        "collision_P0385",
+        "collision_RECOVERED_THUMB_F1_HINGE"
+      ]
+    },
+    {
+      "source_link": "thumb_mcp_slider",
+      "target_link": "thumb_metacarpal",
+      "source_to_target_matrix": [
+        [
+          0.06845092120128508,
+          0.04293256998358698,
+          -0.996730287400408,
+          0.03707521207953619
+        ],
+        [
+          0.8443887903844988,
+          0.5296025268956926,
+          0.08080058278688425,
+          -0.00468086155217811
+        ],
+        [
+          0.5313398555159385,
+          -0.8471587560429872,
+          -3.2434054964080723e-16,
+          0.004026671298806715
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_mass_kg": 0.009072562394305993,
+      "visuals": [
+        "visual_P0368",
+        "visual_P0370"
+      ],
+      "collisions": [
+        "collision_P0368",
+        "collision_P0370"
+      ]
+    },
+    {
+      "source_link": "thumb_ip_slider",
+      "target_link": "thumb_proximal",
+      "source_to_target_matrix": [
+        [
+          4.724169043383025e-15,
+          0.9308528420978559,
+          -0.36539428889672615,
+          0.006008588438239815
+        ],
+        [
+          0.0,
+          0.36539428889672615,
+          0.9308528420978559,
+          0.01890256247880454
+        ],
+        [
+          1.0,
+          -4.397506180583798e-15,
+          1.7261843882348675e-15,
+          -1.408595462493167e-15
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_mass_kg": 0.006072562394305995,
+      "visuals": [
+        "visual_P0381",
+        "visual_P0383"
+      ],
+      "collisions": [
+        "collision_P0381",
+        "collision_P0383"
+      ]
+    },
+    {
+      "source_link": "thumb_mcp_rod",
+      "target_link": "thumb_metacarpal",
+      "source_to_target_matrix": [
+        [
+          0.9969922898675262,
+          -0.03634343587777654,
+          0.06845092120128511,
+          0.037075212079536186
+        ],
+        [
+          -0.03849500080225776,
+          0.5343460541505263,
+          0.8443887903844988,
+          -0.00468086155217812
+        ],
+        [
+          -0.06726446950612763,
+          -0.8444841319304707,
+          0.5313398555159385,
+          0.004026671298806718
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_mass_kg": 0.001121130608199424,
+      "visuals": [
+        "visual_P0369",
+        "visual_RECOVERED_THUMB_F2_ROD"
+      ],
+      "collisions": [
+        "collision_P0369",
+        "collision_RECOVERED_THUMB_F2_ROD"
+      ]
+    },
+    {
+      "source_link": "thumb_ip_rod",
+      "target_link": "thumb_proximal",
+      "source_to_target_matrix": [
+        [
+          -0.3655408939399857,
+          -0.9307952808526461,
+          4.436526818111912e-15,
+          0.006008588438239821
+        ],
+        [
+          0.9307952808526461,
+          -0.3655408939399857,
+          1.067697910008013e-15,
+          0.018902562478804542
+        ],
+        [
+          6.279238030696573e-16,
+          4.5197854741569965e-15,
+          1.0,
+          -1.4155343563970742e-15
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_mass_kg": 0.0012587870567419427,
+      "visuals": [
+        "visual_P0380",
+        "visual_RECOVERED_THUMB_F1_ROD"
+      ],
+      "collisions": [
+        "collision_P0380",
+        "collision_RECOVERED_THUMB_F1_ROD"
+      ]
+    }
+  ],
+  "collapsed_joints": [
+    {
+      "source_joint": "index_mount_fixed",
+      "source_link": "index_mount",
+      "target_link": "hand_base",
+      "kind": "fixed_installation_merge",
+      "reference_coordinate": 0.0,
+      "reference_units": "rad",
+      "source_to_target_matrix": [
+        [
+          0.05185047574167381,
+          -0.0960876222009979,
+          0.9940214771447952,
+          -0.02606721555707702
+        ],
+        [
+          -0.413466850137623,
+          0.9039772550555696,
+          0.10895084294979096,
+          -0.001430772230618006
+        ],
+        [
+          -0.9090416338114743,
+          -0.41664408216360876,
+          0.007142604245623158,
+          -0.003500295903368408
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "source_joint": "index_mcp_slider_joint",
+      "source_link": "index_mcp_slider",
+      "target_link": "hand_base",
+      "kind": "zero_frozen_follower_approximation",
+      "reference_coordinate": 0.0,
+      "reference_units": "m",
+      "source_to_target_matrix": [
+        [
+          0.9940214771447952,
+          -0.007100083136949763,
+          0.10895362221756581,
+          -0.0245250771538917
+        ],
+        [
+          0.10895084294979111,
+          -0.0007782126046270534,
+          -0.9940468340101848,
+          -0.014779471622050344
+        ],
+        [
+          0.007142604245623506,
+          0.9999744912769478,
+          1.6767283562529745e-16,
+          -0.014500015307423703
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "source_joint": "index_mcp_rod_joint",
+      "source_link": "index_mcp_rod",
+      "target_link": "hand_base",
+      "kind": "zero_frozen_follower_approximation",
+      "reference_coordinate": 0.0,
+      "reference_units": "rad",
+      "source_to_target_matrix": [
+        [
+          -0.10721156041816586,
+          -0.020663598127664756,
+          0.9940214771447952,
+          -0.024525077153891704
+        ],
+        [
+          0.9863475444539925,
+          0.12348374536800014,
+          0.10895084294979115,
+          -0.014779471622050346
+        ],
+        [
+          -0.12499681140845603,
+          0.9921314329978209,
+          0.007142604245623504,
+          -0.014500015307423703
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "source_joint": "index_pip_slider_joint",
+      "source_link": "index_pip_slider",
+      "target_link": "index_proximal",
+      "kind": "zero_frozen_follower_approximation",
+      "reference_coordinate": 0.0,
+      "reference_units": "m",
+      "source_to_target_matrix": [
+        [
+          -2.381258314217977e-15,
+          2.5473897226421233e-14,
+          -1.0,
+          0.02783220313282781
+        ],
+        [
+          1.0,
+          6.065992956594982e-29,
+          -2.381258314217977e-15,
+          -2.775557561562891e-17
+        ],
+        [
+          0.0,
+          -1.0,
+          -2.5473897226421233e-14,
+          -0.01599999999999985
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "source_joint": "index_pip_rod_joint",
+      "source_link": "index_pip_rod",
+      "target_link": "index_proximal",
+      "kind": "zero_frozen_follower_approximation",
+      "reference_coordinate": 0.0,
+      "reference_units": "rad",
+      "source_to_target_matrix": [
+        [
+          0.9968428301148571,
+          -0.07940007587277285,
+          -2.1921862233963378e-15,
+          0.02783220313282781
+        ],
+        [
+          2.1846681863579424e-15,
+          -1.815540537831784e-16,
+          1.0,
+          -2.775557561562891e-17
+        ],
+        [
+          -0.07940007587277285,
+          -0.9968428301148571,
+          -7.518037038395326e-18,
+          -0.015999999999999848
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "source_joint": "index_dip_slider_joint",
+      "source_link": "index_dip_slider",
+      "target_link": "index_middle",
+      "kind": "zero_frozen_follower_approximation",
+      "reference_coordinate": 0.0,
+      "reference_units": "m",
+      "source_to_target_matrix": [
+        [
+          7.273661547324616e-16,
+          -0.930852842097879,
+          0.3653942888966673,
+          0.006008588438242785
+        ],
+        [
+          0.0,
+          -0.3653942888966673,
+          -0.930852842097879,
+          0.01890256247880713
+        ],
+        [
+          1.0,
+          6.770708523785175e-16,
+          -2.6577543887597106e-16,
+          -1.085936895961481e-15
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "source_joint": "index_dip_rod_joint",
+      "source_link": "index_dip_rod",
+      "target_link": "index_middle",
+      "kind": "zero_frozen_follower_approximation",
+      "reference_coordinate": 0.0,
+      "reference_units": "rad",
+      "source_to_target_matrix": [
+        [
+          -0.3655408939399808,
+          -0.930795280852648,
+          6.699566908504811e-16,
+          0.006008588438242785
+        ],
+        [
+          0.930795280852648,
+          -0.3655408939399808,
+          1.462184653103195e-16,
+          0.01890256247880713
+        ],
+        [
+          1.0879711019019418e-16,
+          6.77041354739143e-16,
+          1.0,
+          -1.085936895961481e-15
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "source_joint": "middle_mount_fixed",
+      "source_link": "middle_mount",
+      "target_link": "hand_base",
+      "kind": "fixed_installation_merge",
+      "reference_coordinate": 0.0,
+      "reference_units": "rad",
+      "source_to_target_matrix": [
+        [
+          0.006493090263551117,
+          0.0029759997041274248,
+          0.9999744912769477,
+          -8.606868639763742e-05
+        ],
+        [
+          -0.4166547104932061,
+          0.9090648228942876,
+          9.71445146547012e-17,
+          -0.0009999999996577187
+        ],
+        [
+          -0.9090416338114838,
+          -0.4166440821635878,
+          0.0071426042456227985,
+          -0.003500295903368406
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "source_joint": "middle_mcp_slider_joint",
+      "source_link": "middle_mcp_slider",
+      "target_link": "hand_base",
+      "kind": "zero_frozen_follower_approximation",
+      "reference_coordinate": 0.0,
+      "reference_units": "m",
+      "source_to_target_matrix": [
+        [
+          0.9999744912769477,
+          -0.007142604245623147,
+          2.5796060641814994e-16,
+          -7.500039695721451e-06
+        ],
+        [
+          2.566636329401771e-16,
+          -2.775557561562892e-16,
+          -1.0,
+          -0.014437253932852553
+        ],
+        [
+          0.007142604245623146,
+          0.9999744912769477,
+          -2.2090522299350746e-16,
+          -0.014500015307423815
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "source_joint": "middle_mcp_rod_joint",
+      "source_link": "middle_mcp_rod",
+      "target_link": "hand_base",
+      "kind": "zero_frozen_follower_approximation",
+      "reference_coordinate": 0.0,
+      "reference_units": "rad",
+      "source_to_target_matrix": [
+        [
+          0.0008928255306944653,
+          -0.0070865829552284095,
+          0.9999744912769477,
+          -7.500039695721451e-06
+        ],
+        [
+          0.9921567416493628,
+          0.12499999999887783,
+          4.1554304413785366e-16,
+          -0.014437253932852553
+        ],
+        [
+          -0.12499681140849637,
+          0.9921314329978157,
+          0.007142604245623137,
+          -0.014500015307423815
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "source_joint": "middle_pip_slider_joint",
+      "source_link": "middle_pip_slider",
+      "target_link": "middle_proximal",
+      "kind": "zero_frozen_follower_approximation",
+      "reference_coordinate": 0.0,
+      "reference_units": "m",
+      "source_to_target_matrix": [
+        [
+          -1.2710352895928203e-15,
+          2.4363674201796076e-14,
+          -1.0,
+          0.02783220313282713
+        ],
+        [
+          1.0,
+          -2.2204460492500035e-16,
+          -1.2710352895928256e-15,
+          -1.760473277573338e-17
+        ],
+        [
+          -2.220446049250313e-16,
+          -1.0,
+          -2.4363674201796076e-14,
+          -0.01429999999999819
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "source_joint": "middle_pip_rod_joint",
+      "source_link": "middle_pip_rod",
+      "target_link": "middle_proximal",
+      "kind": "zero_frozen_follower_approximation",
+      "reference_coordinate": 0.0,
+      "reference_units": "rad",
+      "source_to_target_matrix": [
+        [
+          0.996842830114893,
+          -0.07940007587232131,
+          -9.232899724694264e-16,
+          0.02783220313282713
+        ],
+        [
+          9.016467396521289e-16,
+          -3.084365409185837e-16,
+          1.0,
+          -1.7591180248577313e-17
+        ],
+        [
+          -0.07940007587232131,
+          -0.996842830114893,
+          -2.358719348217185e-16,
+          -0.014299999999998191
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "source_joint": "middle_dip_slider_joint",
+      "source_link": "middle_dip_slider",
+      "target_link": "middle_middle",
+      "kind": "zero_frozen_follower_approximation",
+      "reference_coordinate": 0.0,
+      "reference_units": "m",
+      "source_to_target_matrix": [
+        [
+          7.273661547324616e-16,
+          -0.9308528420979184,
+          0.36539428889656683,
+          0.006008588455737297
+        ],
+        [
+          0.0,
+          -0.36539428889656683,
+          -0.9308528420979184,
+          0.01890256243425394
+        ],
+        [
+          1.0,
+          6.770708523785462e-16,
+          -2.65775438875898e-16,
+          -7.263612454566637e-16
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "source_joint": "middle_dip_rod_joint",
+      "source_link": "middle_dip_rod",
+      "target_link": "middle_middle",
+      "kind": "zero_frozen_follower_approximation",
+      "reference_coordinate": 0.0,
+      "reference_units": "rad",
+      "source_to_target_matrix": [
+        [
+          -0.3654751107466024,
+          -0.9308211124726161,
+          6.699904242299142e-16,
+          0.006008588455737296
+        ],
+        [
+          0.9308211124726161,
+          -0.3654751107466024,
+          1.4614772920213842e-16,
+          0.01890256243425394
+        ],
+        [
+          1.0882743261330983e-16,
+          6.770545895430761e-16,
+          1.0,
+          -7.263476929295076e-16
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "source_joint": "ring_mount_fixed",
+      "source_link": "ring_mount",
+      "target_link": "hand_base",
+      "kind": "fixed_installation_merge",
+      "reference_coordinate": 0.0,
+      "reference_units": "rad",
+      "source_to_target_matrix": [
+        [
+          -0.02984546866746192,
+          0.08219489497167351,
+          0.996169286437107,
+          0.02398844875953242
+        ],
+        [
+          -0.4156351236329215,
+          0.9053461813243985,
+          -0.08715351951571032,
+          -0.00814450385392476
+        ],
+        [
+          -0.9090416338114914,
+          -0.41664408216357135,
+          0.007142604245622888,
+          -0.003500295903368407
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "source_joint": "ring_mcp_slider_joint",
+      "source_link": "ring_mcp_slider",
+      "target_link": "hand_base",
+      "kind": "zero_frozen_follower_approximation",
+      "reference_coordinate": 0.0,
+      "reference_units": "m",
+      "source_to_target_matrix": [
+        [
+          0.996169286437107,
+          -0.007115424480057614,
+          -0.08715574274741433,
+          0.02289558458177978
+        ],
+        [
+          -0.08715351951571017,
+          0.0006225189781780298,
+          -0.9961946980917669,
+          -0.02153747268784746
+        ],
+        [
+          0.007142604245623236,
+          0.9999744912769477,
+          -1.0988292053099184e-16,
+          -0.014500015307423696
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "source_joint": "ring_mcp_rod_joint",
+      "source_link": "ring_mcp_rod",
+      "target_link": "hand_base",
+      "kind": "zero_frozen_follower_approximation",
+      "reference_coordinate": 0.0,
+      "reference_units": "rad",
+      "source_to_target_matrix": [
+        [
+          0.08736158580030612,
+          0.0038348514756912978,
+          0.996169286437107,
+          0.022895584581779784
+        ],
+        [
+          0.9883034708349004,
+          0.12514197366077306,
+          -0.08715351951571013,
+          -0.021537472687847465
+        ],
+        [
+          -0.12499681140791005,
+          0.9921314329978895,
+          0.007142604245623233,
+          -0.014500015307423697
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "source_joint": "ring_pip_slider_joint",
+      "source_link": "ring_pip_slider",
+      "target_link": "ring_proximal",
+      "kind": "zero_frozen_follower_approximation",
+      "reference_coordinate": 0.0,
+      "reference_units": "m",
+      "source_to_target_matrix": [
+        [
+          -1.148508711614426e-14,
+          2.5473897226421236e-14,
+          -1.0,
+          0.02783220313282776
+        ],
+        [
+          1.0,
+          -2.2204460492473874e-16,
+          -1.1485087116144267e-14,
+          -1.700029006457271e-16
+        ],
+        [
+          -2.220446049250313e-16,
+          -1.0,
+          -2.5473897226421233e-14,
+          -0.0159999999999988
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "source_joint": "ring_pip_rod_joint",
+      "source_link": "ring_pip_rod",
+      "target_link": "ring_proximal",
+      "kind": "zero_frozen_follower_approximation",
+      "reference_coordinate": 0.0,
+      "reference_units": "rad",
+      "source_to_target_matrix": [
+        [
+          0.9968428301148526,
+          -0.07940007587282863,
+          -1.1454688251626337e-14,
+          0.027832203132827752
+        ],
+        [
+          1.1400797521976754e-14,
+          -1.1320516166331557e-15,
+          1.0,
+          -1.7347234759768078e-16
+        ],
+        [
+          -0.07940007587282863,
+          -0.9968428301148526,
+          -2.232533491049783e-16,
+          -0.0159999999999988
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "source_joint": "ring_dip_slider_joint",
+      "source_link": "ring_dip_slider",
+      "target_link": "ring_middle",
+      "kind": "zero_frozen_follower_approximation",
+      "reference_coordinate": 0.0,
+      "reference_units": "m",
+      "source_to_target_matrix": [
+        [
+          7.273661547324616e-16,
+          -0.9308528420978749,
+          0.36539428889667763,
+          0.006008588438241159
+        ],
+        [
+          0.0,
+          -0.36539428889667763,
+          -0.9308528420978749,
+          0.01890256247880718
+        ],
+        [
+          1.0,
+          6.770708523785146e-16,
+          -2.657754388759786e-16,
+          -4.718447854656915e-16
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "source_joint": "ring_dip_rod_joint",
+      "source_link": "ring_dip_rod",
+      "target_link": "ring_middle",
+      "kind": "zero_frozen_follower_approximation",
+      "reference_coordinate": 0.0,
+      "reference_units": "rad",
+      "source_to_target_matrix": [
+        [
+          -0.3655408939399585,
+          -0.9307952808526567,
+          6.126203893677102e-16,
+          0.006008588438241159
+        ],
+        [
+          0.9307952808526567,
+          -0.3655408939399585,
+          2.922505903717187e-16,
+          0.01890256247880718
+        ],
+        [
+          -4.808766556908039e-17,
+          6.770537094368848e-16,
+          1.0,
+          -4.718447854656915e-16
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "source_joint": "little_mount_fixed",
+      "source_link": "little_mount",
+      "target_link": "hand_base",
+      "kind": "fixed_installation_merge",
+      "reference_coordinate": 0.0,
+      "reference_units": "rad",
+      "source_to_target_matrix": [
+        [
+          -0.04405155492244372,
+          0.1131288599996273,
+          0.9926033052252543,
+          0.04521519166298586
+        ],
+        [
+          -0.414370327733841,
+          0.9020030874854355,
+          -0.12119266339383239,
+          -0.01876708267543374
+        ],
+        [
+          -0.9090416338114905,
+          -0.4166440821635732,
+          0.00714260424562292,
+          -0.003500295903368517
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "source_joint": "little_mcp_slider_joint",
+      "source_link": "little_mcp_slider",
+      "target_link": "hand_base",
+      "kind": "zero_frozen_follower_approximation",
+      "reference_coordinate": 0.0,
+      "reference_units": "m",
+      "source_to_target_matrix": [
+        [
+          0.9926033052252543,
+          -0.0070899534377794156,
+          -0.12119575494278062,
+          0.04366464301601017
+        ],
+        [
+          -0.1211926633938327,
+          0.0008656533138045906,
+          -0.9926286259139664,
+          -0.03211480776964944
+        ],
+        [
+          0.007142604245622259,
+          0.9999744912769477,
+          -1.1678988173176904e-15,
+          -0.014500015307423706
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "source_joint": "little_mcp_rod_joint",
+      "source_link": "little_mcp_rod",
+      "target_link": "hand_base",
+      "kind": "zero_frozen_follower_approximation",
+      "reference_coordinate": 0.0,
+      "reference_units": "rad",
+      "source_to_target_matrix": [
+        [
+          0.12113142950547824,
+          0.008115124266443539,
+          0.9926033052252543,
+          0.04366464301601017
+        ],
+        [
+          0.9847349764904556,
+          0.12493744200939387,
+          -0.12119266339383289,
+          -0.03211480776964944
+        ],
+        [
+          -0.1249968114085351,
+          0.9921314329978108,
+          0.007142604245622272,
+          -0.014500015307423706
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "source_joint": "little_pip_slider_joint",
+      "source_link": "little_pip_slider",
+      "target_link": "little_proximal",
+      "kind": "zero_frozen_follower_approximation",
+      "reference_coordinate": 0.0,
+      "reference_units": "m",
+      "source_to_target_matrix": [
+        [
+          1.6155445744325867e-15,
+          2.5473897226421233e-14,
+          -1.0,
+          0.02640000000064093
+        ],
+        [
+          1.0,
+          4.4408920985002145e-16,
+          1.615544574432598e-15,
+          2.775557561562891e-17
+        ],
+        [
+          4.440892098500626e-16,
+          -1.0,
+          -2.5473897226421233e-14,
+          -0.01380999999999624
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "source_joint": "little_pip_rod_joint",
+      "source_link": "little_pip_rod",
+      "target_link": "little_proximal",
+      "kind": "zero_frozen_follower_approximation",
+      "reference_coordinate": 0.0,
+      "reference_units": "rad",
+      "source_to_target_matrix": [
+        [
+          0.9999999999423145,
+          1.0741089441894635e-05,
+          1.6155486867324599e-15,
+          0.026400000000640928
+        ],
+        [
+          -1.6155534566411896e-15,
+          4.440718570935884e-16,
+          1.0,
+          3.469446951953615e-17
+        ],
+        [
+          1.0741089441894635e-05,
+          -0.9999999999423145,
+          4.44089209872148e-16,
+          -0.013809999999996242
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "source_joint": "little_dip_slider_joint",
+      "source_link": "little_dip_slider",
+      "target_link": "little_middle",
+      "kind": "zero_frozen_follower_approximation",
+      "reference_coordinate": 0.0,
+      "reference_units": "m",
+      "source_to_target_matrix": [
+        [
+          0.02507276774653863,
+          -0.9698193012411772,
+          0.24253222313252104,
+          0.004026150542808486
+        ],
+        [
+          0.006268098521521913,
+          -0.24245121199640862,
+          -0.9701433506149475,
+          0.01688046548801222
+        ],
+        [
+          0.9996659778438259,
+          0.025844394780055752,
+          4.836256207581426e-16,
+          -6.245004513516506e-16
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "source_joint": "little_dip_rod_joint",
+      "source_link": "little_dip_rod",
+      "target_link": "little_middle",
+      "kind": "zero_frozen_follower_approximation",
+      "reference_coordinate": 0.0,
+      "reference_units": "rad",
+      "source_to_target_matrix": [
+        [
+          -0.2426849669276129,
+          -0.9697810903213526,
+          0.025072767746538667,
+          0.004026150542808486
+        ],
+        [
+          0.9701051524503796,
+          -0.24260400683036962,
+          0.00626809852152176,
+          0.01688046548801222
+        ],
+        [
+          4.070499194506338e-06,
+          0.025844394459503386,
+          0.9996659778438259,
+          -6.314370275112546e-16
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "source_joint": "thumb_mount_fixed",
+      "source_link": "thumb_mount",
+      "target_link": "hand_base",
+      "kind": "fixed_installation_merge",
+      "reference_coordinate": 0.0,
+      "reference_units": "rad",
+      "source_to_target_matrix": [
+        [
+          -0.9334285551855993,
+          0.29072743015823216,
+          -0.2102110694461995,
+          -0.01719491196484228
+        ],
+        [
+          -0.0847118199152632,
+          0.39075872165091485,
+          0.9165868911458351,
+          -0.05307703223894665
+        ],
+        [
+          0.3486187601532204,
+          0.8733757397634383,
+          -0.34011729926879375,
+          -0.006111559028990668
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "source_joint": "thumb_mcp_slider_joint",
+      "source_link": "thumb_mcp_slider",
+      "target_link": "thumb_metacarpal",
+      "kind": "zero_frozen_follower_approximation",
+      "reference_coordinate": 0.0,
+      "reference_units": "m",
+      "source_to_target_matrix": [
+        [
+          0.06845092120128508,
+          0.04293256998358698,
+          -0.996730287400408,
+          0.03707521207953619
+        ],
+        [
+          0.8443887903844988,
+          0.5296025268956926,
+          0.08080058278688425,
+          -0.00468086155217811
+        ],
+        [
+          0.5313398555159385,
+          -0.8471587560429872,
+          -3.2434054964080723e-16,
+          0.004026671298806715
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "source_joint": "thumb_mcp_rod_joint",
+      "source_link": "thumb_mcp_rod",
+      "target_link": "thumb_metacarpal",
+      "kind": "zero_frozen_follower_approximation",
+      "reference_coordinate": 0.0,
+      "reference_units": "rad",
+      "source_to_target_matrix": [
+        [
+          0.9969922898675262,
+          -0.03634343587777654,
+          0.06845092120128511,
+          0.037075212079536186
+        ],
+        [
+          -0.03849500080225776,
+          0.5343460541505263,
+          0.8443887903844988,
+          -0.00468086155217812
+        ],
+        [
+          -0.06726446950612763,
+          -0.8444841319304707,
+          0.5313398555159385,
+          0.004026671298806718
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "source_joint": "thumb_ip_slider_joint",
+      "source_link": "thumb_ip_slider",
+      "target_link": "thumb_proximal",
+      "kind": "zero_frozen_follower_approximation",
+      "reference_coordinate": 0.0,
+      "reference_units": "m",
+      "source_to_target_matrix": [
+        [
+          4.724169043383025e-15,
+          0.9308528420978559,
+          -0.36539428889672615,
+          0.006008588438239815
+        ],
+        [
+          0.0,
+          0.36539428889672615,
+          0.9308528420978559,
+          0.01890256247880454
+        ],
+        [
+          1.0,
+          -4.397506180583798e-15,
+          1.7261843882348675e-15,
+          -1.408595462493167e-15
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "source_joint": "thumb_ip_rod_joint",
+      "source_link": "thumb_ip_rod",
+      "target_link": "thumb_proximal",
+      "kind": "zero_frozen_follower_approximation",
+      "reference_coordinate": 0.0,
+      "reference_units": "rad",
+      "source_to_target_matrix": [
+        [
+          -0.3655408939399857,
+          -0.9307952808526461,
+          4.436526818111912e-15,
+          0.006008588438239821
+        ],
+        [
+          0.9307952808526461,
+          -0.3655408939399857,
+          1.067697910008013e-15,
+          0.018902562478804542
+        ],
+        [
+          6.279238030696573e-16,
+          4.5197854741569965e-15,
+          1.0,
+          -1.4155343563970742e-15
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  ],
+  "inertials": [
+    {
+      "link": "hand_base",
+      "mass_kg": 0.45598896500071223,
+      "COM_m": [
+        0.007279391333774535,
+        -0.03695613090717657,
+        -0.01563347057991394
+      ],
+      "tensor_at_COM_kg_m2": [
+        [
+          0.00020581597457990103,
+          2.0218982640395412e-05,
+          8.579235168665556e-06
+        ],
+        [
+          2.0218982640395412e-05,
+          0.00031094165699747543,
+          7.942898927903766e-06
+        ],
+        [
+          8.579235168665556e-06,
+          7.942898927903764e-06,
+          0.0004425789763005766
+        ]
+      ],
+      "source_components": [
+        {
+          "source_link": "hand_base",
+          "mass_kg": 0.0870273901718131,
+          "COM_m": [
+            0.007414329724913805,
+            -0.046475292726146644,
+            -0.02120445134330584
+          ],
+          "tensor_at_own_COM_kg_m2": [
+            [
+              6.775716931794471e-05,
+              2.385504870921489e-06,
+              -2.4441593473372905e-06
+            ],
+            [
+              2.385504870921489e-06,
+              5.9701833441085965e-05,
+              -4.90621223153105e-07
+            ],
+            [
+              -2.4441593473372905e-06,
+              -4.90621223153105e-07,
+              9.44663277331268e-05
+            ]
+          ]
+        },
+        {
+          "source_link": "index_mount",
+          "mass_kg": 0.06200771753179305,
+          "COM_m": [
+            -0.02357523980369402,
+            -0.023377786722731216,
+            -0.015582735991130746
+          ],
+          "tensor_at_own_COM_kg_m2": [
+            [
+              1.1283419520122499e-05,
+              7.52430649905722e-07,
+              1.4007430648628793e-09
+            ],
+            [
+              7.524306499057218e-07,
+              4.50289990432883e-06,
+              -1.1677724665076445e-08
+            ],
+            [
+              1.4007430648629852e-09,
+              -1.1677724665077217e-08,
+              1.1124179295500644e-05
+            ]
+          ]
+        },
+        {
+          "source_link": "index_mcp_slider",
+          "mass_kg": 0.018072562394305994,
+          "COM_m": [
+            -0.022874319853374923,
+            -0.02975481764565909,
+            -0.015968144006429978
+          ],
+          "tensor_at_own_COM_kg_m2": [
+            [
+              1.4144752675209385e-06,
+              1.2842660029686037e-07,
+              8.74899887479639e-10
+            ],
+            [
+              1.284266002968604e-07,
+              2.522787443617697e-07,
+              -8.511016323043278e-09
+            ],
+            [
+              8.74899887479636e-10,
+              -8.511016323043278e-09,
+              1.428987275257139e-06
+            ]
+          ]
+        },
+        {
+          "source_link": "index_mcp_rod",
+          "mass_kg": 0.0010055372611832566,
+          "COM_m": [
+            -0.025094479962718203,
+            -0.00989270513596515,
+            -0.015120096591571165
+          ],
+          "tensor_at_own_COM_kg_m2": [
+            [
+              8.381523704862294e-09,
+              5.98146039005772e-10,
+              -1.138557764463868e-10
+            ],
+            [
+              5.98146039005772e-10,
+              3.911169537498926e-09,
+              8.044357322208404e-10
+            ],
+            [
+              -1.138557764463868e-10,
+              8.044357322208406e-10,
+              1.0169935181199432e-08
+            ]
+          ]
+        },
+        {
+          "source_link": "middle_mount",
+          "mass_kg": 0.06200771753179305,
+          "COM_m": [
+            -1.3480409426139658e-07,
+            -0.02308787005632796,
+            -0.015582735991130867
+          ],
+          "tensor_at_own_COM_kg_m2": [
+            [
+              1.1365912713374787e-05,
+              2.0240543304185192e-10,
+              1.200738073690832e-10
+            ],
+            [
+              2.0240543304185784e-10,
+              4.420406711076536e-06,
+              -1.1760821262478294e-08
+            ],
+            [
+              1.2007380736909147e-10,
+              -1.1760821262477404e-08,
+              1.1124179295500644e-05
+            ]
+          ]
+        },
+        {
+          "source_link": "middle_mcp_slider",
+          "mass_kg": 0.018072562394305994,
+          "COM_m": [
+            1.8118353740117642e-06,
+            -0.02950330522289513,
+            -0.01596814400718966
+          ],
+          "tensor_at_own_COM_kg_m2": [
+            [
+              1.4284974451369272e-06,
+              -4.94171264618598e-10,
+              -5.761259296259248e-11
+            ],
+            [
+              -4.94171264618598e-10,
+              2.3825685540537744e-07,
+              -8.556113916936927e-09
+            ],
+            [
+              -5.761259296259347e-11,
+              -8.556113916936927e-09,
+              1.4289869867631898e-06
+            ]
+          ]
+        },
+        {
+          "source_link": "middle_mcp_rod",
+          "mass_kg": 0.0010055372611832566,
+          "COM_m": [
+            -4.1082189414789e-05,
+            -0.0095175406820516,
+            -0.015120096600781252
+          ],
+          "tensor_at_own_COM_kg_m2": [
+            [
+              8.458021034088448e-09,
+              9.978563423045001e-11,
+              -2.5532684901705333e-11
+            ],
+            [
+              9.978563423045e-11,
+              3.834540793922336e-09,
+              8.117208727560851e-10
+            ],
+            [
+              -2.5532684901705333e-11,
+              8.117208727560852e-10,
+              1.0170066588249672e-08
+            ]
+          ]
+        },
+        {
+          "source_link": "ring_mount",
+          "mass_kg": 0.06200771753179305,
+          "COM_m": [
+            0.022148970916972002,
+            -0.03015581252785896,
+            -0.015582735991130877
+          ],
+          "tensor_at_own_COM_kg_m2": [
+            [
+              1.1313188939388633e-05,
+              -6.028378996955253e-07,
+              -9.054062221702016e-10
+            ],
+            [
+              -6.028378996955255e-07,
+              4.473130485062702e-06,
+              -1.1726532908753225e-08
+            ],
+            [
+              -9.054062221701354e-10,
+              -1.1726532908753316e-08,
+              1.112417929550065e-05
+            ]
+          ]
+        },
+        {
+          "source_link": "ring_mcp_slider",
+          "mass_kg": 0.018072562394305994,
+          "COM_m": [
+            0.021591768131873426,
+            -0.03654700468777973,
+            -0.015968144006429978
+          ],
+          "tensor_at_own_COM_kg_m2": [
+            [
+              1.4193704158789486e-06,
+              -1.0382824656293877e-07,
+              -8.030713306652426e-10
+            ],
+            [
+              -1.0382824656293877e-07,
+              2.473835960037594e-07,
+              -8.518093982933746e-09
+            ],
+            [
+              -8.030713306652435e-10,
+              -8.518093982933746e-09,
+              1.4289872752571383e-06
+            ]
+          ]
+        },
+        {
+          "source_link": "ring_mcp_rod",
+          "mass_kg": 0.0010055372611832566,
+          "COM_m": [
+            0.023290911484829695,
+            -0.01663355355230394,
+            -0.015120096591570502
+          ],
+          "tensor_at_own_COM_kg_m2": [
+            [
+              8.440228684751264e-09,
+              -3.0315071799761177e-10,
+              4.534034599905863e-11
+            ],
+            [
+              -3.031507179976118e-10,
+              3.852464557609631e-09,
+              8.111869316791948e-10
+            ],
+            [
+              4.5340345999058625e-11,
+              8.111869316791947e-10,
+              1.0169935181199558e-08
+            ]
+          ]
+        },
+        {
+          "source_link": "little_mount",
+          "mass_kg": 0.06200771753179305,
+          "COM_m": [
+            0.04262353600789992,
+            -0.04070254960089361,
+            -0.015582735991130947
+          ],
+          "tensor_at_own_COM_kg_m2": [
+            [
+              1.1263942966206787e-05,
+              -8.353644130788855e-07,
+              -1.3061729132355341e-09
+            ],
+            [
+              -8.353644130788855e-07,
+              4.522376458244532e-06,
+              -1.1688680285127177e-08
+            ],
+            [
+              -1.3061729132355606e-09,
+              -1.1688680285128438e-08,
+              1.1124179295500639e-05
+            ]
+          ]
+        },
+        {
+          "source_link": "little_mcp_slider",
+          "mass_kg": 0.018072562394305994,
+          "COM_m": [
+            0.04184794478963002,
+            -0.047070930119564806,
+            -0.01596814400618455
+          ],
+          "tensor_at_own_COM_kg_m2": [
+            [
+              1.4108957973006262e-06,
+              -1.4366845999898125e-07,
+              -1.0940804851469453e-09
+            ],
+            [
+              -1.4366845999898125e-07,
+              2.558582447943218e-07,
+              -8.485456031744946e-09
+            ],
+            [
+              -1.0940804851469451e-09,
+              -8.485456031744945e-09,
+              1.4289872450947965e-06
+            ]
+          ]
+        },
+        {
+          "source_link": "little_mcp_rod",
+          "mass_kg": 0.0010055372611832566,
+          "COM_m": [
+            0.04422755677978561,
+            -0.027227289506694837,
+            -0.01512009658626009
+          ],
+          "tensor_at_own_COM_kg_m2": [
+            [
+              8.414124132280335e-09,
+              -4.5931916875606723e-10,
+              7.297956324359151e-11
+            ],
+            [
+              -4.5931916875606723e-10,
+              3.878764606366996e-09,
+              8.083783129983479e-10
+            ],
+            [
+              7.29795632435915e-11,
+              8.08378312998348e-10,
+              1.0169740204651757e-08
+            ]
+          ]
+        },
+        {
+          "source_link": "thumb_mount",
+          "mass_kg": 0.044618306079769916,
+          "COM_m": [
+            -0.014707835870962962,
+            -0.06468672108830564,
+            -0.004553423518149074
+          ],
+          "tensor_at_own_COM_kg_m2": [
+            [
+              3.846989939116026e-06,
+              4.026621669361089e-08,
+              6.547161338970354e-08
+            ],
+            [
+              4.0266216693610836e-08,
+              3.636689859835738e-06,
+              -4.732186939269007e-07
+            ],
+            [
+              6.547161338970354e-08,
+              -4.7321869392690076e-07,
+              2.28269437500273e-06
+            ]
+          ]
+        }
+      ],
+      "status": "engineering_estimate_with_zero_frozen_followers"
+    },
+    {
+      "link": "index_mcp_carrier",
+      "mass_kg": 0.025938948479955693,
+      "COM_m": [
+        0.00600722010161717,
+        0.012509585990078557,
+        2.373664895247586e-06
+      ],
+      "tensor_at_COM_kg_m2": [
+        [
+          1.205707220287193e-06,
+          -9.570605421899267e-08,
+          -8.838063273171264e-10
+        ],
+        [
+          -9.570605421899267e-08,
+          1.2510144606238994e-06,
+          1.6135651006056773e-10
+        ],
+        [
+          -8.838063273171264e-10,
+          1.6135651006056773e-10,
+          1.3646472068298602e-06
+        ]
+      ],
+      "source_components": [
+        {
+          "source_link": "index_mcp_carrier",
+          "mass_kg": 0.025938948479955693,
+          "COM_m": [
+            0.00600722010161717,
+            0.012509585990078557,
+            2.373664895247586e-06
+          ],
+          "tensor_at_own_COM_kg_m2": [
+            [
+              1.205707220287193e-06,
+              -9.570605421899267e-08,
+              -8.838063273171264e-10
+            ],
+            [
+              -9.570605421899267e-08,
+              1.2510144606238994e-06,
+              1.6135651006056773e-10
+            ],
+            [
+              -8.838063273171264e-10,
+              1.6135651006056773e-10,
+              1.3646472068298602e-06
+            ]
+          ]
+        }
+      ],
+      "status": "source_engineering_estimate"
+    },
+    {
+      "link": "index_proximal",
+      "mass_kg": 0.05764590104803058,
+      "COM_m": [
+        0.023550369128458166,
+        2.118921204698958e-06,
+        -0.014796954595356368
+      ],
+      "tensor_at_COM_kg_m2": [
+        [
+          4.0603783001957245e-06,
+          1.174699423352578e-09,
+          8.28955947434985e-07
+        ],
+        [
+          1.174699423352578e-09,
+          7.961478014806346e-06,
+          -1.2681073085173748e-09
+        ],
+        [
+          8.28955947434985e-07,
+          -1.2681073085173748e-09,
+          7.18574581356971e-06
+        ]
+      ],
+      "source_components": [
+        {
+          "source_link": "index_proximal",
+          "mass_kg": 0.04745220804552516,
+          "COM_m": [
+            0.02397138975514433,
+            1.1157807814857842e-06,
+            -0.014801195308857247
+          ],
+          "tensor_at_own_COM_kg_m2": [
+            [
+              3.9334543657129155e-06,
+              1.8221755296567946e-09,
+              7.956854952425532e-07
+            ],
+            [
+              1.8221755296567946e-09,
+              7.430258645636662e-06,
+              -1.377779432319921e-09
+            ],
+            [
+              7.956854952425532e-07,
+              -1.377779432319921e-09,
+              6.656067561666333e-06
+            ]
+          ]
+        },
+        {
+          "source_link": "index_pip_slider",
+          "mass_kg": 0.009072562394305993,
+          "COM_m": [
+            0.020032258798848623,
+            4.06233729377538e-06,
+            -0.014563429803433685
+          ],
+          "tensor_at_own_COM_kg_m2": [
+            [
+              1.1914174902436967e-07,
+              -2.8747331785033186e-10,
+              4.370942478392106e-09
+            ],
+            [
+              -2.8747331785033186e-10,
+              2.6557215519842223e-07,
+              5.294604682322565e-11
+            ],
+            [
+              4.370942478392106e-09,
+              5.294604682322565e-11,
+              2.6608103126979703e-07
+            ]
+          ]
+        },
+        {
+          "source_link": "index_pip_rod",
+          "mass_kg": 0.0011211306081994243,
+          "COM_m": [
+            0.034200258641011554,
+            2.8850386848185155e-05,
+            -0.01650722547013885
+          ],
+          "tensor_at_own_COM_kg_m2": [
+            [
+              4.00635068922021e-09,
+              -1.229028935002113e-10,
+              9.405861065418054e-10
+            ],
+            [
+              -1.229028935002113e-10,
+              1.4010148759298008e-08,
+              9.789492120332594e-12
+            ],
+            [
+              9.405861065418054e-10,
+              9.789492120332592e-12,
+              1.573422390228342e-08
+            ]
+          ]
+        }
+      ],
+      "status": "engineering_estimate_with_zero_frozen_followers"
+    },
+    {
+      "link": "index_middle",
+      "mass_kg": 0.031527143302675836,
+      "COM_m": [
+        0.0061515072449498795,
+        0.01563755689217802,
+        -2.8277908903476766e-06
+      ],
+      "tensor_at_COM_kg_m2": [
+        [
+          1.9132182011480554e-06,
+          2.0837451173388415e-07,
+          -1.4559944393677672e-09
+        ],
+        [
+          2.0837451173388415e-07,
+          1.466768186812391e-06,
+          1.7187483209370787e-10
+        ],
+        [
+          -1.4559944393677672e-09,
+          1.7187483209370782e-10,
+          2.2649795394769e-06
+        ]
+      ],
+      "source_components": [
+        {
+          "source_link": "index_middle",
+          "mass_kg": 0.0241957938516279,
+          "COM_m": [
+            0.005680862973272952,
+            0.015957693703702584,
+            -3.861654477224554e-06
+          ],
+          "tensor_at_own_COM_kg_m2": [
+            [
+              1.6236855391374391e-06,
+              1.0616128142378794e-07,
+              -1.310236067090898e-09
+            ],
+            [
+              1.0616128142378794e-07,
+              1.351291451180878e-06,
+              -1.0478651460089558e-10
+            ],
+            [
+              -1.310236067090898e-09,
+              -1.0478651460089558e-10,
+              1.921912208700872e-06
+            ]
+          ]
+        },
+        {
+          "source_link": "index_dip_slider",
+          "mass_kg": 0.006072562394305995,
+          "COM_m": [
+            0.008518671127500385,
+            0.01250805200668256,
+            6.069235056778839e-06
+          ],
+          "tensor_at_own_COM_kg_m2": [
+            [
+              1.1251349992364662e-07,
+              2.332225667205983e-08,
+              9.251105011713586e-11
+            ],
+            [
+              2.3322256672059837e-08,
+              6.225522418523064e-08,
+              -2.3567477507492343e-10
+            ],
+            [
+              9.251105011713586e-11,
+              -2.3567477507492343e-10,
+              1.2033247336881825e-07
+            ]
+          ]
+        },
+        {
+          "source_link": "index_dip_rod",
+          "mass_kg": 0.001258787056741943,
+          "COM_m": [
+            0.003778477920099227,
+            0.024581205719986603,
+            -2.5875847202588057e-05
+          ],
+          "tensor_at_own_COM_kg_m2": [
+            [
+              1.4375817389255361e-08,
+              3.5436097563194372e-09,
+              -2.975591952323718e-11
+            ],
+            [
+              3.543609756319438e-09,
+              6.7448645633427476e-09,
+              7.576929783615891e-11
+            ],
+            [
+              -2.975591952323718e-11,
+              7.57692978361589e-11,
+              1.3617216291408591e-08
+            ]
+          ]
+        }
+      ],
+      "status": "engineering_estimate_with_zero_frozen_followers"
+    },
+    {
+      "link": "index_distal",
+      "mass_kg": 0.002810219593717029,
+      "COM_m": [
+        0.0023964332623570743,
+        0.009180133671852685,
+        -1.0601753296991812e-05
+      ],
+      "tensor_at_COM_kg_m2": [
+        [
+          1.3312794775115953e-07,
+          2.4074455193756865e-08,
+          1.1443716477568121e-10
+        ],
+        [
+          2.4074455193756865e-08,
+          1.0339593744918262e-07,
+          -1.659050732213273e-10
+        ],
+        [
+          1.1443716477568121e-10,
+          -1.659050732213273e-10,
+          1.7161291376556555e-07
+        ]
+      ],
+      "source_components": [
+        {
+          "source_link": "index_distal",
+          "mass_kg": 0.002810219593717029,
+          "COM_m": [
+            0.0023964332623570743,
+            0.009180133671852685,
+            -1.0601753296991812e-05
+          ],
+          "tensor_at_own_COM_kg_m2": [
+            [
+              1.3312794775115953e-07,
+              2.4074455193756865e-08,
+              1.1443716477568121e-10
+            ],
+            [
+              2.4074455193756865e-08,
+              1.0339593744918262e-07,
+              -1.659050732213273e-10
+            ],
+            [
+              1.1443716477568121e-10,
+              -1.659050732213273e-10,
+              1.7161291376556555e-07
+            ]
+          ]
+        }
+      ],
+      "status": "source_engineering_estimate"
+    },
+    {
+      "link": "middle_mcp_carrier",
+      "mass_kg": 0.025938948479955693,
+      "COM_m": [
+        0.006007220011942758,
+        0.012509586185733827,
+        2.3736649101694166e-06
+      ],
+      "tensor_at_COM_kg_m2": [
+        [
+          1.2057071165906464e-06,
+          -9.570603025811789e-08,
+          -8.838063403109259e-10
+        ],
+        [
+          -9.570603025811789e-08,
+          1.251014504371516e-06,
+          1.6135653842011092e-10
+        ],
+        [
+          -8.838063403109259e-10,
+          1.6135653842011092e-10,
+          1.3646471468809314e-06
+        ]
+      ],
+      "source_components": [
+        {
+          "source_link": "middle_mcp_carrier",
+          "mass_kg": 0.025938948479955693,
+          "COM_m": [
+            0.006007220011942758,
+            0.012509586185733827,
+            2.3736649101694166e-06
+          ],
+          "tensor_at_own_COM_kg_m2": [
+            [
+              1.2057071165906464e-06,
+              -9.570603025811789e-08,
+              -8.838063403109259e-10
+            ],
+            [
+              -9.570603025811789e-08,
+              1.251014504371516e-06,
+              1.6135653842011092e-10
+            ],
+            [
+              -8.838063403109259e-10,
+              1.6135653842011092e-10,
+              1.3646471468809314e-06
+            ]
+          ]
+        }
+      ],
+      "status": "source_engineering_estimate"
+    },
+    {
+      "link": "middle_proximal",
+      "mass_kg": 0.05764590104803058,
+      "COM_m": [
+        0.02355036912815354,
+        1.331466516125005e-06,
+        -0.013096954595834702
+      ],
+      "tensor_at_COM_kg_m2": [
+        [
+          4.0603781253253295e-06,
+          2.098761024993259e-09,
+          8.289554873015649e-07
+        ],
+        [
+          2.098761024993259e-09,
+          7.961478014535155e-06,
+          -1.1129367992068187e-09
+        ],
+        [
+          8.289554873015649e-07,
+          -1.1129367992068187e-09,
+          7.185747674539148e-06
+        ]
+      ],
+      "source_components": [
+        {
+          "source_link": "middle_proximal",
+          "mass_kg": 0.04745220804552516,
+          "COM_m": [
+            0.023971389755145067,
+            1.5224334799016082e-06,
+            -0.013101195308857656
+          ],
+          "tensor_at_own_COM_kg_m2": [
+            [
+              3.933455001364178e-06,
+              1.81961312478153e-09,
+              7.956854952425075e-07
+            ],
+            [
+              1.81961312478153e-09,
+              7.430258645636621e-06,
+              -1.0924742302848521e-09
+            ],
+            [
+              7.956854952425075e-07,
+              -1.0924742302848521e-09,
+              6.656068197317708e-06
+            ]
+          ]
+        },
+        {
+          "source_link": "middle_pip_slider",
+          "mass_kg": 0.009072562394305993,
+          "COM_m": [
+            0.020032258798103837,
+            4.06233729423451e-06,
+            -0.012863429804195158
+          ],
+          "tensor_at_own_COM_kg_m2": [
+            [
+              1.1914138428212277e-07,
+              -2.8747334751306735e-10,
+              4.370933200546506e-09
+            ],
+            [
+              -2.8747334751306735e-10,
+              2.655721551130066e-07,
+              5.294601639220759e-11
+            ],
+            [
+              4.370933200546506e-09,
+              5.294601639220759e-11,
+              2.660813959266282e-07
+            ]
+          ]
+        },
+        {
+          "source_link": "middle_pip_rod",
+          "mass_kg": 0.0011211306081994243,
+          "COM_m": [
+            0.034200258631344564,
+            -2.885038684927351e-05,
+            -0.014807225488554242
+          ],
+          "tensor_at_own_COM_kg_m2": [
+            [
+              4.005697308637332e-09,
+              1.2290294138654863e-10,
+              9.401350723893168e-10
+            ],
+            [
+              1.229029413865486e-10,
+              1.4010148689441457e-08,
+              -9.78940086813653e-12
+            ],
+            [
+              9.401350723893168e-10,
+              -9.789400868136529e-12,
+              1.5734877213009717e-08
+            ]
+          ]
+        }
+      ],
+      "status": "engineering_estimate_with_zero_frozen_followers"
+    },
+    {
+      "link": "middle_middle",
+      "mass_kg": 0.03326784312041785,
+      "COM_m": [
+        0.005779253141751559,
+        0.016393746356453028,
+        -4.368016275841281e-06
+      ],
+      "tensor_at_COM_kg_m2": [
+        [
+          2.4590214911922915e-06,
+          3.8945164567362785e-07,
+          -1.141244863925427e-09
+        ],
+        [
+          3.8945164567362785e-07,
+          1.7137115099882676e-06,
+          -3.07211714128847e-10
+        ],
+        [
+          -1.141244863925427e-09,
+          -3.07211714128847e-10,
+          2.9335200635991293e-06
+        ]
+      ],
+      "source_components": [
+        {
+          "source_link": "middle_middle",
+          "mass_kg": 0.026571907699953275,
+          "COM_m": [
+            0.005242333914094554,
+            0.01698219734675257,
+            -4.159196875339258e-06
+          ],
+          "tensor_at_own_COM_kg_m2": [
+            [
+              2.1274363657513155e-06,
+              2.5721497807503925e-07,
+              -1.101625675487191e-09
+            ],
+            [
+              2.5721497807503925e-07,
+              1.584830935925374e-06,
+              -4.2964456274049013e-10
+            ],
+            [
+              -1.101625675487191e-09,
+              -4.2964456274049013e-10,
+              2.530452567253542e-06
+            ]
+          ]
+        },
+        {
+          "source_link": "middle_dip_slider",
+          "mass_kg": 0.006072562394305995,
+          "COM_m": [
+            0.008518671149392072,
+            0.012508051955326473,
+            -6.069235058363794e-06
+          ],
+          "tensor_at_own_COM_kg_m2": [
+            [
+              1.1251384170677647e-07,
+              2.3322102278566804e-08,
+              -9.251116751294196e-11
+            ],
+            [
+              2.3322102278566797e-08,
+              6.225488173970578e-08,
+              2.356749566756566e-10
+            ],
+            [
+              -9.251116751294196e-11,
+              2.356749566756566e-10,
+              1.203324727064233e-07
+            ]
+          ]
+        },
+        {
+          "source_link": "middle_dip_rod",
+          "mass_kg": 0.000623373026158577,
+          "COM_m": [
+            0.001980053438734852,
+            0.02916275618177729,
+            3.303196892624319e-06
+          ],
+          "tensor_at_own_COM_kg_m2": [
+            [
+              1.6543251244715414e-08,
+              5.638429417996809e-09,
+              3.444620068498067e-12
+            ],
+            [
+              5.638429417996809e-09,
+              4.396707843391079e-09,
+              -8.773032637152386e-12
+            ],
+            [
+              3.444620068498067e-12,
+              -8.773032637152386e-12,
+              1.7978117504906816e-08
+            ]
+          ]
+        }
+      ],
+      "status": "engineering_estimate_with_zero_frozen_followers"
+    },
+    {
+      "link": "middle_distal",
+      "mass_kg": 0.0035774955199461764,
+      "COM_m": [
+        0.0015196179330956,
+        0.01018011157889236,
+        -8.28551424488108e-06
+      ],
+      "tensor_at_COM_kg_m2": [
+        [
+          2.1068738531515783e-07,
+          4.4307664095756864e-08,
+          1.5431424843736e-10
+        ],
+        [
+          4.4307664095756864e-08,
+          1.584019195281261e-07,
+          -2.0007568753061123e-10
+        ],
+        [
+          1.5431424843736e-10,
+          -2.0007568753061123e-10,
+          2.5463244539810556e-07
+        ]
+      ],
+      "source_components": [
+        {
+          "source_link": "middle_distal",
+          "mass_kg": 0.0035774955199461764,
+          "COM_m": [
+            0.0015196179330956,
+            0.01018011157889236,
+            -8.28551424488108e-06
+          ],
+          "tensor_at_own_COM_kg_m2": [
+            [
+              2.1068738531515783e-07,
+              4.4307664095756864e-08,
+              1.5431424843736e-10
+            ],
+            [
+              4.4307664095756864e-08,
+              1.584019195281261e-07,
+              -2.0007568753061123e-10
+            ],
+            [
+              1.5431424843736e-10,
+              -2.0007568753061123e-10,
+              2.5463244539810556e-07
+            ]
+          ]
+        }
+      ],
+      "status": "source_engineering_estimate"
+    },
+    {
+      "link": "ring_mcp_carrier",
+      "mass_kg": 0.02567939501654233,
+      "COM_m": [
+        0.006064875721604746,
+        0.012607773581921129,
+        2.4301414768448306e-06
+      ],
+      "tensor_at_COM_kg_m2": [
+        [
+          1.1698454919259637e-06,
+          -8.091189532670588e-08,
+          -8.754499050977441e-10
+        ],
+        [
+          -8.091189532670588e-08,
+          1.2291869648559757e-06,
+          1.7558750740953014e-10
+        ],
+        [
+          -8.754499050977441e-10,
+          1.7558750740953014e-10,
+          1.3286357694974001e-06
+        ]
+      ],
+      "source_components": [
+        {
+          "source_link": "ring_mcp_carrier",
+          "mass_kg": 0.02567939501654233,
+          "COM_m": [
+            0.006064875721604747,
+            0.012607773581921129,
+            2.4301414768448306e-06
+          ],
+          "tensor_at_own_COM_kg_m2": [
+            [
+              1.1698454919259637e-06,
+              -8.091189532670588e-08,
+              -8.754499050977441e-10
+            ],
+            [
+              -8.091189532670588e-08,
+              1.2291869648559757e-06,
+              1.7558750740953014e-10
+            ],
+            [
+              -8.754499050977441e-10,
+              1.7558750740953014e-10,
+              1.3286357694974001e-06
+            ]
+          ]
+        }
+      ],
+      "status": "source_engineering_estimate"
+    },
+    {
+      "link": "ring_proximal",
+      "mass_kg": 0.05764590104803058,
+      "COM_m": [
+        0.023550369128458364,
+        2.118921205253189e-06,
+        -0.014796954595356142
+      ],
+      "tensor_at_COM_kg_m2": [
+        [
+          4.060378300195651e-06,
+          1.1746994233335598e-09,
+          8.28955947434905e-07
+        ],
+        [
+          1.1746994233335598e-09,
+          7.9614780148062e-06,
+          -1.268107308507956e-09
+        ],
+        [
+          8.28955947434905e-07,
+          -1.268107308507956e-09,
+          7.185745813569639e-06
+        ]
+      ],
+      "source_components": [
+        {
+          "source_link": "ring_proximal",
+          "mass_kg": 0.04745220804552516,
+          "COM_m": [
+            0.023971389755144585,
+            1.1157807818964705e-06,
+            -0.01480119530885723
+          ],
+          "tensor_at_own_COM_kg_m2": [
+            [
+              3.9334543657128384e-06,
+              1.8221755296081982e-09,
+              7.956854952424397e-07
+            ],
+            [
+              1.8221755296081982e-09,
+              7.430258645636505e-06,
+              -1.3777794323083053e-09
+            ],
+            [
+              7.956854952424397e-07,
+              -1.3777794323083053e-09,
+              6.656067561666255e-06
+            ]
+          ]
+        },
+        {
+          "source_link": "ring_pip_slider",
+          "mass_kg": 0.009072562394305993,
+          "COM_m": [
+            0.020032258798848568,
+            4.062337295107737e-06,
+            -0.014563429803432419
+          ],
+          "tensor_at_own_COM_kg_m2": [
+            [
+              1.1914174902436989e-07,
+              -2.874733178510258e-10,
+              4.370942478392492e-09
+            ],
+            [
+              -2.874733178510258e-10,
+              2.6557215519842223e-07,
+              5.294604682315941e-11
+            ],
+            [
+              4.370942478392492e-09,
+              5.294604682315941e-11,
+              2.660810312697968e-07
+            ]
+          ]
+        },
+        {
+          "source_link": "ring_pip_rod",
+          "mass_kg": 0.0011211306081994243,
+          "COM_m": [
+            0.034200258641011325,
+            2.8850386848518134e-05,
+            -0.016507225470138293
+          ],
+          "tensor_at_own_COM_kg_m2": [
+            [
+              4.006350689220212e-09,
+              -1.2290289350030494e-10,
+              9.405861065418073e-10
+            ],
+            [
+              -1.2290289350030494e-10,
+              1.4010148759298013e-08,
+              9.789492120341806e-12
+            ],
+            [
+              9.405861065418075e-10,
+              9.789492120341806e-12,
+              1.5734223902283416e-08
+            ]
+          ]
+        }
+      ],
+      "status": "engineering_estimate_with_zero_frozen_followers"
+    },
+    {
+      "link": "ring_middle",
+      "mass_kg": 0.031527143302675836,
+      "COM_m": [
+        0.006151507244949649,
+        0.015637556892178106,
+        -3.3568639984742356e-06
+      ],
+      "tensor_at_COM_kg_m2": [
+        [
+          1.9131820465823305e-06,
+          2.0837451173386102e-07,
+          -1.3760035240775514e-09
+        ],
+        [
+          2.08374511733861e-07,
+          1.4667320322466376e-06,
+          -8.896217697688077e-11
+        ],
+        [
+          -1.3760035240775514e-09,
+          -8.896217697688082e-11,
+          2.264979539476836e-06
+        ]
+      ],
+      "source_components": [
+        {
+          "source_link": "ring_middle",
+          "mass_kg": 0.0241957938516279,
+          "COM_m": [
+            0.005680862973273181,
+            0.015957693703702577,
+            -4.5510372601103084e-06
+          ],
+          "tensor_at_own_COM_kg_m2": [
+            [
+              1.62364934740771e-06,
+              1.0616128142379064e-07,
+              -1.2223947282985316e-09
+            ],
+            [
+              1.0616128142379064e-07,
+              1.3512552594511536e-06,
+              -3.7096345810421726e-10
+            ],
+            [
+              -1.2223947282985316e-09,
+              -3.7096345810421726e-10,
+              1.921912208700871e-06
+            ]
+          ]
+        },
+        {
+          "source_link": "ring_dip_slider",
+          "mass_kg": 0.006072562394305995,
+          "COM_m": [
+            0.008518671127498567,
+            0.012508052006683005,
+            6.069235057171175e-06
+          ],
+          "tensor_at_own_COM_kg_m2": [
+            [
+              1.1251349992364575e-07,
+              2.3322256672060168e-08,
+              9.251105011713934e-11
+            ],
+            [
+              2.3322256672060158e-08,
+              6.225522418523107e-08,
+              -2.3567477507493124e-10
+            ],
+            [
+              9.251105011713934e-11,
+              -2.356747750749313e-10,
+              1.2033247336881783e-07
+            ]
+          ]
+        },
+        {
+          "source_link": "ring_dip_rod",
+          "mass_kg": 0.001258787056741943,
+          "COM_m": [
+            0.0037784779200977967,
+            0.024581205719986742,
+            -2.5875847202838576e-05
+          ],
+          "tensor_at_own_COM_kg_m2": [
+            [
+              1.4375817389255245e-08,
+              3.5436097563195493e-09,
+              -2.975591952323934e-11
+            ],
+            [
+              3.543609756319549e-09,
+              6.744864563342855e-09,
+              7.576929783615851e-11
+            ],
+            [
+              -2.975591952323934e-11,
+              7.576929783615851e-11,
+              1.3617216291408588e-08
+            ]
+          ]
+        }
+      ],
+      "status": "engineering_estimate_with_zero_frozen_followers"
+    },
+    {
+      "link": "ring_distal",
+      "mass_kg": 0.0033085065836697927,
+      "COM_m": [
+        0.0018232333997849045,
+        0.010479230292168662,
+        -7.52334187144845e-06
+      ],
+      "tensor_at_COM_kg_m2": [
+        [
+          1.8604842126966527e-07,
+          3.9867503239087795e-08,
+          1.1811018457302055e-10
+        ],
+        [
+          3.9867503239087795e-08,
+          1.3246145619167117e-07,
+          -1.7704740971054962e-10
+        ],
+        [
+          1.1811018457302055e-10,
+          -1.7704740971054962e-10,
+          2.3419117180202225e-07
+        ]
+      ],
+      "source_components": [
+        {
+          "source_link": "ring_distal",
+          "mass_kg": 0.0033085065836697927,
+          "COM_m": [
+            0.0018232333997849045,
+            0.010479230292168662,
+            -7.52334187144845e-06
+          ],
+          "tensor_at_own_COM_kg_m2": [
+            [
+              1.8604842126966527e-07,
+              3.9867503239087795e-08,
+              1.1811018457302055e-10
+            ],
+            [
+              3.9867503239087795e-08,
+              1.3246145619167117e-07,
+              -1.7704740971054962e-10
+            ],
+            [
+              1.1811018457302055e-10,
+              -1.7704740971054962e-10,
+              2.3419117180202225e-07
+            ]
+          ]
+        }
+      ],
+      "status": "source_engineering_estimate"
+    },
+    {
+      "link": "little_mcp_carrier",
+      "mass_kg": 0.025702511840098884,
+      "COM_m": [
+        0.005996989646423423,
+        0.012577309921368875,
+        2.2049534900975623e-05
+      ],
+      "tensor_at_COM_kg_m2": [
+        [
+          1.1807490905332703e-06,
+          -9.352207711402225e-08,
+          -5.914432176250471e-09
+        ],
+        [
+          -9.352207711402225e-08,
+          1.2315643542368032e-06,
+          1.8732052001897078e-09
+        ],
+        [
+          -5.914432176250471e-09,
+          1.8732052001897078e-09,
+          1.3397912360567525e-06
+        ]
+      ],
+      "source_components": [
+        {
+          "source_link": "little_mcp_carrier",
+          "mass_kg": 0.025702511840098884,
+          "COM_m": [
+            0.005996989646423423,
+            0.012577309921368875,
+            2.2049534900975623e-05
+          ],
+          "tensor_at_own_COM_kg_m2": [
+            [
+              1.1807490905332703e-06,
+              -9.352207711402225e-08,
+              -5.914432176250471e-09
+            ],
+            [
+              -9.352207711402225e-08,
+              1.2315643542368032e-06,
+              1.8732052001897078e-09
+            ],
+            [
+              -5.914432176250471e-09,
+              1.8732052001897078e-09,
+              1.3397912360567525e-06
+            ]
+          ]
+        }
+      ],
+      "status": "source_engineering_estimate"
+    },
+    {
+      "link": "little_proximal",
+      "mass_kg": 0.04139508505019163,
+      "COM_m": [
+        0.021810754388110344,
+        1.1867978741638565e-06,
+        -0.013951555215023819
+      ],
+      "tensor_at_COM_kg_m2": [
+        [
+          2.5443042779965403e-06,
+          1.5635984218968354e-09,
+          6.802280568068024e-07
+        ],
+        [
+          1.5635984218968354e-09,
+          4.811045276046308e-06,
+          -1.3158410296646758e-09
+        ],
+        [
+          6.802280568068024e-07,
+          -1.3158410296646758e-09,
+          4.150652980941665e-06
+        ]
+      ],
+      "source_components": [
+        {
+          "source_link": "little_proximal",
+          "mass_kg": 0.03409264962439076,
+          "COM_m": [
+            0.02171698069109981,
+            1.3023441281862966e-06,
+            -0.013981878901747485
+          ],
+          "tensor_at_own_COM_kg_m2": [
+            [
+              2.486871944258518e-06,
+              1.949119961647273e-09,
+              6.807789440593797e-07
+            ],
+            [
+              1.949119961647273e-09,
+              4.423142361568021e-06,
+              -1.3165141788448742e-09
+            ],
+            [
+              6.807789440593797e-07,
+              -1.3165141788448742e-09,
+              3.7595344727913374e-06
+            ]
+          ]
+        },
+        {
+          "source_link": "little_pip_slider",
+          "mass_kg": 0.00590472175959037,
+          "COM_m": [
+            0.019421218992871702,
+            -4.8139561525585185e-06,
+            -0.0138099999963623
+          ],
+          "tensor_at_own_COM_kg_m2": [
+            [
+              5.1716984773477044e-08,
+              1.9837240850731807e-10,
+              4.2755885509894636e-13
+            ],
+            [
+              1.9837240850731807e-10,
+              1.1707915582521328e-07,
+              -9.64559927729024e-17
+            ],
+            [
+              4.2755885509894636e-13,
+              -9.64559927729024e-17,
+              1.1841285342673521e-07
+            ]
+          ]
+        },
+        {
+          "source_link": "little_pip_rod",
+          "mass_kg": 0.0013977136662105011,
+          "COM_m": [
+            0.03419278645814267,
+            2.3718955699539366e-05,
+            -0.013809916300157755
+          ],
+          "tensor_at_own_COM_kg_m2": [
+            [
+              5.536718739147035e-09,
+              -1.0964187214343745e-10,
+              -3.7052589445723967e-13
+            ],
+            [
+              -1.0964187214343745e-10,
+              2.2340931191352647e-08,
+              -1.1972596859099267e-15
+            ],
+            [
+              -3.7052589445723967e-13,
+              -1.1972596859099267e-15,
+              2.4399612096856608e-08
+            ]
+          ]
+        }
+      ],
+      "status": "engineering_estimate_with_zero_frozen_followers"
+    },
+    {
+      "link": "little_middle",
+      "mass_kg": 0.031286283157772515,
+      "COM_m": [
+        0.003916678281918892,
+        0.013849374769630345,
+        1.592265695384687e-05
+      ],
+      "tensor_at_COM_kg_m2": [
+        [
+          1.869500856773991e-06,
+          1.9605749460941036e-07,
+          3.3222846185626167e-09
+        ],
+        [
+          1.9605749460941036e-07,
+          1.3703391762616543e-06,
+          2.855749151791333e-10
+        ],
+        [
+          3.3222846185626167e-09,
+          2.855749151791331e-10,
+          2.1299553231242345e-06
+        ]
+      ],
+      "source_components": [
+        {
+          "source_link": "little_middle",
+          "mass_kg": 0.023954933706724576,
+          "COM_m": [
+            0.003538621815959447,
+            0.014300137380665486,
+            2.0615682103552618e-05
+          ],
+          "tensor_at_own_COM_kg_m2": [
+            [
+              1.5508596404118841e-06,
+              1.1876237301570699e-07,
+              3.2913788267513836e-09
+            ],
+            [
+              1.1876237301570699e-07,
+              1.2822983563073552e-06,
+              2.716912393412326e-10
+            ],
+            [
+              3.2913788267513836e-09,
+              2.716912393412326e-10,
+              1.7852149701123218e-06
+            ]
+          ]
+        },
+        {
+          "source_link": "little_dip_slider",
+          "mass_kg": 0.006072562394305995,
+          "COM_m": [
+            0.005692382219505851,
+            0.01021608619078005,
+            6.067207816722885e-06
+          ],
+          "tensor_at_own_COM_kg_m2": [
+            [
+              1.1763759357600567e-07,
+              1.6127416427835015e-08,
+              2.789387545564708e-11
+            ],
+            [
+              1.6127416427835018e-08,
+              5.713023743023173e-08,
+              -2.539085396395659e-10
+            ],
+            [
+              2.7893875455646742e-11,
+              -2.539085396395661e-10,
+              1.2033336515754257e-07
+            ]
+          ]
+        },
+        {
+          "source_link": "little_dip_rod",
+          "mass_kg": 0.001258787056741943,
+          "COM_m": [
+            0.0025449169771722003,
+            0.022798770194721964,
+            -2.5842370939092093e-05
+          ],
+          "tensor_at_own_COM_kg_m2": [
+            [
+              1.5152015933816208e-08,
+              2.45402333931157e-09,
+              -7.364365044060556e-11
+            ],
+            [
+              2.4540233393115712e-09,
+              5.967228646867003e-09,
+              6.541284290921415e-11
+            ],
+            [
+              -7.364365044060555e-11,
+              6.541284290921415e-11,
+              1.3618653418251318e-08
+            ]
+          ]
+        }
+      ],
+      "status": "engineering_estimate_with_zero_frozen_followers"
+    },
+    {
+      "link": "little_distal",
+      "mass_kg": 0.0024121449370928935,
+      "COM_m": [
+        0.002600063834384775,
+        0.007663252434525345,
+        -1.937424767855898e-05
+      ],
+      "tensor_at_COM_kg_m2": [
+        [
+          8.266818204151509e-08,
+          1.5273234028420902e-08,
+          2.1262208652857633e-10
+        ],
+        [
+          1.5273234028420902e-08,
+          8.748520504388975e-08,
+          -2.866193794803055e-10
+        ],
+        [
+          2.1262208652857633e-10,
+          -2.866193794803055e-10,
+          1.1373016361558978e-07
+        ]
+      ],
+      "source_components": [
+        {
+          "source_link": "little_distal",
+          "mass_kg": 0.0024121449370928935,
+          "COM_m": [
+            0.002600063834384775,
+            0.007663252434525345,
+            -1.937424767855898e-05
+          ],
+          "tensor_at_own_COM_kg_m2": [
+            [
+              8.266818204151509e-08,
+              1.5273234028420902e-08,
+              2.1262208652857633e-10
+            ],
+            [
+              1.5273234028420902e-08,
+              8.748520504388975e-08,
+              -2.866193794803055e-10
+            ],
+            [
+              2.1262208652857633e-10,
+              -2.866193794803055e-10,
+              1.1373016361558978e-07
+            ]
+          ]
+        }
+      ],
+      "status": "source_engineering_estimate"
+    },
+    {
+      "link": "thumb_base_axis1_carrier",
+      "mass_kg": 0.04525965783905293,
+      "COM_m": [
+        0.018768852241966956,
+        -0.009523042348454788,
+        -0.010276880853207588
+      ],
+      "tensor_at_COM_kg_m2": [
+        [
+          3.386582440177633e-06,
+          7.709912848425403e-07,
+          9.109790829012534e-07
+        ],
+        [
+          7.709912848425403e-07,
+          4.47740025738985e-06,
+          -4.611057468884969e-07
+        ],
+        [
+          9.109790829012534e-07,
+          -4.611057468884969e-07,
+          4.047224464707013e-06
+        ]
+      ],
+      "source_components": [
+        {
+          "source_link": "thumb_base_axis1_carrier",
+          "mass_kg": 0.04525965783905293,
+          "COM_m": [
+            0.018768852241966956,
+            -0.009523042348454788,
+            -0.010276880853207588
+          ],
+          "tensor_at_own_COM_kg_m2": [
+            [
+              3.386582440177633e-06,
+              7.709912848425403e-07,
+              9.109790829012534e-07
+            ],
+            [
+              7.709912848425403e-07,
+              4.47740025738985e-06,
+              -4.611057468884969e-07
+            ],
+            [
+              9.109790829012534e-07,
+              -4.611057468884969e-07,
+              4.047224464707013e-06
+            ]
+          ]
+        }
+      ],
+      "status": "source_engineering_estimate"
+    },
+    {
+      "link": "thumb_metacarpal",
+      "mass_kg": 0.060426720296360065,
+      "COM_m": [
+        0.03130392165879066,
+        -0.004381227353914767,
+        0.004052670291231082
+      ],
+      "tensor_at_COM_kg_m2": [
+        [
+          4.024067457514833e-06,
+          7.549222424553584e-07,
+          -7.537994514238618e-07
+        ],
+        [
+          7.549222424553584e-07,
+          1.0639139398999286e-05,
+          2.673478458103445e-07
+        ],
+        [
+          -7.537994514238618e-07,
+          2.673478458103445e-07,
+          1.0493154489537493e-05
+        ]
+      ],
+      "source_components": [
+        {
+          "source_link": "thumb_metacarpal",
+          "mass_kg": 0.05023302729385465,
+          "COM_m": [
+            0.03140580010995289,
+            -0.0042925155187105496,
+            0.0038470022403059804
+          ],
+          "tensor_at_own_COM_kg_m2": [
+            [
+              3.882794083986259e-06,
+              7.467577749651505e-07,
+              -7.873827488301726e-07
+            ],
+            [
+              7.467577749651505e-07,
+              1.013975391850553e-05,
+              2.633892156210961e-07
+            ],
+            [
+              -7.873827488301726e-07,
+              2.633892156210961e-07,
+              1.0005075272595796e-05
+            ]
+          ]
+        },
+        {
+          "source_link": "thumb_mcp_slider",
+          "mass_kg": 0.009072562394305993,
+          "COM_m": [
+            0.02923937374229471,
+            -0.004808002515953276,
+            0.0052458327973277565
+          ],
+          "tensor_at_own_COM_kg_m2": [
+            [
+              1.1968516420368486e-07,
+              9.268688826660205e-09,
+              3.521127776100568e-09
+            ],
+            [
+              9.268688826660202e-09,
+              2.651247551544457e-07,
+              -4.92119778671513e-10
+            ],
+            [
+              3.52112777610057e-09,
+              -4.921197786714869e-10,
+              2.659850163865024e-07
+            ]
+          ]
+        },
+        {
+          "source_link": "thumb_mcp_rod",
+          "mass_kg": 0.001121130608199424,
+          "COM_m": [
+            0.04344619720723808,
+            -0.004902415294814331,
+            0.003612300129268455
+          ],
+          "tensor_at_own_COM_kg_m2": [
+            [
+              3.9776220186061445e-09,
+              2.4861899878190604e-10,
+              6.660206027460551e-10
+            ],
+            [
+              2.486189987819059e-10,
+              1.4516832856353825e-08,
+              -8.283029347418494e-10
+            ],
+            [
+              6.660206027460551e-10,
+              -8.283029347418491e-10,
+              1.525626853836888e-08
+            ]
+          ]
+        }
+      ],
+      "status": "engineering_estimate_with_zero_frozen_followers"
+    },
+    {
+      "link": "thumb_proximal",
+      "mass_kg": 0.031585603658802475,
+      "COM_m": [
+        0.006140983153762565,
+        0.0156042244399832,
+        -4.308207787768729e-06
+      ],
+      "tensor_at_COM_kg_m2": [
+        [
+          1.925208381995861e-06,
+          1.9945727556990457e-07,
+          -1.5541581695013644e-09
+        ],
+        [
+          1.9945727556990457e-07,
+          1.4665805043031652e-06,
+          -2.4220454733609126e-10
+        ],
+        [
+          -1.5541581695013644e-09,
+          -2.422045473360912e-10,
+          2.277305159612702e-06
+        ]
+      ],
+      "source_components": [
+        {
+          "source_link": "thumb_proximal",
+          "mass_kg": 0.024254254207754535,
+          "COM_m": [
+            0.005668292156374641,
+            0.015913514199854137,
+            -5.7870660336139786e-06
+          ],
+          "tensor_at_own_COM_kg_m2": [
+            [
+              1.6363428241152111e-06,
+              9.764561628117133e-08,
+              -1.3859821979758447e-09
+            ],
+            [
+              9.764561628117133e-08,
+              1.3508039923226373e-06,
+              -5.322228234116723e-10
+            ],
+            [
+              -1.3859821979758447e-09,
+              -5.322228234116723e-10,
+              1.934605391248958e-06
+            ]
+          ]
+        },
+        {
+          "source_link": "thumb_ip_slider",
+          "mass_kg": 0.006072562394305995,
+          "COM_m": [
+            0.008518671128152076,
+            0.012508052000247948,
+            6.0692350577746e-06
+          ],
+          "tensor_at_own_COM_kg_m2": [
+            [
+              1.1251368872592476e-07,
+              2.3321335518448914e-08,
+              9.251106758257416e-11
+            ],
+            [
+              2.3321335518448907e-08,
+              6.225503486339649e-08,
+              -2.356749468044711e-10
+            ],
+            [
+              9.251106758257414e-11,
+              -2.3567494680447106e-10,
+              1.203324728492623e-07
+            ]
+          ]
+        },
+        {
+          "source_link": "thumb_ip_rod",
+          "mass_kg": 0.0012587870567419427,
+          "COM_m": [
+            0.003778477954507693,
+            0.02458120573601386,
+            -2.5875847203453698e-05
+          ],
+          "tensor_at_own_COM_kg_m2": [
+            [
+              1.4376247574543495e-08,
+              3.5432482094734162e-09,
+              -2.975611079848961e-11
+            ],
+            [
+              3.543248209473416e-09,
+              6.744434392788429e-09,
+              7.576920873410511e-11
+            ],
+            [
+              -2.9756110798489607e-11,
+              7.57692087341051e-11,
+              1.3617216306142431e-08
+            ]
+          ]
+        }
+      ],
+      "status": "engineering_estimate_with_zero_frozen_followers"
+    },
+    {
+      "link": "thumb_distal",
+      "mass_kg": 0.0024121449370928935,
+      "COM_m": [
+        0.002600063834891327,
+        0.0076632524346329865,
+        -8.824214939216723e-06
+      ],
+      "tensor_at_COM_kg_m2": [
+        [
+          8.259990556224928e-08,
+          1.5273234026774578e-08,
+          8.966539283109875e-11
+        ],
+        [
+          1.5273234026774578e-08,
+          8.741692856211065e-08,
+          -9.160329746351935e-11
+        ],
+        [
+          8.966539283109875e-11,
+          -9.160329746351935e-11,
+          1.1373016361490409e-07
+        ]
+      ],
+      "source_components": [
+        {
+          "source_link": "thumb_distal",
+          "mass_kg": 0.0024121449370928935,
+          "COM_m": [
+            0.002600063834891327,
+            0.0076632524346329865,
+            -8.824214939216723e-06
+          ],
+          "tensor_at_own_COM_kg_m2": [
+            [
+              8.259990556224928e-08,
+              1.5273234026774578e-08,
+              8.966539283109875e-11
+            ],
+            [
+              1.5273234026774578e-08,
+              8.741692856211065e-08,
+              -9.160329746351935e-11
+            ],
+            [
+              8.966539283109875e-11,
+              -9.160329746351935e-11,
+              1.1373016361490409e-07
+            ]
+          ]
+        }
+      ],
+      "status": "source_engineering_estimate"
+    }
+  ],
+  "public_naming_policy_id": "hand1009_public_anatomical_names_v1",
+  "public_interface_id": "hand1009_20outputs_anatomical_names_v1",
+  "source_to_public_joint_names": {
+    "index_mcp_flexion": "index_mcp_flexion",
+    "index_mcp_abduction": "index_mcp_abduction",
+    "index_pip_flexion": "index_pip_flexion",
+    "index_dip_flexion": "index_dip_flexion",
+    "middle_mcp_flexion": "middle_mcp_flexion",
+    "middle_mcp_abduction": "middle_mcp_abduction",
+    "middle_pip_flexion": "middle_pip_flexion",
+    "middle_dip_flexion": "middle_dip_flexion",
+    "ring_mcp_flexion": "ring_mcp_flexion",
+    "ring_mcp_abduction": "ring_mcp_abduction",
+    "ring_pip_flexion": "ring_pip_flexion",
+    "ring_dip_flexion": "ring_dip_flexion",
+    "little_mcp_flexion": "little_mcp_flexion",
+    "little_mcp_abduction": "little_mcp_abduction",
+    "little_pip_flexion": "little_pip_flexion",
+    "little_dip_flexion": "little_dip_flexion",
+    "thumb_base_rotation_1": "thumb_base_rotation_1",
+    "thumb_base_rotation_2": "thumb_base_rotation_2",
+    "thumb_mcp_flexion": "thumb_mcp_flexion",
+    "thumb_ip_flexion": "thumb_ip_flexion"
+  },
+  "revision": "raised_20j_unified_mesh_thumb90_r03_20261016",
+  "reference_pose": "all twenty output coordinates and all frozen source followers zero",
+  "full_mechanism_source_sha256": "6ad13d160f7f6603c4b7d72350fce2e708acb5193cb472bc562eb1c2f0417398",
+  "output_frames_and_axes_preserved": true,
+  "complete_mechanism_collision_evidence_transferred": false,
+  "full_motion_mass_distribution_preserved": false,
+  "full_model_mechanical_stops_certified": false,
+  "hardware_commands_configured": false,
+  "mesh_decimation_performed": false
+}

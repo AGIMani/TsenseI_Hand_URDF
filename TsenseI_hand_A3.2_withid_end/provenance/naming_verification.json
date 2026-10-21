@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "all_three_variant_output_names_and_limits_identical": true,
+  "only_two_thumb_upper_limits_and_mesh_URIs_differ_from_r02_URDF": true,
+  "all_geometry_matrices_numeric_mass_inertia_and_axes_unchanged_from_r02": true,
+  "same_182_structurally_named_mesh_files_as_full_r08": true,
+  "legacy_swing_to_abduction_aliases_tested": 4,
+  "numeric_coordinate_signs_units_unchanged": true,
+  "duplicate_alias_rejected": true,
+  "full_current_14_loop_reference_matches": true,
+  "previous_r02_unchanged": true
+}

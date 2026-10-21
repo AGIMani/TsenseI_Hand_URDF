@@ -1,0 +1,99 @@
+{
+  "passed": true,
+  "source_model_id": "683b80cc0f91bb4a-review-raised-shellzero-r05-5c3ee9ae",
+  "representation_id": "raised_20j_unified_mesh_thumb90_r03_20261016",
+  "links": 21,
+  "moving_joints": 20,
+  "prismatic_joints": 0,
+  "fixed_joints": 0,
+  "visuals": 303,
+  "collisions": 303,
+  "source_links_counted_exactly_once": 54,
+  "source_mesh_files_unchanged": 182,
+  "source_package_unchanged": true,
+  "all_output_axes_limits_preserved": true,
+  "all_output_names_match_adopted_policy": true,
+  "renamed_output_count": 0,
+  "URDF_parser_passed_both_resource_variants": true,
+  "all_mesh_resources_resolve": true,
+  "source_vs_reduced_output_FK_poses": 127,
+  "max_output_FK_matrix_error": 8.881784197001252e-16,
+  "max_zero_visual_collision_matrix_error": 7.78543896018391e-15,
+  "zero_pose_moments": {
+    "mass_kg": 1.0529824632608245,
+    "full_COM_m": [
+      0.0014244865102330374,
+      -0.008613404674105546,
+      -0.014795975300836579
+    ],
+    "reduced_COM_m": [
+      0.0014244865102330361,
+      -0.008613404674105544,
+      -0.014795975300836582
+    ],
+    "COM_difference_m": 4.091337135425211e-18,
+    "full_tensor_at_COM_kg_m2": [
+      [
+        0.0018268611300415552,
+        -0.0001919311253447314,
+        -1.6907349855609373e-05
+      ],
+      [
+        -0.0001919311253447314,
+        0.0011434661198337186,
+        -2.9492368657345114e-05
+      ],
+      [
+        -1.6907349855609373e-05,
+        -2.9492368657345118e-05,
+        0.002837947845036547
+      ]
+    ],
+    "reduced_tensor_at_COM_kg_m2": [
+      [
+        0.0018268611300415552,
+        -0.00019193112534473156,
+        -1.6907349855609397e-05
+      ],
+      [
+        -0.00019193112534473156,
+        0.0011434661198337181,
+        -2.9492368657345145e-05
+      ],
+      [
+        -1.6907349855609397e-05,
+        -2.9492368657345145e-05,
+        0.0028379478450365468
+      ]
+    ],
+    "tensor_max_difference_kg_m2": 4.336808689942018e-19
+  },
+  "all_link_tensors_positive_and_triangle_inequality": true,
+  "nonzero_pose_approximation_sample": {
+    "poses": 126,
+    "max_COM_difference_mm": 1.3588848016105333,
+    "worst_COM_case": "random_12",
+    "max_whole_hand_COM_tensor_relative_Frobenius_difference": 0.029243882015884938,
+    "worst_tensor_case": "all_upper",
+    "not_an_error_bound_for_all_poses": true
+  },
+  "real_ROS2_launch_executed": false,
+  "hardware_control_or_full_mechanism_collision_validated": false,
+  "naming_migration": {
+    "passed": true,
+    "all_three_variant_output_names_and_limits_identical": true,
+    "only_two_thumb_upper_limits_and_mesh_URIs_differ_from_r02_URDF": true,
+    "all_geometry_matrices_numeric_mass_inertia_and_axes_unchanged_from_r02": true,
+    "same_182_structurally_named_mesh_files_as_full_r08": true,
+    "legacy_swing_to_abduction_aliases_tested": 4,
+    "numeric_coordinate_signs_units_unchanged": true,
+    "duplicate_alias_rejected": true,
+    "full_current_14_loop_reference_matches": true,
+    "previous_r02_unchanged": true
+  },
+  "standard_generator_independently_reproduced_files": 214,
+  "generic_viewer_import_passed": true,
+  "generic_viewer_independent_sliders": 20,
+  "generic_viewer_visual_meshes": 303,
+  "browser_special_linkage_adapter_used": false
+}

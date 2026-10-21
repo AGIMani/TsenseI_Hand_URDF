@@ -1,0 +1,296 @@
+{
+  "linear_drives": [
+    {
+      "joint": "left_hand_index_MCP_joint",
+      "control": "003_base",
+      "nominal_bounds_rad": [
+        0.0,
+        1.57
+      ],
+      "signed_stroke_at_nominal_bounds_m": [
+        0.0,
+        -0.019614364968334394
+      ],
+      "signed_stroke_at_90_mm": -19.627778913891376,
+      "required_motion_at_90_mm": 19.627778913891376,
+      "jacobian_min_m_per_rad": -0.016828832555215664,
+      "jacobian_max_m_per_rad": -0.01098950777220349,
+      "monotonic_on_nominal_range": true,
+      "samples": 901,
+      "actual_mover_stroke_bounds_m": null,
+      "hardware_verified": false
+    },
+    {
+      "joint": "left_hand_index_PIP_joint",
+      "control": "003_middle",
+      "nominal_bounds_rad": [
+        0.0,
+        1.57
+      ],
+      "signed_stroke_at_nominal_bounds_m": [
+        0.0,
+        -0.016928185849208723
+      ],
+      "signed_stroke_at_90_mm": -16.93902129687247,
+      "required_motion_at_90_mm": 16.93902129687247,
+      "jacobian_min_m_per_rad": -0.01359883099148488,
+      "jacobian_max_m_per_rad": -0.009871513028711783,
+      "monotonic_on_nominal_range": true,
+      "samples": 901,
+      "actual_mover_stroke_bounds_m": null,
+      "hardware_verified": false
+    },
+    {
+      "joint": "left_hand_index_DIP_joint",
+      "control": "003_distal",
+      "nominal_bounds_rad": [
+        0.0,
+        1.57
+      ],
+      "signed_stroke_at_nominal_bounds_m": [
+        0.0,
+        -0.012429685590204485
+      ],
+      "signed_stroke_at_90_mm": -12.437476670698546,
+      "required_motion_at_90_mm": 12.437476670698546,
+      "jacobian_min_m_per_rad": -0.009778143791643488,
+      "jacobian_max_m_per_rad": -0.007350091972804489,
+      "monotonic_on_nominal_range": true,
+      "samples": 901,
+      "actual_mover_stroke_bounds_m": null,
+      "hardware_verified": false
+    },
+    {
+      "joint": "left_hand_mid_MCP_joint",
+      "control": "004_base",
+      "nominal_bounds_rad": [
+        0.0,
+        1.57
+      ],
+      "signed_stroke_at_nominal_bounds_m": [
+        0.0,
+        -0.019614364968335116
+      ],
+      "signed_stroke_at_90_mm": -19.627778913892087,
+      "required_motion_at_90_mm": 19.627778913892087,
+      "jacobian_min_m_per_rad": -0.016828832555217627,
+      "jacobian_max_m_per_rad": -0.010989507772204225,
+      "monotonic_on_nominal_range": true,
+      "samples": 901,
+      "actual_mover_stroke_bounds_m": null,
+      "hardware_verified": false
+    },
+    {
+      "joint": "left_hand_mid_PIP_joint",
+      "control": "004_middle",
+      "nominal_bounds_rad": [
+        0.0,
+        1.57
+      ],
+      "signed_stroke_at_nominal_bounds_m": [
+        0.0,
+        -0.01692818584920943
+      ],
+      "signed_stroke_at_90_mm": -16.939021296873197,
+      "required_motion_at_90_mm": 16.939021296873197,
+      "jacobian_min_m_per_rad": -0.013598830991486743,
+      "jacobian_max_m_per_rad": -0.009871513028711872,
+      "monotonic_on_nominal_range": true,
+      "samples": 901,
+      "actual_mover_stroke_bounds_m": null,
+      "hardware_verified": false
+    },
+    {
+      "joint": "left_hand_mid_DIP_joint",
+      "control": "004_distal",
+      "nominal_bounds_rad": [
+        0.0,
+        1.57
+      ],
+      "signed_stroke_at_nominal_bounds_m": [
+        0.0,
+        -0.012429685590204482
+      ],
+      "signed_stroke_at_90_mm": -12.437476670698528,
+      "required_motion_at_90_mm": 12.437476670698528,
+      "jacobian_min_m_per_rad": -0.009778143791643459,
+      "jacobian_max_m_per_rad": -0.00735009197280449,
+      "monotonic_on_nominal_range": true,
+      "samples": 901,
+      "actual_mover_stroke_bounds_m": null,
+      "hardware_verified": false
+    },
+    {
+      "joint": "left_hand_ring_MCP_joint",
+      "control": "005_base",
+      "nominal_bounds_rad": [
+        0.0,
+        1.57
+      ],
+      "signed_stroke_at_nominal_bounds_m": [
+        0.0,
+        -0.019614364968326463
+      ],
+      "signed_stroke_at_90_mm": -19.627778913883404,
+      "required_motion_at_90_mm": 19.627778913883404,
+      "jacobian_min_m_per_rad": -0.01682883255518608,
+      "jacobian_max_m_per_rad": -0.010989507772196466,
+      "monotonic_on_nominal_range": true,
+      "samples": 901,
+      "actual_mover_stroke_bounds_m": null,
+      "hardware_verified": false
+    },
+    {
+      "joint": "left_hand_ring_PIP_joint",
+      "control": "005_middle",
+      "nominal_bounds_rad": [
+        0.0,
+        1.57
+      ],
+      "signed_stroke_at_nominal_bounds_m": [
+        0.0,
+        -0.01692818584920413
+      ],
+      "signed_stroke_at_90_mm": -16.93902129686789,
+      "required_motion_at_90_mm": 16.93902129686789,
+      "jacobian_min_m_per_rad": -0.013598830991470814,
+      "jacobian_max_m_per_rad": -0.009871513028713879,
+      "monotonic_on_nominal_range": true,
+      "samples": 901,
+      "actual_mover_stroke_bounds_m": null,
+      "hardware_verified": false
+    },
+    {
+      "joint": "left_hand_ring_DIP_joint",
+      "control": "005_distal",
+      "nominal_bounds_rad": [
+        0.0,
+        1.57
+      ],
+      "signed_stroke_at_nominal_bounds_m": [
+        0.0,
+        -0.012429685590203646
+      ],
+      "signed_stroke_at_90_mm": -12.437476670697695,
+      "required_motion_at_90_mm": 12.437476670697695,
+      "jacobian_min_m_per_rad": -0.009778143791641282,
+      "jacobian_max_m_per_rad": -0.007350091972803851,
+      "monotonic_on_nominal_range": true,
+      "samples": 901,
+      "actual_mover_stroke_bounds_m": null,
+      "hardware_verified": false
+    },
+    {
+      "joint": "left_hand_pinky_MCP_joint",
+      "control": "006_base",
+      "nominal_bounds_rad": [
+        0.0,
+        1.57
+      ],
+      "signed_stroke_at_nominal_bounds_m": [
+        0.0,
+        -0.019614364968334727
+      ],
+      "signed_stroke_at_90_mm": -19.627778913891675,
+      "required_motion_at_90_mm": 19.627778913891675,
+      "jacobian_min_m_per_rad": -0.016828832555216236,
+      "jacobian_max_m_per_rad": -0.010989507772203862,
+      "monotonic_on_nominal_range": true,
+      "samples": 901,
+      "actual_mover_stroke_bounds_m": null,
+      "hardware_verified": false
+    },
+    {
+      "joint": "left_hand_pinky_PIP_joint",
+      "control": "006_middle",
+      "nominal_bounds_rad": [
+        0.0,
+        1.57
+      ],
+      "signed_stroke_at_nominal_bounds_m": [
+        0.0,
+        -0.01175580492825186
+      ],
+      "signed_stroke_at_90_mm": -11.761489775693514,
+      "required_motion_at_90_mm": 11.761489775693514,
+      "jacobian_min_m_per_rad": -0.008248325871980452,
+      "jacobian_max_m_per_rad": -0.006785056519496944,
+      "monotonic_on_nominal_range": true,
+      "samples": 901,
+      "actual_mover_stroke_bounds_m": null,
+      "hardware_verified": false
+    },
+    {
+      "joint": "left_hand_pinky_DIP_joint",
+      "control": "006_distal",
+      "nominal_bounds_rad": [
+        0.0,
+        1.57
+      ],
+      "signed_stroke_at_nominal_bounds_m": [
+        0.0,
+        -0.01242968559020432
+      ],
+      "signed_stroke_at_90_mm": -12.437476670698375,
+      "required_motion_at_90_mm": 12.437476670698375,
+      "jacobian_min_m_per_rad": -0.009778143791643054,
+      "jacobian_max_m_per_rad": -0.007350091972804364,
+      "monotonic_on_nominal_range": true,
+      "samples": 901,
+      "actual_mover_stroke_bounds_m": null,
+      "hardware_verified": false
+    },
+    {
+      "joint": "left_hand_thumb_MCP_joint",
+      "control": "002_f2",
+      "nominal_bounds_rad": [
+        0.0,
+        1.57
+      ],
+      "signed_stroke_at_nominal_bounds_m": [
+        0.0,
+        -0.016928185849207352
+      ],
+      "signed_stroke_at_90_mm": -16.93902129687112,
+      "required_motion_at_90_mm": 16.93902129687112,
+      "jacobian_min_m_per_rad": -0.013598830991486422,
+      "jacobian_max_m_per_rad": -0.00987151302871391,
+      "monotonic_on_nominal_range": true,
+      "samples": 901,
+      "actual_mover_stroke_bounds_m": null,
+      "hardware_verified": false
+    },
+    {
+      "joint": "left_hand_thumb_PIP_joint",
+      "control": "002_f1",
+      "nominal_bounds_rad": [
+        0.0,
+        1.57
+      ],
+      "signed_stroke_at_nominal_bounds_m": [
+        0.0,
+        0.012429685590181493
+      ],
+      "signed_stroke_at_90_mm": 12.43747667067553,
+      "required_motion_at_90_mm": 12.43747667067553,
+      "jacobian_min_m_per_rad": 0.007350091972791058,
+      "jacobian_max_m_per_rad": 0.009778143791616538,
+      "monotonic_on_nominal_range": true,
+      "samples": 901,
+      "actual_mover_stroke_bounds_m": null,
+      "hardware_verified": false
+    }
+  ],
+  "rotary_drives": [
+    "left_hand_thumb_rota_block_joint",
+    "left_hand_thumb_rotaback_joint2",
+    "left_hand_index_swing_joint",
+    "left_hand_mid_swing_joint",
+    "left_hand_ring_swing_joint",
+    "left_hand_pinky_swing_joint"
+  ],
+  "position_reference": "CAD zero; displacement corrected by s(q)-s(0)",
+  "force_relation": "tau_Nm = F_N * ds_dq_m_per_rad (signed virtual work, losses excluded)",
+  "speed_relation": "mover_speed_m_s = joint_speed_rad_s * ds_dq_m_per_rad",
+  "hardware_verified": false
+}

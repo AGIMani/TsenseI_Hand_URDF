@@ -1,0 +1,14 @@
+[
+  {
+    "path": "E:\\feishu_download\\hand_middle_dip_standard_description\\hand_middle_dip_standard_portable.urdf",
+    "sha256": "f25f163c13f8452c486997950f503c286e5c97cadfced3fb106eee3988fe42b1"
+  },
+  {
+    "path": "E:\\feishu_download\\hand_middle_dip_standard_description\\README.md",
+    "sha256": "2e5868200d4ce9564877f5440ce2d8e8dc5e5f6ace3ea9897428d89a9e5d7407"
+  },
+  {
+    "path": "E:\\feishu_download\\TsenseI_hand_v3_2_withid\\urdf\\TsenseI_hand_left_v3_2_withid.urdf",
+    "sha256": "8e583f9a9d26b895b3ecc7e8c982f783718c01fbe3fd1028112e961e817a2e1f"
+  }
+]

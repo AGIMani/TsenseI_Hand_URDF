@@ -1,0 +1,61 @@
+{
+  "revision_id": "raised_thumb_flexion_90_unified_names_r08_20261016",
+  "source_model_id": "683b80cc0f91bb4a-review-raised-shellzero-r05-5c3ee9ae",
+  "source_package": "E:\\codex_work\\导出urdf\\outputs\\hand_1009_raised_collision_checked_20261016_r07\\hand_1009_description",
+  "changes": [
+    {
+      "joint": "thumb_mcp_flexion",
+      "old_bounds_rad": [
+        -0.041656989622628135,
+        1.5283430103773719
+      ],
+      "bounds_rad": [
+        -0.041656989622628135,
+        1.5707963267948966
+      ],
+      "slider_envelope_m": [
+        -0.016939021296869382,
+        0.00040539932375572955
+      ],
+      "rod_envelope_rad": [
+        -0.07429534541104116,
+        0.6768707947504964
+      ],
+      "mover_at_90_mm": -16.93902129686938,
+      "rod_at_90_deg": 38.781839814869244,
+      "samples": 10001,
+      "max_loop_length_residual_m": 1.3877787807814457e-17,
+      "min_discriminant_m2": 5.504000000003193e-05,
+      "physical_motor_stroke_verified": false
+    },
+    {
+      "joint": "thumb_ip_flexion",
+      "old_bounds_rad": [
+        -0.022293648706536127,
+        1.547706351293464
+      ],
+      "bounds_rad": [
+        -0.022293648706536127,
+        1.5707963267948966
+      ],
+      "slider_envelope_m": [
+        -0.00017767380251111804,
+        0.012437476670698631
+      ],
+      "rod_envelope_rad": [
+        -0.028637768609319963,
+        0.7719887060657404
+      ],
+      "mover_at_90_mm": 12.437476670698631,
+      "rod_at_90_deg": 44.23169468933238,
+      "samples": 10001,
+      "max_loop_length_residual_m": 1.0408340855860843e-17,
+      "min_discriminant_m2": 3.796000000000607e-05,
+      "physical_motor_stroke_verified": false
+    }
+  ],
+  "other_18_limits_unchanged": true,
+  "zero_axes_signs_and_nonlinear_geometry_unchanged": true,
+  "new_interval_collision_checked": false,
+  "physical_effective_motor_stroke_known": false
+}

@@ -1,0 +1,399 @@
+{
+  "model_id": "683b80cc0f91bb4a-review-raised-shellzero-r05-5c3ee9ae",
+  "kinematics_sha256": "5c3ee9aec3a730abb97144f0e4ccfd57c1c64d2922abf4b784532ed987766fbb",
+  "role": "Legacy physical endpoint poses retained; both thumb flexion intervals converted to aligned zero coordinates; regenerate dependent envelopes and tree after edits.",
+  "output_ranges": {
+    "index_mcp_flexion": {
+      "control": "003_base",
+      "bounds_rad": [
+        0.0,
+        1.57
+      ],
+      "range_kind": "user_adopted_legacy_nominal_not_hardware_verified",
+      "measured_mechanical_stops": false,
+      "evidence": "User instruction and confirmation 2026-10-11; project_joint_configuration.json: all three legacy archives agree; current direction conversion applied."
+    },
+    "index_pip_flexion": {
+      "control": "003_middle",
+      "bounds_rad": [
+        0.0,
+        1.57
+      ],
+      "range_kind": "user_adopted_legacy_nominal_not_hardware_verified",
+      "measured_mechanical_stops": false,
+      "evidence": "User instruction and confirmation 2026-10-11; project_joint_configuration.json: all three legacy archives agree; current direction conversion applied."
+    },
+    "index_dip_flexion": {
+      "control": "003_distal",
+      "bounds_rad": [
+        0.0,
+        1.57
+      ],
+      "range_kind": "user_adopted_legacy_nominal_not_hardware_verified",
+      "measured_mechanical_stops": false,
+      "evidence": "User instruction and confirmation 2026-10-11; project_joint_configuration.json: all three legacy archives agree; current direction conversion applied."
+    },
+    "index_mcp_abduction": {
+      "control": "003_swing",
+      "bounds_rad": [
+        -0.35,
+        0.35
+      ],
+      "range_kind": "user_adopted_legacy_nominal_not_hardware_verified",
+      "measured_mechanical_stops": false,
+      "evidence": "User instruction and confirmation 2026-10-11; project_joint_configuration.json: all three legacy archives agree; current direction conversion applied."
+    },
+    "middle_mcp_flexion": {
+      "control": "004_base",
+      "bounds_rad": [
+        0.0,
+        1.57
+      ],
+      "range_kind": "user_adopted_legacy_nominal_not_hardware_verified",
+      "measured_mechanical_stops": false,
+      "evidence": "User instruction and confirmation 2026-10-11; project_joint_configuration.json: all three legacy archives agree; current direction conversion applied."
+    },
+    "middle_pip_flexion": {
+      "control": "004_middle",
+      "bounds_rad": [
+        0.0,
+        1.57
+      ],
+      "range_kind": "user_adopted_legacy_nominal_not_hardware_verified",
+      "measured_mechanical_stops": false,
+      "evidence": "User instruction and confirmation 2026-10-11; project_joint_configuration.json: all three legacy archives agree; current direction conversion applied."
+    },
+    "middle_dip_flexion": {
+      "control": "004_distal",
+      "bounds_rad": [
+        0.0,
+        1.57
+      ],
+      "range_kind": "user_adopted_legacy_nominal_not_hardware_verified",
+      "measured_mechanical_stops": false,
+      "evidence": "User instruction and confirmation 2026-10-11; project_joint_configuration.json: all three legacy archives agree; current direction conversion applied."
+    },
+    "middle_mcp_abduction": {
+      "control": "004_swing",
+      "bounds_rad": [
+        -0.35,
+        0.35
+      ],
+      "range_kind": "user_adopted_legacy_nominal_not_hardware_verified",
+      "measured_mechanical_stops": false,
+      "evidence": "User instruction and confirmation 2026-10-11; project_joint_configuration.json: all three legacy archives agree; current direction conversion applied."
+    },
+    "ring_mcp_flexion": {
+      "control": "005_base",
+      "bounds_rad": [
+        0.0,
+        1.57
+      ],
+      "range_kind": "user_adopted_legacy_nominal_not_hardware_verified",
+      "measured_mechanical_stops": false,
+      "evidence": "User instruction and confirmation 2026-10-11; project_joint_configuration.json: all three legacy archives agree; current direction conversion applied."
+    },
+    "ring_pip_flexion": {
+      "control": "005_middle",
+      "bounds_rad": [
+        0.0,
+        1.57
+      ],
+      "range_kind": "user_adopted_legacy_nominal_not_hardware_verified",
+      "measured_mechanical_stops": false,
+      "evidence": "User instruction and confirmation 2026-10-11; project_joint_configuration.json: all three legacy archives agree; current direction conversion applied."
+    },
+    "ring_dip_flexion": {
+      "control": "005_distal",
+      "bounds_rad": [
+        0.0,
+        1.57
+      ],
+      "range_kind": "user_adopted_legacy_nominal_not_hardware_verified",
+      "measured_mechanical_stops": false,
+      "evidence": "User instruction and confirmation 2026-10-11; project_joint_configuration.json: all three legacy archives agree; current direction conversion applied."
+    },
+    "ring_mcp_abduction": {
+      "control": "005_swing",
+      "bounds_rad": [
+        -0.35,
+        0.35
+      ],
+      "range_kind": "user_adopted_legacy_nominal_not_hardware_verified",
+      "measured_mechanical_stops": false,
+      "evidence": "User instruction and confirmation 2026-10-11; project_joint_configuration.json: all three legacy archives agree; current direction conversion applied."
+    },
+    "little_mcp_flexion": {
+      "control": "006_base",
+      "bounds_rad": [
+        0.0,
+        1.57
+      ],
+      "range_kind": "user_adopted_legacy_nominal_not_hardware_verified",
+      "measured_mechanical_stops": false,
+      "evidence": "User instruction and confirmation 2026-10-11; project_joint_configuration.json: all three legacy archives agree; current direction conversion applied."
+    },
+    "little_pip_flexion": {
+      "control": "006_middle",
+      "bounds_rad": [
+        0.0,
+        1.57
+      ],
+      "range_kind": "user_adopted_legacy_nominal_not_hardware_verified",
+      "measured_mechanical_stops": false,
+      "evidence": "User instruction and confirmation 2026-10-11; project_joint_configuration.json: all three legacy archives agree; current direction conversion applied."
+    },
+    "little_dip_flexion": {
+      "control": "006_distal",
+      "bounds_rad": [
+        0.0,
+        1.57
+      ],
+      "range_kind": "user_adopted_legacy_nominal_not_hardware_verified",
+      "measured_mechanical_stops": false,
+      "evidence": "User instruction and confirmation 2026-10-11; project_joint_configuration.json: all three legacy archives agree; current direction conversion applied."
+    },
+    "little_mcp_abduction": {
+      "control": "006_swing",
+      "bounds_rad": [
+        -0.35,
+        0.35
+      ],
+      "range_kind": "user_adopted_legacy_nominal_not_hardware_verified",
+      "measured_mechanical_stops": false,
+      "evidence": "User instruction and confirmation 2026-10-11; project_joint_configuration.json: all three legacy archives agree; current direction conversion applied."
+    },
+    "thumb_base_rotation_1": {
+      "control": "002_rot1",
+      "bounds_rad": [
+        0.0,
+        2.0943951023931953
+      ],
+      "range_kind": "retained_first_mechanical_reference",
+      "measured_mechanical_stops": false,
+      "evidence": "config/assembly_zero_reference.json",
+      "endpoint_evidence": {
+        "zero_revision": "raised_thumb_reference_module_shell_clear_zero_r05_20261015",
+        "old_r04_angle_at_new_zero_deg": 0.0
+      }
+    },
+    "thumb_base_rotation_2": {
+      "control": "002_rot2",
+      "bounds_rad": [
+        0.0,
+        1.7453292519943295
+      ],
+      "range_kind": "shell_clear_assembly_zero_user_upper_100deg",
+      "measured_mechanical_stops": false,
+      "evidence": "config/assembly_zero_reference.json",
+      "endpoint_evidence": {
+        "zero_revision": "raised_thumb_reference_module_shell_clear_zero_r05_20261015",
+        "old_r04_angle_at_new_zero_deg": -2.45
+      }
+    },
+    "thumb_mcp_flexion": {
+      "control": "002_f2",
+      "bounds_rad": [
+        -0.041656989622628135,
+        1.5707963267948966
+      ],
+      "range_kind": "user_adopted_upper_90deg_zero_lower_unchanged",
+      "measured_mechanical_stops": false,
+      "evidence": "config/range_update_r08.json"
+    },
+    "thumb_ip_flexion": {
+      "control": "002_f1",
+      "bounds_rad": [
+        -0.022293648706536127,
+        1.5707963267948966
+      ],
+      "range_kind": "user_adopted_upper_90deg_zero_lower_unchanged",
+      "measured_mechanical_stops": false,
+      "evidence": "config/range_update_r08.json"
+    }
+  },
+  "project_configuration_sha256": "146b2e36d709effd25bbab2c5adbd27c85c05240318462b29b12a36d51475273",
+  "ring_mcp_geometry_candidate_enforced": false,
+  "retained_geometry_evidence": {
+    "file": "provenance/ring_mcp_cover_review.json",
+    "sha256": "abd39f80c0a3febd84df9c1a718ff3ab77b0f7a76c169b57ba81338ce083f0de",
+    "candidate_deg": [
+      0.0,
+      87.6
+    ],
+    "role": "retained collision evidence, advisory only for this nominal range definition"
+  },
+  "zero_reference_rebase": {
+    "id": "thumb_f1_DIP_phase_zero_20261012",
+    "control": "002_f1",
+    "from_model_id": "683b80cc0f91bb4a-review-v8-6779d6eb",
+    "from_kinematics_sha256": "6779d6eb5795b6fb19692e0b79ee64c8948c3a911be7129a4ded9ede4a9bb775",
+    "from_model_sha256": "456dd61ff4bfc8e197f036ccad79b3e6c0abc21c5880665c66b1d41155e8efad",
+    "old_angle_at_new_zero_deg": 1.2773319808318069,
+    "old_slider_position_at_new_zero_mm": 0.1776738025111146,
+    "new_angle_equals_old_minus_deg": 1.2773319808318069,
+    "new_slider_equals_old_minus_mm": 0.1776738025111146,
+    "reference_controls": [
+      "003_distal",
+      "004_distal",
+      "005_distal",
+      "006_distal"
+    ],
+    "reference_meaning": "Align output-arm phase relative to parent stator slide axis; native rod lengths retained, including the different middle DIP rod.",
+    "other_19_relative_output_zero_definitions_unchanged": true,
+    "four_finger_parts_unchanged": true,
+    "F2_zero_and_mapping_unchanged": true,
+    "physical_nominal_range_endpoints_preserved": true,
+    "old_nominal_bounds_rad": [
+      0.0,
+      1.57
+    ],
+    "new_nominal_bounds_rad": [
+      -0.022293648706536127,
+      1.547706351293464
+    ],
+    "old_nominal_bounds_deg": [
+      0.0,
+      89.95437383553924
+    ],
+    "new_nominal_bounds_deg": [
+      -1.2773319808318069,
+      88.67704185470744
+    ],
+    "changed_zero_part_ids": [
+      "P0376",
+      "P0378",
+      "P0379",
+      "P0380",
+      "P0381",
+      "P0382",
+      "P0383",
+      "P0384",
+      "P0385",
+      "RECOVERED_THUMB_F1_ROD",
+      "RECOVERED_THUMB_F1_HINGE"
+    ],
+    "source_CAD_modified": false,
+    "reference_is_geometric_not_encoder_calibration": true,
+    "verification": "thumb_f1_zero_alignment_verification.json",
+    "historical_archive": "E:\\codex_work\\导出urdf\\work\\thumb_f1_zero_alignment_20261012\\before"
+  },
+  "zero_reference_rebases": [
+    {
+      "id": "thumb_f2_parallel_zero_20261012",
+      "control": "002_f2",
+      "from_model_id": "683b80cc0f91bb4a-review-v7-1fd8a8f7",
+      "from_kinematics_sha256": "1fd8a8f75818a4e1e9b944c3e1bfe61462c25566c775e7c5db80a7ef99388424",
+      "from_model_sha256": "2fccdabf63cdc13536a9e6b9dfe3a64d1c6d09e33e23fcc81451ed2ad58a1fa4",
+      "old_angle_at_new_zero_deg": 2.38676969259686,
+      "old_slider_position_at_new_zero_mm": -0.40539932375572607,
+      "new_angle_equals_old_minus_deg": 2.38676969259686,
+      "new_slider_equals_old_minus_mm": -0.40539932375572607,
+      "other_19_relative_output_zero_definitions_unchanged": true,
+      "four_finger_parts_unchanged": true,
+      "F1_relative_zero_and_mapping_unchanged": true,
+      "physical_nominal_range_endpoints_preserved": true,
+      "old_nominal_bounds_rad": [
+        0.0,
+        1.57
+      ],
+      "new_nominal_bounds_rad": [
+        -0.041656989622628135,
+        1.5283430103773719
+      ],
+      "old_nominal_bounds_deg": [
+        0.0,
+        89.95437383553924
+      ],
+      "new_nominal_bounds_deg": [
+        -2.38676969259686,
+        87.56760414294239
+      ],
+      "changed_zero_part_ids": [
+        "P0367",
+        "P0368",
+        "P0369",
+        "P0370",
+        "P0371",
+        "P0372",
+        "P0373",
+        "P0376",
+        "P0377",
+        "P0378",
+        "P0379",
+        "P0380",
+        "P0381",
+        "P0382",
+        "P0383",
+        "P0384",
+        "P0385",
+        "RECOVERED_THUMB_F2_ROD",
+        "RECOVERED_THUMB_F1_ROD",
+        "RECOVERED_THUMB_F1_HINGE"
+      ],
+      "native_source_verification": "../thumb_zero_native_audit_20261012/verification.json",
+      "source_CAD_modified": false,
+      "reference_is_geometric_not_encoder_calibration": true,
+      "verification": "thumb_f2_zero_alignment_verification.json",
+      "historical_archive": "E:\\codex_work\\导出urdf\\work\\thumb_f2_zero_alignment_20261012\\before"
+    },
+    {
+      "id": "thumb_f1_DIP_phase_zero_20261012",
+      "control": "002_f1",
+      "from_model_id": "683b80cc0f91bb4a-review-v8-6779d6eb",
+      "from_kinematics_sha256": "6779d6eb5795b6fb19692e0b79ee64c8948c3a911be7129a4ded9ede4a9bb775",
+      "from_model_sha256": "456dd61ff4bfc8e197f036ccad79b3e6c0abc21c5880665c66b1d41155e8efad",
+      "old_angle_at_new_zero_deg": 1.2773319808318069,
+      "old_slider_position_at_new_zero_mm": 0.1776738025111146,
+      "new_angle_equals_old_minus_deg": 1.2773319808318069,
+      "new_slider_equals_old_minus_mm": 0.1776738025111146,
+      "reference_controls": [
+        "003_distal",
+        "004_distal",
+        "005_distal",
+        "006_distal"
+      ],
+      "reference_meaning": "Align output-arm phase relative to parent stator slide axis; native rod lengths retained, including the different middle DIP rod.",
+      "other_19_relative_output_zero_definitions_unchanged": true,
+      "four_finger_parts_unchanged": true,
+      "F2_zero_and_mapping_unchanged": true,
+      "physical_nominal_range_endpoints_preserved": true,
+      "old_nominal_bounds_rad": [
+        0.0,
+        1.57
+      ],
+      "new_nominal_bounds_rad": [
+        -0.022293648706536127,
+        1.547706351293464
+      ],
+      "old_nominal_bounds_deg": [
+        0.0,
+        89.95437383553924
+      ],
+      "new_nominal_bounds_deg": [
+        -1.2773319808318069,
+        88.67704185470744
+      ],
+      "changed_zero_part_ids": [
+        "P0376",
+        "P0378",
+        "P0379",
+        "P0380",
+        "P0381",
+        "P0382",
+        "P0383",
+        "P0384",
+        "P0385",
+        "RECOVERED_THUMB_F1_ROD",
+        "RECOVERED_THUMB_F1_HINGE"
+      ],
+      "source_CAD_modified": false,
+      "reference_is_geometric_not_encoder_calibration": true,
+      "verification": "thumb_f1_zero_alignment_verification.json",
+      "historical_archive": "E:\\codex_work\\导出urdf\\work\\thumb_f1_zero_alignment_20261012\\before"
+    }
+  ],
+  "interface_id": "hand1009_20outputs_anatomical_names_v1",
+  "range_revision_id": "raised_thumb_flexion_90_unified_names_r08_20261016",
+  "zero_revision_id": "raised_thumb_reference_module_shell_clear_zero_r05_20261015"
+}
