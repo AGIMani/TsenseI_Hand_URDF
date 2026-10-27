@@ -1,6 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
 <robot name="TsenseI_hand_v3_2_withid_right_raised5mm">
-  <!--Right-hand geometric mirror of left r03; base Y=0.004m plane. Physical winding and normals reflected. Joint axes transform as axial vectors; same signed output command mirrors motion. Effort/velocity are authorized placeholders; no dynamics tags.-->
   <link name="base_link">
     <inertial>
       <origin xyz="0.013740060602324999 0.0022449271554493867 0.05008396616290698" rpy="0 0 0" />
@@ -5676,8 +5675,8 @@
     <origin xyz="0.022315626236229048 1.3877787807814457e-17 -0.0123000641755272" rpy="-1.5707963267948892 -1.5247423161228992 0.16657232709293579" />
     <parent link="right_hand_thumb_rota_block_link" />
     <child link="right_hand_thumb_rotaback_link2" />
-    <axis xyz="0 0 -1" />
-    <limit effort="1.0" lower="-1.74" upper="-0.0" velocity="1.0" />
+    <axis xyz="-0 -0 1" />
+    <limit effort="1.0" lower="0.0" upper="1.74" velocity="1.0" />
   </joint>
   <joint name="right_hand_thumb_MCP_joint" type="revolute">
     <origin xyz="0.051668942592601144 0 -0.0052920750176667572" rpy="-0.52751078396112183 -0.90849658912994835 2.2879591616094781" />

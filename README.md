@@ -14,13 +14,13 @@
 | `TsenseI_hand_A3.0` | A3.0 基线，改为 20 个旋转关节；带左右 MJCF 和关键点配置 | 左、右 | 22 / 20 / 1 | 22 / 22 / 22 |
 | `TsenseI_hand_A3.0_withid` | A3.0 带 ID 外壳版本，独立外壳几何与关键点标注 | 左、右 | 22 / 20 / 1 | 22 / 21 / 21 |
 | `TsenseI_hand_A3.2_no_id` | A3.2 无 ID 版本，独立的关节范围、映射与镜像配置 | 左、右 | 22 / 20 / 1 | 22 / 22 / 22 |
-| `TsenseI_hand_A3.2_withid_upper_mid_thumb` | 拇指抬高 5 mm、中指加长 6 mm；保留模型派生与单位修正记录 | 左、右 | 22 / 20 / 1 | 22 / 22 / 22 |
-| `TsenseI_hand_A3.2_withid_no_upper5mm_no_midupper6mm_withcollision` | 拇指不抬高、中指不加长；当前内容已导入中指 DIP 统一的 20 输出模型，并配有 MJCF 碰撞代理 | 左、右 | 22 / 20 / 1 | 22 / 22 / 0 |
-| `TsenseI_hand_A3.2_withid_upper_thumb5mm_noupper_mid` | 拇指抬高 5 mm、中指不加长的结构版；逐零件外观、碰撞、质量惯量和镜像资料 | 左、右 | 22 / 20 / 1 | 367 / 367 / 22 |
+| `TsenseI_hand_A3.2_withid_upper_mid_thumb` | 文件名标记中指、拇指抬高；保留模型派生与单位修正记录 | 左、右 | 22 / 20 / 1 | 22 / 22 / 22 |
+| `TsenseI_hand_A3.2_withid_no_upper5mm_no_midupper6mm_withcollision` | 文件名标记不采用拇指 5 mm、中指 6 mm 抬高；当前内容已导入中指 DIP 统一的 20 输出模型，并配有 MJCF 碰撞代理 | 左、右 | 22 / 20 / 1 | 22 / 22 / 0 |
+| `TsenseI_hand_A3.2_withid_upper_thumb5mm_noupper_mid` | 拇指抬高 5 mm、中指不抬高的结构版；逐零件外观、碰撞、质量惯量和镜像资料 | 左、右 | 22 / 20 / 1 | 367 / 367 / 22 |
 | `TsenseI_中指DIP统一_20输出关节 (2)` | 中指 DIP 统一的姿态模型；307 个来源 visual 合并为 22 个 STL | 仅左手 | 22 / 20 / 1 | 22 / 0 / 0 |
 | `TsenseI_hand_A3.2_withid_end` | 抬高模型的 20 关节归并版，统一对外名称；固定安装件并入刚体 | 单份模型，名称不带手侧 | 21 / 20 / 0 | 303 / 303 / 21 |
 
-`end` 是目录名，不代表它可以直接替代全部其他版本；其关节命名、刚体数量和接口均有变化。根据设计说明，文件名中的拇指 `upper` 表示拇指抬高 5 mm，中指 `upper_mid` / `midupper6mm` 表示中指加长 6 mm；`noupper_mid` / `no_midupper6mm` 表示中指不加长。中指的变化是长度增加，不是整体抬高。上述尺寸含义由设计者确认，本文未另行测量 STL。
+`end` 是目录名，不代表它可以直接替代全部其他版本；其关节命名、刚体数量和接口均有变化。文件名中的抬高标记用于区分设计方案，本文未对 STL 做尺寸测量，不能据此断言两个模型的全部差异就是某轴平移 5 mm 或 6 mm。
 
 ## 2. 各版本具体改动
 
@@ -46,7 +46,6 @@
 
 ### A3.2_withid_upper_mid_thumb
 
-- 结构方案：拇指抬高 5 mm，同时中指加长 6 mm。
 - `model_derivation.json` 记录来源名称 `A3.1V6 26.9.27(6)`，以及小指 `SWING` 到 `swing` 的名称整理。
 - `base_link.STL` 来源单位为毫米，记录了 `0.001` 缩放修正；不能对整个模型再次统一乘以此系数。
 - 记录了根坐标平移、标准掌部位置和右手临时镜像定义。
@@ -54,7 +53,6 @@
 
 ### A3.2_withid_no_upper5mm_no_midupper6mm_withcollision
 
-- 结构方案：拇指不抬高，中指不加长，即不采用上述 5 mm 抬高和 6 mm 加长。
 - 当前 `hand_profile.yaml` 明确记录：已导入中指 DIP 统一的 20 输出 CAD，保留其关节坐标系、限位和米制网格。
 - 当前左右 URDF 各有 22 个 collision，但没有 inertial。目录中存在 `inertial_parameters.json` 不代表 URDF 已具备动力学惯量。
 - 配套 MJCF 碰撞方案与 URDF 网格碰撞需分别理解：`qa/README.md` 描述每手 10 个近端/中间指节胶囊，加 5 个完整末端外壳凸包，只检查不同手指之间的碰撞。
@@ -63,7 +61,6 @@
 
 ### A3.2_withid_upper_thumb5mm_noupper_mid
 
-- 结构方案：仅拇指抬高 5 mm，中指不加长。
 - 当前左右模型均保留 367 个结构外观元素和 367 个碰撞元素，相比合并为 22 个外观的版本，结构零件划分更细。
 - 20 个可动输出加 1 个固定腕座连接；内部动子和连杆冻结为零位外观，普通 URDF 不模拟完整非线性机构运动。
 - 原说明记录单手总质量 952 g，并提供质量、质心、惯量及重算工具。质心与惯量含几何等效密度估算，不能当作全部实测值。
@@ -124,7 +121,7 @@
 - 复现旧模型：选择对应 A2.0/A3.0 目录，不混用另一版关键点或关节顺序。
 - 使用中指 DIP 统一的轻量姿态模型：选择 `TsenseI_中指DIP统一_20输出关节 (2)`。
 - 使用已有 MJCF 手指间碰撞代理：查看 `no_upper5mm_no_midupper6mm_withcollision` 及其 `hand_profile.yaml`、`qa/README.md`。
-- 查看拇指抬高 5 mm、中指不加长的细分结构、左右镜像和行程资料：选择 `upper_thumb5mm_noupper_mid`。
+- 查看拇指抬高 5 mm 的细分结构、左右镜像和行程资料：选择 `upper_thumb5mm_noupper_mid`。
 - 使用统一公开关节名的模型交换或 ROS 展示包：查看 `withid_end` 及其独立 README。
 
 切换时核对关节名称、顺序、限位、零位、镜像方式和资源路径。20 个输出关节不等于完整内部机构；有 inertial 不等于已完成动力学标定；所有控制和碰撞结论均应限定到其记录对应的版本。
