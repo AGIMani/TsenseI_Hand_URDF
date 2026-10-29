@@ -176,8 +176,8 @@
     "thumb_rot2": {
       "control": "002_rot2",
       "bounds_rad": [
-        -1.74,
-        -0.0
+        0.0,
+        1.74
       ],
       "range_kind": "user_adopted_legacy_nominal_not_hardware_verified",
       "measured_mechanical_stops": false,

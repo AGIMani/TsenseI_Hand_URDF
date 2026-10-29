@@ -2,7 +2,7 @@ joint,drive,nominal_min_deg,nominal_max_deg,URDF_effort_Nm_PLACEHOLDER,URDF_velo
 
 right_hand_thumb_rota_block_joint,rotary_motor,0.0,119.74817918234204,1,1,N/A rotary drive,N/A rotary drive,N/A,pending,pending
 
-right_hand_thumb_rotaback_joint2,rotary_motor,-99.69465635276325,-0.0,1,1,N/A rotary drive,N/A rotary drive,N/A,pending,pending
+right_hand_thumb_rotaback_joint2,rotary_motor,0.0,99.69465635276325,1,1,N/A rotary drive,N/A rotary drive,N/A,pending,pending
 
 right_hand_thumb_MCP_joint,linear_motor_with_linkage,0.0,89.95437383553924,1,1,-16.93902129687112,16.93902129687112,pending,pending,pending
 

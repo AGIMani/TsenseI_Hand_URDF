@@ -10,8 +10,8 @@ joint_limits:
     has_jerk_limits: false
   right_hand_thumb_rotaback_joint2:
     has_position_limits: true
-    min_position: -1.74
-    max_position: -0.0
+    min_position: 0.0
+    max_position: 1.74
     has_velocity_limits: true
     max_velocity: 1.0
     has_acceleration_limits: false

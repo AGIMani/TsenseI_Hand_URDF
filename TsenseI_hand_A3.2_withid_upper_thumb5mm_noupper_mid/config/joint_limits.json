@@ -9,8 +9,8 @@
     },
     "right_hand_thumb_rotaback_joint2": {
       "effort": "1.0",
-      "lower": "-1.74",
-      "upper": "-0.0",
+      "lower": "0.0",
+      "upper": "1.74",
       "velocity": "1.0"
     },
     "right_hand_thumb_MCP_joint": {

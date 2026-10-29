@@ -25,8 +25,8 @@
       "joint": "right_hand_thumb_rotaback_joint2",
       "position_unit": "rad",
       "nominal_position_bounds_rad": [
-        -1.74,
-        -0.0
+        0.0,
+        1.74
       ],
       "actual_position_bounds_rad": null,
       "max_joint_torque_Nm": null,
