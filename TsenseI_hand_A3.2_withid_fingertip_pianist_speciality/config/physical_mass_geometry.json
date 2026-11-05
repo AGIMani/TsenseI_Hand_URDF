@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "model_id": "hand_tip_shells_without_screw_stop_zero_20261105_r01",
+  "mass_revision_id": "hand_tip_shells_without_screw_stop_zero_20261105_r01",
+  "precedence": "This physical mass geometry overrides the complete native G0168 solid for mass integration. The full source CAD must not be reintroduced without a new explicit scope revision.",
+  "geometries": [
+    {
+      "geometry_id": "G0168",
+      "part_ids": [
+        "P0216"
+      ],
+      "filename": "provenance/mass_geometry/palm_FPC_without_extension.stl",
+      "sha256": "361c666b00f7cacc6bc0b971dc99e8ba5294a7f37b0b6c98ff37c538fef1ef34",
+      "coordinates": "native P0216 part-local coordinates, metres; NOT visual normalized coordinates or CAD-world coordinates",
+      "method": "closed_capped_STL_moments_rescaled_to_API_basis_fraction_mass",
+      "mass_kg": 0.000672739577400552,
+      "unit_density_volume_m3": 3.6341350909644245e-07,
+      "native_center_of_mass_m": [
+        0.08121444221773487,
+        0.04098402425202691,
+        9.99999973283269e-05
+      ],
+      "native_inertia_at_density_1_kg_m2": [
+        [
+          2.1818625725157774e-11,
+          -1.996731430150551e-11,
+          7.787632808417335e-23
+        ],
+        [
+          -1.996731430150551e-11,
+          1.5049496251960177e-10,
+          -2.7943440221876774e-24
+        ],
+        [
+          7.787632808417335e-23,
+          -2.7943440221876774e-24,
+          1.7231116548814768e-10
+        ]
+      ],
+      "reference_density_kg_m3": 1850,
+      "material_still_estimated": true,
+      "complete_native_solid_is_superseded_for_mass": true
+    }
+  ],
+  "joint_zero_revision": "config/joint_zero_rebase.json"
+}

@@ -19,10 +19,30 @@
 | `TsenseI_hand_A3.2_withid_upper_thumb5mm_noupper_mid` | 拇指抬高 5 mm、中指不抬高的结构版；逐零件外观、碰撞、质量惯量和镜像资料 | 左、右 | 22 / 20 / 1 | 367 / 367 / 22 |
 | `TsenseI_中指DIP统一_20输出关节 (2)` | 中指 DIP 统一的姿态模型；307 个来源 visual 合并为 22 个 STL | 仅左手 | 22 / 20 / 1 | 22 / 0 / 0 |
 | `TsenseI_hand_A3.2_withid_end` | 抬高模型的 20 关节归并版，统一对外名称；固定安装件并入刚体 | 单份模型，名称不带手侧 | 21 / 20 / 0 | 303 / 303 / 21 |
+| `TsenseI_hand_A3.2_withid_fingertip_pianist_speciality` | 钢琴专用指尖模型及其几何镜像；保留原始配置与分件网格 | 左、右 | 21 / 20 / 0 | 297 / 297 / 21 |
 
 `end` 是目录名，不代表它可以直接替代全部其他版本；其关节命名、刚体数量和接口均有变化。文件名中的抬高标记用于区分设计方案，本文未对 STL 做尺寸测量，不能据此断言两个模型的全部差异就是某轴平移 5 mm 或 6 mm。
 
-## 2. 各版本具体改动
+## 2. 模型截图与 URDF
+
+以下图片从所链接的 URDF 外观网格在全部关节为零的姿态下渲染；点击图片或“打开 URDF”可进入对应文件。不同版本的外壳、坐标系和零位可能不同，截图用于外观浏览，不能代替关节和碰撞验证。
+
+| 版本 | 左手 / 单份模型 | 右手 |
+| --- | --- | --- |
+| A2.0 | [![A2.0 左手 / 单份模型](docs/previews/a2-left.png)](TsenseI_hand_A2_0/urdf/TsenseI__hand_left_v1.urdf)<br>[打开 URDF](TsenseI_hand_A2_0/urdf/TsenseI__hand_left_v1.urdf) | [![A2.0 右手](docs/previews/a2-right.png)](TsenseI_hand_A2_0/urdf/TsenseI__hand_right_v1.urdf)<br>[打开 URDF](TsenseI_hand_A2_0/urdf/TsenseI__hand_right_v1.urdf) |
+| A3.0 | [![A3.0 左手 / 单份模型](docs/previews/a30-left.png)](TsenseI_hand_A3.0/urdf/TsenseI_hand_left_v3_0.urdf)<br>[打开 URDF](TsenseI_hand_A3.0/urdf/TsenseI_hand_left_v3_0.urdf) | [![A3.0 右手](docs/previews/a30-right.png)](TsenseI_hand_A3.0/urdf/TsenseI_hand_right_v3_0.urdf)<br>[打开 URDF](TsenseI_hand_A3.0/urdf/TsenseI_hand_right_v3_0.urdf) |
+| A3.0 withid | [![A3.0 withid 左手 / 单份模型](docs/previews/a30-withid-left.png)](TsenseI_hand_A3.0_withid/urdf/TsenseI_hand_left_v3_0_withid.urdf)<br>[打开 URDF](TsenseI_hand_A3.0_withid/urdf/TsenseI_hand_left_v3_0_withid.urdf) | [![A3.0 withid 右手](docs/previews/a30-withid-right.png)](TsenseI_hand_A3.0_withid/urdf/TsenseI_hand_right_v3_0_withid.urdf)<br>[打开 URDF](TsenseI_hand_A3.0_withid/urdf/TsenseI_hand_right_v3_0_withid.urdf) |
+| A3.2 no_id | [![A3.2 no_id 左手 / 单份模型](docs/previews/a32-noid-left.png)](TsenseI_hand_A3.2_no_id/urdf/TsenseI_hand_left_v3_2.urdf)<br>[打开 URDF](TsenseI_hand_A3.2_no_id/urdf/TsenseI_hand_left_v3_2.urdf) | [![A3.2 no_id 右手](docs/previews/a32-noid-right.png)](TsenseI_hand_A3.2_no_id/urdf/TsenseI_hand_right_v3_2.urdf)<br>[打开 URDF](TsenseI_hand_A3.2_no_id/urdf/TsenseI_hand_right_v3_2.urdf) |
+| upper_mid_thumb | [![upper_mid_thumb 左手 / 单份模型](docs/previews/a32-upper-mid-thumb-left.png)](TsenseI_hand_A3.2_withid_upper_mid_thumb/urdf/TsenseI_left.urdf)<br>[打开 URDF](TsenseI_hand_A3.2_withid_upper_mid_thumb/urdf/TsenseI_left.urdf) | [![upper_mid_thumb 右手](docs/previews/a32-upper-mid-thumb-right.png)](TsenseI_hand_A3.2_withid_upper_mid_thumb/urdf/TsenseI_right.urdf)<br>[打开 URDF](TsenseI_hand_A3.2_withid_upper_mid_thumb/urdf/TsenseI_right.urdf) |
+| withcollision | [![withcollision 左手 / 单份模型](docs/previews/a32-collision-left.png)](TsenseI_hand_A3.2_withid_no_upper5mm_no_midupper6mm_withcollision/urdf/TsenseI_hand_left_v3_2_withid.urdf)<br>[打开 URDF](TsenseI_hand_A3.2_withid_no_upper5mm_no_midupper6mm_withcollision/urdf/TsenseI_hand_left_v3_2_withid.urdf) | [![withcollision 右手](docs/previews/a32-collision-right.png)](TsenseI_hand_A3.2_withid_no_upper5mm_no_midupper6mm_withcollision/urdf/TsenseI_hand_right_v3_2_withid.urdf)<br>[打开 URDF](TsenseI_hand_A3.2_withid_no_upper5mm_no_midupper6mm_withcollision/urdf/TsenseI_hand_right_v3_2_withid.urdf) |
+| upper_thumb5mm_noupper_mid | [![upper_thumb5mm_noupper_mid 左手 / 单份模型](docs/previews/a32-raised-thumb-left.png)](TsenseI_hand_A3.2_withid_upper_thumb5mm_noupper_mid/urdf/TsenseI_hand_left_v3_2_withid.urdf)<br>[打开 URDF](TsenseI_hand_A3.2_withid_upper_thumb5mm_noupper_mid/urdf/TsenseI_hand_left_v3_2_withid.urdf) | [![upper_thumb5mm_noupper_mid 右手](docs/previews/a32-raised-thumb-right.png)](TsenseI_hand_A3.2_withid_upper_thumb5mm_noupper_mid/urdf/TsenseI_hand_right_v3_2_withid.urdf)<br>[打开 URDF](TsenseI_hand_A3.2_withid_upper_thumb5mm_noupper_mid/urdf/TsenseI_hand_right_v3_2_withid.urdf) |
+| 中指 DIP 统一 | [![中指 DIP 统一 左手 / 单份模型](docs/previews/a32-middle-dip-left.png)](TsenseI_%E4%B8%AD%E6%8C%87DIP%E7%BB%9F%E4%B8%80_20%E8%BE%93%E5%87%BA%E5%85%B3%E8%8A%82%20%282%29/urdf/TsenseI_hand_left_v3_2_withid.urdf)<br>[打开 URDF](TsenseI_%E4%B8%AD%E6%8C%87DIP%E7%BB%9F%E4%B8%80_20%E8%BE%93%E5%87%BA%E5%85%B3%E8%8A%82%20%282%29/urdf/TsenseI_hand_left_v3_2_withid.urdf) | — |
+| withid_end（单份模型） | [![withid_end（单份模型） 左手 / 单份模型](docs/previews/a32-end.png)](TsenseI_hand_A3.2_withid_end/urdf/hand_1009_20j.urdf)<br>[打开 URDF](TsenseI_hand_A3.2_withid_end/urdf/hand_1009_20j.urdf) | — |
+| 钢琴专用指尖 | [![钢琴专用指尖 左手 / 单份模型](docs/previews/a32-pianist-left.png)](TsenseI_hand_A3.2_withid_fingertip_pianist_speciality/urdf/hand.urdf)<br>[打开 URDF](TsenseI_hand_A3.2_withid_fingertip_pianist_speciality/urdf/hand.urdf) | [![钢琴专用指尖 右手](docs/previews/a32-pianist-right.png)](TsenseI_hand_A3.2_withid_fingertip_pianist_speciality/urdf/hand_right.urdf)<br>[打开 URDF](TsenseI_hand_A3.2_withid_fingertip_pianist_speciality/urdf/hand_right.urdf) |
+
+截图可由 [`tools/render_urdf_previews.py`](tools/render_urdf_previews.py) 重新生成；脚本需要 NumPy、SciPy、trimesh、pyrender、Pillow 和可用的 OpenGL/EGL 环境。
+
+## 3. 各版本具体改动
 
 ### A2.0 → A3.0
 
@@ -84,7 +104,14 @@
 - 原说明记录总质量约 1052.982463 g，与 952 g 版来源不同。拇指 MCP/IP 弯曲上限更新为精确 90°。
 - 普通版与 ROS 版 URDF 表达相同模型，仅资源路径不同。内部机构冻结后的非零姿态动力学仍属近似。
 
-## 3. 实际加载入口
+### A3.2_withid_fingertip_pianist_speciality
+
+- 上传的钢琴专用指尖左手为 `urdf/hand.urdf`；新增右手为 `urdf/hand_right.urdf`，各有 21 个 link、20 个旋转关节、297 个外观和碰撞元素以及 21 组惯量。
+- 右手按 `hand_base_link` 的 **Y = 0 m** 镜像，关节名称、限位和对应角度不变：`q_right = q_left`。外观、碰撞网格及其三角绕序、关节轴、质心和完整惯量同步镜像。其基座镜像平面与上面的 5 mm 抬高版不同，安装时应核对坐标与孔位。
+- 这是左手的几何镜像，不是独立实测右手。上传的 `config/` 原文件仍描述左手与来源信息，右手镜像清单位于 `config/mirror_right.json`。源模型质量合计约 1.05338 kg，为配置中记录的工程估算。
+- 直接加载时保留整个目录。原有 `launch/display.launch.py` 依赖的 ROS 文件未随上传目录提供，不能直接作为本模型已验证的 ROS 启动入口。详见该目录的 [README](TsenseI_hand_A3.2_withid_fingertip_pianist_speciality/README.md)。
+
+## 4. 实际加载入口
 
 以下均相对于对应版本目录；加载时保留该目录内的完整网格路径。
 
@@ -99,10 +126,11 @@
 | upper_thumb5mm_noupper_mid | `TsenseI_hand_left_v3_2_withid.urdf` / `TsenseI_hand_right_v3_2_withid.urdf` |
 | 中指 DIP 统一版 | `TsenseI_hand_left_v3_2_withid.urdf` |
 | withid_end | `hand_1009_20j.urdf`；ROS 资源版为 `hand_1009_20j_ros.urdf` |
+| 钢琴专用指尖 | `hand.urdf`（上传的左手） / `hand_right.urdf`（几何镜像右手） |
 
 多个目录的 URDF **同名但内容不同**，建议始终用“版本目录 + 文件名”定位。仓库根目录的 `TsenseI_hand_A3.2_withid_upper_thumb5mm_noupper_mid.zip` 是单独压缩包；本文按解压目录编写，未确认压缩包与目录逐文件一致。
 
-## 4. 配套文件用途
+## 5. 配套文件用途
 
 | 文件或目录 | 用途 |
 | --- | --- |
@@ -116,12 +144,13 @@
 | `checks/`、`qa/`、`provenance/` | 已有验证结果、预览及来源证据，须结合记录的版本和检查范围使用 |
 | `*.bak_*` | 历史备份，不作为默认加载入口 |
 
-## 5. 选择与切换
+## 6. 选择与切换
 
 - 复现旧模型：选择对应 A2.0/A3.0 目录，不混用另一版关键点或关节顺序。
 - 使用中指 DIP 统一的轻量姿态模型：选择 `TsenseI_中指DIP统一_20输出关节 (2)`。
 - 使用已有 MJCF 手指间碰撞代理：查看 `no_upper5mm_no_midupper6mm_withcollision` 及其 `hand_profile.yaml`、`qa/README.md`。
 - 查看拇指抬高 5 mm 的细分结构、左右镜像和行程资料：选择 `upper_thumb5mm_noupper_mid`。
 - 使用统一公开关节名的模型交换或 ROS 展示包：查看 `withid_end` 及其独立 README。
+- 使用钢琴专用指尖及其镜像右手：查看 `fingertip_pianist_speciality` 和该目录的镜像约定。
 
 切换时核对关节名称、顺序、限位、零位、镜像方式和资源路径。20 个输出关节不等于完整内部机构；有 inertial 不等于已完成动力学标定；所有控制和碰撞结论均应限定到其记录对应的版本。

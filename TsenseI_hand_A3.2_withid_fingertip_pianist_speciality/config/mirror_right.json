@@ -1,0 +1,1049 @@
+{
+  "source_urdf": "urdf/hand.urdf",
+  "source_sha256": "7c53e8f60f04f658a346627dad466347a0306f378022db0d45a6573fea2460cf",
+  "right_urdf": "urdf/hand_right.urdf",
+  "right_sha256": "1d88aa96b2d131df80ab3b37af30b6f31712bf685948a3bd29fae1c6b3c601be",
+  "mirror_plane": "hand_base_link Y = 0 m",
+  "position_mapping": "x_right=x_left, y_right=-y_left, z_right=z_left",
+  "joint_mapping": "same joint names, limits and angles: q_right=q_left",
+  "status": "geometric mirror; not independently measured right-hand hardware",
+  "mesh_count": 148,
+  "meshes": [
+    {
+      "source": "meshes/collision/hand_base_board_g0031.stl",
+      "right": "meshes_right/collision/hand_base_board_g0031.stl",
+      "triangles": 6504,
+      "source_sha256": "5c9a99cd4a6a6eb9b970b01eb58054f185965ad755895c59a9a389ca8fb9480d",
+      "right_sha256": "e0eddc9a12be1ad039b5e28cff56c6518d44e888b237c0a16c25447c59a59469"
+    },
+    {
+      "source": "meshes/collision/hand_base_board_g0040.stl",
+      "right": "meshes_right/collision/hand_base_board_g0040.stl",
+      "triangles": 1378,
+      "source_sha256": "e7f359c406c5e8663eb80e1490ff6c85c3938f7f82a0931caf3d1c70d9d24b99",
+      "right_sha256": "c5f728e9278caa7f729208b3ebfc88300050e78d0868e4af502e21a7e863b127"
+    },
+    {
+      "source": "meshes/collision/hand_base_board_g0168.stl",
+      "right": "meshes_right/collision/hand_base_board_g0168.stl",
+      "triangles": 7434,
+      "source_sha256": "f3757e39da0b2963d88001ea42a9197a63eba55be1a1241b298d61a98aee0739",
+      "right_sha256": "c079bda2cc6dc6646ede53af2ee312ab5dc89b78178474023f91e32d331b0b0e"
+    },
+    {
+      "source": "meshes/collision/hand_base_board_g0177.stl",
+      "right": "meshes_right/collision/hand_base_board_g0177.stl",
+      "triangles": 1140,
+      "source_sha256": "3cbe4907b8e279e8b1119591f840e2e4ea510f830925475d4d1110c83b8040b1",
+      "right_sha256": "5bd3411b32cee5930919889cab87694959f49139f1ce6ded7af764daf5762c16"
+    },
+    {
+      "source": "meshes/collision/hand_base_component_g0035.stl",
+      "right": "meshes_right/collision/hand_base_component_g0035.stl",
+      "triangles": 512,
+      "source_sha256": "565e94c8d3e9088996d05ff940873417e8db2949dc204ef2120d5c45a8369912",
+      "right_sha256": "31e110f170eb5b9a0a351af077634c79fa832aa7d9d04625b24c9d5212b91390"
+    },
+    {
+      "source": "meshes/collision/hand_base_component_g0038.stl",
+      "right": "meshes_right/collision/hand_base_component_g0038.stl",
+      "triangles": 3910,
+      "source_sha256": "b28b3cb03e5d733d58891e9f5d7d9d7de1cfc930354b154ba72a31017a45138d",
+      "right_sha256": "d40141f40b55cc27afc86cc7e32acbc7c868635dc03ee152dfce2dbf6d2eb201"
+    },
+    {
+      "source": "meshes/collision/hand_base_component_g0039.stl",
+      "right": "meshes_right/collision/hand_base_component_g0039.stl",
+      "triangles": 572,
+      "source_sha256": "624b529c4d947be975e48af6ffda7faf0ccfb87a6d42ded736380531e67bea5e",
+      "right_sha256": "9a2f65b8634b48dfaf6c7f33d3cbfbcb57ee001877008bdc2a65f24a5e471800"
+    },
+    {
+      "source": "meshes/collision/hand_base_component_g0041.stl",
+      "right": "meshes_right/collision/hand_base_component_g0041.stl",
+      "triangles": 2050,
+      "source_sha256": "80fca265e99f5f4d5f54054330f5447aff4a9e34b090d7d93699bb37c794e279",
+      "right_sha256": "63bed97a3823bd7d0bb5cf95952c4972d0dc0150bfdbecd15ef706f67e77dc56"
+    },
+    {
+      "source": "meshes/collision/hand_base_component_g0042.stl",
+      "right": "meshes_right/collision/hand_base_component_g0042.stl",
+      "triangles": 3980,
+      "source_sha256": "bcc4ee29c6c7b8f3c88ef0203ce31be4fffc5a8840b76fa3a65b7d9d772cf3d3",
+      "right_sha256": "53ee6505c781c64b6d6e137e5d8ce83c3b8d19c2818c5c79bd7f760f690e6f6e"
+    },
+    {
+      "source": "meshes/collision/hand_base_component_g0173.stl",
+      "right": "meshes_right/collision/hand_base_component_g0173.stl",
+      "triangles": 34052,
+      "source_sha256": "305324738bd33d3dbcb16a2a17eb00b23e5e9aa8f8655c2adc02ccfb5835130e",
+      "right_sha256": "ad3e5d067e606bac97e4f4f2b3310278e2b5f2b8ba02adb94306e655d802bf50"
+    },
+    {
+      "source": "meshes/collision/hand_base_component_g0175.stl",
+      "right": "meshes_right/collision/hand_base_component_g0175.stl",
+      "triangles": 614,
+      "source_sha256": "bd67243ecea21a5f30ec4d04c2de0ed904034cd3066c310d14b25c515cd1e626",
+      "right_sha256": "6b88c5715459ba5b9243981a1f421a440e5416be9203c07fdf8b5006d78914e5"
+    },
+    {
+      "source": "meshes/collision/hand_base_fastener_g0032.stl",
+      "right": "meshes_right/collision/hand_base_fastener_g0032.stl",
+      "triangles": 574,
+      "source_sha256": "625a6829d4eb13b383a9bbd9cd4f09f7caa83bde0b4e3fd127f628942e455967",
+      "right_sha256": "ab59086e705daea923e39f19dcf2a4bd3a950cf298a66d6f90aab4fa6ae49356"
+    },
+    {
+      "source": "meshes/collision/hand_base_fastener_g0033.stl",
+      "right": "meshes_right/collision/hand_base_fastener_g0033.stl",
+      "triangles": 1006,
+      "source_sha256": "c3135ad125ca39a1169f7514a680b9b701443466782bf4ce2bf5106e551aaccd",
+      "right_sha256": "c40d2ab4862f51cdc30290b35defe83b5ae1983ff9f7f0d92c2a8f68b05ef8fb"
+    },
+    {
+      "source": "meshes/collision/hand_base_fastener_g0034.stl",
+      "right": "meshes_right/collision/hand_base_fastener_g0034.stl",
+      "triangles": 760,
+      "source_sha256": "ed99d6661f63150204e7ce7934794a141e9a09f80b3115e599ca47ab0912a579",
+      "right_sha256": "67d7f68378c105787dd0d337e58d8049d1284122e4daac5b2672a1a242fe9ef7"
+    },
+    {
+      "source": "meshes/collision/hand_base_fastener_g0036.stl",
+      "right": "meshes_right/collision/hand_base_fastener_g0036.stl",
+      "triangles": 1006,
+      "source_sha256": "c3135ad125ca39a1169f7514a680b9b701443466782bf4ce2bf5106e551aaccd",
+      "right_sha256": "c40d2ab4862f51cdc30290b35defe83b5ae1983ff9f7f0d92c2a8f68b05ef8fb"
+    },
+    {
+      "source": "meshes/collision/hand_base_fastener_g0037.stl",
+      "right": "meshes_right/collision/hand_base_fastener_g0037.stl",
+      "triangles": 760,
+      "source_sha256": "ed99d6661f63150204e7ce7934794a141e9a09f80b3115e599ca47ab0912a579",
+      "right_sha256": "67d7f68378c105787dd0d337e58d8049d1284122e4daac5b2672a1a242fe9ef7"
+    },
+    {
+      "source": "meshes/collision/hand_base_fastener_g0172.stl",
+      "right": "meshes_right/collision/hand_base_fastener_g0172.stl",
+      "triangles": 698,
+      "source_sha256": "6b56b8be5399f1c6ca1ad0570d8a498d2ea3557601918cbaff62c96601fcb4d0",
+      "right_sha256": "e8eb3d937b9e49cdad187bfd33066a09c683a100e53b7560ef244955b4ba7f39"
+    },
+    {
+      "source": "meshes/collision/hand_base_housing_g0174.stl",
+      "right": "meshes_right/collision/hand_base_housing_g0174.stl",
+      "triangles": 6034,
+      "source_sha256": "8b812085ef01505389f4fc7560bda3c1d6edac2f3ef5cd4db4dcbc6541d36f29",
+      "right_sha256": "7919a071822229b64be6e8a4028e2dca4650a3a6776c3483fcfc8bac73e1907c"
+    },
+    {
+      "source": "meshes/collision/hand_base_housing_g0176.stl",
+      "right": "meshes_right/collision/hand_base_housing_g0176.stl",
+      "triangles": 5718,
+      "source_sha256": "1188e73280dddc7394c95093c287f795811508859e3de4532b25fe3586f094e1",
+      "right_sha256": "0c4583251331884e16bce59400ca27880e8ff07bcc17b219c1a5c59c939d45a8"
+    },
+    {
+      "source": "meshes/collision/little_middle_component_g0211.stl",
+      "right": "meshes_right/collision/little_middle_component_g0211.stl",
+      "triangles": 26524,
+      "source_sha256": "6548b33846b61d930d6f79b8b9ab79fedb28ff12c8c0b33b29698ca7da547469",
+      "right_sha256": "14ea3f26d99bf5cb9ced08b9f10ecbb62ddce4809896365c813b61bbef9b3f44"
+    },
+    {
+      "source": "meshes/collision/little_middle_pin_g0212.stl",
+      "right": "meshes_right/collision/little_middle_pin_g0212.stl",
+      "triangles": 1630,
+      "source_sha256": "6ac16c283f36a1e4dde6adc10ba56d6e08cdc19a55dbbf0b806c5e10bd0684da",
+      "right_sha256": "a4efb64f12a32ec4e24aeca56e68c26f9a29a1b35a0af48c2971cbd41e56f991"
+    },
+    {
+      "source": "meshes/collision/little_middle_pin_g0213.stl",
+      "right": "meshes_right/collision/little_middle_pin_g0213.stl",
+      "triangles": 2134,
+      "source_sha256": "2eacc7fd749354be4f8c622a85bd8ab2aae47cad0d6826538a7028d3d5c9c7d2",
+      "right_sha256": "c7cf414b3ee571dda65c31eee41b761db785f1aca1351c1a47341e46b7fc4b05"
+    },
+    {
+      "source": "meshes/collision/little_pip_rod_rod_g0210.stl",
+      "right": "meshes_right/collision/little_pip_rod_rod_g0210.stl",
+      "triangles": 1338,
+      "source_sha256": "97b7909b3fb307c3f6fcf0d27fa6cc357c1da739b7a77b81296107b6c5cf89ee",
+      "right_sha256": "1d167205ea79cc677fa1c7fe1fe016c3c8c71dff053a68e350ef3ce330b4c426"
+    },
+    {
+      "source": "meshes/collision/little_pip_slider_slider_g0209.stl",
+      "right": "meshes_right/collision/little_pip_slider_slider_g0209.stl",
+      "triangles": 1416,
+      "source_sha256": "43b725dd42f6fbb3ac9a9c7ed74519172545daa145096c6d4d4c814af9525c3e",
+      "right_sha256": "82b21da8c1387f8c4e9812b34ca4d8e9af5ac9d67c15034400a98921bc0eab72"
+    },
+    {
+      "source": "meshes/collision/little_proximal_component_g0214.stl",
+      "right": "meshes_right/collision/little_proximal_component_g0214.stl",
+      "triangles": 95488,
+      "source_sha256": "321e967236178ffd445b91082085e8a6db48b00b96e01e6b0bde16945780124f",
+      "right_sha256": "e2c269997fd14ad5fef2a78049dc772e1132a741267b5ef7a7c41ea3f542bc45"
+    },
+    {
+      "source": "meshes/collision/little_proximal_pin_g0215.stl",
+      "right": "meshes_right/collision/little_proximal_pin_g0215.stl",
+      "triangles": 3302,
+      "source_sha256": "3bf79ee77ecfc22c9a831522d6e3d5007f2abb889eb405faa711a8f41f16d595",
+      "right_sha256": "3b5c537f952e7117c6865306eed7531a97f2155ee89ec29be156b766001678af"
+    },
+    {
+      "source": "meshes/collision/little_proximal_pin_g0216.stl",
+      "right": "meshes_right/collision/little_proximal_pin_g0216.stl",
+      "triangles": 1240,
+      "source_sha256": "873ebcff5ac947337dca2138b77ab2354a586288a25f813d8f64ffd962df1e25",
+      "right_sha256": "de590368246a25386bc9efdcce15936381f958d0bbd99165ff2e08220f59ef75"
+    },
+    {
+      "source": "meshes/collision/shared_component_g0000.stl",
+      "right": "meshes_right/collision/shared_component_g0000.stl",
+      "triangles": 512,
+      "source_sha256": "723ce02987b0b06e6c72f59b7c7930756e0be4cbdd2e5ba8d46fefe639bf01b7",
+      "right_sha256": "6b15798c1094540df9aaf646a343b763e3d8f799ca6337dec2c71ef40d66d858"
+    },
+    {
+      "source": "meshes/collision/shared_component_g0001.stl",
+      "right": "meshes_right/collision/shared_component_g0001.stl",
+      "triangles": 828,
+      "source_sha256": "be5743ef20a0c82b32c6e2dec102a673349b4d48983095ef56f5ffa812e3430d",
+      "right_sha256": "0b9297b07bfd918a2b4c8ce42754dc6796f2b75bb90fbab451c667f81241c470"
+    },
+    {
+      "source": "meshes/collision/shared_component_g0003.stl",
+      "right": "meshes_right/collision/shared_component_g0003.stl",
+      "triangles": 532,
+      "source_sha256": "92c01bfca7fe8f6ec8a211f53ef61415ca3bf26e3729b6c0d2eb0ac8e52df308",
+      "right_sha256": "3035a5b17f02795a14a4324e8fa35dc4dee95e0c11e6f39692810a00d8b8b202"
+    },
+    {
+      "source": "meshes/collision/shared_component_g0009.stl",
+      "right": "meshes_right/collision/shared_component_g0009.stl",
+      "triangles": 532,
+      "source_sha256": "92c01bfca7fe8f6ec8a211f53ef61415ca3bf26e3729b6c0d2eb0ac8e52df308",
+      "right_sha256": "3035a5b17f02795a14a4324e8fa35dc4dee95e0c11e6f39692810a00d8b8b202"
+    },
+    {
+      "source": "meshes/collision/shared_component_g0012.stl",
+      "right": "meshes_right/collision/shared_component_g0012.stl",
+      "triangles": 2670,
+      "source_sha256": "e8dcb80f64e0445c813286a7e78d4cb41968a5d23d11a979766b1d7e6f6f9591",
+      "right_sha256": "b15b9005edd980f11eaa93d346b30b3c4abca08782c763dc0557f4deeef440fa"
+    },
+    {
+      "source": "meshes/collision/shared_component_g0014.stl",
+      "right": "meshes_right/collision/shared_component_g0014.stl",
+      "triangles": 27124,
+      "source_sha256": "c3e852c0bb318357145030b5a04a277f33338006faa8891535b220eb71c702d3",
+      "right_sha256": "7ed812cf93f264509cd612c8aa0ec6e3dc30590f0c8f322569a002f1c90e981a"
+    },
+    {
+      "source": "meshes/collision/shared_component_g0015.stl",
+      "right": "meshes_right/collision/shared_component_g0015.stl",
+      "triangles": 2182,
+      "source_sha256": "2ab9de3e1f3a0d07a94ad545378a4f2d8f853b0cb4ff6b72c4e47a66ebabb8bb",
+      "right_sha256": "22ff07641765fd59b034b5f4396a1cb94444b5bb56fa340991616fbf500eac34"
+    },
+    {
+      "source": "meshes/collision/shared_component_g0020.stl",
+      "right": "meshes_right/collision/shared_component_g0020.stl",
+      "triangles": 85280,
+      "source_sha256": "7fa5dd0b404e9d4ab7da2a974087b8c80759425f762c81d69ef3411dc033b0b4",
+      "right_sha256": "a384ea595579325b53407eed5f49be27418f846857116daac0937f6c3e4f1cfa"
+    },
+    {
+      "source": "meshes/collision/shared_component_g0024.stl",
+      "right": "meshes_right/collision/shared_component_g0024.stl",
+      "triangles": 3720,
+      "source_sha256": "bc61929e9c6a7e12f65fe71d70c0c6a507e968d79fef452a48ad654b08f0af31",
+      "right_sha256": "193b7a6ded0092bb05a9c33136f105890783b77ba266a8eaa717115d8afdcbe5"
+    },
+    {
+      "source": "meshes/collision/shared_component_g0026.stl",
+      "right": "meshes_right/collision/shared_component_g0026.stl",
+      "triangles": 3482,
+      "source_sha256": "175dbef6b4dd0f49dadd42319ef91285c42ab9a589867b83dab6a14e2040d235",
+      "right_sha256": "bd3069930903ae982f9860c4bbe6a896d83b91582282260553c8e95a6a73e17f"
+    },
+    {
+      "source": "meshes/collision/shared_component_g0028.stl",
+      "right": "meshes_right/collision/shared_component_g0028.stl",
+      "triangles": 53730,
+      "source_sha256": "eee99743baa85323d6b8153be286857efdfa5ff00605278a73db0958c4ffd013",
+      "right_sha256": "9af45a06bb2962e55f808b898b6474d130f6c6486ea64572a715e55fe251a2a6"
+    },
+    {
+      "source": "meshes/collision/shared_component_g0030.stl",
+      "right": "meshes_right/collision/shared_component_g0030.stl",
+      "triangles": 52526,
+      "source_sha256": "1311a548a1f0d6033c053071f41eb5131fba4be3c702ca349f1ea5d1fa7d06d1",
+      "right_sha256": "5300f58f8d60df654d28a887c6166abc56462b07abe7a668f073c2c3b4d9fee1"
+    },
+    {
+      "source": "meshes/collision/shared_component_g0190_housing.stl",
+      "right": "meshes_right/collision/shared_component_g0190_housing.stl",
+      "triangles": 22256,
+      "source_sha256": "3b22b752c33aa66018b2ae06451a1ef1e21ea1c316a2b37a09f262ca14c33b62",
+      "right_sha256": "67ebdaea8b941b2d2b1b12570b25f8bc87a06a5743c7210cff3793e117f59656"
+    },
+    {
+      "source": "meshes/collision/shared_component_g0190_output.stl",
+      "right": "meshes_right/collision/shared_component_g0190_output.stl",
+      "triangles": 16146,
+      "source_sha256": "1ca9889fea65ea1c7d8df9f72e5cedcf5c92180cf74ea7922c40195701f13a7f",
+      "right_sha256": "693c2e7c9f28e4460fd05a4aa70f31921be7353ccd6d1fad42491d47bc4a5ae4"
+    },
+    {
+      "source": "meshes/collision/shared_component_g_x16_housing.stl",
+      "right": "meshes_right/collision/shared_component_g_x16_housing.stl",
+      "triangles": 25626,
+      "source_sha256": "97ee5375e8ca615e88c59e639d48452282b05bf8b83342e2e3f8b80e7f82e298",
+      "right_sha256": "667e5d79a72493667b97e503f06c9516cfc74e51fa3477959e2cf3e7ebeaa7cb"
+    },
+    {
+      "source": "meshes/collision/shared_component_g_x16_output.stl",
+      "right": "meshes_right/collision/shared_component_g_x16_output.stl",
+      "triangles": 8196,
+      "source_sha256": "eec65296a04dc0871bb1dc75cb669ad5c1e54c49febf7cc0bd6dcf63a69c440a",
+      "right_sha256": "736b291c9ecf32cf46dd7635d394a1811633f16c91cfb35616d0886ca686c880"
+    },
+    {
+      "source": "meshes/collision/shared_fastener_g0017.stl",
+      "right": "meshes_right/collision/shared_fastener_g0017.stl",
+      "triangles": 828,
+      "source_sha256": "0cfdae37078d8ef561ba30b6e9f3f9bf0e9d8f4d7584dd027e552c917b929cd0",
+      "right_sha256": "2febfae97fc4861fe032e94c67b6d6d262c5951279440e1b03f6c15f0e7cc130"
+    },
+    {
+      "source": "meshes/collision/shared_fastener_g0019.stl",
+      "right": "meshes_right/collision/shared_fastener_g0019.stl",
+      "triangles": 454,
+      "source_sha256": "652d545cb6ea27bbcd42c8a82e0af205ce352e72d0cd8e44ae27680e66ae5374",
+      "right_sha256": "79c93dc8876b1322a9586d4b3bfe5e87085d85ff3f3bafee3bbc300451282526"
+    },
+    {
+      "source": "meshes/collision/shared_fastener_g0023.stl",
+      "right": "meshes_right/collision/shared_fastener_g0023.stl",
+      "triangles": 828,
+      "source_sha256": "11fe2afcb102df77e664f09678e50a7242c235ed82f56fccfb05c699dc242cfc",
+      "right_sha256": "ebfffc86d7545b36d7c242301a25d358323796136a332cdef87792fa56fda8c8"
+    },
+    {
+      "source": "meshes/collision/shared_fastener_g0027.stl",
+      "right": "meshes_right/collision/shared_fastener_g0027.stl",
+      "triangles": 542,
+      "source_sha256": "b51628aabfe634ca5064dec2d1b8cbe691b0441a766ba4d8f702104e4a726200",
+      "right_sha256": "9e485603c2f1dff332bcf744af4f882f9c89bfa8b9f57083e23e599b2776aa30"
+    },
+    {
+      "source": "meshes/collision/shared_fingertip_front_1102.stl",
+      "right": "meshes_right/collision/shared_fingertip_front_1102.stl",
+      "triangles": 10124,
+      "source_sha256": "5c967eb1e10d443f26bab92abf5025247ab847e055ec218c116305114992db23",
+      "right_sha256": "0090472ca9c496be41a832d16b563d10265d8dc1478040ebaef469342294149e"
+    },
+    {
+      "source": "meshes/collision/shared_fingertip_hinge_1102.stl",
+      "right": "meshes_right/collision/shared_fingertip_hinge_1102.stl",
+      "triangles": 1602,
+      "source_sha256": "590a885451c9703263223c1e56c4aca8503f1558d29ec604911276e46b9d91ee",
+      "right_sha256": "1eb9cab9d5763397ae007bffef08355e9c70f590d56cfb99d9198d0119d31c0a"
+    },
+    {
+      "source": "meshes/collision/shared_fingertip_rear_1102.stl",
+      "right": "meshes_right/collision/shared_fingertip_rear_1102.stl",
+      "triangles": 5908,
+      "source_sha256": "62ce0d44924c624fb650e3d7f55fa29adb6e8c5ec4736a343900302433ea0e65",
+      "right_sha256": "746781f0fff8cee171ccaf56f0f6f2c66782a0987e90c02dcbdf3fc6c359425d"
+    },
+    {
+      "source": "meshes/collision/shared_housing_g0011.stl",
+      "right": "meshes_right/collision/shared_housing_g0011.stl",
+      "triangles": 4740,
+      "source_sha256": "133ee1d762868c671355ce78536a205abf60aa8f35aba98bdf6ad2b1c018b6f2",
+      "right_sha256": "2f89fde8bfeee6919bcbd8321231581ca89582376bf73949e5d12d265a6e7765"
+    },
+    {
+      "source": "meshes/collision/shared_housing_g0022.stl",
+      "right": "meshes_right/collision/shared_housing_g0022.stl",
+      "triangles": 7446,
+      "source_sha256": "c56c3584c28b0c0095b0533e52ce76a972b6a9ec42f136687299fc006df98e85",
+      "right_sha256": "e867f6dd07083659421bf574e31067f5bec5f7555d0aab615d0ee4befa329cef"
+    },
+    {
+      "source": "meshes/collision/shared_housing_g0025.stl",
+      "right": "meshes_right/collision/shared_housing_g0025.stl",
+      "triangles": 2978,
+      "source_sha256": "5f392cfa6e64d9baa393b8fc223948b66acb72f1b01445990102244447f0f049",
+      "right_sha256": "02c8ab77daa7c252653eff0673d155f6501fa8e92b0b01823d3fbc58687d2592"
+    },
+    {
+      "source": "meshes/collision/shared_pin_g0029.stl",
+      "right": "meshes_right/collision/shared_pin_g0029.stl",
+      "triangles": 336,
+      "source_sha256": "792fe00a2dd41b17a2f2327a6d138dc8cf113d420fbf14c7370061d3696362aa",
+      "right_sha256": "6c86c823bd18d99e332180c9fdfe167352ba41192cae8c73e1fd719064aad59c"
+    },
+    {
+      "source": "meshes/collision/shared_pin_g0192.stl",
+      "right": "meshes_right/collision/shared_pin_g0192.stl",
+      "triangles": 320,
+      "source_sha256": "930a3ec1cfbe7f0edacb89018787ed463185a889999d7818c3fb8eb304a62268",
+      "right_sha256": "c15a0ebea0b18066ac7dc8e5926ae6e48b26d00e657bfed53d442bc6b84506e1"
+    },
+    {
+      "source": "meshes/collision/shared_rod_g0004.stl",
+      "right": "meshes_right/collision/shared_rod_g0004.stl",
+      "triangles": 1428,
+      "source_sha256": "7130e0e125587695b79b9c62e0ada60022fe12c5b38333d1cfb21e895d502734",
+      "right_sha256": "560ad50ce9beb66c51eedc674e3302b2d5c2139089a80e7ac203513e40493539"
+    },
+    {
+      "source": "meshes/collision/shared_rod_g0013.stl",
+      "right": "meshes_right/collision/shared_rod_g0013.stl",
+      "triangles": 828,
+      "source_sha256": "38bdf8cd53144cc7191a8bec5934783910ae475f2bad9f8c04fa7fa3f728ad1b",
+      "right_sha256": "ef32e98a290c32bf18bf7075df5837bf90a46a24a7d5ac909d272a15b9d5dc3b"
+    },
+    {
+      "source": "meshes/collision/shared_rod_g0016.stl",
+      "right": "meshes_right/collision/shared_rod_g0016.stl",
+      "triangles": 1168,
+      "source_sha256": "6c2b001cde4fe141e80d70de3bc05ac714f44ee9a842e21f6cd00d4092093314",
+      "right_sha256": "5a078c59164861e96553317bfc460d687372b6d9dadf399bd0726f57c7549c53"
+    },
+    {
+      "source": "meshes/collision/shared_slider_g0005.stl",
+      "right": "meshes_right/collision/shared_slider_g0005.stl",
+      "triangles": 1260,
+      "source_sha256": "029fd5a3acaf3e018ef7d211e1201be8b591c0e2cf58634b8c2abf6671f3e2a4",
+      "right_sha256": "fb6cb01b225d82112c621112801726a1696e035707f9463da716bb0ff4233151"
+    },
+    {
+      "source": "meshes/collision/shared_slider_g0010.stl",
+      "right": "meshes_right/collision/shared_slider_g0010.stl",
+      "triangles": 1134,
+      "source_sha256": "57742f8915b80ce59a145d67e46392dbc45e7a04e2283fe163da8ae2ca071c30",
+      "right_sha256": "e4a7102aef28c85b3c707db5de7f5573bd9fc5c2854c208774f6f7e927db8d52"
+    },
+    {
+      "source": "meshes/collision/shared_slider_g0018.stl",
+      "right": "meshes_right/collision/shared_slider_g0018.stl",
+      "triangles": 1214,
+      "source_sha256": "2406f61f4483b879b8d47e24eed6e474705221031962064141ad00ab41b8e69c",
+      "right_sha256": "675a406a24900cc311f2ccb7a18e86b4005dc5836ad2f61f41479204475445f6"
+    },
+    {
+      "source": "meshes/collision/thumb_base_axis1_carrier_component_g0191.stl",
+      "right": "meshes_right/collision/thumb_base_axis1_carrier_component_g0191.stl",
+      "triangles": 3778,
+      "source_sha256": "efd6c4123304aff14512727f6246179f32e24b86b9515d87968a307ec7041887",
+      "right_sha256": "8131fa442f15a1259f50bed34672e89b36a0a16023ac42f8152177d534b17aa1"
+    },
+    {
+      "source": "meshes/collision/thumb_ip_rod_rod_gt_f1_rod.stl",
+      "right": "meshes_right/collision/thumb_ip_rod_rod_gt_f1_rod.stl",
+      "triangles": 1428,
+      "source_sha256": "7130e0e125587695b79b9c62e0ada60022fe12c5b38333d1cfb21e895d502734",
+      "right_sha256": "560ad50ce9beb66c51eedc674e3302b2d5c2139089a80e7ac203513e40493539"
+    },
+    {
+      "source": "meshes/collision/thumb_mcp_rod_rod_gt_f2_rod.stl",
+      "right": "meshes_right/collision/thumb_mcp_rod_rod_gt_f2_rod.stl",
+      "triangles": 828,
+      "source_sha256": "38bdf8cd53144cc7191a8bec5934783910ae475f2bad9f8c04fa7fa3f728ad1b",
+      "right_sha256": "ef32e98a290c32bf18bf7075df5837bf90a46a24a7d5ac909d272a15b9d5dc3b"
+    },
+    {
+      "source": "meshes/collision/thumb_metacarpal_component_g0199.stl",
+      "right": "meshes_right/collision/thumb_metacarpal_component_g0199.stl",
+      "triangles": 126992,
+      "source_sha256": "6d0ce036e312eeed9995bc9d64da4568a25a4d10c28f0f20668b9714edf9f27a",
+      "right_sha256": "4068c2719587612d2e08ab74f865d99aa721cc65b8bc0449a0500bf0f27a8544"
+    },
+    {
+      "source": "meshes/collision/thumb_metacarpal_component_g0201.stl",
+      "right": "meshes_right/collision/thumb_metacarpal_component_g0201.stl",
+      "triangles": 2546,
+      "source_sha256": "cb16564b8c831378b2ce2fad847a34142ab77fdfe869c8d75c0efb866c69d486",
+      "right_sha256": "04357343f352252fefc75ed9a2ec9a7da54b5e85e80a7de24869f0b282dc913c"
+    },
+    {
+      "source": "meshes/collision/thumb_metacarpal_component_g0202.stl",
+      "right": "meshes_right/collision/thumb_metacarpal_component_g0202.stl",
+      "triangles": 3584,
+      "source_sha256": "cdc4a601bfb063dc9ec4bff8952167fdc49fc5145549442d84442de4cd90dbb3",
+      "right_sha256": "34f29e512956bb88e14b9dde87041394571c0687dc71623394fc54d138771951"
+    },
+    {
+      "source": "meshes/collision/thumb_metacarpal_component_g0208.stl",
+      "right": "meshes_right/collision/thumb_metacarpal_component_g0208.stl",
+      "triangles": 4730,
+      "source_sha256": "e8bb6610dec60c4b9abad813875a8bfa7de9ccf25f7c4dac8acabdf83d66c0b0",
+      "right_sha256": "999a7da1c9dafc15b6af4b52946bd124972b7522832d588df2f79620c6ca3a6b"
+    },
+    {
+      "source": "meshes/collision/thumb_metacarpal_fastener_g0198.stl",
+      "right": "meshes_right/collision/thumb_metacarpal_fastener_g0198.stl",
+      "triangles": 582,
+      "source_sha256": "5809d6eefc55e49b156b59b3249415540e7d1d7e9c3d1b76e25ea1564ad84d7d",
+      "right_sha256": "9b6183ef2a4545ea4ef6bad27267e58ab5467caeb578aa49b61f035a71e13f65"
+    },
+    {
+      "source": "meshes/collision/thumb_metacarpal_housing_g0200.stl",
+      "right": "meshes_right/collision/thumb_metacarpal_housing_g0200.stl",
+      "triangles": 5922,
+      "source_sha256": "93f16be7bbd19a28e0222823a70a1ab050d0f488a47e1888ff581525c52a1ba1",
+      "right_sha256": "14f19bb8448ad442204c4512b5fe94c81914c248804bc82d8e3deb2338dcf614"
+    },
+    {
+      "source": "meshes/collision/thumb_mount_component_g0197.stl",
+      "right": "meshes_right/collision/thumb_mount_component_g0197.stl",
+      "triangles": 2628,
+      "source_sha256": "6a4ca302360a57d8c2676e2ce93e49242b696394733945bfab33aa086c717ed8",
+      "right_sha256": "3b780d32269a80375a403e8e44a23515b7b656f2ad9985dec8bff46182f146bd"
+    },
+    {
+      "source": "meshes/collision/thumb_mount_component_gt_thumb_fixed_mount.stl",
+      "right": "meshes_right/collision/thumb_mount_component_gt_thumb_fixed_mount.stl",
+      "triangles": 2348,
+      "source_sha256": "ec232cff4aa01c1283ab11acebde40c59ea9d1b5cf46b53f44bbf321526811e4",
+      "right_sha256": "8c88a82a63decfd92a01022cafaaafaf7b4246964be826f85261f87b8c600e77"
+    },
+    {
+      "source": "meshes/collision/thumb_proximal_component_g0204.stl",
+      "right": "meshes_right/collision/thumb_proximal_component_g0204.stl",
+      "triangles": 2532,
+      "source_sha256": "f67324ec7356f7528ae9855d1106578c42ff8e1b285259ef53b9cec99f060b9f",
+      "right_sha256": "9cc865f9581aa4987e440ef2810c696bb3218db8d08a9838cadf4907aa7d4f7f"
+    },
+    {
+      "source": "meshes/collision/thumb_proximal_housing_g0203.stl",
+      "right": "meshes_right/collision/thumb_proximal_housing_g0203.stl",
+      "triangles": 2626,
+      "source_sha256": "a203f69cc070fed714d0f51a13488e2e6ffe1e281f6f93cd84dac607646573a6",
+      "right_sha256": "a7ddc4249453ba590324646cf516a7e302841335dfe82765424ddaebd9fb7c78"
+    },
+    {
+      "source": "meshes/visual/hand_base_board_g0031.stl",
+      "right": "meshes_right/visual/hand_base_board_g0031.stl",
+      "triangles": 8672,
+      "source_sha256": "ba44edc18828704b9218627ae5624c44d6bf4cff95998a8dbad5981b39426119",
+      "right_sha256": "8c1c1b024cc119a707833e700e194c10af1126b640a97ef6ff917ce815aafa36"
+    },
+    {
+      "source": "meshes/visual/hand_base_board_g0040.stl",
+      "right": "meshes_right/visual/hand_base_board_g0040.stl",
+      "triangles": 1378,
+      "source_sha256": "0732f16005ba2e525da777af361c847013f4b756b51740c708c0b2a3867dc82f",
+      "right_sha256": "c5f728e9278caa7f729208b3ebfc88300050e78d0868e4af502e21a7e863b127"
+    },
+    {
+      "source": "meshes/visual/hand_base_board_g0168.stl",
+      "right": "meshes_right/visual/hand_base_board_g0168.stl",
+      "triangles": 9914,
+      "source_sha256": "da426177f49acbefaf454d8b71f9feac6d4e6c561e818b00b6ee988eb643d647",
+      "right_sha256": "deffed8c3c4a1d01160d01f4b814eb2416da44726a2d360665e77a0c290087ba"
+    },
+    {
+      "source": "meshes/visual/hand_base_board_g0177.stl",
+      "right": "meshes_right/visual/hand_base_board_g0177.stl",
+      "triangles": 1520,
+      "source_sha256": "0b9ead37f83f80041c7cec098290ff9169fcd6541eef9773e4c5551402d79c58",
+      "right_sha256": "42cc7e897cb4eecd7ec6cc68da2cc2c9bebbd1344334f44040c5f76fa2d23479"
+    },
+    {
+      "source": "meshes/visual/hand_base_component_g0035.stl",
+      "right": "meshes_right/visual/hand_base_component_g0035.stl",
+      "triangles": 1024,
+      "source_sha256": "1b540ba4ea68569bc8830964c664c4918c500d3fb48b32e7722d069fad99e731",
+      "right_sha256": "536c50d9c0dde043e487fb2143a70b29c82f40ff91c7eda92b1c6e40a7e1cc39"
+    },
+    {
+      "source": "meshes/visual/hand_base_component_g0038.stl",
+      "right": "meshes_right/visual/hand_base_component_g0038.stl",
+      "triangles": 3910,
+      "source_sha256": "1d1f6b53d51b03df8ea2f98ba3d9f8b5f509662ee1108a5fb250df5d4a6440e8",
+      "right_sha256": "d40141f40b55cc27afc86cc7e32acbc7c868635dc03ee152dfce2dbf6d2eb201"
+    },
+    {
+      "source": "meshes/visual/hand_base_component_g0039.stl",
+      "right": "meshes_right/visual/hand_base_component_g0039.stl",
+      "triangles": 764,
+      "source_sha256": "296e1e3aa10bc5082f37b8a2034fe08634be8c8241be284bfded91ae4163655a",
+      "right_sha256": "41153810bf7f42a86cc5afac7a9f0ebc3c1ce173ef0843942eb65c78a83bca25"
+    },
+    {
+      "source": "meshes/visual/hand_base_component_g0041.stl",
+      "right": "meshes_right/visual/hand_base_component_g0041.stl",
+      "triangles": 2050,
+      "source_sha256": "6410764fa8586ff5502b628daa4f14fa14d6816e2b85e7051443840023c8bdbc",
+      "right_sha256": "63bed97a3823bd7d0bb5cf95952c4972d0dc0150bfdbecd15ef706f67e77dc56"
+    },
+    {
+      "source": "meshes/visual/hand_base_component_g0042.stl",
+      "right": "meshes_right/visual/hand_base_component_g0042.stl",
+      "triangles": 3980,
+      "source_sha256": "ae63331447ae4d3018a31a09e1786b21f0fb35b2de32142949dc158b9f1a3a5e",
+      "right_sha256": "53ee6505c781c64b6d6e137e5d8ce83c3b8d19c2818c5c79bd7f760f690e6f6e"
+    },
+    {
+      "source": "meshes/visual/hand_base_component_g0173.stl",
+      "right": "meshes_right/visual/hand_base_component_g0173.stl",
+      "triangles": 34052,
+      "source_sha256": "95269c17e5f3b803cc3643e0cc1ddaa79e96fed90239b8987a0980e4097a5cf3",
+      "right_sha256": "ad3e5d067e606bac97e4f4f2b3310278e2b5f2b8ba02adb94306e655d802bf50"
+    },
+    {
+      "source": "meshes/visual/hand_base_component_g0175.stl",
+      "right": "meshes_right/visual/hand_base_component_g0175.stl",
+      "triangles": 820,
+      "source_sha256": "c94d9d013e446cf34b791b951dccaa62bbdca6ea7b2a609397115ed65b2366cd",
+      "right_sha256": "33c433977248845f008d7659f0e16d6fcfb9beb072f49bce8700d5d947617713"
+    },
+    {
+      "source": "meshes/visual/hand_base_fastener_g0032.stl",
+      "right": "meshes_right/visual/hand_base_fastener_g0032.stl",
+      "triangles": 766,
+      "source_sha256": "291f17a69c0df893a37db5cd94969e6019e18d6eb9c864f8d93ff5de3236c5ff",
+      "right_sha256": "114e3958e0ef94b3d7d79449827d65a392ea6f4ad152db73f5e8e6ba261da029"
+    },
+    {
+      "source": "meshes/visual/hand_base_fastener_g0033.stl",
+      "right": "meshes_right/visual/hand_base_fastener_g0033.stl",
+      "triangles": 1006,
+      "source_sha256": "3fcf39134555f8ccacb49acf69361f2fee3a045a9ed0028de05879b2628a83db",
+      "right_sha256": "c40d2ab4862f51cdc30290b35defe83b5ae1983ff9f7f0d92c2a8f68b05ef8fb"
+    },
+    {
+      "source": "meshes/visual/hand_base_fastener_g0034.stl",
+      "right": "meshes_right/visual/hand_base_fastener_g0034.stl",
+      "triangles": 1014,
+      "source_sha256": "b0b8944ecad38b7ff8673b73c7827e8edffe70100398ea66f8e9af7609625bd6",
+      "right_sha256": "1688073b43532774f633bd6f4dc6719dfb795ce0a714f09f3c8a7d60eeb5168b"
+    },
+    {
+      "source": "meshes/visual/hand_base_fastener_g0036.stl",
+      "right": "meshes_right/visual/hand_base_fastener_g0036.stl",
+      "triangles": 1006,
+      "source_sha256": "3fcf39134555f8ccacb49acf69361f2fee3a045a9ed0028de05879b2628a83db",
+      "right_sha256": "c40d2ab4862f51cdc30290b35defe83b5ae1983ff9f7f0d92c2a8f68b05ef8fb"
+    },
+    {
+      "source": "meshes/visual/hand_base_fastener_g0037.stl",
+      "right": "meshes_right/visual/hand_base_fastener_g0037.stl",
+      "triangles": 1014,
+      "source_sha256": "b0b8944ecad38b7ff8673b73c7827e8edffe70100398ea66f8e9af7609625bd6",
+      "right_sha256": "1688073b43532774f633bd6f4dc6719dfb795ce0a714f09f3c8a7d60eeb5168b"
+    },
+    {
+      "source": "meshes/visual/hand_base_fastener_g0172.stl",
+      "right": "meshes_right/visual/hand_base_fastener_g0172.stl",
+      "triangles": 932,
+      "source_sha256": "10489199211f616881b3fec945d16a555dbab4d274da48ea3c0e9ab6b0d06faa",
+      "right_sha256": "e52db95ce9066aa31166cc7b0b6266308366506282f470cb5a68e385bf1ea054"
+    },
+    {
+      "source": "meshes/visual/hand_base_housing_g0174.stl",
+      "right": "meshes_right/visual/hand_base_housing_g0174.stl",
+      "triangles": 6034,
+      "source_sha256": "593495595441f3c3199f4c5eb3183fe285d019739f056336c257af15515e5939",
+      "right_sha256": "7919a071822229b64be6e8a4028e2dca4650a3a6776c3483fcfc8bac73e1907c"
+    },
+    {
+      "source": "meshes/visual/hand_base_housing_g0176.stl",
+      "right": "meshes_right/visual/hand_base_housing_g0176.stl",
+      "triangles": 5718,
+      "source_sha256": "d2901969e233efa80684a2d13821fcfce04d815a217339f5a278e4f92fdbada3",
+      "right_sha256": "0c4583251331884e16bce59400ca27880e8ff07bcc17b219c1a5c59c939d45a8"
+    },
+    {
+      "source": "meshes/visual/little_middle_component_g0211.stl",
+      "right": "meshes_right/visual/little_middle_component_g0211.stl",
+      "triangles": 26524,
+      "source_sha256": "f5d01d3248de358bc2dadd068105a9271f9fd2f1c821fb24fdbba6babe645000",
+      "right_sha256": "14ea3f26d99bf5cb9ced08b9f10ecbb62ddce4809896365c813b61bbef9b3f44"
+    },
+    {
+      "source": "meshes/visual/little_middle_pin_g0212.stl",
+      "right": "meshes_right/visual/little_middle_pin_g0212.stl",
+      "triangles": 1630,
+      "source_sha256": "25be71f84c5eb085e1e308edd32acef3a39eceeeb61e8b436a7ef2449329533e",
+      "right_sha256": "a4efb64f12a32ec4e24aeca56e68c26f9a29a1b35a0af48c2971cbd41e56f991"
+    },
+    {
+      "source": "meshes/visual/little_middle_pin_g0213.stl",
+      "right": "meshes_right/visual/little_middle_pin_g0213.stl",
+      "triangles": 2846,
+      "source_sha256": "6cf30b5398337668b2c99d19fbaf73e02edf67d3571eca83401b4a18abc249dd",
+      "right_sha256": "ee6b48c5244959e0bb0a915e7f30f7ebf0cfa80d38d875bce091f32f5b5eca82"
+    },
+    {
+      "source": "meshes/visual/little_pip_rod_rod_g0210.stl",
+      "right": "meshes_right/visual/little_pip_rod_rod_g0210.stl",
+      "triangles": 1784,
+      "source_sha256": "c626f86e1b63babbfa364f2bfd1a666632390350bd9c67ecfc34d93cd0bbd30b",
+      "right_sha256": "897e636f3f3e5c041c2b0d86a7330667335e2fed202bc3a894b218c3e47f63dc"
+    },
+    {
+      "source": "meshes/visual/little_pip_slider_slider_g0209.stl",
+      "right": "meshes_right/visual/little_pip_slider_slider_g0209.stl",
+      "triangles": 1416,
+      "source_sha256": "7f9c7362fa1849d5e7a912c7cad7df998a12c12f5ff8acc09360dfd904443e85",
+      "right_sha256": "82b21da8c1387f8c4e9812b34ca4d8e9af5ac9d67c15034400a98921bc0eab72"
+    },
+    {
+      "source": "meshes/visual/little_proximal_component_g0214.stl",
+      "right": "meshes_right/visual/little_proximal_component_g0214.stl",
+      "triangles": 95488,
+      "source_sha256": "d8ee18b65bb3fff827139d7f5c86d608a8fa2caa25ba55fc848b43491369fae7",
+      "right_sha256": "e2c269997fd14ad5fef2a78049dc772e1132a741267b5ef7a7c41ea3f542bc45"
+    },
+    {
+      "source": "meshes/visual/little_proximal_pin_g0215.stl",
+      "right": "meshes_right/visual/little_proximal_pin_g0215.stl",
+      "triangles": 3302,
+      "source_sha256": "c26aa8a133e84202482834b40d8f85c94d4399627812eadb41162e1e3c2e20c7",
+      "right_sha256": "3b5c537f952e7117c6865306eed7531a97f2155ee89ec29be156b766001678af"
+    },
+    {
+      "source": "meshes/visual/little_proximal_pin_g0216.stl",
+      "right": "meshes_right/visual/little_proximal_pin_g0216.stl",
+      "triangles": 1240,
+      "source_sha256": "744e80421886076056e13e18e32261ab44cd12f29a5371e73af509ff651027b0",
+      "right_sha256": "de590368246a25386bc9efdcce15936381f958d0bbd99165ff2e08220f59ef75"
+    },
+    {
+      "source": "meshes/visual/shared_component_g0000.stl",
+      "right": "meshes_right/visual/shared_component_g0000.stl",
+      "triangles": 1024,
+      "source_sha256": "8042276a4d22d171be241e0e2a7abf84a68bbe3b361dcbb801e22c13346a5729",
+      "right_sha256": "0894fbf128960aa1e0dac76a38ae34184bce41b50fb1ea4ddbc5cee86859b69b"
+    },
+    {
+      "source": "meshes/visual/shared_component_g0001.stl",
+      "right": "meshes_right/visual/shared_component_g0001.stl",
+      "triangles": 828,
+      "source_sha256": "9ee293f6cd475c93b293d34689e08d0885d0fb6942fee987d1b69fbd470a7177",
+      "right_sha256": "0b9297b07bfd918a2b4c8ce42754dc6796f2b75bb90fbab451c667f81241c470"
+    },
+    {
+      "source": "meshes/visual/shared_component_g0003.stl",
+      "right": "meshes_right/visual/shared_component_g0003.stl",
+      "triangles": 532,
+      "source_sha256": "68d7f1dcc6e83c5704e9697e7210e4a26a5d95f1e34f7959b2d32869a941cd9a",
+      "right_sha256": "3035a5b17f02795a14a4324e8fa35dc4dee95e0c11e6f39692810a00d8b8b202"
+    },
+    {
+      "source": "meshes/visual/shared_component_g0009.stl",
+      "right": "meshes_right/visual/shared_component_g0009.stl",
+      "triangles": 532,
+      "source_sha256": "68d7f1dcc6e83c5704e9697e7210e4a26a5d95f1e34f7959b2d32869a941cd9a",
+      "right_sha256": "3035a5b17f02795a14a4324e8fa35dc4dee95e0c11e6f39692810a00d8b8b202"
+    },
+    {
+      "source": "meshes/visual/shared_component_g0012.stl",
+      "right": "meshes_right/visual/shared_component_g0012.stl",
+      "triangles": 3560,
+      "source_sha256": "58b8db9437cb935619b67c7163e313e8f4d2f4e3bc94e8380c206baa508f1d6c",
+      "right_sha256": "9a793417c082ce2a8061248990b4a5e6bb7e0198cc6c6fdea3619f93287d2edd"
+    },
+    {
+      "source": "meshes/visual/shared_component_g0014.stl",
+      "right": "meshes_right/visual/shared_component_g0014.stl",
+      "triangles": 27124,
+      "source_sha256": "824c7542564b50b86547803c38ecf221c140596bbff65e80926872e13aec57d3",
+      "right_sha256": "7ed812cf93f264509cd612c8aa0ec6e3dc30590f0c8f322569a002f1c90e981a"
+    },
+    {
+      "source": "meshes/visual/shared_component_g0015.stl",
+      "right": "meshes_right/visual/shared_component_g0015.stl",
+      "triangles": 2182,
+      "source_sha256": "6d77d119c7dd942b86bb4d086d05060805c82ce101f24229874a1b54adfc4818",
+      "right_sha256": "22ff07641765fd59b034b5f4396a1cb94444b5bb56fa340991616fbf500eac34"
+    },
+    {
+      "source": "meshes/visual/shared_component_g0020.stl",
+      "right": "meshes_right/visual/shared_component_g0020.stl",
+      "triangles": 85280,
+      "source_sha256": "529eed899d763b446c3e4f7992eea0317f027c2eb97a77a54f580d9bf694ae33",
+      "right_sha256": "a384ea595579325b53407eed5f49be27418f846857116daac0937f6c3e4f1cfa"
+    },
+    {
+      "source": "meshes/visual/shared_component_g0024.stl",
+      "right": "meshes_right/visual/shared_component_g0024.stl",
+      "triangles": 3720,
+      "source_sha256": "b701901d594b526ff7ae331e361aca70657fbdc7d8450c82c7f6d79503a969c0",
+      "right_sha256": "193b7a6ded0092bb05a9c33136f105890783b77ba266a8eaa717115d8afdcbe5"
+    },
+    {
+      "source": "meshes/visual/shared_component_g0026.stl",
+      "right": "meshes_right/visual/shared_component_g0026.stl",
+      "triangles": 3482,
+      "source_sha256": "bafadbd1bd73970e705aed83ab4724b92e3db17cdf0789d244062f632cc77316",
+      "right_sha256": "bd3069930903ae982f9860c4bbe6a896d83b91582282260553c8e95a6a73e17f"
+    },
+    {
+      "source": "meshes/visual/shared_component_g0028.stl",
+      "right": "meshes_right/visual/shared_component_g0028.stl",
+      "triangles": 71642,
+      "source_sha256": "a46af12a2b96f154febb6641767b65aea1768690884b26486c7d1bfcf9f48f4b",
+      "right_sha256": "f76e42b052e45717c78fda89fd279980bd0671cbf93b46d71355bfb664f9bb18"
+    },
+    {
+      "source": "meshes/visual/shared_component_g0030.stl",
+      "right": "meshes_right/visual/shared_component_g0030.stl",
+      "triangles": 52526,
+      "source_sha256": "fd014e147a609fea2bfa05d115dc8c3dc0341a2de60924f25be27ecc8028433b",
+      "right_sha256": "5300f58f8d60df654d28a887c6166abc56462b07abe7a668f073c2c3b4d9fee1"
+    },
+    {
+      "source": "meshes/visual/shared_component_g0190_housing.stl",
+      "right": "meshes_right/visual/shared_component_g0190_housing.stl",
+      "triangles": 22256,
+      "source_sha256": "0ef7604cb0f9e45b90d016adc886949f081a236d5793a569a36498cade92a387",
+      "right_sha256": "67ebdaea8b941b2d2b1b12570b25f8bc87a06a5743c7210cff3793e117f59656"
+    },
+    {
+      "source": "meshes/visual/shared_component_g0190_output.stl",
+      "right": "meshes_right/visual/shared_component_g0190_output.stl",
+      "triangles": 21528,
+      "source_sha256": "f56758edf6899f1e757c2a2848e2dd5d4273959a74a0980f56ab04a3157f0cd9",
+      "right_sha256": "f874783d6f474bf4946f0e556b28dee07f865d75ebdbceb94d93dfd023214103"
+    },
+    {
+      "source": "meshes/visual/shared_component_g_x16_housing.stl",
+      "right": "meshes_right/visual/shared_component_g_x16_housing.stl",
+      "triangles": 25626,
+      "source_sha256": "06a4d04b78bac4fb27607ddfd2587d8b94a43a5cd5d8098817ad6f68c3d39f89",
+      "right_sha256": "667e5d79a72493667b97e503f06c9516cfc74e51fa3477959e2cf3e7ebeaa7cb"
+    },
+    {
+      "source": "meshes/visual/shared_component_g_x16_output.stl",
+      "right": "meshes_right/visual/shared_component_g_x16_output.stl",
+      "triangles": 10928,
+      "source_sha256": "665e4d469ce6f4bd04333875b1ccfdc2a99d1b71b8a78bc5a981b0144c2f4a48",
+      "right_sha256": "72159e5c1242f7b36f7e512329aab662b73a319eae41bbeed74d9ed87f917cc1"
+    },
+    {
+      "source": "meshes/visual/shared_fastener_g0017.stl",
+      "right": "meshes_right/visual/shared_fastener_g0017.stl",
+      "triangles": 1106,
+      "source_sha256": "f284de29d7f63608863cc89aea6fda57412e59527ebf03b8a4cf4c8e147966c8",
+      "right_sha256": "daaa8853f8186387d924737bfa115b210bd3a4980704dc508093fb42a64a3f5e"
+    },
+    {
+      "source": "meshes/visual/shared_fastener_g0019.stl",
+      "right": "meshes_right/visual/shared_fastener_g0019.stl",
+      "triangles": 454,
+      "source_sha256": "e08cfbd7184619fba8792a192639ab6eb53d1e4ff8399761bfd0b3840e28d310",
+      "right_sha256": "79c93dc8876b1322a9586d4b3bfe5e87085d85ff3f3bafee3bbc300451282526"
+    },
+    {
+      "source": "meshes/visual/shared_fastener_g0023.stl",
+      "right": "meshes_right/visual/shared_fastener_g0023.stl",
+      "triangles": 1106,
+      "source_sha256": "6eae5209f350bd75e6a75da88209bd45d0c951dfb2c95c14478b14de47af38f6",
+      "right_sha256": "75b3ed40d1cba137d70ab78a72547b3de87019c071dbf81adf6da204c45c2ab1"
+    },
+    {
+      "source": "meshes/visual/shared_fastener_g0027.stl",
+      "right": "meshes_right/visual/shared_fastener_g0027.stl",
+      "triangles": 1086,
+      "source_sha256": "dfbc23b5dfd6263d0600131112dc564f21ae8bcc67942d4cd20ac87f863c0fd2",
+      "right_sha256": "6ce6994f7cccc05e72c57492647c2cc3345e21cc1f222eb61e4865e6c33961e9"
+    },
+    {
+      "source": "meshes/visual/shared_fingertip_front_1102.stl",
+      "right": "meshes_right/visual/shared_fingertip_front_1102.stl",
+      "triangles": 10124,
+      "source_sha256": "5c967eb1e10d443f26bab92abf5025247ab847e055ec218c116305114992db23",
+      "right_sha256": "0090472ca9c496be41a832d16b563d10265d8dc1478040ebaef469342294149e"
+    },
+    {
+      "source": "meshes/visual/shared_fingertip_hinge_1102.stl",
+      "right": "meshes_right/visual/shared_fingertip_hinge_1102.stl",
+      "triangles": 1602,
+      "source_sha256": "590a885451c9703263223c1e56c4aca8503f1558d29ec604911276e46b9d91ee",
+      "right_sha256": "1eb9cab9d5763397ae007bffef08355e9c70f590d56cfb99d9198d0119d31c0a"
+    },
+    {
+      "source": "meshes/visual/shared_fingertip_rear_1102.stl",
+      "right": "meshes_right/visual/shared_fingertip_rear_1102.stl",
+      "triangles": 5908,
+      "source_sha256": "62ce0d44924c624fb650e3d7f55fa29adb6e8c5ec4736a343900302433ea0e65",
+      "right_sha256": "746781f0fff8cee171ccaf56f0f6f2c66782a0987e90c02dcbdf3fc6c359425d"
+    },
+    {
+      "source": "meshes/visual/shared_housing_g0011.stl",
+      "right": "meshes_right/visual/shared_housing_g0011.stl",
+      "triangles": 4740,
+      "source_sha256": "1d87841193e728dfc96549dc8c45d88d40c058220177a3b45ce1ddd792a7b418",
+      "right_sha256": "2f89fde8bfeee6919bcbd8321231581ca89582376bf73949e5d12d265a6e7765"
+    },
+    {
+      "source": "meshes/visual/shared_housing_g0022.stl",
+      "right": "meshes_right/visual/shared_housing_g0022.stl",
+      "triangles": 7446,
+      "source_sha256": "ed6890fea238e903495569aa4e8a390ece851aadc274d7a7bc01f86c35445427",
+      "right_sha256": "e867f6dd07083659421bf574e31067f5bec5f7555d0aab615d0ee4befa329cef"
+    },
+    {
+      "source": "meshes/visual/shared_housing_g0025.stl",
+      "right": "meshes_right/visual/shared_housing_g0025.stl",
+      "triangles": 2978,
+      "source_sha256": "fc36fffe377ca8f66296cc73f1477fe83dcea044e552ba7f2eaa7be11e884a87",
+      "right_sha256": "02c8ab77daa7c252653eff0673d155f6501fa8e92b0b01823d3fbc58687d2592"
+    },
+    {
+      "source": "meshes/visual/shared_pin_g0029.stl",
+      "right": "meshes_right/visual/shared_pin_g0029.stl",
+      "triangles": 336,
+      "source_sha256": "5251361969b6a7a47d01f949681af803ca1571ac71ead41de70e1a1d5ef193fc",
+      "right_sha256": "6c86c823bd18d99e332180c9fdfe167352ba41192cae8c73e1fd719064aad59c"
+    },
+    {
+      "source": "meshes/visual/shared_pin_g0192.stl",
+      "right": "meshes_right/visual/shared_pin_g0192.stl",
+      "triangles": 320,
+      "source_sha256": "cdd0371e07d18711b20ec458db03d37d0eecdf5b231eacee6c2b2b0ecb1abb70",
+      "right_sha256": "c15a0ebea0b18066ac7dc8e5926ae6e48b26d00e657bfed53d442bc6b84506e1"
+    },
+    {
+      "source": "meshes/visual/shared_rod_g0004.stl",
+      "right": "meshes_right/visual/shared_rod_g0004.stl",
+      "triangles": 1904,
+      "source_sha256": "8646b0dd22d3329184a06b5f67a2432f6a7ecd94739fabf6f4a0d54d98993787",
+      "right_sha256": "1700c8ad185d86be23624990898d1b109cbd5a673cbcfa408ce711184a3e9376"
+    },
+    {
+      "source": "meshes/visual/shared_rod_g0013.stl",
+      "right": "meshes_right/visual/shared_rod_g0013.stl",
+      "triangles": 1104,
+      "source_sha256": "dfef1e2225da268fa16443013492d490516b77a4b0c294457a99f382f40e2e69",
+      "right_sha256": "152c1e2dbbe5ad857f688e42880c1d3d9cab73511f1aa38bfcb62a12fb412d89"
+    },
+    {
+      "source": "meshes/visual/shared_rod_g0016.stl",
+      "right": "meshes_right/visual/shared_rod_g0016.stl",
+      "triangles": 1558,
+      "source_sha256": "351d8aaf2a6389ef69522b0661c70865a309408abb0008915148f108f841d938",
+      "right_sha256": "9be58c4be66eb93b18fb32b19de9a884b658c8c6b017c00dbe9fbda4eabb769a"
+    },
+    {
+      "source": "meshes/visual/shared_slider_g0005.stl",
+      "right": "meshes_right/visual/shared_slider_g0005.stl",
+      "triangles": 1260,
+      "source_sha256": "92c241d6faebae257f9b64edecc6ecdf1d9449021ad4892f95f22e4ad7ce40f4",
+      "right_sha256": "fb6cb01b225d82112c621112801726a1696e035707f9463da716bb0ff4233151"
+    },
+    {
+      "source": "meshes/visual/shared_slider_g0010.stl",
+      "right": "meshes_right/visual/shared_slider_g0010.stl",
+      "triangles": 1134,
+      "source_sha256": "b0707eb93fe04eb81e21a39b6d67901cf28ef72507de1c8acafd23be36e95add",
+      "right_sha256": "e4a7102aef28c85b3c707db5de7f5573bd9fc5c2854c208774f6f7e927db8d52"
+    },
+    {
+      "source": "meshes/visual/shared_slider_g0018.stl",
+      "right": "meshes_right/visual/shared_slider_g0018.stl",
+      "triangles": 1214,
+      "source_sha256": "f6a21ea66f1efb6729d903ee4e83ab6560bda0ced07fdbc8786ed19e81e9506e",
+      "right_sha256": "675a406a24900cc311f2ccb7a18e86b4005dc5836ad2f61f41479204475445f6"
+    },
+    {
+      "source": "meshes/visual/thumb_base_axis1_carrier_component_g0191.stl",
+      "right": "meshes_right/visual/thumb_base_axis1_carrier_component_g0191.stl",
+      "triangles": 3778,
+      "source_sha256": "8990e25b169d11af8aa651960453802b67f8d7e96a95402de5fb45e3acc1946e",
+      "right_sha256": "8131fa442f15a1259f50bed34672e89b36a0a16023ac42f8152177d534b17aa1"
+    },
+    {
+      "source": "meshes/visual/thumb_ip_rod_rod_gt_f1_rod.stl",
+      "right": "meshes_right/visual/thumb_ip_rod_rod_gt_f1_rod.stl",
+      "triangles": 1904,
+      "source_sha256": "8646b0dd22d3329184a06b5f67a2432f6a7ecd94739fabf6f4a0d54d98993787",
+      "right_sha256": "1700c8ad185d86be23624990898d1b109cbd5a673cbcfa408ce711184a3e9376"
+    },
+    {
+      "source": "meshes/visual/thumb_mcp_rod_rod_gt_f2_rod.stl",
+      "right": "meshes_right/visual/thumb_mcp_rod_rod_gt_f2_rod.stl",
+      "triangles": 1104,
+      "source_sha256": "dfef1e2225da268fa16443013492d490516b77a4b0c294457a99f382f40e2e69",
+      "right_sha256": "152c1e2dbbe5ad857f688e42880c1d3d9cab73511f1aa38bfcb62a12fb412d89"
+    },
+    {
+      "source": "meshes/visual/thumb_metacarpal_component_g0199.stl",
+      "right": "meshes_right/visual/thumb_metacarpal_component_g0199.stl",
+      "triangles": 126992,
+      "source_sha256": "13a5ffcbf9e6df04056e4c8363b19dd2361ae7bd8e5d329a2ec90fe893a0aca1",
+      "right_sha256": "4068c2719587612d2e08ab74f865d99aa721cc65b8bc0449a0500bf0f27a8544"
+    },
+    {
+      "source": "meshes/visual/thumb_metacarpal_component_g0201.stl",
+      "right": "meshes_right/visual/thumb_metacarpal_component_g0201.stl",
+      "triangles": 3396,
+      "source_sha256": "a3a2d07af45b5f9fda89f5a651f2fa87732d1e6a789d9bd5bd22f6e88c2a4007",
+      "right_sha256": "87d6ba857ea13f6225046a1ee08f5076f17994e547ab605c8811a8479d25fc68"
+    },
+    {
+      "source": "meshes/visual/thumb_metacarpal_component_g0202.stl",
+      "right": "meshes_right/visual/thumb_metacarpal_component_g0202.stl",
+      "triangles": 3584,
+      "source_sha256": "8e9007c05fead95264a5a2e70bb3835d61ffb202f8594f7239e9f8e7bef3f5d3",
+      "right_sha256": "34f29e512956bb88e14b9dde87041394571c0687dc71623394fc54d138771951"
+    },
+    {
+      "source": "meshes/visual/thumb_metacarpal_component_g0208.stl",
+      "right": "meshes_right/visual/thumb_metacarpal_component_g0208.stl",
+      "triangles": 4730,
+      "source_sha256": "ae5545d320a55744c95ab954976d6f8b0821e3e58f6df6012209470cb2239523",
+      "right_sha256": "999a7da1c9dafc15b6af4b52946bd124972b7522832d588df2f79620c6ca3a6b"
+    },
+    {
+      "source": "meshes/visual/thumb_metacarpal_fastener_g0198.stl",
+      "right": "meshes_right/visual/thumb_metacarpal_fastener_g0198.stl",
+      "triangles": 778,
+      "source_sha256": "dc3402416154643932666595af4dd6622188419d532f9bbeddc9527f485024dd",
+      "right_sha256": "0cbb7a91ab2ee495bdd4b25a7a1edfdfb6efcfd1ea2e079d0621904b5deb9993"
+    },
+    {
+      "source": "meshes/visual/thumb_metacarpal_housing_g0200.stl",
+      "right": "meshes_right/visual/thumb_metacarpal_housing_g0200.stl",
+      "triangles": 5922,
+      "source_sha256": "d3a8b7aa3cfe4e34766b0c71a1e882259f575285dea1f90962187bdd822e23aa",
+      "right_sha256": "14f19bb8448ad442204c4512b5fe94c81914c248804bc82d8e3deb2338dcf614"
+    },
+    {
+      "source": "meshes/visual/thumb_mount_component_g0197.stl",
+      "right": "meshes_right/visual/thumb_mount_component_g0197.stl",
+      "triangles": 2628,
+      "source_sha256": "c1c40815a5f59d69eaff5dae640dfd79b8c7aff6362eee1a2e3b2de187a39739",
+      "right_sha256": "3b780d32269a80375a403e8e44a23515b7b656f2ad9985dec8bff46182f146bd"
+    },
+    {
+      "source": "meshes/visual/thumb_mount_component_gt_thumb_fixed_mount.stl",
+      "right": "meshes_right/visual/thumb_mount_component_gt_thumb_fixed_mount.stl",
+      "triangles": 2348,
+      "source_sha256": "cae13ef46f3e322fc92b9c0f86a6ece7a0576feb2de8038e0c0d6f60e0df4fba",
+      "right_sha256": "8c88a82a63decfd92a01022cafaaafaf7b4246964be826f85261f87b8c600e77"
+    },
+    {
+      "source": "meshes/visual/thumb_proximal_component_g0204.stl",
+      "right": "meshes_right/visual/thumb_proximal_component_g0204.stl",
+      "triangles": 3376,
+      "source_sha256": "1c0857f16aae27c1f9684f6f774472960f8b625d752f738c740689d7e7e9db78",
+      "right_sha256": "a5a8f8c3dc5ace06d866bcc41d72d2520d84124fc1fc7dbd8c1afefb86a5cba6"
+    },
+    {
+      "source": "meshes/visual/thumb_proximal_housing_g0203.stl",
+      "right": "meshes_right/visual/thumb_proximal_housing_g0203.stl",
+      "triangles": 2626,
+      "source_sha256": "499561f828c7365e2d37672368062c48c4cb7675b552d6de2f0925ca09cb7065",
+      "right_sha256": "a7ddc4249453ba590324646cf516a7e302841335dfe82765424ddaebd9fb7c78"
+    }
+  ]
+}

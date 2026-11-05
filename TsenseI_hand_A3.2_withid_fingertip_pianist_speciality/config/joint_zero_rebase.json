@@ -1,0 +1,66 @@
+{
+  "revision": "hand_tip_shells_without_screw_stop_zero_20261105_r01",
+  "parent_model_id": "hand_thumb_rot2_stop_removed_with_tips_fixed_20261105_r01",
+  "parent_package": "E:\\codex_work\\导出urdf\\outputs\\hand_thumb_rot2_stop_removed_with_tips_fixed_20261105_r01\\hand_thumb_rot2_stop_removed_with_tips_fixed_description",
+  "parent_urdf_sha256": "4c74df849da7856bcac82fbea45c5352b75a16d7a7f6b4d4e86894362be4cef9",
+  "screw_P0350_present": false,
+  "formula": "q_new = q_old - q_old_at_new_zero; q_old = q_new + q_old_at_new_zero",
+  "offsets_rad": {
+    "thumb_base_rotation_2_joint": -0.03977081766519479,
+    "thumb_mcp_flexion_joint": -0.041656989622628135,
+    "thumb_ip_flexion_joint": -0.022293648706536127
+  },
+  "joints": [
+    {
+      "joint": "thumb_base_rotation_2_joint",
+      "old_lower_rad": -0.03977081766519479,
+      "old_upper_rad": 1.7442951462060798,
+      "old_lower_deg": -2.2787,
+      "old_upper_deg": 99.94075010276325,
+      "new_lower_rad": 0.0,
+      "new_upper_rad": 1.7840659638712746,
+      "new_lower_deg": 0.0,
+      "new_upper_deg": 102.21945010276325,
+      "old_angle_at_new_zero_rad": -0.03977081766519479,
+      "old_angle_at_new_zero_deg": -2.2787,
+      "physical_travel_unchanged": true
+    },
+    {
+      "joint": "thumb_mcp_flexion_joint",
+      "old_lower_rad": -0.041656989622628135,
+      "old_upper_rad": 1.5283430103773719,
+      "old_lower_deg": -2.38676969259686,
+      "old_upper_deg": 87.56760414294239,
+      "new_lower_rad": 0.0,
+      "new_upper_rad": 1.57,
+      "new_lower_deg": 0.0,
+      "new_upper_deg": 89.95437383553924,
+      "old_angle_at_new_zero_rad": -0.041656989622628135,
+      "old_angle_at_new_zero_deg": -2.38676969259686,
+      "physical_travel_unchanged": true
+    },
+    {
+      "joint": "thumb_ip_flexion_joint",
+      "old_lower_rad": -0.022293648706536127,
+      "old_upper_rad": 1.547706351293464,
+      "old_lower_deg": -1.2773319808318069,
+      "old_upper_deg": 88.67704185470744,
+      "new_lower_rad": 0.0,
+      "new_upper_rad": 1.57,
+      "new_lower_deg": 0.0,
+      "new_upper_deg": 89.95437383553924,
+      "old_angle_at_new_zero_rad": -0.022293648706536127,
+      "old_angle_at_new_zero_deg": -1.2773319808318069,
+      "physical_travel_unchanged": true
+    }
+  ],
+  "axis_directions_and_local_link_inertias_unchanged": true,
+  "other_endpoint_same_physical_pose": true,
+  "other_17_joint_definitions_unchanged": true,
+  "zero_reference_scope": {
+    "rotation2": "previous near-side stop reference (CAD estimate, not new hardware measurement)",
+    "MCP_IP": "existing model extension endpoints, not newly identified physical stops"
+  },
+  "opposite_rotation_stop_reidentified": false,
+  "hardware_calibrated": false
+}

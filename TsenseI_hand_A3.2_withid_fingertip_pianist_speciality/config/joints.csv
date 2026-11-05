@@ -1,0 +1,21 @@
+﻿name,parent,child,lower,upper,axis
+index_mcp_flexion_joint,hand_base_link,index_mcp_carrier_link,0.0,1.57,0 0 1
+index_mcp_swing_joint,index_mcp_carrier_link,index_proximal_phalanx_link,-0.35,0.35,0 0 1
+index_pip_flexion_joint,index_proximal_phalanx_link,index_middle_phalanx_link,0.0,1.57,0 0 1
+index_dip_flexion_joint,index_middle_phalanx_link,index_distal_phalanx_link,0.0,1.57,0 0 1
+middle_mcp_flexion_joint,hand_base_link,middle_mcp_carrier_link,0.0,1.57,0 0 1
+middle_mcp_swing_joint,middle_mcp_carrier_link,middle_proximal_phalanx_link,-0.35,0.35,0 0 1
+middle_pip_flexion_joint,middle_proximal_phalanx_link,middle_middle_phalanx_link,0.0,1.57,0 0 1
+middle_dip_flexion_joint,middle_middle_phalanx_link,middle_distal_phalanx_link,0.0,1.57,0 0 1
+ring_mcp_flexion_joint,hand_base_link,ring_mcp_carrier_link,0.0,1.57,0 0 1
+ring_mcp_swing_joint,ring_mcp_carrier_link,ring_proximal_phalanx_link,-0.35,0.35,0 0 1
+ring_pip_flexion_joint,ring_proximal_phalanx_link,ring_middle_phalanx_link,0.0,1.57,0 0 1
+ring_dip_flexion_joint,ring_middle_phalanx_link,ring_distal_phalanx_link,0.0,1.57,0 0 1
+little_mcp_flexion_joint,hand_base_link,little_mcp_carrier_link,0.0,1.57,0 0 1
+little_mcp_swing_joint,little_mcp_carrier_link,little_proximal_phalanx_link,-0.35,0.35,0 0 1
+little_pip_flexion_joint,little_proximal_phalanx_link,little_middle_phalanx_link,0.0,1.57,0 0 1
+little_dip_flexion_joint,little_middle_phalanx_link,little_distal_phalanx_link,0.0,1.57,0 0 1
+thumb_base_rotation_1_joint,hand_base_link,thumb_base_axis1_carrier_link,0.0,2.0943951023931953,0 0 1
+thumb_base_rotation_2_joint,thumb_base_axis1_carrier_link,thumb_metacarpal_link,0,1.7840659638712746,0 0 -1
+thumb_mcp_flexion_joint,thumb_metacarpal_link,thumb_proximal_phalanx_link,0,1.5700000000000001,0 0 1
+thumb_ip_flexion_joint,thumb_proximal_phalanx_link,thumb_distal_phalanx_link,0,1.5700000000000001,0 0 1

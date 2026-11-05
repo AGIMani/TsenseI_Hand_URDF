@@ -1,0 +1,19 @@
+{
+  "revision": "hand_tip_shells_without_screw_stop_zero_20261105_r01",
+  "accounted_mass_g": 1053.380508435653,
+  "engineering_estimate_not_whole_hand_weighing": true,
+  "source_structure": "r04",
+  "motor_fixed_part_updates": 20,
+  "FPC_excluded_g": 0.18128398054848194,
+  "legacy_stop_P0350_retained": false,
+  "two_thumb_connector_properties_recomputed_by_motor_only_deltas": true,
+  "omitted_unknown_masses_are_not_physical_zero": true,
+  "detailed_source": "config/shell_restoration_revision.json",
+  "fingertip_delta_g": 2.144621705336469,
+  "detailed_fingertip_source": "config/fingertip_revision.json",
+  "bare_fingertip_shell_removal_g": 0.0,
+  "middle_DIP_delta_g": -1.7406998177420112,
+  "thumb_stop_screw_mass_removed_g": 0.03529423619343056,
+  "fingertip_shell_mass_restored_g": 11.61007778957768,
+  "joint_zero_revision": "config/joint_zero_rebase.json"
+}

@@ -1,0 +1,1349 @@
+{
+  "revision": "hand_tip_shells_without_screw_stop_zero_20261105_r01",
+  "active_tip_hinges": [
+    {
+      "id": "index_distal_tip1102_hinge_visual",
+      "part_id": "TIP1102_INDEX_HINGE",
+      "cad_name": "A3.2 Mid finger F1顶部铰接件",
+      "category": "顶部铰接件",
+      "source_instance": "A3.2-003-000食指组件-1/装配体11^A3.2-003-000食指组件-1/A3.2 Mid finger F1顶部铰接件-1",
+      "link": "index_distal_phalanx_link",
+      "source_link": "index_distal_phalanx_link",
+      "owner_note": "1102 指尖替换",
+      "geometry": "N1102_G0167",
+      "mesh": "shared_fingertip_hinge_1102.stl",
+      "matrix": [
+        -0.999974491277,
+        0.007100083137,
+        0.000778212605,
+        0.0,
+        -0.0,
+        0.108953622218,
+        -0.99404683401,
+        0.0,
+        -0.007142604246,
+        -0.994021477145,
+        -0.10895084295,
+        0.0,
+        -0.009814918522,
+        -0.035275737491,
+        0.082968368041,
+        1.0
+      ],
+      "native_geometry_id": "G0167",
+      "native_configuration": "默认",
+      "visible_body": "倒角50",
+      "native_part_path": "D:\\Users\\ps\\Desktop\\DXA3.2-1102-钢琴\\DXA3.2-1102-钢琴\\A3.2 Mid finger F1顶部铰接件.SLDPRT",
+      "native_part_sha256": "10f8c9ea380215d536d2eff23528700ff64d8f0e0ce1999670fe922b354b3343",
+      "material_id": "AL7075_T6",
+      "density_kg_m3": 2800,
+      "material_status": "engineering_assumption_inherited_by_function_not_new_material_confirmation",
+      "physical_properties_in_link": {
+        "mass_kg": 0.0009955760338694216,
+        "center_of_mass_m": [
+          0.0028724458987286084,
+          0.006892007097690923,
+          1.287560828884623e-08
+        ],
+        "inertia_at_COM_kg_m2": [
+          [
+            3.319965405093319e-08,
+            1.012921277493716e-08,
+            3.9446558031501286e-14
+          ],
+          [
+            1.012921277493716e-08,
+            1.9397423780675715e-08,
+            -8.224952773477364e-15
+          ],
+          [
+            3.944655803150128e-14,
+            -8.224952773477364e-15,
+            3.940685849691421e-08
+          ]
+        ]
+      },
+      "link_from_native_part": [
+        [
+          0.9701328356273274,
+          0.24257427983543606,
+          8.197538553349792e-17,
+          3.0340313594834356e-15
+        ],
+        [
+          0.24257427983543609,
+          -0.9701328356273277,
+          -1.4077430309655887e-15,
+          -3.191891195797325e-16
+        ],
+        [
+          -2.693166157241904e-16,
+          1.3768495824100956e-15,
+          -0.9999999999999999,
+          4.683753385137379e-16
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "middle_distal_tip1102_hinge_visual",
+      "part_id": "TIP1102_MIDDLE_HINGE",
+      "cad_name": "A3.2 Mid finger F1顶部铰接件",
+      "category": "顶部铰接件",
+      "source_instance": "A3.2-004-000中指组件-1/A3.2-004-001远端指间关节-1/A3.2 Mid finger F1顶部铰接件-1",
+      "link": "middle_distal_phalanx_link",
+      "source_link": "middle_distal_phalanx_link",
+      "owner_note": "1102 指尖替换",
+      "geometry": "N1102_G0167",
+      "mesh": "shared_fingertip_hinge_1102.stl",
+      "matrix": [
+        -0.999974491277,
+        0.007142604246,
+        -0.0,
+        0.0,
+        0.0,
+        -0.0,
+        -1.0,
+        0.0,
+        -0.007142604246,
+        -0.999974491277,
+        0.0,
+        0.0,
+        -0.009814918522,
+        -4.4178716e-05,
+        0.0839,
+        1.0
+      ],
+      "native_geometry_id": "G0167",
+      "native_configuration": "默认",
+      "visible_body": "倒角50",
+      "native_part_path": "D:\\Users\\ps\\Desktop\\DXA3.2-1102-钢琴\\DXA3.2-1102-钢琴\\A3.2 Mid finger F1顶部铰接件.SLDPRT",
+      "native_part_sha256": "10f8c9ea380215d536d2eff23528700ff64d8f0e0ce1999670fe922b354b3343",
+      "material_id": "AL7075_T6",
+      "density_kg_m3": 2800,
+      "material_status": "engineering_assumption_inherited_by_function_not_new_material_confirmation",
+      "physical_properties_in_link": {
+        "mass_kg": 0.0009955760338694216,
+        "center_of_mass_m": [
+          0.0028724458987272844,
+          0.006892007097691317,
+          1.2875608301781811e-08
+        ],
+        "inertia_at_COM_kg_m2": [
+          [
+            3.319965405093523e-08,
+            1.0129212774935783e-08,
+            3.944655804707931e-14
+          ],
+          [
+            1.0129212774935781e-08,
+            1.939742378067369e-08,
+            -8.224952804527025e-15
+          ],
+          [
+            3.94465580470793e-14,
+            -8.224952804527025e-15,
+            3.9406858496914226e-08
+          ]
+        ]
+      },
+      "link_from_native_part": [
+        [
+          0.9701328356273519,
+          0.24257427983533902,
+          4.250031934598242e-16,
+          1.0200174038743626e-15
+        ],
+        [
+          0.24257427983533905,
+          -0.970132835627352,
+          3.154879701048205e-16,
+          3.608224830031759e-16
+        ],
+        [
+          4.89255715060592e-16,
+          -2.0238445429708109e-16,
+          -1.0,
+          4.684702062038304e-16
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "ring_distal_tip1102_hinge_visual",
+      "part_id": "TIP1102_RING_HINGE",
+      "cad_name": "A3.2 Mid finger F1顶部铰接件",
+      "category": "顶部铰接件",
+      "source_instance": "A3.2-005-000无名指组件-2/装配体2^A3.2-005-000无名指组件-1/A3.2 Mid finger F1顶部铰接件-1",
+      "link": "ring_distal_phalanx_link",
+      "source_link": "ring_distal_phalanx_link",
+      "owner_note": "1102 指尖替换",
+      "geometry": "N1102_G0167",
+      "mesh": "shared_fingertip_hinge_1102.stl",
+      "matrix": [
+        -0.999974491277,
+        0.00711542448,
+        -0.000622518978,
+        0.0,
+        -0.0,
+        -0.087155742747,
+        -0.996194698092,
+        0.0,
+        -0.007142604246,
+        -0.996169286437,
+        0.087153519516,
+        0.0,
+        -0.009814918522,
+        0.031429701885,
+        0.076428775063,
+        1.0
+      ],
+      "native_geometry_id": "G0167",
+      "native_configuration": "默认",
+      "visible_body": "倒角50",
+      "native_part_path": "D:\\Users\\ps\\Desktop\\DXA3.2-1102-钢琴\\DXA3.2-1102-钢琴\\A3.2 Mid finger F1顶部铰接件.SLDPRT",
+      "native_part_sha256": "10f8c9ea380215d536d2eff23528700ff64d8f0e0ce1999670fe922b354b3343",
+      "material_id": "AL7075_T6",
+      "density_kg_m3": 2800,
+      "material_status": "engineering_assumption_inherited_by_function_not_new_material_confirmation",
+      "physical_properties_in_link": {
+        "mass_kg": 0.0009955760338694216,
+        "center_of_mass_m": [
+          0.0028724458987273954,
+          0.006892007097690981,
+          1.2875607682093986e-08
+        ],
+        "inertia_at_COM_kg_m2": [
+          [
+            3.319965405093404e-08,
+            1.012921277493663e-08,
+            3.944655804772374e-14
+          ],
+          [
+            1.0129212774936629e-08,
+            1.9397423780674934e-08,
+            -8.224952806828826e-15
+          ],
+          [
+            3.944655804772373e-14,
+            -8.224952806828826e-15,
+            3.940685849691424e-08
+          ]
+        ]
+      },
+      "link_from_native_part": [
+        [
+          0.9701328356273378,
+          0.24257427983539803,
+          5.694083029396615e-16,
+          1.547373340571312e-15
+        ],
+        [
+          0.242574279835398,
+          -0.9701328356273377,
+          4.842245568496572e-16,
+          -1.5265566588595902e-16
+        ],
+        [
+          6.664535089739032e-16,
+          -3.1057789278796706e-16,
+          -1.0000000000000002,
+          -1.5265566588595902e-16
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "little_distal_tip1102_hinge_visual",
+      "part_id": "TIP1102_LITTLE_HINGE",
+      "cad_name": "A3.2 Mid finger F1顶部铰接件",
+      "category": "顶部铰接件",
+      "source_instance": "A3.2-006-000小拇指组件-1/装配体10^A3.2-006-000小拇指组件-1/A3.2 Mid finger F1顶部铰接件-1",
+      "link": "little_distal_phalanx_link",
+      "source_link": "little_distal_phalanx_link",
+      "owner_note": "1102 指尖替换",
+      "geometry": "N1102_G0167",
+      "mesh": "shared_fingertip_hinge_1102.stl",
+      "matrix": [
+        -0.999825073925,
+        -0.018565646444,
+        0.002266786871,
+        0.0,
+        0.0,
+        -0.121195754943,
+        -0.992628625914,
+        0.0,
+        0.018703517065,
+        -0.992454989285,
+        0.121174554645,
+        0.0,
+        -0.010505466501,
+        0.055345307706,
+        0.063007984877,
+        1.0
+      ],
+      "native_geometry_id": "G0167",
+      "native_configuration": "默认",
+      "visible_body": "倒角50",
+      "native_part_path": "D:\\Users\\ps\\Desktop\\DXA3.2-1102-钢琴\\DXA3.2-1102-钢琴\\A3.2 Mid finger F1顶部铰接件.SLDPRT",
+      "native_part_sha256": "10f8c9ea380215d536d2eff23528700ff64d8f0e0ce1999670fe922b354b3343",
+      "material_id": "AL7075_T6",
+      "density_kg_m3": 2800,
+      "material_status": "engineering_assumption_inherited_by_function_not_new_material_confirmation",
+      "physical_properties_in_link": {
+        "mass_kg": 0.0009955760338694216,
+        "center_of_mass_m": [
+          0.002872445898725938,
+          0.006892007097691049,
+          1.2875608455968354e-08
+        ],
+        "inertia_at_COM_kg_m2": [
+          [
+            3.3199654050934376e-08,
+            1.012921277493637e-08,
+            3.9446558050943854e-14
+          ],
+          [
+            1.0129212774936372e-08,
+            1.939742378067455e-08,
+            -8.224952807589113e-15
+          ],
+          [
+            3.9446558050943854e-14,
+            -8.224952807589115e-15,
+            3.9406858496914226e-08
+          ]
+        ]
+      },
+      "link_from_native_part": [
+        [
+          0.9701328356273418,
+          0.24257427983538024,
+          -1.1797886404550156e-15,
+          -3.469446951953614e-17
+        ],
+        [
+          0.24257427983538027,
+          -0.9701328356273416,
+          -3.1723396412273816e-16,
+          -2.7755575615628914e-17
+        ],
+        [
+          -1.2134015721211889e-15,
+          -3.476161939092746e-18,
+          -1.0,
+          6.314393452555578e-16
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "thumb_distal_tip1102_hinge_visual",
+      "part_id": "TIP1102_THUMB_HINGE",
+      "cad_name": "A3.2 Mid finger F1顶部铰接件",
+      "category": "顶部铰接件",
+      "source_instance": "A3.2-002-000拇指组件-1/装配体5^A3.2-002-000拇指组件-1/A3.2 Mid finger F1顶部铰接件-1",
+      "link": "thumb_distal_phalanx_link",
+      "source_link": "thumb_distal_phalanx_link",
+      "owner_note": "1102 指尖替换",
+      "geometry": "N1102_G0167",
+      "mesh": "shared_fingertip_hinge_1102.stl",
+      "matrix": [
+        -0.790483925887,
+        -0.312722719399,
+        -0.52663048116,
+        0.0,
+        0.402723577413,
+        0.382440130431,
+        -0.831596817473,
+        0.0,
+        0.461463848107,
+        -0.869450428378,
+        -0.176371963425,
+        0.0,
+        -0.033306498626,
+        -0.067326301839,
+        0.002052814676,
+        1.0
+      ],
+      "native_geometry_id": "G0167",
+      "native_configuration": "默认",
+      "visible_body": "倒角50",
+      "native_part_path": "D:\\Users\\ps\\Desktop\\DXA3.2-1102-钢琴\\DXA3.2-1102-钢琴\\A3.2 Mid finger F1顶部铰接件.SLDPRT",
+      "native_part_sha256": "10f8c9ea380215d536d2eff23528700ff64d8f0e0ce1999670fe922b354b3343",
+      "material_id": "AL7075_T6",
+      "density_kg_m3": 2800,
+      "material_status": "engineering_assumption_inherited_by_function_not_new_material_confirmation",
+      "physical_properties_in_link": {
+        "mass_kg": 0.0009955760338694216,
+        "center_of_mass_m": [
+          0.0028724458987239507,
+          0.0068920070976934995,
+          1.2875614724965406e-08
+        ],
+        "inertia_at_COM_kg_m2": [
+          [
+            3.3199654050933535e-08,
+            1.0129212774936928e-08,
+            3.944655828519468e-14
+          ],
+          [
+            1.012921277493693e-08,
+            1.9397423780675378e-08,
+            -8.224953282226195e-15
+          ],
+          [
+            3.944655828519468e-14,
+            -8.224953282226195e-15,
+            3.940685849691421e-08
+          ]
+        ]
+      },
+      "link_from_native_part": [
+        [
+          0.9701328356273317,
+          0.2425742798354195,
+          -9.2162771253445e-15,
+          -1.7416623698807143e-15
+        ],
+        [
+          0.24257427983541963,
+          -0.970132835627332,
+          1.8958015737311224e-14,
+          2.3037127760972e-15
+        ],
+        [
+          -4.638158452145923e-15,
+          -2.0461094735766878e-14,
+          -0.9999999999999999,
+          6.7931771319251766e-15
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  ],
+  "removed_tip_shell_ids": [],
+  "source_swap_evidence": "provenance/with_shell_fingertip_revision.json",
+  "current_shell_removal_evidence": "config/shell_removal_revision.json",
+  "middle_dip_revision": "config/middle_dip_revision.json",
+  "world_matrix_configuration": "new stop-relative coordinates; all current output angles q=0",
+  "active_tip_shells": [
+    {
+      "id": "index_distal_tip1102_front_visual",
+      "part_id": "TIP1102_INDEX_FRONT",
+      "cad_name": "ZHIJAN-B-1102",
+      "category": "指尖前部",
+      "source_instance": "A3.2-003-000食指组件-1/装配体11^A3.2-003-000食指组件-1/ZHIJAN-B-1102-1",
+      "link": "index_distal_phalanx_link",
+      "source_link": "index_distal_phalanx_link",
+      "owner_note": "1102 指尖替换",
+      "geometry": "N1102_G0164",
+      "mesh": "shared_fingertip_front_1102.stl",
+      "matrix": [
+        0.999974491277,
+        -0.007100083137,
+        -0.000778212605,
+        0.0,
+        -0.007142604246,
+        -0.994021477145,
+        -0.10895084295,
+        0.0,
+        -0.0,
+        0.108953622218,
+        -0.99404683401,
+        0.0,
+        -0.018199456678,
+        -0.03592985122,
+        0.089485899223,
+        1.0
+      ],
+      "native_geometry_id": "G0164",
+      "native_configuration": "默认",
+      "visible_body": "ZHIJAN-B-1102.stp<1>",
+      "native_part_path": "D:\\Users\\ps\\Desktop\\DXA3.2-1102-钢琴\\DXA3.2-1102-钢琴\\ZHIJAN-B-1102.SLDPRT",
+      "native_part_sha256": "1cd157a212bb1926d5d9f08899568c4ad839fcc3f9ac68c297d6ecf743e5223b",
+      "material_id": "VMQ_REFERENCE",
+      "density_kg_m3": 1100,
+      "material_status": "engineering_assumption_inherited_by_function_not_new_material_confirmation",
+      "physical_properties_in_link": {
+        "mass_kg": 0.0010617440260159519,
+        "center_of_mass_m": [
+          0.00878364544970499,
+          0.012956345913113322,
+          -9.70976563365917e-07
+        ],
+        "inertia_at_COM_kg_m2": [
+          [
+            6.853279109139478e-08,
+            1.8308713789109214e-08,
+            6.579463487486257e-12
+          ],
+          [
+            1.8308713789109218e-08,
+            3.0277614766971536e-08,
+            -7.085952459865559e-12
+          ],
+          [
+            6.579463487486257e-12,
+            -7.085952459865558e-12,
+            6.082796619358709e-08
+          ]
+        ]
+      },
+      "link_from_native_part": [
+        [
+          -0.9701328356273274,
+          3.312412837492131e-16,
+          0.24257427983543584,
+          0.00500422372913031
+        ],
+        [
+          -0.24257427983543592,
+          -1.4335305280025994e-15,
+          -0.9701328356273274,
+          0.01392994389112652
+        ],
+        [
+          3.2791150339011496e-17,
+          -0.9999999999999997,
+          1.4565526805203885e-15,
+          5.377642775528102e-16
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "index_distal_tip1102_rear_visual",
+      "part_id": "TIP1102_INDEX_REAR",
+      "cad_name": "zhijian",
+      "category": "指尖后壳",
+      "source_instance": "A3.2-003-000食指组件-1/装配体11^A3.2-003-000食指组件-1/zhijian-1",
+      "link": "index_distal_phalanx_link",
+      "source_link": "index_distal_phalanx_link",
+      "owner_note": "1102 指尖替换",
+      "geometry": "N1102_G0165",
+      "mesh": "shared_fingertip_rear_1102.stl",
+      "matrix": [
+        0.999974491277,
+        -0.007100083137,
+        -0.000778212605,
+        0.0,
+        -0.007142604246,
+        -0.994021477145,
+        -0.10895084295,
+        0.0,
+        -0.0,
+        0.108953622218,
+        -0.99404683401,
+        0.0,
+        -0.007583492967,
+        -0.0360269958,
+        0.089676250397,
+        1.0
+      ],
+      "native_geometry_id": "G0165",
+      "native_configuration": "默认",
+      "visible_body": "zhijian.stp-1/00-SHOUZHI-BACK.stp-1-solid1",
+      "native_part_path": "D:\\Users\\ps\\Desktop\\DXA3.2-1102-钢琴\\DXA3.2-1102-钢琴\\zhijian.SLDPRT",
+      "native_part_sha256": "814e4e08b999b2aa3d9243e86e6d1dfe5903d511dba89999f837f5141adb518d",
+      "material_id": "PC_ABS_40_60_REFERENCE",
+      "density_kg_m3": 1130.4347826086957,
+      "material_status": "engineering_assumption_inherited_by_function_not_new_material_confirmation",
+      "physical_properties_in_link": {
+        "mass_kg": 0.0012602715318995844,
+        "center_of_mass_m": [
+          -0.0009647358106170383,
+          0.011783356041707615,
+          -2.7658595463527013e-05
+        ],
+        "inertia_at_COM_kg_m2": [
+          [
+            9.031600933931483e-08,
+            9.387273973722442e-09,
+            2.6858808494430986e-10
+          ],
+          [
+            9.387273973722442e-09,
+            4.5884333268185e-08,
+            -2.8655029720766836e-10
+          ],
+          [
+            2.685880849443098e-10,
+            -2.865502972076683e-10,
+            7.677199607353368e-08
+          ]
+        ]
+      },
+      "link_from_native_part": [
+        [
+          -0.9701328356273274,
+          3.312412837492131e-16,
+          0.24257427983543584,
+          0.0050042237291309695
+        ],
+        [
+          -0.24257427983543592,
+          -1.4335305280025994e-15,
+          -0.9701328356273274,
+          0.013929943891126617
+        ],
+        [
+          3.2791150339011496e-17,
+          -0.9999999999999997,
+          1.4565526805203885e-15,
+          -1.3183898417423734e-16
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "middle_distal_tip1102_front_visual",
+      "part_id": "TIP1102_MIDDLE_FRONT",
+      "cad_name": "ZHIJAN-B-1102",
+      "category": "指尖前部",
+      "source_instance": "A3.2-004-000中指组件-1/A3.2-004-001远端指间关节-1/ZHIJAN-B-1102-1",
+      "link": "middle_distal_phalanx_link",
+      "source_link": "middle_distal_phalanx_link",
+      "owner_note": "1102 指尖替换",
+      "geometry": "N1102_G0164",
+      "mesh": "shared_fingertip_front_1102.stl",
+      "matrix": [
+        0.999974491277,
+        -0.007142604246,
+        -0.0,
+        0.0,
+        -0.007142604246,
+        -0.999974491277,
+        0.0,
+        0.0,
+        -0.0,
+        -0.0,
+        -1.0,
+        0.0,
+        -0.018199456678,
+        1.5710233e-05,
+        0.090449999298,
+        1.0
+      ],
+      "native_geometry_id": "G0164",
+      "native_configuration": "默认",
+      "visible_body": "ZHIJAN-B-1102.stp<1>",
+      "native_part_path": "D:\\Users\\ps\\Desktop\\DXA3.2-1102-钢琴\\DXA3.2-1102-钢琴\\ZHIJAN-B-1102.SLDPRT",
+      "native_part_sha256": "1cd157a212bb1926d5d9f08899568c4ad839fcc3f9ac68c297d6ecf743e5223b",
+      "material_id": "VMQ_REFERENCE",
+      "density_kg_m3": 1100,
+      "material_status": "engineering_assumption_inherited_by_function_not_new_material_confirmation",
+      "physical_properties_in_link": {
+        "mass_kg": 0.0010617440260159519,
+        "center_of_mass_m": [
+          0.008783645449704296,
+          0.012956345913113213,
+          -9.70976563345694e-07
+        ],
+        "inertia_at_COM_kg_m2": [
+          [
+            6.85327910913975e-08,
+            1.8308713789106425e-08,
+            6.579463487517117e-12
+          ],
+          [
+            1.8308713789106422e-08,
+            3.0277614766968876e-08,
+            -7.085952459915494e-12
+          ],
+          [
+            6.5794634875171154e-12,
+            -7.085952459915493e-12,
+            6.082796619358715e-08
+          ]
+        ]
+      },
+      "link_from_native_part": [
+        [
+          -0.9701328356273453,
+          4.0405096484026617e-16,
+          0.242574279835365,
+          0.0050042237291296875
+        ],
+        [
+          -0.24257427983536503,
+          2.2236909635610013e-16,
+          -0.9701328356273454,
+          0.013929943891126687
+        ],
+        [
+          -4.467560740383887e-16,
+          -1.0,
+          -1.1712753910423828e-16,
+          5.592721381494914e-16
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "middle_distal_tip1102_rear_visual",
+      "part_id": "TIP1102_MIDDLE_REAR",
+      "cad_name": "zhijian",
+      "category": "指尖后壳",
+      "source_instance": "A3.2-004-000中指组件-1/A3.2-004-001远端指间关节-1/zhijian-1",
+      "link": "middle_distal_phalanx_link",
+      "source_link": "middle_distal_phalanx_link",
+      "owner_note": "1102 指尖替换",
+      "geometry": "N1102_G0165",
+      "mesh": "shared_fingertip_rear_1102.stl",
+      "matrix": [
+        0.999974491277,
+        -0.007142604246,
+        -0.0,
+        0.0,
+        -0.007142604246,
+        -0.999974491277,
+        0.0,
+        0.0,
+        -0.0,
+        -0.0,
+        -1.0,
+        0.0,
+        -0.007583492967,
+        -6.011658e-05,
+        0.090649801534,
+        1.0
+      ],
+      "native_geometry_id": "G0165",
+      "native_configuration": "默认",
+      "visible_body": "zhijian.stp-1/00-SHOUZHI-BACK.stp-1-solid1",
+      "native_part_path": "D:\\Users\\ps\\Desktop\\DXA3.2-1102-钢琴\\DXA3.2-1102-钢琴\\zhijian.SLDPRT",
+      "native_part_sha256": "814e4e08b999b2aa3d9243e86e6d1dfe5903d511dba89999f837f5141adb518d",
+      "material_id": "PC_ABS_40_60_REFERENCE",
+      "density_kg_m3": 1130.4347826086957,
+      "material_status": "engineering_assumption_inherited_by_function_not_new_material_confirmation",
+      "physical_properties_in_link": {
+        "mass_kg": 0.0012602715318995844,
+        "center_of_mass_m": [
+          -0.0009647358106835624,
+          0.011783356041690759,
+          -2.76585954630289e-05
+        ],
+        "inertia_at_COM_kg_m2": [
+          [
+            9.031600933931624e-08,
+            9.387273973719196e-09,
+            2.685880849443064e-10
+          ],
+          [
+            9.387273973719193e-09,
+            4.588433326818365e-08,
+            -2.865502972077391e-10
+          ],
+          [
+            2.685880849443064e-10,
+            -2.8655029720773914e-10,
+            7.677199607353373e-08
+          ]
+        ]
+      },
+      "link_from_native_part": [
+        [
+          -0.9701328356273453,
+          4.0405096484026617e-16,
+          0.242574279835365,
+          0.0050042237290646024
+        ],
+        [
+          -0.24257427983536503,
+          2.2236909635610013e-16,
+          -0.9701328356273454,
+          0.013929943891109325
+        ],
+        [
+          -4.467560740383887e-16,
+          -1.0,
+          -1.1712753910423828e-16,
+          3.7030925201242404e-16
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "ring_distal_tip1102_front_visual",
+      "part_id": "TIP1102_RING_FRONT",
+      "cad_name": "ZHIJAN-B-1102",
+      "category": "指尖前部",
+      "source_instance": "A3.2-005-000无名指组件-2/装配体2^A3.2-005-000无名指组件-1/ZHIJAN-B-1102-1",
+      "link": "ring_distal_phalanx_link",
+      "source_link": "ring_distal_phalanx_link",
+      "owner_note": "1102 指尖替换",
+      "geometry": "N1102_G0164",
+      "mesh": "shared_fingertip_front_1102.stl",
+      "matrix": [
+        0.999974491277,
+        -0.00711542448,
+        0.000622518978,
+        0.0,
+        -0.007142604246,
+        -0.996169286437,
+        0.087153519516,
+        0.0,
+        -0.0,
+        -0.087155742747,
+        -0.996194698092,
+        0.0,
+        -0.018199456678,
+        0.032060232992,
+        0.082948629969,
+        1.0
+      ],
+      "native_geometry_id": "G0164",
+      "native_configuration": "默认",
+      "visible_body": "ZHIJAN-B-1102.stp<1>",
+      "native_part_path": "D:\\Users\\ps\\Desktop\\DXA3.2-1102-钢琴\\DXA3.2-1102-钢琴\\ZHIJAN-B-1102.SLDPRT",
+      "native_part_sha256": "1cd157a212bb1926d5d9f08899568c4ad839fcc3f9ac68c297d6ecf743e5223b",
+      "material_id": "VMQ_REFERENCE",
+      "density_kg_m3": 1100,
+      "material_status": "engineering_assumption_inherited_by_function_not_new_material_confirmation",
+      "physical_properties_in_link": {
+        "mass_kg": 0.0010617440260159519,
+        "center_of_mass_m": [
+          0.00878364544970402,
+          0.012956345913113131,
+          -9.709765639660655e-07
+        ],
+        "inertia_at_COM_kg_m2": [
+          [
+            6.85327910913963e-08,
+            1.8308713789107732e-08,
+            6.579463487524658e-12
+          ],
+          [
+            1.8308713789107732e-08,
+            3.0277614766970133e-08,
+            -7.085952459915339e-12
+          ],
+          [
+            6.579463487524659e-12,
+            -7.085952459915341e-12,
+            6.082796619358717e-08
+          ]
+        ]
+      },
+      "link_from_native_part": [
+        [
+          -0.9701328356273375,
+          8.18563594135645e-16,
+          0.24257427983539798,
+          0.005004223729129377
+        ],
+        [
+          -0.24257427983539795,
+          4.592758875910504e-16,
+          -0.9701328356273374,
+          0.013929943891126478
+        ],
+        [
+          -9.032605581161255e-16,
+          -1.0000000000000002,
+          -2.327853469419578e-16,
+          -6.245004513516506e-17
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "ring_distal_tip1102_rear_visual",
+      "part_id": "TIP1102_RING_REAR",
+      "cad_name": "zhijian",
+      "category": "指尖后壳",
+      "source_instance": "A3.2-005-000无名指组件-2/装配体2^A3.2-005-000无名指组件-1/zhijian-1",
+      "link": "ring_distal_phalanx_link",
+      "source_link": "ring_distal_phalanx_link",
+      "owner_note": "1102 指尖替换",
+      "geometry": "N1102_G0165",
+      "mesh": "shared_fingertip_rear_1102.stl",
+      "matrix": [
+        0.999974491277,
+        -0.00711542448,
+        0.000622518978,
+        0.0,
+        -0.007142604246,
+        -0.996169286437,
+        0.087153519516,
+        0.0,
+        -0.0,
+        -0.087155742747,
+        -0.996194698092,
+        0.0,
+        -0.007583492967,
+        0.032002108636,
+        0.08315428064,
+        1.0
+      ],
+      "native_geometry_id": "G0165",
+      "native_configuration": "默认",
+      "visible_body": "zhijian.stp-1/00-SHOUZHI-BACK.stp-1-solid1",
+      "native_part_path": "D:\\Users\\ps\\Desktop\\DXA3.2-1102-钢琴\\DXA3.2-1102-钢琴\\zhijian.SLDPRT",
+      "native_part_sha256": "814e4e08b999b2aa3d9243e86e6d1dfe5903d511dba89999f837f5141adb518d",
+      "material_id": "PC_ABS_40_60_REFERENCE",
+      "density_kg_m3": 1130.4347826086957,
+      "material_status": "engineering_assumption_inherited_by_function_not_new_material_confirmation",
+      "physical_properties_in_link": {
+        "mass_kg": 0.0012602715318995844,
+        "center_of_mass_m": [
+          -0.0009647358106187184,
+          0.011783356041707709,
+          -2.7658595463464624e-05
+        ],
+        "inertia_at_COM_kg_m2": [
+          [
+            9.031600933931566e-08,
+            9.387273973720702e-09,
+            2.68588084944324e-10
+          ],
+          [
+            9.387273973720705e-09,
+            4.58843332681843e-08,
+            -2.8655029720773423e-10
+          ],
+          [
+            2.68588084944324e-10,
+            -2.8655029720773423e-10,
+            7.677199607353376e-08
+          ]
+        ]
+      },
+      "link_from_native_part": [
+        [
+          -0.9701328356273375,
+          8.18563594135645e-16,
+          0.24257427983539798,
+          0.005004223729129377
+        ],
+        [
+          -0.24257427983539795,
+          4.592758875910504e-16,
+          -0.9701328356273374,
+          0.013929943891126478
+        ],
+        [
+          -9.032605581161255e-16,
+          -1.0000000000000002,
+          -2.327853469419578e-16,
+          -6.245004513516506e-17
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "little_distal_tip1102_front_visual",
+      "part_id": "TIP1102_LITTLE_FRONT",
+      "cad_name": "ZHIJAN-B-1102",
+      "category": "指尖前部",
+      "source_instance": "A3.2-006-000小拇指组件-1/装配体10^A3.2-006-000小拇指组件-1/ZHIJAN-B-1102-1",
+      "link": "little_distal_phalanx_link",
+      "source_link": "little_distal_phalanx_link",
+      "owner_note": "1102 指尖替换",
+      "geometry": "N1102_G0164",
+      "mesh": "shared_fingertip_front_1102.stl",
+      "matrix": [
+        0.999825073925,
+        0.018565646444,
+        -0.002266786871,
+        0.0,
+        0.018703517065,
+        -0.992454989285,
+        0.121174554645,
+        0.0,
+        0.0,
+        -0.121195754943,
+        -0.992628625914,
+        0.0,
+        -0.01888875183,
+        0.055983471457,
+        0.069528708127,
+        1.0
+      ],
+      "native_geometry_id": "G0164",
+      "native_configuration": "默认",
+      "visible_body": "ZHIJAN-B-1102.stp<1>",
+      "native_part_path": "D:\\Users\\ps\\Desktop\\DXA3.2-1102-钢琴\\DXA3.2-1102-钢琴\\ZHIJAN-B-1102.SLDPRT",
+      "native_part_sha256": "1cd157a212bb1926d5d9f08899568c4ad839fcc3f9ac68c297d6ecf743e5223b",
+      "material_id": "VMQ_REFERENCE",
+      "density_kg_m3": 1100,
+      "material_status": "engineering_assumption_inherited_by_function_not_new_material_confirmation",
+      "physical_properties_in_link": {
+        "mass_kg": 0.0010617440260159519,
+        "center_of_mass_m": [
+          0.008783645449702674,
+          0.012956345913113078,
+          -9.709765633753712e-07
+        ],
+        "inertia_at_COM_kg_m2": [
+          [
+            6.85327910913969e-08,
+            1.830871378910702e-08,
+            6.579463487497716e-12
+          ],
+          [
+            1.830871378910702e-08,
+            3.027761476696945e-08,
+            -7.085952459926845e-12
+          ],
+          [
+            6.579463487497716e-12,
+            -7.085952459926844e-12,
+            6.082796619358715e-08
+          ]
+        ]
+      },
+      "link_from_native_part": [
+        [
+          -0.9701328356273414,
+          -1.0101025117041042e-15,
+          0.2425742798353803,
+          0.005004223729128051
+        ],
+        [
+          -0.24257427983538027,
+          -2.884661839584727e-16,
+          -0.9701328356273416,
+          0.013929943891126492
+        ],
+        [
+          1.0377619876924785e-15,
+          -1.0,
+          9.366835271560846e-17,
+          5.342948306008566e-16
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "little_distal_tip1102_rear_visual",
+      "part_id": "TIP1102_LITTLE_REAR",
+      "cad_name": "zhijian",
+      "category": "指尖后壳",
+      "source_instance": "A3.2-006-000小拇指组件-1/装配体10^A3.2-006-000小拇指组件-1/zhijian-1",
+      "link": "little_distal_phalanx_link",
+      "source_link": "little_distal_phalanx_link",
+      "owner_note": "1102 指尖替换",
+      "geometry": "N1102_G0165",
+      "mesh": "shared_fingertip_rear_1102.stl",
+      "matrix": [
+        0.999214461199,
+        0.039336916002,
+        -0.004802870991,
+        0.0,
+        0.039629036454,
+        -0.991848877614,
+        0.121100550975,
+        0.0,
+        -0.0,
+        -0.121195754943,
+        -0.992628625914,
+        0.0,
+        -0.00822241576,
+        0.056360867549,
+        0.069683915652,
+        1.0
+      ],
+      "native_geometry_id": "G0165",
+      "native_configuration": "默认",
+      "visible_body": "zhijian.stp-1/00-SHOUZHI-BACK.stp-1-solid1",
+      "native_part_path": "D:\\Users\\ps\\Desktop\\DXA3.2-1102-钢琴\\DXA3.2-1102-钢琴\\zhijian.SLDPRT",
+      "native_part_sha256": "814e4e08b999b2aa3d9243e86e6d1dfe5903d511dba89999f837f5141adb518d",
+      "material_id": "PC_ABS_40_60_REFERENCE",
+      "density_kg_m3": 1130.4347826086957,
+      "material_status": "engineering_assumption_inherited_by_function_not_new_material_confirmation",
+      "physical_properties_in_link": {
+        "mass_kg": 0.0012602715318995844,
+        "center_of_mass_m": [
+          -0.0010185356736009043,
+          0.011769903798324693,
+          0.00012986417128519034
+        ],
+        "inertia_at_COM_kg_m2": [
+          [
+            9.032036285297886e-08,
+            9.381655675093006e-09,
+            -5.4244363915895536e-11
+          ],
+          [
+            9.381655675093e-09,
+            4.58812514563994e-08,
+            -3.202945345962012e-10
+          ],
+          [
+            -5.4244363915895517e-11,
+            -3.2029453459620126e-10,
+            7.677072437165537e-08
+          ]
+        ]
+      },
+      "link_from_native_part": [
+        [
+          -0.969920255168049,
+          -0.020308061874063657,
+          0.24257427983540605,
+          0.0049496438802929905
+        ],
+        [
+          -0.24252112572091294,
+          -0.005077875217746624,
+          -0.9701328356273353,
+          0.01391629661825898
+        ],
+        [
+          0.020933279576019682,
+          -0.9997808748951902,
+          5.095772771987941e-16,
+          2.5398601155690592e-05
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "thumb_distal_tip1102_front_visual",
+      "part_id": "TIP1102_THUMB_FRONT",
+      "cad_name": "ZHIJAN-B-1102",
+      "category": "指尖前部",
+      "source_instance": "A3.2-002-000拇指组件-1/装配体5^A3.2-002-000拇指组件-1/ZHIJAN-B-1102-1",
+      "link": "thumb_distal_phalanx_link",
+      "source_link": "thumb_distal_phalanx_link",
+      "owner_note": "1102 指尖替换",
+      "geometry": "N1102_G0164",
+      "mesh": "shared_fingertip_front_1102.stl",
+      "matrix": [
+        0.790483925887,
+        0.312722719399,
+        0.526630481159,
+        0.0,
+        0.461463848107,
+        -0.869450428378,
+        -0.176371963425,
+        0.0,
+        0.402723577413,
+        0.382440130431,
+        -0.831596817473,
+        0.0,
+        -0.042572349478,
+        -0.072453386898,
+        0.003084107241,
+        1.0
+      ],
+      "native_geometry_id": "G0164",
+      "native_configuration": "默认",
+      "visible_body": "ZHIJAN-B-1102.stp<1>",
+      "native_part_path": "D:\\Users\\ps\\Desktop\\DXA3.2-1102-钢琴\\DXA3.2-1102-钢琴\\ZHIJAN-B-1102.SLDPRT",
+      "native_part_sha256": "1cd157a212bb1926d5d9f08899568c4ad839fcc3f9ac68c297d6ecf743e5223b",
+      "material_id": "VMQ_REFERENCE",
+      "density_kg_m3": 1100,
+      "material_status": "engineering_assumption_inherited_by_function_not_new_material_confirmation",
+      "physical_properties_in_link": {
+        "mass_kg": 0.0010617440260159519,
+        "center_of_mass_m": [
+          0.008783645449698702,
+          0.012956345913115109,
+          -9.709765606219488e-07
+        ],
+        "inertia_at_COM_kg_m2": [
+          [
+            6.853279109139478e-08,
+            1.830871378910927e-08,
+            6.579463487583902e-12
+          ],
+          [
+            1.830871378910927e-08,
+            3.0277614766971596e-08,
+            -7.0859524603216715e-12
+          ],
+          [
+            6.579463487583903e-12,
+            -7.0859524603216715e-12,
+            6.082796619358712e-08
+          ]
+        ]
+      },
+      "link_from_native_part": [
+        [
+          -0.9701328356273274,
+          -8.32747903373921e-15,
+          0.24257427983543672,
+          0.00500422372912402
+        ],
+        [
+          -0.24257427983543703,
+          8.039063178391826e-15,
+          -0.9701328356273274,
+          0.013929943891128303
+        ],
+        [
+          6.259861008131031e-15,
+          -0.9999999999999999,
+          -9.63041265918357e-15,
+          3.3237301799715624e-15
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "thumb_distal_tip1102_rear_visual",
+      "part_id": "TIP1102_THUMB_REAR",
+      "cad_name": "zhijian",
+      "category": "指尖后壳",
+      "source_instance": "A3.2-002-000拇指组件-1/装配体5^A3.2-002-000拇指组件-1/zhijian-1",
+      "link": "thumb_distal_phalanx_link",
+      "source_link": "thumb_distal_phalanx_link",
+      "owner_note": "1102 指尖替换",
+      "geometry": "N1102_G0165",
+      "mesh": "shared_fingertip_rear_1102.stl",
+      "matrix": [
+        0.790483925887,
+        0.312722719399,
+        0.52663048116,
+        0.0,
+        0.461463848107,
+        -0.869450428378,
+        -0.176371963425,
+        0.0,
+        0.402723577413,
+        0.382440130431,
+        -0.831596817473,
+        0.0,
+        -0.03426085216,
+        -0.069209860914,
+        0.008841094966,
+        1.0
+      ],
+      "native_geometry_id": "G0165",
+      "native_configuration": "默认",
+      "visible_body": "zhijian.stp-1/00-SHOUZHI-BACK.stp-1-solid1",
+      "native_part_path": "D:\\Users\\ps\\Desktop\\DXA3.2-1102-钢琴\\DXA3.2-1102-钢琴\\zhijian.SLDPRT",
+      "native_part_sha256": "814e4e08b999b2aa3d9243e86e6d1dfe5903d511dba89999f837f5141adb518d",
+      "material_id": "PC_ABS_40_60_REFERENCE",
+      "density_kg_m3": 1130.4347826086957,
+      "material_status": "engineering_assumption_inherited_by_function_not_new_material_confirmation",
+      "physical_properties_in_link": {
+        "mass_kg": 0.0012602715318995844,
+        "center_of_mass_m": [
+          -0.0009647358106222859,
+          0.011783356041710127,
+          -2.765859545636631e-05
+        ],
+        "inertia_at_COM_kg_m2": [
+          [
+            9.031600933931512e-08,
+            9.38727397372175e-09,
+            2.685880849443934e-10
+          ],
+          [
+            9.38727397372175e-09,
+            4.5884333268184726e-08,
+            -2.8655029720840016e-10
+          ],
+          [
+            2.685880849443934e-10,
+            -2.8655029720840016e-10,
+            7.677199607353368e-08
+          ]
+        ]
+      },
+      "link_from_native_part": [
+        [
+          -0.9701328356273312,
+          -6.997701749046592e-15,
+          0.2425742798354211,
+          0.005004223729125755
+        ],
+        [
+          -0.24257427983542107,
+          1.9518411450962305e-14,
+          -0.9701328356273312,
+          0.013929943891129039
+        ],
+        [
+          2.1969725943684894e-15,
+          -0.9999999999999999,
+          -2.043622075834194e-14,
+          7.029099524658022e-15
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  ],
+  "shell_restoration_detail": "config/shell_restoration_revision.json",
+  "coordinate_revision": "config/joint_zero_rebase.json"
+}

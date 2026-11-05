@@ -1,0 +1,19 @@
+{
+  "revision": "hand_tip_shells_without_screw_stop_zero_20261105_r01",
+  "P0350_present": false,
+  "current_stop_angle_deg": 0.0,
+  "parent_angle_at_current_zero_deg": -2.2787,
+  "current_range_rad": [
+    0.0,
+    1.7840659638712746
+  ],
+  "current_range_deg": [
+    0.0,
+    102.21945010276325
+  ],
+  "angle_zero_rebased": true,
+  "coordinate_revision": "config/joint_zero_rebase.json",
+  "previous_contact_evidence": "provenance/previous_zero/thumb_stop_revision.json",
+  "hardware_contact_measured": false,
+  "opposite_endpoint_reidentified": false
+}

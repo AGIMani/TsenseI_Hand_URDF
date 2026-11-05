@@ -1,0 +1,12 @@
+{
+  "sha256": {
+    "config/model.json": "e80a628ead8628151b33a9f3807b6c61ef9f1d70223b56d1c27b97a044373216",
+    "config/naming_map.json": "7cdc7e6dd3fde302c6a99ed0c0004aa0dea5538340a4ce06cfb9373ab086659e",
+    "urdf/hand_1009.urdf": "7c53e8f60f04f658a346627dad466347a0306f378022db0d45a6573fea2460cf",
+    "urdf/hand_1009_ros.urdf": "e4bdeb09d7bd5c07adf4b1fa18c6a4160cebd8569d65ada1e2aadd4e6aaaac5c",
+    "config/control_interface.json": "2d4ed44201ae2c3ac442f60f97640bbf3602d0a6684aff019f524caed00850d6",
+    "config/joint_zero_rebase.json": "2db0e3c16ec086f9b7f757f358cdb33cd039572e7d7a51b8087ef9ff6596614c",
+    "config/thumb_stop_revision.json": "28621c7c56a5439f5f772170f43d5e31b03783333cc3dce6331b1dde186d65e5",
+    "config/shell_restoration_revision.json": "88edd5cc0b3a96656590f404c3b7b8241bc768de1680f8662c65b70c417d7a34"
+  }
+}
